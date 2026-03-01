@@ -1,4 +1,557 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:Jagttider (auto) – genereret fra retsinformation
+PRODID:-//luka2945//Jagttider ICS//DA
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:jagttid-2025-1@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20260101
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-2@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20260101
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-3@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20260101
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-4@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20260101
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-5@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20260101
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-6@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20260101
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-7@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20260101
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-8@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY:Ovenstående andefugle kan desuden jages på fiskeriterritoriet (generel)
+DTSTART;VALUE=DATE:20260101
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-9@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-10@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20250801
+DTEND;VALUE=DATE:20250901
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-11@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-12@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-13@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-14@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20250801
+DTEND;VALUE=DATE:20250901
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-15@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20251001
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-16@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20251001
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-17@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20251001
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-18@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20251001
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-19@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20251001
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-20@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20250916
+DTEND;VALUE=DATE:20251101
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-21@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20251001
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-22@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20251001
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-23@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20260101
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-24@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20251001
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-25@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-26@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20251111
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-27@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-28@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-29@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20251016
+DTEND;VALUE=DATE:20260101
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-30@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-31@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20251001
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-32@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-33@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20251001
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-34@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-35@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20251001
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-36@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20260516
+DTEND;VALUE=DATE:20250716
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-37@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20251001
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-38@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20251001
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-39@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-40@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20251001
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-41@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-42@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20251001
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-43@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-44@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20251101
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-45@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20251101
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-46@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-47@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-48@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-49@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-50@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-51@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (generel)
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-52@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (lokal)
+DTSTART;VALUE=DATE:20251101
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Område: Drag&#248\;r Kommune\, T&#229\;rnby Kommune\, K&#248\;benhavns Kommune\, Hvidovre Kommune\, Vallensb&#230\;k Kommune\, Br&#248\;ndby Kommune og Ish&#248\;j Kommune\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-53@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (lokal)
+DTSTART;VALUE=DATE:20251101
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Område: Greve Kommune\, Solr&#248\;d Kommune\, K&#248\;ge Kommune\, Ringsted Kommune\, Sor&#248\; Kommune\, Slagelse Kommune\, N&#230\;stved Kommune\, Faxe Kommune\, Stevns Kommune\, Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-54@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (lokal)
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20251201
+DESCRIPTION:Område: Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-55@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (lokal)
+DTSTART;VALUE=DATE:20260516
+DTEND;VALUE=DATE:20260616
+DESCRIPTION:Område: Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-56@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (lokal)
+DTSTART;VALUE=DATE:20251201
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Område: Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-57@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (lokal)
+DTSTART;VALUE=DATE:20251201
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Område: Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-58@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (lokal)
+DTSTART;VALUE=DATE:20251101
+DTEND;VALUE=DATE:20251216
+DESCRIPTION:Område: Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-59@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (lokal)
+DTSTART;VALUE=DATE:20251001
+DTEND;VALUE=DATE:20251016
+DESCRIPTION:Område: Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-60@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (lokal)
+DTSTART;VALUE=DATE:20251116
+DTEND;VALUE=DATE:20251201
+DESCRIPTION:Område: Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-61@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (lokal)
+DTSTART;VALUE=DATE:20251101
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Område: Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-62@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (lokal)
+DTSTART;VALUE=DATE:20251116
+DTEND;VALUE=DATE:20260116
+DESCRIPTION:Område: Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-63@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (lokal)
+DTSTART;VALUE=DATE:20251016
+DTEND;VALUE=DATE:20251201
+DESCRIPTION:Område: Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-64@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (lokal)
+DTSTART;VALUE=DATE:20251101
+DTEND;VALUE=DATE:20251216
+DESCRIPTION:Område: Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-65@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (lokal)
+DTSTART;VALUE=DATE:20251101
+DTEND;VALUE=DATE:20251103
+DESCRIPTION:Område: Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-66@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (lokal)
+DTSTART;VALUE=DATE:20251016
+DTEND;VALUE=DATE:20260101
+DESCRIPTION:Område: Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-67@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (lokal)
+DTSTART;VALUE=DATE:20250916
+DTEND;VALUE=DATE:20251016
+DESCRIPTION:Område: Region Syddanmark undtagen Mand&#248\;\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-68@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (lokal)
+DTSTART;VALUE=DATE:20251101
+DTEND;VALUE=DATE:20260116
+DESCRIPTION:Område: Hele regionen\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-69@luka2945
+DTSTAMP:20260301T110101Z
+SUMMARY: (lokal)
+DTSTART;VALUE=DATE:20250916
+DTEND;VALUE=DATE:20251016
+DESCRIPTION:Område: Hele regionen\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
+END:VEVENT
 END:VCALENDAR
