@@ -34,12 +34,26 @@ jobs:
 
       - name: Commit & push if changed
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet; then
+          echo "=== Where are the .ics files? ==="
+          find . -maxdepth 3 -type f -name "*.ics" -print
+
+          echo "=== Git status BEFORE add ==="
+          git status --porcelain
+
+          git config --local user.email "action@github.com"
+          git config --local user.name "github-actions[bot]"
+
+          # Add all ICS files (even new/untracked ones)
+          git add -A
+
+          echo "=== Git status AFTER add ==="
+          git status --porcelain
+
+          # Commit only if there is something staged
+          if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
           fi
-          git add *.ics
-          git commit -m "Auto update jagttider"
+
+          git commit -m "Auto update jagttider (.ics)"
           git push
