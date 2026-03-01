@@ -32,7 +32,6 @@ def compute_season_year(value) -> int:
     try:
         return int(value)
     except Exception:
-        # fallback hvis config er underlig
         today = date.today()
         return today.year if today.month >= 7 else (today.year - 1)
 
@@ -42,7 +41,7 @@ INCLUDE_ONLY_KEYWORDS = CONFIG.get("include_only_keywords", [])
 EXCLUDE_SPECIES_KEYWORDS = CONFIG.get("exclude_species_keywords", [])
 
 # =========================
-# SOURCES (nemmere at parse end retsinformation)
+# SOURCES
 # =========================
 GENERAL_URL = "https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/"
 LOCAL_URL   = "https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/"
@@ -61,32 +60,44 @@ def allowed_by_include_only(text: str) -> bool:
         return True
     return contains_any(text, INCLUDE_ONLY_KEYWORDS)
 
-def season_date(day: int, month: int) -> date:
+def season_date(day: int, month: int) -> date | None:
     """
     Months Jul-Dec belong to SEASON_YEAR
     Months Jan-Jun belong to SEASON_YEAR+1
+    Returns None if invalid (e.g. 31.06).
     """
     y = SEASON_YEAR if month >= 7 else (SEASON_YEAR + 1)
-    return date(y, month, day)
+    try:
+        return date(y, month, day)
+    except ValueError:
+        return None
 
-# Finder dato-interval: "01.09 - 31.01" (også med en-dags 1.9)
+# Matches "01.09 - 31.01" (also accepts 1.9 and en-dash)
 RANGE_RE = re.compile(r"(\d{1,2})\.(\d{1,2})\s*[-–]\s*(\d{1,2})\.(\d{1,2})")
 
 def extract_ranges(text: str) -> list[tuple[date, date]]:
     """
-    Kan håndtere flere intervaller i samme linje, fx "... 16.05-15.07 og 01.10-31.01"
+    Extracts all ranges from a string. Skips invalid dates, logs them.
     """
     cleaned = text.replace("–", "-")
     out: list[tuple[date, date]] = []
+
     for m in RANGE_RE.finditer(cleaned):
         d1, mo1, d2, mo2 = map(int, m.groups())
+
         start = season_date(d1, mo1)
         end = season_date(d2, mo2)
+
+        if not start or not end:
+            # This is the key debug to confirm whether it's invalid day/month or swapped format
+            print(f"SKIP invalid date range: {d1}.{mo1} - {d2}.{mo2}  (from: '{text}')")
+            continue
+
         out.append((start, end))
+
     return out
 
 def ics_escape(s: str) -> str:
-    # iCal escaping (basic)
     return (s or "").replace("\\", "\\\\").replace("\n", "\\n").replace(",", "\\,").replace(";", "\\;")
 
 def ics_date(dt: date) -> str:
@@ -95,7 +106,7 @@ def ics_date(dt: date) -> str:
 def build_event(uid: str, summary: str, start: date, end_inclusive: date, description: str) -> str:
     # DTEND for all-day events is exclusive
     end_exclusive = date.fromordinal(end_inclusive.toordinal() + 1)
-    lines = [
+    return "\n".join([
         "BEGIN:VEVENT",
         f"UID:{uid}",
         f"DTSTAMP:{datetime.utcnow().strftime('%Y%m%dT%H%M%SZ')}",
@@ -104,8 +115,7 @@ def build_event(uid: str, summary: str, start: date, end_inclusive: date, descri
         f"DTEND;VALUE=DATE:{ics_date(end_exclusive)}",
         f"DESCRIPTION:{ics_escape(description)}",
         "END:VEVENT",
-    ]
-    return "\n".join(lines)
+    ])
 
 def build_calendar(events: list[str]) -> str:
     return "\n".join([
@@ -127,11 +137,11 @@ def fetch_html(url: str) -> str:
     return r.text
 
 def html_to_text(html: str) -> str:
-    # gør <br> til newline
+    # <br> to newline
     html = re.sub(r"<br\s*/?>", "\n", html, flags=re.I)
-    # fjern scripts/styles
+    # remove scripts/styles
     html = re.sub(r"<(script|style)[^>]*>.*?</\1>", "", html, flags=re.I | re.S)
-    # tags til newline
+    # tags -> newline
     text = re.sub(r"<[^>]+>", "\n", html)
     # whitespace cleanup
     text = text.replace("\xa0", " ")
@@ -144,8 +154,7 @@ def html_to_text(html: str) -> str:
 # =========================
 def parse_candidates(text: str, kind: str) -> list[tuple[str, str, str]]:
     """
-    Returnerer (kind, context, line)
-    context = seneste "område"-agtige linje (bruges især på lokale jagttider)
+    Returns (kind, context, line). context is a loose "area heading" for local rules.
     """
     candidates: list[tuple[str, str, str]] = []
     context = ""
@@ -157,12 +166,11 @@ def parse_candidates(text: str, kind: str) -> list[tuple[str, str, str]]:
 
         low = line.lower()
 
-        # Context-linjer for lokale regler (meget loose, men nok til filtering)
+        # context-ish lines (loose)
         if ("kommune" in low) or ("region" in low) or low.startswith("øen ") or low.startswith("på ") or low.endswith(":"):
             context = line.strip(":")
             continue
 
-        # Linjer med dato-interval
         if RANGE_RE.search(line.replace("–", "-")):
             candidates.append((kind, context, line))
 
@@ -178,13 +186,13 @@ def main() -> None:
 
     events: list[str] = []
     uid_counter = 0
+    kept_ranges = 0
 
     for kind, context, line in candidates:
         low = line.lower()
         if "ingen jagttid" in low:
             continue
 
-        # find første dato-match
         m = RANGE_RE.search(line.replace("–", "-"))
         if not m:
             continue
@@ -192,8 +200,8 @@ def main() -> None:
         art = line[:m.start()].strip(" -•\u00a0\t")
         date_part = line[m.start():].strip()
 
-        # Filtrering (dit config.json bestemmer)
         filter_text = f"{kind} {context} {art} {date_part}".strip()
+
         if contains_any(filter_text, EXCLUDE_AREA_KEYWORDS):
             continue
         if contains_any(art, EXCLUDE_SPECIES_KEYWORDS):
@@ -204,8 +212,9 @@ def main() -> None:
         ranges = extract_ranges(date_part)
         for start, end in ranges:
             uid_counter += 1
+            kept_ranges += 1
             summary = f"{art} ({kind})"
-            desc = f"Kilde: {GENERAL_URL if kind=='generel' else LOCAL_URL}"
+            desc = f"Kilde: {GENERAL_URL if kind == 'generel' else LOCAL_URL}"
             if kind == "lokal" and context:
                 desc = f"Område: {context}\n{desc}"
 
@@ -214,8 +223,9 @@ def main() -> None:
 
     cal = build_calendar(events)
     Path("jagttider.ics").write_text(cal, encoding="utf-8")
+
     print(f"Season year: {SEASON_YEAR}")
-    print(f"Generated events: {len(events)}")
+    print(f"Events generated: {len(events)} (ranges kept: {kept_ranges})")
 
 if __name__ == "__main__":
     main()
