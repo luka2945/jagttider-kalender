@@ -1,0 +1,9 @@
+{
+  "type": "local",
+  "season_year": "auto",
+  "output": "jagttider-lokalt-region-hovedstaden.ics",
+  "calendar_name": "Jagttider – Lokalt (Region Hovedstaden)",
+  "include_no_hunting_events": true,
+  "include_area_keywords": ["Region hovedstaden"],
+  "attach_mode": "none"
+}
