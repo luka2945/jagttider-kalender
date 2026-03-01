@@ -1,2 +1,2 @@
 # jagttider-kalender
-Automatisk jagttids kalender til Apple
+Automatisk jagttids kalender
