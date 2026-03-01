@@ -1,0 +1,9 @@
+{
+  "type": "local",
+  "season_year": "auto",
+  "output": "jagttider-lokalt-region-midtjylland.ics",
+  "calendar_name": "Jagttider – Lokalt (Region Midtjylland)",
+  "include_no_hunting_events": true,
+  "include_area_keywords": ["Region Midtjylland"],
+  "attach_mode": "none"
+}
