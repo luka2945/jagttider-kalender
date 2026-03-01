@@ -3,6 +3,7 @@ import re
 from pathlib import Path
 from datetime import date, datetime
 import requests
+from bs4 import BeautifulSoup
 
 # =========================
 # CONFIG
@@ -23,7 +24,7 @@ CONFIG = load_config()
 
 def compute_season_year(value) -> int:
     """
-    season_year = året hvor jagtsæsonen starter (typisk sensommer/efterår).
+    season_year = året hvor jagtsæsonen starter.
     - "auto": Jul-Dec -> current year, Jan-Jun -> previous year
     """
     if isinstance(value, str) and value.strip().lower() == "auto":
@@ -60,6 +61,15 @@ def allowed_by_include_only(text: str) -> bool:
         return True
     return contains_any(text, INCLUDE_ONLY_KEYWORDS)
 
+def clean_species_name(s: str) -> str:
+    # fjerner stjerner/footnote-tegn og ekstra whitespace
+    s = (s or "").strip()
+    s = s.replace("\xa0", " ")
+    s = re.sub(r"\s+", " ", s)
+    # fjern trailing footnote stars like *** or *
+    s = re.sub(r"[*]+$", "", s).strip()
+    return s
+
 def season_date(day: int, month: int) -> date | None:
     """
     Months Jul-Dec belong to SEASON_YEAR
@@ -77,9 +87,12 @@ RANGE_RE = re.compile(r"(\d{1,2})\.(\d{1,2})\s*[-–]\s*(\d{1,2})\.(\d{1,2})")
 
 def extract_ranges(text: str) -> list[tuple[date, date]]:
     """
-    Extracts all ranges from a string. Skips invalid dates, logs them.
+    Extracts all ranges from a string like:
+      "16.05 - 15.07 og 01.10 - 31.01"
+    Returns list of (start, end_inclusive).
+    Skips invalid dates but logs them.
     """
-    cleaned = text.replace("–", "-")
+    cleaned = (text or "").replace("–", "-")
     out: list[tuple[date, date]] = []
 
     for m in RANGE_RE.finditer(cleaned):
@@ -89,7 +102,6 @@ def extract_ranges(text: str) -> list[tuple[date, date]]:
         end = season_date(d2, mo2)
 
         if not start or not end:
-            # This is the key debug to confirm whether it's invalid day/month or swapped format
             print(f"SKIP invalid date range: {d1}.{mo1} - {d2}.{mo2}  (from: '{text}')")
             continue
 
@@ -129,103 +141,101 @@ def build_calendar(events: list[str]) -> str:
     ])
 
 # =========================
-# FETCH + HTML -> TEXT
+# FETCH + PARSE TABLES
 # =========================
 def fetch_html(url: str) -> str:
     r = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=30)
     r.raise_for_status()
     return r.text
 
-def html_to_text(html: str) -> str:
-    # <br> to newline
-    html = re.sub(r"<br\s*/?>", "\n", html, flags=re.I)
-    # remove scripts/styles
-    html = re.sub(r"<(script|style)[^>]*>.*?</\1>", "", html, flags=re.I | re.S)
-    # tags -> newline
-    text = re.sub(r"<[^>]+>", "\n", html)
-    # whitespace cleanup
-    text = text.replace("\xa0", " ")
-    text = re.sub(r"[ \t\r]+", " ", text)
-    text = re.sub(r"\n{2,}", "\n", text)
-    return text
-
-# =========================
-# PARSE
-# =========================
-def parse_candidates(text: str, kind: str) -> list[tuple[str, str, str]]:
+def extract_table_rows(html: str) -> list[tuple[str, str]]:
     """
-    Returns (kind, context, line). context is a loose "area heading" for local rules.
+    Extract rows from any HTML table where row has 2+ columns.
+    We assume:
+      col0 = species / label
+      col1 = date string (contains "dd.mm - dd.mm")
+    Returns list of (species, date_text)
     """
-    candidates: list[tuple[str, str, str]] = []
-    context = ""
+    soup = BeautifulSoup(html, "html.parser")
+    rows: list[tuple[str, str]] = []
 
-    for raw in text.split("\n"):
-        line = raw.strip()
-        if not line:
+    for tr in soup.find_all("tr"):
+        tds = tr.find_all(["td", "th"])
+        if len(tds) < 2:
             continue
 
-        low = line.lower()
+        left = tds[0].get_text(" ", strip=True)
+        right = tds[1].get_text(" ", strip=True)
 
-        # context-ish lines (loose)
-        if ("kommune" in low) or ("region" in low) or low.startswith("øen ") or low.startswith("på ") or low.endswith(":"):
-            context = line.strip(":")
+        left = clean_species_name(left)
+        right = right.replace("\xa0", " ").strip()
+
+        if not left or not right:
             continue
 
-        if RANGE_RE.search(line.replace("–", "-")):
-            candidates.append((kind, context, line))
+        # only keep if it looks like it contains date ranges
+        if not RANGE_RE.search(right.replace("–", "-")):
+            continue
 
-    return candidates
+        rows.append((left, right))
 
+    return rows
+
+def passes_filters(kind: str, area: str, species: str, date_text: str) -> bool:
+    filter_text = f"{kind} {area} {species} {date_text}".strip()
+
+    if contains_any(filter_text, EXCLUDE_AREA_KEYWORDS):
+        return False
+    if contains_any(species, EXCLUDE_SPECIES_KEYWORDS):
+        return False
+    if not allowed_by_include_only(filter_text):
+        return False
+    return True
+
+# =========================
+# MAIN
+# =========================
 def main() -> None:
-    general_text = html_to_text(fetch_html(GENERAL_URL))
-    local_text = html_to_text(fetch_html(LOCAL_URL))
+    general_html = fetch_html(GENERAL_URL)
+    local_html = fetch_html(LOCAL_URL)
 
-    candidates = []
-    candidates += parse_candidates(general_text, "generel")
-    candidates += parse_candidates(local_text, "lokal")
+    general_rows = extract_table_rows(general_html)
+    local_rows = extract_table_rows(local_html)
 
     events: list[str] = []
     uid_counter = 0
-    kept_ranges = 0
 
-    for kind, context, line in candidates:
-        low = line.lower()
-        if "ingen jagttid" in low:
+    # GENERELLE
+    for species, date_text in general_rows:
+        if not passes_filters("generel", "", species, date_text):
             continue
 
-        m = RANGE_RE.search(line.replace("–", "-"))
-        if not m:
-            continue
-
-        art = line[:m.start()].strip(" -•\u00a0\t")
-        date_part = line[m.start():].strip()
-
-        filter_text = f"{kind} {context} {art} {date_part}".strip()
-
-        if contains_any(filter_text, EXCLUDE_AREA_KEYWORDS):
-            continue
-        if contains_any(art, EXCLUDE_SPECIES_KEYWORDS):
-            continue
-        if not allowed_by_include_only(filter_text):
-            continue
-
-        ranges = extract_ranges(date_part)
-        for start, end in ranges:
+        for start, end in extract_ranges(date_text):
             uid_counter += 1
-            kept_ranges += 1
-            summary = f"{art} ({kind})"
-            desc = f"Kilde: {GENERAL_URL if kind == 'generel' else LOCAL_URL}"
-            if kind == "lokal" and context:
-                desc = f"Område: {context}\n{desc}"
+            summary = f"{species} (generel)"
+            desc = f"Kilde: {GENERAL_URL}"
+            uid = f"jagttid-{SEASON_YEAR}-g-{uid_counter}@luka2945"
+            events.append(build_event(uid, summary, start, end, desc))
 
-            uid = f"jagttid-{SEASON_YEAR}-{uid_counter}@luka2945"
+    # LOKALE
+    # (vi har ikke sikre område-headings fra tabellen her – men dine exclude_keywords kan stadig matche ord i species/date)
+    for species, date_text in local_rows:
+        if not passes_filters("lokal", "", species, date_text):
+            continue
+
+        for start, end in extract_ranges(date_text):
+            uid_counter += 1
+            summary = f"{species} (lokal)"
+            desc = f"Kilde: {LOCAL_URL}"
+            uid = f"jagttid-{SEASON_YEAR}-l-{uid_counter}@luka2945"
             events.append(build_event(uid, summary, start, end, desc))
 
     cal = build_calendar(events)
     Path("jagttider.ics").write_text(cal, encoding="utf-8")
 
     print(f"Season year: {SEASON_YEAR}")
-    print(f"Events generated: {len(events)} (ranges kept: {kept_ranges})")
+    print(f"General rows: {len(general_rows)} | Local rows: {len(local_rows)}")
+    print(f"Events generated: {len(events)}")
 
 if __name__ == "__main__":
     main()
