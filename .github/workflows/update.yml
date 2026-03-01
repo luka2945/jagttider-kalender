@@ -1,32 +1,38 @@
 name: Update Jagttider ICS
 
 on:
-  schedule:
-    - cron: '0 3 * * 1'  # Hver mandag kl 03
   workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * 1"   # hver mandag 03:17 UTC
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
       - name: Generate ICS
-        run: python jagttider_to_ics.py
+        run: |
+          python jagttider_to_ics.py
 
       - name: Commit file
         run: |
           git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.name "github-actions[bot]"
           git add jagttider.ics
-          git commit -m "Auto update jagttider" || echo "No changes"
+          git diff --cached --quiet || git commit -m "Auto update jagttider"
           git push
