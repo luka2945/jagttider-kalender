@@ -20,9 +20,9 @@ BEK_URL = "https://retsinformation.dk/eli/lta/2020/974"
 
 # ---- Konfiguration: “øer jeg aldrig kommer ud på” (redigér frit)
 EXCLUDE_AREA_KEYWORDS = [
-    "Bornholm", "Rømø", "Endelave", "Anholt", "Læsø",
+    "Bornholm", "Fanø", "Rømø", "Endelave", "Anholt", "Læsø",
     # hvis du også vil fjerne flere øer, så tilføj fx:
-    # "Samsø", "Ærø", "Langeland", "Fanø", "Tåsinge", "Møn", "Lolland", "Falster"
+    # "Samsø", "Ærø", "Langeland", "Tåsinge", "Møn", "Lolland", "Falster"
 ]
 
 # ---- Hjælpefunktioner
@@ -38,25 +38,25 @@ def contains_excluded_area(text: str) -> bool:
     t = text.lower()
     return any(k.lower() in t for k in EXCLUDE_AREA_KEYWORDS)
 
-def parse_ddmm_range(text: str) -> Optional[Tuple[Tuple[int,int], Tuple[int,int]]]:
+def parse_mmdd_range(text: str) -> Optional[Tuple[Tuple[int,int], Tuple[int,int]]]:
     """
     Finder mønstre som '01.09 - 31.12' eller '16.10-30.11' i en tekstlinje.
-    Returnerer ((d1,m1),(d2,m2)) eller None.
+    Returnerer ((m1,d1),(m2,d2)) eller None.
     """
     m = re.search(r"(\d{1,2})\.(\d{1,2})\s*[-–]\s*(\d{1,2})\.(\d{1,2})", text)
     if not m:
         return None
-    m1, d1, m2, d2 = map(int, m.groups())
+    d1, m1, d2, m2 = map(int, m.groups())
     return ((m1, d1), (m2, d2))
 
-def season_to_dates(start_ddmm: Tuple[int,int], end_ddmm: Tuple[int,int], season_year: int) -> Tuple[date, date]:
+def season_to_dates(start_mmdd: Tuple[int,int], end_mmdd: Tuple[int,int], season_year: int) -> Tuple[date, date]:
     """
-    Konverterer dd/mm til faktiske datoer i én jagtsæson.
+    Konverterer mm/dd til faktiske datoer i én jagtsæson.
     Antager at sæson_year er året hvor sæsonen starter (typisk 2025 for 2025/26).
     Hvis slutdato ligger "før" start, antages den at ligge i næste år.
     """
-    sm, sd = start_ddmm
-    em, ed = end_ddmm
+    sm, sd = start_mmdd
+    em, ed = end_mmdd
     start = date(season_year, sm, sd)
     end_year = season_year if (em, ed) >= (sm, sd) else season_year + 1
     end = date(end_year, em, ed)
@@ -98,7 +98,7 @@ def extract_tables_from_bek(html: str) -> List[JagttidRow]:
             row_text = " | ".join(cells)
             # typisk: [område, art, jagttid] eller [art, jagttid]
             # prøv at finde periode i hele rækken
-            rng = parse_ddmm_range(row_text)
+            rng = parse_mmdd_range(row_text)
             if not rng:
                 continue
 
@@ -129,12 +129,12 @@ def build_calendar(season_year: int = 2025) -> Calendar:
         if contains_excluded_area(text_context):
             continue
 
-        rng = parse_ddmm_range(text_context)
+        rng = parse_mmdd_range(text_context)
         if not rng:
             continue
 
-        start_ddmm, end_ddmm = rng
-        start, end = season_to_dates(start_ddmm, end_ddmm, season_year)
+        start_mmdd, end_mmdd = rng
+        start, end = season_to_dates(start_mmdd, end_mmdd, season_year)
 
         title_parts = [norm(r.art)]
         if r.area_text:
