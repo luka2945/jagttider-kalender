@@ -1,0 +1,154 @@
+# jagttider_to_ics.py
+# Python 3.11+
+# pip install requests beautifulsoup4 ics pytz
+
+from __future__ import annotations
+import re
+from dataclasses import dataclass
+from datetime import date, datetime, timedelta
+from typing import List, Optional, Tuple, Dict
+
+import requests
+from bs4 import BeautifulSoup
+from ics import Calendar, Event
+import pytz
+
+TZ = pytz.timezone("Europe/Copenhagen")
+
+# Officiel bekendtgørelse (retsinformation) – jagttider + bilag
+BEK_URL = "https://retsinformation.dk/eli/lta/2020/974"
+
+# ---- Konfiguration: “øer jeg aldrig kommer ud på” (redigér frit)
+EXCLUDE_AREA_KEYWORDS = [
+    "Bornholm", "Rømø", "Endelave", "Anholt", "Læsø",
+    # hvis du også vil fjerne flere øer, så tilføj fx:
+    # "Samsø", "Ærø", "Langeland", "Fanø", "Tåsinge", "Møn", "Lolland", "Falster"
+]
+
+# ---- Hjælpefunktioner
+def fetch_html(url: str) -> str:
+    r = requests.get(url, timeout=30)
+    r.raise_for_status()
+    return r.text
+
+def norm(s: str) -> str:
+    return re.sub(r"\s+", " ", s.strip())
+
+def contains_excluded_area(text: str) -> bool:
+    t = text.lower()
+    return any(k.lower() in t for k in EXCLUDE_AREA_KEYWORDS)
+
+def parse_ddmm_range(text: str) -> Optional[Tuple[Tuple[int,int], Tuple[int,int]]]:
+    """
+    Finder mønstre som '01.09 - 31.12' eller '16.10-30.11' i en tekstlinje.
+    Returnerer ((d1,m1),(d2,m2)) eller None.
+    """
+    m = re.search(r"(\d{1,2})\.(\d{1,2})\s*[-–]\s*(\d{1,2})\.(\d{1,2})", text)
+    if not m:
+        return None
+    m1, d1, m2, d2 = map(int, m.groups())
+    return ((m1, d1), (m2, d2))
+
+def season_to_dates(start_ddmm: Tuple[int,int], end_ddmm: Tuple[int,int], season_year: int) -> Tuple[date, date]:
+    """
+    Konverterer dd/mm til faktiske datoer i én jagtsæson.
+    Antager at sæson_year er året hvor sæsonen starter (typisk 2025 for 2025/26).
+    Hvis slutdato ligger "før" start, antages den at ligge i næste år.
+    """
+    sm, sd = start_ddmm
+    em, ed = end_ddmm
+    start = date(season_year, sm, sd)
+    end_year = season_year if (em, ed) >= (sm, sd) else season_year + 1
+    end = date(end_year, em, ed)
+    return start, end
+
+def add_all_day_event(cal: Calendar, title: str, start: date, end_inclusive: date, desc: str = ""):
+    # ICS bruger ofte end som eksklusiv, så vi +1 dag
+    e = Event()
+    e.name = title
+    e.begin = TZ.localize(datetime.combine(start, datetime.min.time()))
+    e.make_all_day()
+    e.end = TZ.localize(datetime.combine(end_inclusive + timedelta(days=1), datetime.min.time()))
+    if desc:
+        e.description = desc
+    cal.events.add(e)
+
+@dataclass
+class JagttidRow:
+    art: str
+    period_text: str
+    area_text: str  # fx region/område/bemærkning
+
+def extract_tables_from_bek(html: str) -> List[JagttidRow]:
+    """
+    Super-pragmatisk parser:
+    - Finder alle tabeller
+    - Læser rækker som tekst og forsøger at tolke art + periode.
+    Bemærk: bekendtgørelsen er stor; dette er 'good enough' til at komme i mål,
+    og kan forbedres når du ser outputtet.
+    """
+    soup = BeautifulSoup(html, "html.parser")
+    rows: List[JagttidRow] = []
+
+    for table in soup.find_all("table"):
+        for tr in table.find_all("tr"):
+            cells = [norm(td.get_text(" ")) for td in tr.find_all(["td","th"])]
+            if len(cells) < 2:
+                continue
+            row_text = " | ".join(cells)
+            # typisk: [område, art, jagttid] eller [art, jagttid]
+            # prøv at finde periode i hele rækken
+            rng = parse_ddmm_range(row_text)
+            if not rng:
+                continue
+
+            # gæt kolonner
+            if len(cells) >= 3:
+                area = cells[0]
+                art = cells[1]
+                period = cells[2]
+            else:
+                area = ""
+                art = cells[0]
+                period = cells[1]
+
+            rows.append(JagttidRow(art=art, period_text=period, area_text=area))
+    return rows
+
+def build_calendar(season_year: int = 2025) -> Calendar:
+    html = fetch_html(BEK_URL)
+    rows = extract_tables_from_bek(html)
+
+    cal = Calendar()
+    cal.creator = "Jagttider (auto) – genereret fra retsinformation"
+
+    for r in rows:
+        text_context = f"{r.area_text} {r.art} {r.period_text}".strip()
+
+        # Filtrér uønskede ø-områder (kun hvis området/linjen nævner dem)
+        if contains_excluded_area(text_context):
+            continue
+
+        rng = parse_ddmm_range(text_context)
+        if not rng:
+            continue
+
+        start_ddmm, end_ddmm = rng
+        start, end = season_to_dates(start_ddmm, end_ddmm, season_year)
+
+        title_parts = [norm(r.art)]
+        if r.area_text:
+            title_parts.append(f"({norm(r.area_text)})")
+        title = " ".join(title_parts)
+
+        desc = f"Kilde: {BEK_URL}\nPeriode: {r.period_text}"
+        add_all_day_event(cal, title=title, start=start, end_inclusive=end, desc=desc)
+
+    return cal
+
+if __name__ == "__main__":
+    # jagtår 2025/26: season_year=2025
+    cal = build_calendar(season_year=2025)
+    with open("jagttider.ics", "w", encoding="utf-8") as f:
+        f.writelines(cal.serialize_iter())
+    print("Skrev jagttider.ics")
