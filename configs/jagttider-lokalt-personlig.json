@@ -1,0 +1,22 @@
+{
+  "type": "local",
+  "season_year": "auto",
+  "output": "jagttider-lokalt-personlig.ics",
+  "calendar_name": "Jagttider – Lokalt (Personlig)",
+  "include_no_hunting_events": true,
+  "exclude_area_keywords": [
+    "Bornholm",
+    "Sejerø",
+    "Fejø",
+    "Femø",
+    "Mandø",
+    "Als",
+    "Kegnæs",
+    "Anholt",
+    "Læsø",
+    "Fanø",
+    "Rømø",
+    "Endelave"
+  ],
+  "attach_mode": "none"
+}
