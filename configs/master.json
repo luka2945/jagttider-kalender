@@ -1,0 +1,42 @@
+{
+  "attachments": {
+    "local_map_image_url": "INDSÆT_DIT_DANMARKS-KORT_LINK_HER"
+  },
+  "species": {
+    "Gråand": {
+      "image_url": "",
+      "shooting_time_note": "01:30 time før solopgang til 01:30 time efter solnedgang",
+      "aliases": []
+    },
+    "Krikand": {
+      "image_url": "",
+      "shooting_time_note": "01:30 time før solopgang til 01:30 time efter solnedgang",
+      "aliases": []
+    },
+    "Canadagås": {
+      "image_url": "",
+      "shooting_time_note": "01:30 time før solopgang til 01:30 time efter solnedgang",
+      "aliases": []
+    },
+    "Sædgås": {
+      "image_url": "",
+      "shooting_time_note": "01:30 time før solopgang til 01:30 time efter solnedgang",
+      "aliases": []
+    },
+    "Kortnæbbet gås": {
+      "image_url": "",
+      "shooting_time_note": "01:30 time før solopgang til 01:30 time efter solnedgang",
+      "aliases": []
+    },
+    "Krage (gråkrage og sortkrage)": {
+      "image_url": "",
+      "shooting_time_note": "01:00 time før solopgang til solnedgang",
+      "aliases": ["Krage", "Gråkrage", "Sortkrage"]
+    },
+    "Husskade": {
+      "image_url": "",
+      "shooting_time_note": "01:00 time før solopgang til solnedgang",
+      "aliases": []
+    }
+  }
+}
