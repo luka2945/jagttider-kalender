@@ -1,9 +1,0 @@
-{
-  "type": "local",
-  "season_year": "auto",
-  "output": "jagttider-lokalt-region-sjaelland.ics",
-  "calendar_name": "Jagttider – Lokalt (Region Sjælland)",
-  "include_no_hunting_events": true,
-  "include_area_keywords": ["Region Sjælland"],
-  "attach_mode": "none"
-}
