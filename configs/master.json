@@ -1,42 +1,38 @@
 {
-  "attachments": {
-    "local_map_image_url": "https://www.wikitree.com/photo.php/6/6e/Project_Denmark-4.png"
+  "sources": {
+    "general_url": "https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/",
+    "local_url": "https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/"
   },
-  "species": {
-    "Gråand": {
+
+  "defaults": {
+    "timezone": "Europe/Copenhagen",
+    "region_map_image_url": "https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png"
+  },
+
+  "species": [
+    {
+      "name": "Gråand",
+      "aliases": ["Graaand"],
       "image_url": "",
-      "shooting_time_note": "01:30 time før solopgang til 01:30 time efter solnedgang",
-      "aliases": []
+      "shooting_time_text": "Ænder og gæs må jages i tiden fra 1½ time før solopgang til 1½ time efter solnedgang."
     },
-    "Krikand": {
+    {
+      "name": "Grågås",
+      "aliases": ["Graagaas"],
       "image_url": "",
-      "shooting_time_note": "01:30 time før solopgang til 01:30 time efter solnedgang",
-      "aliases": []
+      "shooting_time_text": "Ænder og gæs må jages i tiden fra 1½ time før solopgang til 1½ time efter solnedgang."
     },
-    "Canadagås": {
+    {
+      "name": "Husskade",
+      "aliases": [],
       "image_url": "",
-      "shooting_time_note": "01:30 time før solopgang til 01:30 time efter solnedgang",
-      "aliases": []
+      "shooting_time_text": "Husskade, gråkrage og sortkrage må jages i tiden fra 1 time før solopgang til solnedgang."
     },
-    "Sædgås": {
+    {
+      "name": "Krage (gråkrage og sortkrage)",
+      "aliases": ["Krage", "Gråkrage", "Sortkrage"],
       "image_url": "",
-      "shooting_time_note": "01:30 time før solopgang til 01:30 time efter solnedgang",
-      "aliases": []
-    },
-    "Kortnæbbet gås": {
-      "image_url": "",
-      "shooting_time_note": "01:30 time før solopgang til 01:30 time efter solnedgang",
-      "aliases": []
-    },
-    "Krage (gråkrage og sortkrage)": {
-      "image_url": "",
-      "shooting_time_note": "01:00 time før solopgang til solnedgang",
-      "aliases": ["Krage", "Gråkrage", "Sortkrage"]
-    },
-    "Husskade": {
-      "image_url": "",
-      "shooting_time_note": "01:00 time før solopgang til solnedgang",
-      "aliases": []
+      "shooting_time_text": "Husskade, gråkrage og sortkrage må jages i tiden fra 1 time før solopgang til solnedgang."
     }
-  }
+  ]
 }
