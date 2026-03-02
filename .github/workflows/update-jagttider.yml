@@ -3,8 +3,7 @@ name: Update Jagttider ICS
 on:
   workflow_dispatch:
   schedule:
-    # hver nat kl. 03:15 (UTC) – fint til “set and forget”
-    - cron: "15 3 * * *"
+    - cron: "17 3 * * *"
 
 permissions:
   contents: write
@@ -15,8 +14,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -34,22 +31,11 @@ jobs:
 
       - name: Commit & push if changed
         run: |
-          echo "=== Where are the .ics files? ==="
-          find . -maxdepth 3 -type f -name "*.ics" -print
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          echo "=== Git status BEFORE add ==="
-          git status --porcelain
-
-          git config --local user.email "action@github.com"
-          git config --local user.name "github-actions[bot]"
-
-          # Add all ICS files (even new/untracked ones)
           git add -A
 
-          echo "=== Git status AFTER add ==="
-          git status --porcelain
-
-          # Commit only if there is something staged
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
