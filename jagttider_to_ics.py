@@ -1,28 +1,46 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 import json
-import os
 import re
-import sys
-from dataclasses import dataclass
+from pathlib import Path
 from datetime import date, datetime, timedelta
-from typing import Dict, List, Optional, Tuple
-
 import requests
-from bs4 import BeautifulSoup
 
-# ----------------------------
-# Constants / Helpers
-# ----------------------------
+# =========================
+# PATHS
+# =========================
+MASTER_PATH = Path("configs/master.json")
+CALENDAR_DIR = Path("configs/calendars")
 
-OUT_DIR = "Jagttids-Kalender"
-MASTER_PATH = os.path.join("configs", "master.json")
-CALENDAR_DIR = os.path.join("configs", "calendars")
+# =========================
+# FETCH SETTINGS
+# =========================
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122 Safari/537.36"
+FETCH_HEADERS = {
+    "User-Agent": USER_AGENT,
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "Accept-Language": "da-DK,da;q=0.9,en;q=0.8",
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache",
+}
 
-UA = "Mozilla/5.0 (compatible; JagttiderBot/1.0; +https://github.com/)"
+# =========================
+# REGEX
+# =========================
+RANGE_RE = re.compile(r"(\d{1,2})\.(\d{1,2})\s*[-–]\s*(\d{1,2})\.(\d{1,2})")
+BR_RE = re.compile(r"<br\s*/?>", flags=re.I)
 
-DANISH_MONTHS = {
+# "1. og 2. lørdag i november"
+NTH_SAT_RE = re.compile(
+    r"(\d+)\.\s*og\s*(\d+)\.\s*lørdag\s+i\s+([a-zæøå]+)",
+    flags=re.I,
+)
+
+# "alle lørdag i december"
+ALL_SAT_RE = re.compile(
+    r"alle\s+lørdag(?:e)?\s+i\s+([a-zæøå]+)",
+    flags=re.I,
+)
+
+MONTHS_DA = {
     "januar": 1,
     "februar": 2,
     "marts": 3,
@@ -37,631 +55,481 @@ DANISH_MONTHS = {
     "december": 12,
 }
 
-DATE_RANGE_RE = re.compile(
-    r"(?P<d1>\d{1,2})[./](?P<m1>\d{1,2})\s*[-–]\s*(?P<d2>\d{1,2})[./](?P<m2>\d{1,2})"
-)
-
-# example: "01.09 - 31.01" or "16.05 - 15.07 og 01.10 - 31.01"
-DATE_RANGE_ANY_RE = re.compile(r"\d{1,2}[./]\d{1,2}\s*[-–]\s*\d{1,2}[./]\d{1,2}")
-
-NO_HUNTING_RE = re.compile(r"\bingen\s+jagttid\b", re.IGNORECASE)
-
-# Special “Saturday rules” seen in local page:
-# "1. og 2. lørdag i november"
-SAT_1_2_RE = re.compile(r"1\.\s*og\s*2\.\s*lørdag\s*i\s*(\w+)", re.IGNORECASE)
-# "alle lørdag i december" / "alle lørdage i december"
-SAT_ALL_RE = re.compile(r"alle\s*lørdage?\s*i\s*(\w+)", re.IGNORECASE)
-
-
-def http_get(url: str) -> str:
-    r = requests.get(url, headers={"User-Agent": UA}, timeout=30)
-    r.raise_for_status()
-    return r.text
-
-
-def soup_main_text(html: str) -> List[str]:
-    """
-    Extracts readable lines from main content.
-    We intentionally do not rely on specific CSS classes because DJ pages shift.
-    """
-    soup = BeautifulSoup(html, "html.parser")
-    # Remove scripts/styles
-    for tag in soup(["script", "style", "noscript"]):
-        tag.decompose()
-
-    text = soup.get_text("\n")
-    # Normalize lines
-    lines = []
-    for line in text.splitlines():
-        s = " ".join(line.strip().split())
-        if not s:
-            continue
-        lines.append(s)
-    return lines
-
-
-def ics_escape(s: str) -> str:
-    s = s.replace("\\", "\\\\")
-    s = s.replace(";", r"\;").replace(",", r"\,")
-    s = s.replace("\n", r"\n")
-    return s
-
-
-def fold_ics_line(line: str) -> str:
-    """
-    Fold lines at 75 octets-ish. We'll do safe char-count folding.
-    """
-    if len(line) <= 75:
-        return line
-    out = []
-    while len(line) > 75:
-        out.append(line[:75])
-        line = " " + line[75:]
-    out.append(line)
-    return "\r\n".join(out)
-
-
-def dtstamp_utc() -> str:
+# =========================
+# HELPERS
+# =========================
+def now_utc_stamp() -> str:
     return datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
 
+def ics_escape(s: str) -> str:
+    return (s or "").replace("\\", "\\\\").replace("\n", "\\n").replace(",", "\\,").replace(";", "\\;")
 
-def ymd(d: date) -> str:
+def ics_date(d: date) -> str:
     return d.strftime("%Y%m%d")
 
+def build_event(
+    uid: str,
+    summary: str,
+    start: date,
+    end_inclusive: date,
+    description: str,
+    attachments: list[str] | None = None
+) -> str:
+    end_exclusive = end_inclusive + timedelta(days=1)
+    lines = [
+        "BEGIN:VEVENT",
+        f"UID:{uid}",
+        f"DTSTAMP:{now_utc_stamp()}",
+        f"SUMMARY:{ics_escape(summary)}",
+        f"DTSTART;VALUE=DATE:{ics_date(start)}",
+        f"DTEND;VALUE=DATE:{ics_date(end_exclusive)}",
+        f"DESCRIPTION:{ics_escape(description)}",
+    ]
+    for url in (attachments or []):
+        if url:
+            # Apple Calendar understøtter typisk ATTACH med URL
+            lines.append(f"ATTACH:{ics_escape(url)}")
+    lines.append("END:VEVENT")
+    return "\n".join(lines)
 
-def uid_for(kind: str, name: str, start: date, end: date, area: str = "") -> str:
-    base = f"{kind}|{name}|{start.isoformat()}|{end.isoformat()}|{area}"
-    # deterministic-ish uid
-    import hashlib
-    h = hashlib.sha1(base.encode("utf-8")).hexdigest()[:16]
-    return f"{h}@jagttider"
+def build_calendar(cal_name: str, events: list[str]) -> str:
+    return "\n".join([
+        "BEGIN:VCALENDAR",
+        "VERSION:2.0",
+        "PRODID:-//luka2945//Jagttider ICS//DA",
+        "CALSCALE:GREGORIAN",
+        f"X-WR-CALNAME:{ics_escape(cal_name)}",
+        *events,
+        "END:VCALENDAR",
+        ""
+    ])
 
+def contains_any(text: str, keywords: list[str]) -> bool:
+    t = (text or "").lower()
+    return any(k.lower() in t for k in keywords if k and k.strip())
 
-@dataclass
-class SpeciesMeta:
-    image_url: str = ""
-    shooting_time_text: str = ""
-    aliases: List[str] = None
-
-
-def load_master() -> dict:
-    with open(MASTER_PATH, "r", encoding="utf-8") as f:
-        return json.load(f)
-
-
-def load_calendar_configs() -> List[dict]:
-    cfgs = []
-    for fn in sorted(os.listdir(CALENDAR_DIR)):
-        if not fn.lower().endswith(".json"):
-            continue
-        path = os.path.join(CALENDAR_DIR, fn)
-        with open(path, "r", encoding="utf-8") as f:
-            cfgs.append(json.load(f))
-    return cfgs
-
-
-def build_species_index(master: dict) -> Dict[str, SpeciesMeta]:
-    idx: Dict[str, SpeciesMeta] = {}
-    for sp in master.get("species", []):
-        name = sp["name"]
-        meta = SpeciesMeta(
-            image_url=sp.get("image_url", "") or "",
-            shooting_time_text=sp.get("shooting_time_text", "") or "",
-            aliases=sp.get("aliases", []) or [],
-        )
-        idx[name.lower()] = meta
-        for a in meta.aliases:
-            idx[a.lower()] = meta
-    return idx
-
-
-# ----------------------------
-# Season logic
-# ----------------------------
-
-def season_year_for(dt: date) -> int:
-    """
-    Define "jagtsæson-år" as year where season starts Aug 1.
-    If date is before Aug 1, it belongs to previous season year.
-    """
-    if (dt.month, dt.day) < (8, 1):
-        return dt.year - 1
-    return dt.year
-
-
-def season_start(season_year: int) -> date:
-    return date(season_year, 8, 1)
-
-
-def season_end(season_year: int) -> date:
-    return date(season_year + 1, 7, 31)
-
-
-def expand_seasons(seasons_ahead: int) -> List[int]:
+def season_start_year_for_today() -> int:
     today = date.today()
-    cur = season_year_for(today)
-    return [cur + i for i in range(0, seasons_ahead + 1)]
+    return today.year if today.month >= 7 else (today.year - 1)
 
-
-def pick_year_for_range(season_year: int, m1: int, d1: int, m2: int, d2: int) -> Tuple[date, date]:
+def season_date(season_year_start: int, day: int, month: int) -> date | None:
     """
-    If range crosses new year (m2 < m1), end is in season_year+1 calendar year.
-    Otherwise both are in season_year calendar year.
-    BUT: if m1 is in Jan-Jul, it likely belongs to season_year+1 year.
-    We'll anchor by hunting season: Aug-Dec in season_year, Jan-Jul in season_year+1.
+    Jul-Dec => season_year_start
+    Jan-Jun => season_year_start + 1
     """
-    def actual_year(month: int) -> int:
-        return season_year if month >= 8 else season_year + 1
+    y = season_year_start if month >= 7 else (season_year_start + 1)
+    try:
+        return date(y, month, day)
+    except ValueError:
+        return None
 
-    y1 = actual_year(m1)
-    y2 = actual_year(m2)
-    start = date(y1, m1, d1)
-    end = date(y2, m2, d2)
-    return start, end
+def extract_ranges(season_year_start: int, text: str) -> list[tuple[date, date]]:
+    cleaned = (text or "").replace("–", "-")
+    out: list[tuple[date, date]] = []
+    for m in RANGE_RE.finditer(cleaned):
+        d1, mo1, d2, mo2 = map(int, m.groups())
+        start = season_date(season_year_start, d1, mo1)
+        end = season_date(season_year_start, d2, mo2)
+        if start and end:
+            out.append((start, end))
+    return out
 
-
-# ----------------------------
-# Parsing: General page
-# ----------------------------
-
-def parse_general_periods(lines: List[str]) -> Dict[str, List[Tuple[str, str]]]:
-    """
-    Returns species -> list of "DD.MM - DD.MM" strings (raw ranges).
-    We keep raw and expand later per season.
-    """
-    species_ranges: Dict[str, List[Tuple[str, str]]] = {}
-
-    # We detect lines like:
-    # "Gråand 01.09 - 31.12"
-    # "Råbuk*** 16.05 - 15.07 og 01.10 - 31.01"
-    # "Sædgås** Ingen generel jagttid (se lokal)"
-    for line in lines:
-        # Quick skip: headers
-        if len(line) < 6:
-            continue
-
-        # Must contain a date-range OR "Ingen ... jagttid"
-        if not DATE_RANGE_ANY_RE.search(line) and "Ingen" not in line and "ingen" not in line:
-            continue
-
-        # split on multiple spaces? We'll parse "species" as text before first date or before "Ingen"
-        # Find first date match position:
-        m = DATE_RANGE_ANY_RE.search(line)
-        if m:
-            species_part = line[:m.start()].strip()
-            # remove trailing asterisks
-            species_part = re.sub(r"[*]+$", "", species_part).strip()
-            # get all ranges
-            raw_ranges = DATE_RANGE_RE.findall(line)
-            if not raw_ranges:
-                continue
-            for (d1, m1, d2, m2) in raw_ranges:
-                r1 = f"{int(d1):02d}.{int(m1):02d}"
-                r2 = f"{int(d2):02d}.{int(m2):02d}"
-                species_ranges.setdefault(species_part, []).append((r1, r2))
-        else:
-            # no range, might be "Ingen jagttid" - we do nothing for general calendar (user said: if no general time, just no event)
-            continue
-
-    return species_ranges
-
-
-# ----------------------------
-# Parsing: Local page
-# ----------------------------
-
-@dataclass
-class LocalRule:
-    region: str
-    area: str
-    species: str
-    rule_text: str  # e.g. "01.11-15.01" or "ingen jagttid" or "1. og 2. lørdag i november"
-
-def parse_local_rules(lines: List[str]) -> List[LocalRule]:
-    """
-    Local page structure in text looks like:
-      "## Region Midtjylland - lokale jagttider"
-      "### Region Midtjylland undtagen Endelave"
-      "Hare 01.11-15.01"
-      "Agerhøne 16.9-15.10"
-      "### Øen Endelave"
-      "Råvildt 01.10-08.10"
-      "Hare ingen jagttid"
-    We'll detect Region headings and Area headings and then parse species lines.
-    """
-    rules: List[LocalRule] = []
-    cur_region = ""
-    cur_area = ""
-
-    # Normalize some heading markers: the extracted lines might not include "##" / "###".
-    # We simply look for "Region X - lokale jagttider" and "Øen ..." etc, and also bullet headings on page.
-    for line in lines:
-        if "Region " in line and "lokale jagttider" in line:
-            cur_region = line.replace(" - lokale jagttider", "").strip()
-            cur_area = "Hele regionen"
-            continue
-
-        # Area-like headings:
-        # "Hele regionen" / "Region Midtjylland undtagen Endelave" / "Øen Endelave" / "Øen Ærø" etc
-        if line.lower().startswith("hele regionen"):
-            cur_area = "Hele regionen"
-            continue
-        if line.lower().startswith("region ") and "undtagen" in line.lower():
-            cur_area = line.strip()
-            continue
-        if line.lower().startswith("øen "):
-            cur_area = line.strip()
-            continue
-
-        # Parse species line: "<species> <rule>"
-        # rule could be a date range, "ingen jagttid" or Saturday-pattern text.
-        # Example: "Fasanhan 1. og 2. lørdag i oktober, 1. og 2. lørdag i november, samt alle lørdag i december"
-        if not cur_region:
-            continue
-
-        # We accept a line if it contains a date range OR "ingen jagttid" OR "lørdag"
-        if not DATE_RANGE_ANY_RE.search(line) and not NO_HUNTING_RE.search(line) and "lørdag" not in line.lower():
-            continue
-
-        # Split species from rule: assume first date/keyword begins rule
-        split_pos = None
-        m = DATE_RANGE_ANY_RE.search(line)
-        if m:
-            split_pos = m.start()
-        else:
-            mh = NO_HUNTING_RE.search(line)
-            if mh:
-                split_pos = mh.start()
-            else:
-                ml = re.search(r"\blørdag\b", line, re.IGNORECASE)
-                if ml:
-                    split_pos = ml.start()
-
-        if split_pos is None or split_pos <= 0:
-            continue
-
-        species = line[:split_pos].strip()
-        rule_text = line[split_pos:].strip()
-
-        # Clean species asterisks (just in case)
-        species = re.sub(r"[*]+$", "", species).strip()
-
-        rules.append(LocalRule(region=cur_region, area=cur_area, species=species, rule_text=rule_text))
-
-    return rules
-
-
-# ----------------------------
-# Special rule expansion
-# ----------------------------
-
-def first_and_second_saturday(year: int, month: int) -> List[date]:
-    # find first Saturday
+def first_saturday(year: int, month: int) -> date:
     d = date(year, month, 1)
-    while d.weekday() != 5:  # Saturday=5
-        d += timedelta(days=1)
-    first = d
-    second = first + timedelta(days=7)
-    return [first, second]
+    # weekday(): Mon=0..Sun=6, Saturday=5
+    offset = (5 - d.weekday()) % 7
+    return d + timedelta(days=offset)
 
+def nth_saturday(year: int, month: int, n: int) -> date:
+    return first_saturday(year, month) + timedelta(days=7 * (n - 1))
 
-def all_saturdays(year: int, month: int) -> List[date]:
-    d = date(year, month, 1)
-    while d.weekday() != 5:
-        d += timedelta(days=1)
+def all_saturdays(year: int, month: int) -> list[date]:
+    d = first_saturday(year, month)
     out = []
     while d.month == month:
         out.append(d)
         d += timedelta(days=7)
     return out
 
+# =========================
+# FETCH + HTML -> TEXT
+# =========================
+def fetch_html(url: str) -> str:
+    r = requests.get(url, headers=FETCH_HEADERS, timeout=30)
+    r.raise_for_status()
+    html = r.text or ""
 
-def expand_local_rule_to_dates(rule_text: str, season_year: int) -> List[Tuple[date, date, str]]:
+    # Guard: DJ kan nogle gange vise "log ind" side til bots
+    low = html.lower()
+    if "du skal logge ind i jagttiderne" in low:
+        raise RuntimeError(
+            "DJ-siden returnerede en 'log ind'-side (bot/blocked HTML). "
+            "Prøv igen senere, eller ændr headers/brug en anden kilde."
+        )
+    return html
+
+def html_to_text(html: str) -> str:
+    html = BR_RE.sub("\n", html)
+    html = re.sub(r"<(script|style)[^>]*>.*?</\1>", "", html, flags=re.I | re.S)
+    text = re.sub(r"<[^>]+>", "\n", html)
+    text = text.replace("\xa0", " ")
+    text = re.sub(r"[ \t\r]+", " ", text)
+    text = re.sub(r"\n{2,}", "\n", text)
+    return text
+
+# =========================
+# PARSING (GENERAL)
+# =========================
+def parse_general_species_lines(text: str) -> list[tuple[str, str]]:
     """
-    Returns list of (start_date, end_date, note) for a given season.
-    - Date ranges become 1 all-day event (inclusive end).
-    - Saturday rules become 1-day events (start=end)
-    - "ingen jagttid" handled elsewhere
+    Returns list of (species_name_raw, date_text_raw)
+    Example line: "Ræv** 01.09 - 31.01"
     """
-    out: List[Tuple[date, date, str]] = []
-
-    # Date ranges
-    ranges = DATE_RANGE_RE.findall(rule_text)
-    for (d1, m1, d2, m2) in ranges:
-        start, end = pick_year_for_range(season_year, int(m1), int(d1), int(m2), int(d2))
-        out.append((start, end, ""))
-
-    # Saturday rules
-    # 1. og 2. lørdag i <month>
-    for m in SAT_1_2_RE.findall(rule_text):
-        month_name = m.lower()
-        if month_name not in DANISH_MONTHS:
+    out = []
+    for raw in text.split("\n"):
+        line = raw.strip()
+        if not line:
             continue
-        month = DANISH_MONTHS[month_name]
-        # month belongs to season_year if Aug-Dec else season_year+1
-        y = season_year if month >= 8 else season_year + 1
-        for d in first_and_second_saturday(y, month):
-            out.append((d, d, "1. og 2. lørdag"))
-
-    # alle lørdage i <month>
-    for m in SAT_ALL_RE.findall(rule_text):
-        month_name = m.lower()
-        if month_name not in DANISH_MONTHS:
+        if not RANGE_RE.search(line.replace("–", "-")):
             continue
-        month = DANISH_MONTHS[month_name]
-        y = season_year if month >= 8 else season_year + 1
-        for d in all_saturdays(y, month):
-            out.append((d, d, "Alle lørdage"))
 
-    # If nothing parsed but has text, keep as note-only (no dates)
+        m = RANGE_RE.search(line.replace("–", "-"))
+        if not m:
+            continue
+        species = line[:m.start()].strip(" -•\u00a0\t")
+        date_part = line[m.start():].strip()
+
+        # fjern trailing footnote stars "**", "****"
+        species = re.sub(r"[*]+$", "", species).strip()
+        out.append((species, date_part))
     return out
 
-
-# ----------------------------
-# Event building
-# ----------------------------
-
-def build_general_events(
-    general_periods: Dict[str, List[Tuple[str, str]]],
-    seasons: List[int],
-    species_meta_idx: Dict[str, SpeciesMeta],
-    calendar_name: str,
-    source_url: str,
-) -> List[str]:
+def normalize_species_name(raw: str, master_species: dict[str, dict]) -> str:
     """
-    Returns ICS VEVENT blocks as strings.
+    Map raw species text to canonical name using master.json species list (name + aliases).
+    If not found, return raw (trimmed).
     """
-    events = []
+    t = (raw or "").strip()
+    if not t:
+        return t
 
-    for species, ranges in general_periods.items():
-        meta = species_meta_idx.get(species.lower())
-        shoot_txt = meta.shooting_time_text if meta else ""
-        img = meta.image_url if meta else ""
+    low = t.lower()
+    for canon, meta in master_species.items():
+        if low == canon.lower():
+            return canon
+        for a in meta.get("aliases", []):
+            if a and low == a.lower():
+                return canon
 
-        for season_year in seasons:
-            for (r1, r2) in ranges:
-                d1, m1 = map(int, r1.split("."))
-                d2, m2 = map(int, r2.split("."))
-                start, end = pick_year_for_range(season_year, m1, d1, m2, d2)
+    return t
 
-                summary = f"{species} (Generel)"
-                desc_parts = [
-                    f"Skydetid: (se generelle regler / evt. artsnote)",
-                    f"Periode: {r1} til {r2}",
-                    f"Kilde: {source_url}",
-                ]
-                if shoot_txt:
-                    desc_parts.insert(0, f"Skydetid: {shoot_txt}")
-                if img:
-                    desc_parts.append(f"Billede: {img}")
-
-                description = "\n".join(desc_parts)
-
-                uid = uid_for("general", species, start, end)
-                events.append(make_vevent(uid, summary, description, start, end))
-
-    return events
-
-
-def build_local_events(
-    local_rules: List[LocalRule],
-    general_periods: Dict[str, List[Tuple[str, str]]],
-    seasons: List[int],
-    species_meta_idx: Dict[str, SpeciesMeta],
-    calendar_cfg: dict,
-    master: dict,
-) -> List[str]:
+def build_general_periods(
+    season_year_start: int,
+    general_lines: list[tuple[str, str]],
+    master_species: dict[str, dict]
+) -> dict[str, list[tuple[date, date]]]:
     """
-    local calendar:
-      - include/exclude areas
-      - create events for local date ranges and special saturday rules
-      - if emit_no_hunting_events: create "INGEN JAGTTID" for species where local says so,
-        but only during each general period for that species.
+    species -> list of (start,end) in this season
     """
-    inc = [s.lower() for s in calendar_cfg["filters"].get("include_area_keywords", [])]
-    exc = [s.lower() for s in calendar_cfg["filters"].get("exclude_area_keywords", [])]
-    emit_no = bool(calendar_cfg.get("local_rules", {}).get("emit_no_hunting_events", False))
+    periods: dict[str, list[tuple[date, date]]] = {}
+    for raw_name, date_text in general_lines:
+        canon = normalize_species_name(raw_name, master_species)
+        ranges = extract_ranges(season_year_start, date_text)
+        if not ranges:
+            continue
+        periods.setdefault(canon, []).extend(ranges)
+    return periods
 
-    region_map = master.get("defaults", {}).get("region_map_image_url", "")
-    local_url = master.get("sources", {}).get("local_url", "")
+# =========================
+# PARSING (LOCAL)
+# =========================
+def parse_local_candidates(text: str) -> list[tuple[str, str]]:
+    """
+    Returns list of (context_area, line)
+    context is headings like "Region Syddanmark", "Øen Ærø", "På Bornholm", etc.
+    """
+    out = []
+    context = ""
 
-    events = []
-
-    def area_allowed(text: str) -> bool:
-        t = text.lower()
-        if inc:
-            ok = any(k in t for k in inc)
-            if not ok:
-                return False
-        if exc:
-            if any(k in t for k in exc):
-                return False
-        return True
-
-    for rule in local_rules:
-        area_key = f"{rule.region} | {rule.area}"
-        if not area_allowed(area_key):
+    for raw in text.split("\n"):
+        line = raw.strip()
+        if not line:
             continue
 
-        meta = species_meta_idx.get(rule.species.lower())
-        img = meta.image_url if meta else ""
-        shoot_txt = meta.shooting_time_text if meta else ""
+        low = line.lower()
 
-        # NO HUNTING
-        if NO_HUNTING_RE.search(rule.rule_text):
-            if not emit_no:
-                continue
-
-            # Only during general periods for that species
-            gen_ranges = general_periods.get(rule.species, [])
-            if not gen_ranges:
-                # If we can't find general periods, we skip (avoids "whole year" spam)
-                continue
-
-            for season_year in seasons:
-                for (r1, r2) in gen_ranges:
-                    d1, m1 = map(int, r1.split("."))
-                    d2, m2 = map(int, r2.split("."))
-                    start, end = pick_year_for_range(season_year, m1, d1, m2, d2)
-
-                    summary = f"{rule.species} — INGEN JAGTTID ({rule.area})"
-                    desc_parts = [
-                        f"LOKAL REGEL: ingen jagttid i dette område.",
-                        f"Område: {rule.region} / {rule.area}",
-                        f"Gælder kun i perioden hvor arten ellers har generel jagttid: {r1} til {r2}",
-                        f"Kilde (lokal): {local_url}",
-                    ]
-                    if shoot_txt:
-                        desc_parts.insert(0, f"Skydetid (art): {shoot_txt}")
-                    if region_map:
-                        desc_parts.append(f"Regionkort: {region_map}")
-                    if img:
-                        desc_parts.append(f"Billede: {img}")
-
-                    uid = uid_for("nohunt", rule.species, start, end, area_key)
-                    events.append(make_vevent(uid, summary, "\n".join(desc_parts), start, end))
+        # context-ish headings
+        if low.startswith("region ") or low.startswith("øen ") or low.startswith("på "):
+            context = line.strip(":")
             continue
 
-        # Normal date ranges + saturday rules
-        for season_year in seasons:
-            expanded = expand_local_rule_to_dates(rule.rule_text, season_year)
+        # keep lines that look like species rules:
+        # either date range, or "ingen jagttid", or lørdag rules
+        if ("ingen jagttid" in low) or RANGE_RE.search(line.replace("–", "-")) or ("lørdag" in low):
+            out.append((context, line))
 
-            # If this rule is only text and didn't parse, we skip (or you can choose to make note events later)
-            if not expanded:
+    return out
+
+def parse_local_rule_to_events(
+    season_year_start: int,
+    context: str,
+    line: str,
+    master_species: dict[str, dict],
+    general_periods_for_season: dict[str, list[tuple[date, date]]],
+    emit_no_hunting_events: bool
+) -> list[tuple[str, date, date, str]]:
+    """
+    Returns list of (species_canon, start, end, kind)
+    kind in {"local_range","no_hunting","local_saturdays"}
+    """
+    out = []
+    low = (line or "").lower()
+
+    # split species part vs rule part (best-effort)
+    # If line contains a range, species is before range.
+    m = RANGE_RE.search(line.replace("–", "-"))
+    if m:
+        raw_species = line[:m.start()].strip(" -•\u00a0\t")
+        raw_species = re.sub(r"[*]+$", "", raw_species).strip()
+        canon = normalize_species_name(raw_species, master_species)
+        ranges = extract_ranges(season_year_start, line[m.start():])
+        for s, e in ranges:
+            out.append((canon, s, e, "local_range"))
+        return out
+
+    # "ingen jagttid"
+    if "ingen jagttid" in low:
+        if not emit_no_hunting_events:
+            return []
+        # species is before "ingen jagttid"
+        raw_species = line.lower().split("ingen jagttid")[0].strip()
+        raw_species = raw_species.strip(" -•\u00a0\t")
+        raw_species = re.sub(r"[*]+$", "", raw_species).strip()
+        canon = normalize_species_name(raw_species, master_species)
+
+        # map to general periods -> create "fredet" events same durations
+        periods = general_periods_for_season.get(canon, [])
+        for s, e in periods:
+            out.append((canon, s, e, "no_hunting"))
+        return out
+
+    # lørdag-regler (best-effort):
+    # Examples:
+    # "Fasan hØne 1. og 2. lørdag i november"
+    # "Fasan hane 1. og 2. lørdag i oktober, 1. og 2. lørdag i november, samt alle lørdag i december"
+    if "lørdag" in low:
+        # species is text before first digit or before "alle"
+        m2 = re.search(r"(\d+)\.", line)
+        idx = m2.start() if m2 else (line.lower().find("alle") if "alle" in low else -1)
+        raw_species = line[:idx].strip(" -•\u00a0\t") if idx > 0 else line.strip()
+        raw_species = re.sub(r"[*]+$", "", raw_species).strip()
+        canon = normalize_species_name(raw_species, master_species)
+
+        # Compute for months, respecting season year:
+        # For month >= 7 use season_year_start else season_year_start+1
+        def month_year(month: int) -> int:
+            return season_year_start if month >= 7 else (season_year_start + 1)
+
+        # nth saturday patterns (can be multiple in same line)
+        for mm in NTH_SAT_RE.finditer(line):
+            n1 = int(mm.group(1))
+            n2 = int(mm.group(2))
+            mon_name = mm.group(3).lower().strip()
+            mon = MONTHS_DA.get(mon_name)
+            if not mon:
                 continue
+            y = month_year(mon)
+            d1 = nth_saturday(y, mon, n1)
+            d2 = nth_saturday(y, mon, n2)
+            # create single-day all-day events
+            out.append((canon, d1, d1, "local_saturdays"))
+            out.append((canon, d2, d2, "local_saturdays"))
 
-            for (start, end, note) in expanded:
-                # title
-                if start == end:
-                    when = start.strftime("%d.%m.%Y")
-                else:
-                    when = f"{start.strftime('%d.%m.%Y')} - {end.strftime('%d.%m.%Y')}"
-                summary = f"{rule.species} (Lokalt: {rule.area})"
+        # all saturdays patterns
+        for mm in ALL_SAT_RE.finditer(line):
+            mon_name = mm.group(1).lower().strip()
+            mon = MONTHS_DA.get(mon_name)
+            if not mon:
+                continue
+            y = month_year(mon)
+            for d in all_saturdays(y, mon):
+                out.append((canon, d, d, "local_saturdays"))
 
-                desc_parts = [
-                    f"Skydetid: (lokale regler kan gælde)",
-                    f"Periode/regel: {rule.rule_text}",
-                    f"Område: {rule.region} / {rule.area}",
-                    f"Kilde (lokal): {local_url}",
-                ]
-                if shoot_txt:
-                    desc_parts.insert(0, f"Skydetid (art): {shoot_txt}")
-                if note:
-                    desc_parts.append(f"Note: {note}")
-                if region_map:
-                    desc_parts.append(f"Regionkort: {region_map}")
-                if img:
-                    desc_parts.append(f"Billede: {img}")
+        return out
 
-                uid = uid_for("local", rule.species, start, end, area_key + "|" + rule.rule_text)
-                events.append(make_vevent(uid, summary, "\n".join(desc_parts), start, end))
+    return []
 
-    return events
+# =========================
+# LOAD CONFIGS
+# =========================
+def load_json(path: Path) -> dict:
+    return json.loads(path.read_text(encoding="utf-8"))
 
+def load_master() -> dict:
+    if not MASTER_PATH.exists():
+        raise FileNotFoundError(f"Mangler {MASTER_PATH}")
+    master = load_json(MASTER_PATH)
 
-def make_vevent(uid: str, summary: str, description: str, start: date, end: date) -> str:
-    """
-    All-day event, inclusive end.
-    In ICS, DTEND is non-inclusive, so we add +1 day.
-    """
-    dtend = end + timedelta(days=1)
+    # Build species map for fast lookup
+    species_map: dict[str, dict] = {}
+    for s in master.get("species", []):
+        name = (s.get("name") or "").strip()
+        if name:
+            species_map[name] = s
 
-    lines = [
-        "BEGIN:VEVENT",
-        f"UID:{ics_escape(uid)}",
-        f"DTSTAMP:{dtstamp_utc()}",
-        f"SUMMARY:{ics_escape(summary)}",
-        f"DESCRIPTION:{ics_escape(description)}",
-        f"DTSTART;VALUE=DATE:{ymd(start)}",
-        f"DTEND;VALUE=DATE:{ymd(dtend)}",
-        "END:VEVENT",
-    ]
-    return "\r\n".join(fold_ics_line(l) for l in lines)
+    master["_species_map"] = species_map
+    return master
 
+def load_calendar_configs() -> list[dict]:
+    if not CALENDAR_DIR.exists():
+        raise FileNotFoundError(f"Mangler {CALENDAR_DIR}")
+    cfgs = []
+    for p in sorted(CALENDAR_DIR.glob("*.json")):
+        cfg = load_json(p)
+        cfg["_path"] = str(p)
+        cfgs.append(cfg)
+    if not cfgs:
+        raise RuntimeError("Ingen kalender-configs fundet i configs/calendars/")
+    return cfgs
 
-def write_ics(path: str, calname: str, events: List[str]) -> None:
-    lines = [
-        "BEGIN:VCALENDAR",
-        "VERSION:2.0",
-        "PRODID:-//luka2945//Jagttider ICS//DA",
-        "CALSCALE:GREGORIAN",
-        f"X-WR-CALNAME:{ics_escape(calname)}",
-    ]
-    lines.extend(events)
-    lines.append("END:VCALENDAR")
-
-    data = "\r\n".join(lines) + "\r\n"
-
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, "w", encoding="utf-8", newline="") as f:
-        f.write(data)
-
-
-# ----------------------------
-# Main
-# ----------------------------
-
-def main() -> int:
+# =========================
+# MAIN GENERATION
+# =========================
+def main() -> None:
     master = load_master()
-    species_idx = build_species_index(master)
     calendars = load_calendar_configs()
+
+    out_dir = Path(master.get("output_dir", "Jagttids-Kalender"))
+    out_dir.mkdir(parents=True, exist_ok=True)
 
     general_url = master["sources"]["general_url"]
     local_url = master["sources"]["local_url"]
 
-    # Fetch + parse pages
-    general_lines = soup_main_text(http_get(general_url))
-    local_lines = soup_main_text(http_get(local_url))
+    region_map_url = master.get("local_mode", {}).get("default_region_map_image_url", "")
 
-    general_periods = parse_general_periods(general_lines)
-    local_rules = parse_local_rules(local_lines)
+    master_species = master["_species_map"]
 
-    if len(general_periods) < 10:
-        raise RuntimeError(
-            f"Parsed general species is too low ({len(general_periods)}). HTML changed or fetch failed."
-        )
+    # Fetch once
+    general_text = html_to_text(fetch_html(general_url))
+    local_text = html_to_text(fetch_html(local_url))
 
-    if len(local_rules) < 5:
-        raise RuntimeError(
-            f"Parsed local rules is too low ({len(local_rules)}). HTML changed or fetch failed."
-        )
+    # Parse general once (lines)
+    general_lines = parse_general_species_lines(general_text)
 
-    for cfg in calendars:
-        calname = cfg["calendar_name"]
-        seasons_ahead = int(cfg.get("seasons_ahead", 2))
-        seasons = expand_seasons(seasons_ahead)
+    # Parse local candidates once
+    local_candidates = parse_local_candidates(local_text)
 
-        events: List[str] = []
+    season0 = season_start_year_for_today()
 
-        if cfg.get("use_local", False):
-            events = build_local_events(
-                local_rules=local_rules,
-                general_periods=general_periods,
-                seasons=seasons,
-                species_meta_idx=species_idx,
-                calendar_cfg=cfg,
-                master=master,
-            )
-        else:
-            events = build_general_events(
-                general_periods=general_periods,
-                seasons=seasons,
-                species_meta_idx=species_idx,
-                calendar_name=calname,
-                source_url=general_url,
+    for cal_cfg in calendars:
+        cal_name = cal_cfg["calendar_name"]
+        output_filename = cal_cfg["output_filename"]
+        seasons_ahead = int(cal_cfg.get("seasons_ahead", 1))
+        use_local = bool(cal_cfg.get("use_local", False))
+
+        include_kw = cal_cfg.get("filters", {}).get("include_area_keywords", []) or []
+        exclude_kw = cal_cfg.get("filters", {}).get("exclude_area_keywords", []) or []
+        emit_no_hunting = bool(cal_cfg.get("local_rules", {}).get("emit_no_hunting_events", False))
+
+        events: list[str] = []
+        uid_counter = 0
+
+        for i in range(seasons_ahead):
+            season_year_start = season0 + i
+
+            # Build general periods for THIS season (used by local no-hunting logic)
+            general_periods = build_general_periods(
+                season_year_start=season_year_start,
+                general_lines=general_lines,
+                master_species=master_species
             )
 
-        out_path = os.path.join(OUT_DIR, cfg["output_filename"])
-        write_ics(out_path, calname, events)
+            # 1) Add general events if calendar is not local
+            if not use_local:
+                for raw_name, date_text in general_lines:
+                    canon = normalize_species_name(raw_name, master_species)
+                    ranges = extract_ranges(season_year_start, date_text)
+                    for s, e in ranges:
+                        uid_counter += 1
 
-        print(f"Wrote {out_path} with {len(events)} events")
+                        meta = master_species.get(canon, {})
+                        attachments = []
+                        if meta.get("image_url"):
+                            attachments.append(meta["image_url"])
 
-    return 0
+                        desc_parts = [
+                            f"Kilde: {general_url}",
+                            f"Sæsonstart-år: {season_year_start}",
+                        ]
+                        stt = (meta.get("shooting_time_text") or "").strip()
+                        if stt:
+                            desc_parts.append("")
+                            desc_parts.append(stt)
 
+                        uid = f"jagttid-{season_year_start}-gen-{uid_counter}@luka2945"
+                        summary = f"{canon}"
+                        events.append(build_event(uid, summary, s, e, "\n".join(desc_parts), attachments))
+
+            # 2) Add local events if calendar is local
+            if use_local:
+                for context, line in local_candidates:
+                    ctx = (context or "").strip()
+                    ctx_text = f"{ctx} {line}".strip()
+
+                    # filters on AREA/CONTEXT primarily
+                    if include_kw and not contains_any(ctx_text, include_kw):
+                        continue
+                    if exclude_kw and contains_any(ctx_text, exclude_kw):
+                        continue
+
+                    parsed = parse_local_rule_to_events(
+                        season_year_start=season_year_start,
+                        context=ctx,
+                        line=line,
+                        master_species=master_species,
+                        general_periods_for_season=general_periods,
+                        emit_no_hunting_events=emit_no_hunting
+                    )
+
+                    for canon, s, e, kind in parsed:
+                        uid_counter += 1
+
+                        meta = master_species.get(canon, {})
+                        attachments = []
+                        # Region-map on ALL local events (som du ønskede)
+                        if region_map_url:
+                            attachments.append(region_map_url)
+                        # Dyrebillede hvis sat
+                        if meta.get("image_url"):
+                            attachments.append(meta["image_url"])
+
+                        # Title + description
+                        if kind == "no_hunting":
+                            summary = f"{canon} – INGEN JAGTTID ({ctx})" if ctx else f"{canon} – INGEN JAGTTID"
+                        elif kind == "local_saturdays":
+                            summary = f"{canon} – Lokal (lørdag) ({ctx})" if ctx else f"{canon} – Lokal (lørdag)"
+                        else:
+                            summary = f"{canon} – Lokal ({ctx})" if ctx else f"{canon} – Lokal"
+
+                        desc_parts = [
+                            f"Kilde (lokal): {local_url}",
+                            f"Kilde (generel): {general_url}",
+                            f"Sæsonstart-år: {season_year_start}"
+                        ]
+                        if ctx:
+                            desc_parts.insert(0, f"Område: {ctx}")
+
+                        stt = (meta.get("shooting_time_text") or "").strip()
+                        if stt:
+                            desc_parts.append("")
+                            desc_parts.append(stt)
+
+                        uid = f"jagttid-{season_year_start}-loc-{uid_counter}@luka2945"
+                        events.append(build_event(uid, summary, s, e, "\n".join(desc_parts), attachments))
+
+        ics = build_calendar(cal_name, events)
+        (out_dir / output_filename).write_text(ics, encoding="utf-8")
+        print(f"Wrote {out_dir / output_filename}  (events: {len(events)})")
 
 if __name__ == "__main__":
-    try:
-        raise SystemExit(main())
-    except Exception as e:
-        print(f"ERROR: {e}", file=sys.stderr)
-        raise
+    main()
