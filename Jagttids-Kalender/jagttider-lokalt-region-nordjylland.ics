@@ -1,0 +1,38 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//luka2945//Jagttider ICS//DA
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Jagttider – Lokalt (Region Nordjylland)
+BEGIN:VEVENT
+UID:jagttid-2025-loc-1@luka2945
+DTSTAMP:20260302T104020Z
+SUMMARY: – Lokal (Region Nordjylland - lokale jagttider)
+DTSTART;VALUE=DATE:20251101
+DTEND;VALUE=DATE:20260116
+DESCRIPTION:Område: Region Nordjylland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-loc-2@luka2945
+DTSTAMP:20260302T104020Z
+SUMMARY: – Lokal (Region Nordjylland - lokale jagttider)
+DTSTART;VALUE=DATE:20250916
+DTEND;VALUE=DATE:20251016
+DESCRIPTION:Område: Region Nordjylland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-loc-3@luka2945
+DTSTAMP:20260302T104020Z
+SUMMARY: – Lokal (Region Nordjylland - lokale jagttider)
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20270116
+DESCRIPTION:Område: Region Nordjylland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-loc-4@luka2945
+DTSTAMP:20260302T104020Z
+SUMMARY: – Lokal (Region Nordjylland - lokale jagttider)
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20261016
+DESCRIPTION:Område: Region Nordjylland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+END:VEVENT
+END:VCALENDAR
