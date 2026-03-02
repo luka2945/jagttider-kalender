@@ -1,0 +1,23 @@
+{
+  "calendar_name": "Jagttider – Lokalt (Personlig)",
+  "output_filename": "jagttider-lokalt-personlig.ics",
+  "use_local": true,
+
+  "filters": {
+    "include_area_keywords": [],
+    "exclude_area_keywords": [
+      "Bornholm",
+      "Læsø",
+      "Fanø",
+      "Samsø",
+      "Anholt",
+      "Endelave"
+    ]
+  },
+
+  "local_rules": {
+    "emit_no_hunting_events": true
+  },
+
+  "seasons_ahead": 2
+}
