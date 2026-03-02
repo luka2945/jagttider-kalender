@@ -1,0 +1,38 @@
+{
+  "calendar_name": "Jagttider – Lokalt (Alle regioner, minus øerne)",
+  "output_filename": "jagttider-lokalt-alle-regioner-minus-oerne.ics",
+  "use_local": true,
+
+  "filters": {
+    "include_area_keywords": [
+      "Region Nordjylland",
+      "Region Midtjylland",
+      "Region Syddanmark",
+      "Region Sjælland",
+      "Region Hovedstaden",
+      "Region hovedstaden"
+    ],
+    "exclude_area_keywords": [
+      "Øen ",
+      "Bornholm",
+      "Læsø",
+      "Fanø",
+      "Samsø",
+      "Anholt",
+      "Endelave",
+      "Rømø",
+      "Mandø",
+      "Femø",
+      "Fejø",
+      "Ærø",
+      "Strynø",
+      "Lyø"
+    ]
+  },
+
+  "local_rules": {
+    "emit_no_hunting_events": true
+  },
+
+  "seasons_ahead": 2
+}

@@ -1,9 +1,0 @@
-{
-  "type": "local",
-  "season_year": "auto",
-  "output": "jagttider-lokalt-alle-regioner-minus-oerne.ics",
-  "calendar_name": "Jagttider – Lokalt (Alle regioner, minus øerne)",
-  "include_no_hunting_events": true,
-  "exclude_islands": true,
-  "attach_mode": "none"
-}
