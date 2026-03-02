@@ -3,7 +3,7 @@ name: Update Jagttider ICS
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 3 * * *"   # hver dag kl. 03:00 UTC (04/05 DK)
+    - cron: "0 5 * * 1"  # mandag 05:00 UTC
 
 jobs:
   build:
@@ -23,14 +23,12 @@ jobs:
           pip install -r requirements.txt
 
       - name: Generate ICS (all calendars)
-        run: |
-          python jagttider_to_ics.py
+        run: python jagttider_to_ics.py
 
       - name: Commit & push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add Jagttids-Kalender/*.ics
-          git diff --cached --quiet && echo "No changes to commit." && exit 0
-          git commit -m "Auto update jagttider (.ics)"
+          git diff --cached --quiet || git commit -m "Auto update jagttider (.ics)"
           git push
