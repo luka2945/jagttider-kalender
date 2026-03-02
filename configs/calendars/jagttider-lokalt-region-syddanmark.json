@@ -1,0 +1,16 @@
+{
+  "calendar_name": "Jagttider – Lokalt (Region Syddanmark)",
+  "output_filename": "jagttider-lokalt-region-syddanmark.ics",
+  "use_local": true,
+
+  "filters": {
+    "include_area_keywords": ["Region Syddanmark"],
+    "exclude_area_keywords": []
+  },
+
+  "local_rules": {
+    "emit_no_hunting_events": true
+  },
+
+  "seasons_ahead": 2
+}
