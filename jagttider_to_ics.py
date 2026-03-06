@@ -35,8 +35,17 @@ DK_MONTHS = {
 
 RANGE_RE = re.compile(r"(\d{1,2})\.(\d{1,2})\s*[-–]\s*(\d{1,2})\.(\d{1,2})")
 
-NTH_SAT_RE = re.compile(r"(\d)\.\s*og\s*(\d)\.\s*lørdag i ([a-zæøå]+)", re.I)
-ALL_SAT_RE = re.compile(r"alle\s+lørdage\s+i\s+([a-zæøå]+)", re.I)
+# "1. og 2. lørdag i november"
+NTH_SAT_RE = re.compile(
+    r"(\d)\.\s*og\s*(\d)\.\s*lørdag i ([a-zæøå]+)",
+    flags=re.I,
+)
+
+# "alle lørdage i december"
+ALL_SAT_RE = re.compile(
+    r"alle\s+lørdage?\s+i\s+([a-zæøå]+)",
+    flags=re.I,
+)
 
 # -----------------------
 # Data models
@@ -58,7 +67,7 @@ class NoHuntingMarker:
 class SpecialDayRule:
     species: str
     area: str
-    dates: list[date]         # one-day events
+    dates: tuple[date, ...]   # tuple -> hashable
 
 # -----------------------
 # Config loading
@@ -149,7 +158,7 @@ def fetch_html(url: str, ua: str) -> str:
 def ensure_not_login_page(html: str) -> None:
     # DJ siden kan nogle gange returnere “du skal logge ind…”
     low = html.lower()
-    if "du skal logge ind" in low or "logge ind" in low and "jagttider" in low and "<table" not in low:
+    if "du skal logge ind" in low or ("logge ind" in low and "jagttider" in low and "<table" not in low):
         raise RuntimeError("Fik en 'log ind' side i stedet for jagttider-tabellen (kilde blokerer bot/kræver login).")
 
 # -----------------------
@@ -178,7 +187,7 @@ def parse_general(html: str, season_year: int) -> list[SeasonRange]:
             if species.lower() in ("vildtart", "art", "vildt"):
                 continue
 
-            # ignore “ingen jagttid” in general (du ønskede: ikke vise i generel)
+            # ignore “ingen jagttid” in general
             if "ingen jagttid" in period_text.lower():
                 continue
 
@@ -200,10 +209,9 @@ def parse_general(html: str, season_year: int) -> list[SeasonRange]:
     return uniq
 
 # -----------------------
-# Parsing: LOCAL (tables + “ingen jagttid” + special Saturdays)
+# Parsing: LOCAL
 # -----------------------
 def nth_saturday(year: int, month: int, n: int) -> date | None:
-    # Find nth Saturday (n=1..)
     c = calmod.Calendar(firstweekday=calmod.MONDAY)
     sats = [d for d in c.itermonthdates(year, month) if d.month == month and d.weekday() == 5]
     return sats[n - 1] if 1 <= n <= len(sats) else None
@@ -213,12 +221,9 @@ def all_saturdays(year: int, month: int) -> list[date]:
     return [d for d in c.itermonthdates(year, month) if d.month == month and d.weekday() == 5]
 
 def parse_special_text_to_dates(text: str, season_year: int) -> list[date]:
-    # Returns list of one-day dates
     low = text.strip().lower()
-
     dates: list[date] = []
 
-    # "1. og 2. lørdag i november"
     for m in NTH_SAT_RE.finditer(low):
         n1 = int(m.group(1))
         n2 = int(m.group(2))
@@ -229,10 +234,11 @@ def parse_special_text_to_dates(text: str, season_year: int) -> list[date]:
         year = season_year if month >= 7 else (season_year + 1)
         d_a = nth_saturday(year, month, n1)
         d_b = nth_saturday(year, month, n2)
-        if d_a: dates.append(d_a)
-        if d_b: dates.append(d_b)
+        if d_a:
+            dates.append(d_a)
+        if d_b:
+            dates.append(d_b)
 
-    # "alle lørdage i december"
     for m in ALL_SAT_RE.finditer(low):
         month_name = m.group(1).lower()
         if month_name not in DK_MONTHS:
@@ -241,7 +247,6 @@ def parse_special_text_to_dates(text: str, season_year: int) -> list[date]:
         year = season_year if month >= 7 else (season_year + 1)
         dates.extend(all_saturdays(year, month))
 
-    # Remove duplicates + sort
     return sorted(set(dates))
 
 def parse_local(html: str, season_year: int) -> tuple[list[SeasonRange], list[NoHuntingMarker], list[SpecialDayRule]]:
@@ -252,27 +257,16 @@ def parse_local(html: str, season_year: int) -> tuple[list[SeasonRange], list[No
     no_hunting: list[NoHuntingMarker] = []
     specials: list[SpecialDayRule] = []
 
-    # Strategy:
-    # 1) Find “accordion-ish” sections and treat headings as area context.
-    # 2) Inside each section, parse tables rows (species + rule text).
-    #
-    # If the site changes, this is the least-bad generic approach:
-    # - area headings: h2/h3/h4 or elements with class containing "accordion" / "title"
-    # - tables inside those blocks
-
-    # Collect candidate area blocks:
     headings = soup.find_all(["h2", "h3", "h4"])
     for h in headings:
         area = " ".join(h.get_text(" ", strip=True).split())
         if not area:
             continue
 
-        # Heuristic: area headings often contain “Øen”, “Region”, “Kommune” etc.
         alow = area.lower()
         if not (alow.startswith("øen") or "region" in alow or "kommune" in alow or "på " in alow):
             continue
 
-        # Look for the next table after heading
         table = h.find_next("table")
         if not table:
             continue
@@ -288,7 +282,6 @@ def parse_local(html: str, season_year: int) -> tuple[list[SeasonRange], list[No
             if not species or not rule_text:
                 continue
 
-            # skip table headers
             if species.lower() in ("vildtart", "art", "vildt"):
                 continue
 
@@ -298,7 +291,6 @@ def parse_local(html: str, season_year: int) -> tuple[list[SeasonRange], list[No
                 no_hunting.append(NoHuntingMarker(species=species, area=area))
                 continue
 
-            # Numeric date ranges
             found_any_range = False
             for (d1, m1, d2, m2) in RANGE_RE.findall(rule_text.replace("–", "-")):
                 start = season_date(season_year, int(d1), int(m1))
@@ -310,25 +302,38 @@ def parse_local(html: str, season_year: int) -> tuple[list[SeasonRange], list[No
             if found_any_range:
                 continue
 
-            # Special saturday rules (your “snyder”)
             special_dates = parse_special_text_to_dates(rule_text, season_year)
             if special_dates:
-                specials.append(SpecialDayRule(species=species, area=area, dates=special_dates))
+                specials.append(SpecialDayRule(species=species, area=area, dates=tuple(special_dates)))
 
-    # Dedup
-    def dedup_list(items):
-        out, seen = [], set()
-        for x in items:
-            if x not in seen:
-                seen.add(x)
-                out.append(x)
-        return out
+    # Dedup local_ranges
+    uniq_local = []
+    seen_local = set()
+    for r in local_ranges:
+        key = (r.species.lower(), r.start, r.end_inclusive, r.kind, r.area)
+        if key not in seen_local:
+            seen_local.add(key)
+            uniq_local.append(r)
 
-    local_ranges = dedup_list(local_ranges)
-    no_hunting = dedup_list(no_hunting)
-    specials = dedup_list(specials)
+    # Dedup no_hunting
+    uniq_no = []
+    seen_no = set()
+    for r in no_hunting:
+        key = (r.species.lower(), r.area.lower())
+        if key not in seen_no:
+            seen_no.add(key)
+            uniq_no.append(r)
 
-    return local_ranges, no_hunting, specials
+    # Dedup specials
+    uniq_sp = []
+    seen_sp = set()
+    for r in specials:
+        key = (r.species.lower(), r.area.lower(), tuple(r.dates))
+        if key not in seen_sp:
+            seen_sp.add(key)
+            uniq_sp.append(r)
+
+    return uniq_local, uniq_no, uniq_sp
 
 # -----------------------
 # Filtering
@@ -357,16 +362,15 @@ def main() -> None:
     local_url = master.get("local_url", DEFAULT_LOCAL_URL)
     ua = master.get("user_agent", DEFAULT_USER_AGENT)
 
-    seasons_ahead_default = int(master.get("seasons_ahead", 2))  # IMPORTANT: heltal
+    seasons_ahead_default = int(master.get("seasons_ahead", 2))
     local_map_image_url = master.get("local_map_image_url", "")
 
-    species_meta = master.get("species_meta", {})  # {"ræv": {"image_url": "...", "notes": "..."}}
+    species_meta = master.get("species_meta", {})
 
     calendar_cfgs = list_calendar_configs()
     if not calendar_cfgs:
         raise RuntimeError("Ingen configs fundet i configs/calendars/*.json")
 
-    # Pre-fetch HTML once per run
     general_html = fetch_html(general_url, ua)
     local_html = fetch_html(local_url, ua)
 
@@ -386,8 +390,6 @@ def main() -> None:
 
         events: list[str] = []
         uid_counter = 0
-
-        # For each season year, generate events
         base_season_year = compute_season_year_auto()
 
         for i in range(seasons_ahead):
@@ -395,20 +397,10 @@ def main() -> None:
 
             general_ranges = parse_general(general_html, season_year)
 
-            # Index general by species for no-hunting matching
             general_by_species: dict[str, list[SeasonRange]] = {}
             for gr in general_ranges:
                 general_by_species.setdefault(normalize_species(gr.species), []).append(gr)
 
-            # Always include general events in ALL calendars?
-            # Din plan: generel-kalender = kun generel.
-            # Lokal-kalendere = (1) generel + (2) lokale overrides + (3) “ingen jagttid” markers
-            #
-            # Her gør vi:
-            # - generel calendar (use_local=False) => kun generel
-            # - lokal calendar (use_local=True) => generel + lokal + ingen-jagttid + special-days
-
-            # Add general events (filtered by area? nej, general har ingen area)
             if not use_local:
                 for r in general_ranges:
                     uid_counter += 1
@@ -416,11 +408,12 @@ def main() -> None:
                     img = meta.get("image_url", "")
                     notes = meta.get("notes", "")
 
-                    desc = f"Kilde: {general_url}"
+                    desc_parts = []
                     if notes:
-                        desc = f"{notes}\n{desc}"
+                        desc_parts.append(notes)
+                    desc_parts.append(f"Kilde: {general_url}")
                     if img:
-                        desc = f"{desc}\nBillede: {img}"
+                        desc_parts.append(f"Billede: {img}")
 
                     uid = f"jagttid-{season_year}-gen-{uid_counter}@luka2945"
                     events.append(build_event(
@@ -428,27 +421,28 @@ def main() -> None:
                         summary=f"{r.species} (Generel)",
                         start=r.start,
                         end_inclusive=r.end_inclusive,
-                        description=desc,
+                        description="\n".join(desc_parts),
                         url=general_url
                     ))
+
             else:
-                # Local mode: parse local too
                 local_ranges, no_hunting, specials = parse_local(local_html, season_year)
 
-                # 1) General base
+                # general base events in local calendars
                 for r in general_ranges:
                     uid_counter += 1
                     meta = species_meta.get(normalize_species(r.species), {})
                     img = meta.get("image_url", "")
                     notes = meta.get("notes", "")
 
-                    desc = f"Kilde: {general_url}"
+                    desc_parts = []
                     if notes:
-                        desc = f"{notes}\n{desc}"
+                        desc_parts.append(notes)
+                    desc_parts.append(f"Kilde: {general_url}")
                     if img:
-                        desc = f"{desc}\nBillede: {img}"
+                        desc_parts.append(f"Billede: {img}")
                     if local_map_image_url:
-                        desc = f"{desc}\nRegionskort: {local_map_image_url}"
+                        desc_parts.append(f"Regionskort: {local_map_image_url}")
 
                     uid = f"jagttid-{season_year}-base-{uid_counter}@luka2945"
                     events.append(build_event(
@@ -456,11 +450,11 @@ def main() -> None:
                         summary=f"{r.species} (Generel)",
                         start=r.start,
                         end_inclusive=r.end_inclusive,
-                        description=desc,
+                        description="\n".join(desc_parts),
                         url=general_url
                     ))
 
-                # 2) Local ranges (only those matching include/exclude area keywords)
+                # local ranges
                 for r in local_ranges:
                     if not area_allowed(r.area, include_area, exclude_area):
                         continue
@@ -470,13 +464,16 @@ def main() -> None:
                     img = meta.get("image_url", "")
                     notes = meta.get("notes", "")
 
-                    desc = f"Område: {r.area}\nKilde: {local_url}"
+                    desc_parts = []
                     if notes:
-                        desc = f"{notes}\n{desc}"
+                        desc_parts.append(notes)
+                    if r.area:
+                        desc_parts.append(f"Område: {r.area}")
+                    desc_parts.append(f"Kilde: {local_url}")
                     if img:
-                        desc = f"{desc}\nBillede: {img}"
+                        desc_parts.append(f"Billede: {img}")
                     if local_map_image_url:
-                        desc = f"{desc}\nRegionskort: {local_map_image_url}"
+                        desc_parts.append(f"Regionskort: {local_map_image_url}")
 
                     uid = f"jagttid-{season_year}-lok-{uid_counter}@luka2945"
                     events.append(build_event(
@@ -484,27 +481,30 @@ def main() -> None:
                         summary=f"{r.species} (Lokalt)",
                         start=r.start,
                         end_inclusive=r.end_inclusive,
-                        description=desc,
+                        description="\n".join(desc_parts),
                         url=local_url
                     ))
 
-                # 3) Special one-day rules (lørdage) (also filter on area)
+                # special one-day rules
                 for sp in specials:
                     if not area_allowed(sp.area, include_area, exclude_area):
                         continue
+
                     for d in sp.dates:
                         uid_counter += 1
                         meta = species_meta.get(normalize_species(sp.species), {})
                         img = meta.get("image_url", "")
                         notes = meta.get("notes", "")
 
-                        desc = f"Område: {sp.area}\nKilde: {local_url}"
+                        desc_parts = []
                         if notes:
-                            desc = f"{notes}\n{desc}"
+                            desc_parts.append(notes)
+                        desc_parts.append(f"Område: {sp.area}")
+                        desc_parts.append(f"Kilde: {local_url}")
                         if img:
-                            desc = f"{desc}\nBillede: {img}"
+                            desc_parts.append(f"Billede: {img}")
                         if local_map_image_url:
-                            desc = f"{desc}\nRegionskort: {local_map_image_url}"
+                            desc_parts.append(f"Regionskort: {local_map_image_url}")
 
                         uid = f"jagttid-{season_year}-spec-{uid_counter}@luka2945"
                         events.append(build_event(
@@ -512,11 +512,11 @@ def main() -> None:
                             summary=f"{sp.species} (Lokalt – særlige dage)",
                             start=d,
                             end_inclusive=d,
-                            description=desc,
+                            description="\n".join(desc_parts),
                             url=local_url
                         ))
 
-                # 4) Emit “INGEN jagttid” events (same duration as general)
+                # no-hunting events with same duration as general
                 if emit_no_hunting:
                     for nh in no_hunting:
                         if not area_allowed(nh.area, include_area, exclude_area):
@@ -524,7 +524,6 @@ def main() -> None:
 
                         general_list = general_by_species.get(normalize_species(nh.species), [])
                         if not general_list:
-                            # no general season found => cannot match duration; skip
                             continue
 
                         for gr in general_list:
@@ -533,19 +532,17 @@ def main() -> None:
                             img = meta.get("image_url", "")
                             notes = meta.get("notes", "")
 
-                            desc = (
-                                f"Område: {nh.area}\n"
-                                f"Dette område har 'ingen jagttid' for arten i perioden,\n"
-                                f"og perioden er sat til samme varighed som den generelle jagttid.\n"
-                                f"Kilde (lokal): {local_url}\n"
-                                f"Kilde (generel): {general_url}"
-                            )
+                            desc_parts = []
                             if notes:
-                                desc = f"{notes}\n{desc}"
+                                desc_parts.append(notes)
+                            desc_parts.append(f"Område: {nh.area}")
+                            desc_parts.append("Lokal regel: ingen jagttid")
+                            desc_parts.append(f"Kilde (lokal): {local_url}")
+                            desc_parts.append(f"Kilde (generel): {general_url}")
                             if img:
-                                desc = f"{desc}\nBillede: {img}"
+                                desc_parts.append(f"Billede: {img}")
                             if local_map_image_url:
-                                desc = f"{desc}\nRegionskort: {local_map_image_url}"
+                                desc_parts.append(f"Regionskort: {local_map_image_url}")
 
                             uid = f"jagttid-{season_year}-nohunt-{uid_counter}@luka2945"
                             events.append(build_event(
@@ -553,7 +550,7 @@ def main() -> None:
                                 summary=f"INGEN jagttid: {nh.species} (Lokalt)",
                                 start=gr.start,
                                 end_inclusive=gr.end_inclusive,
-                                description=desc,
+                                description="\n".join(desc_parts),
                                 url=local_url
                             ))
 
