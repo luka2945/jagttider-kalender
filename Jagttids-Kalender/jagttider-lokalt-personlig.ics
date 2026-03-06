@@ -5,812 +5,128 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Jagttider – Lokalt (Personlig)
 BEGIN:VEVENT
 UID:jagttid-2025-lok-1@luka2945
-DTSTAMP:20260306T184109Z
+DTSTAMP:20260306T193140Z
 SUMMARY:Sølvmåge - Lokal jagttid
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region hovedstaden - lokale jagttider\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+DESCRIPTION:Område: Region hovedstaden\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
 URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-2@luka2945
-DTSTAMP:20260306T184109Z
+DTSTAMP:20260306T193140Z
 SUMMARY:Sølvmåge - Lokal jagttid
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Dragør Kommune\, Tårnby Kommune\, Københavns Kommune\, Hvidovre Kommune\, Vallensbæk Kommune\, Brøndby Kommune og Ishøj Kommune\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+DESCRIPTION:Område: Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
 URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-3@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Sølvmåge - Lokal jagttid
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+DTSTAMP:20260306T193140Z
+SUMMARY:Agerhøne - Lokal jagttid
+DTSTART;VALUE=DATE:20250916
+DTEND;VALUE=DATE:20251016
+DESCRIPTION:Område: Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
 URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-4@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Sølvmåge - Lokal jagttid
+DTSTAMP:20260306T193140Z
+SUMMARY:Hare - Lokal jagttid
 DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Greve Kommune\, Solrød Kommune\, Køge Kommune\, Ringsted Kommune\, Sorø Kommune\, Slagelse Kommune\, Næstved Kommune\, Faxe Kommune\, Stevns Kommune\, Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+DTEND;VALUE=DATE:20260116
+DESCRIPTION:Område: Region Midtjylland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
 URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-5@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Sædgås - Lokal jagttid
-DTSTART;VALUE=DATE:20250901
-DTEND;VALUE=DATE:20251201
-DESCRIPTION:Gæs må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nOmråde: Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+DTSTAMP:20260306T193140Z
+SUMMARY:Agerhøne - Lokal jagttid
+DTSTART;VALUE=DATE:20250916
+DTEND;VALUE=DATE:20251016
+DESCRIPTION:Område: Region Midtjylland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
 URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-6@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Råbuk - Lokal jagttid
-DTSTART;VALUE=DATE:20260516
-DTEND;VALUE=DATE:20260616
-DESCRIPTION:Område: Øen Sejerø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+DTSTAMP:20260306T193140Z
+SUMMARY:Hare - Lokal jagttid
+DTSTART;VALUE=DATE:20251101
+DTEND;VALUE=DATE:20260116
+DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
 URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-7@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Råbuk - Lokal jagttid
-DTSTART;VALUE=DATE:20251201
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Øen Sejerø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-lok-8@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Rå og – lam - Lokal jagttid
-DTSTART;VALUE=DATE:20251201
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Øen Sejerø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-lok-9@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Hare - Lokal jagttid
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20251216
-DESCRIPTION:Område: Øen Sejerø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-lok-10@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Agerhøne - Lokal jagttid
-DTSTART;VALUE=DATE:20251001
-DTEND;VALUE=DATE:20251016
-DESCRIPTION:Område: Øen Sejerø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-lok-11@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Fasanhøne - Lokal jagttid
-DTSTART;VALUE=DATE:20251116
-DTEND;VALUE=DATE:20251201
-DESCRIPTION:Område: Øen Sejerø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-lok-12@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Fasanhane - Lokal jagttid
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Øen Sejerø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-lok-13@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Hare - Lokal jagttid
-DTSTART;VALUE=DATE:20251116
-DTEND;VALUE=DATE:20260116
-DESCRIPTION:Område: Øen Fejø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-lok-14@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Fasanhane - Lokal jagttid
-DTSTART;VALUE=DATE:20251016
-DTEND;VALUE=DATE:20251201
-DESCRIPTION:Område: Øen Fejø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-lok-15@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Hare - Lokal jagttid
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20251216
-DESCRIPTION:Område: Øen Femø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-lok-16@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Fasanhøne - Lokal jagttid
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20251103
-DESCRIPTION:Område: Øen Femø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-lok-17@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Fasanhane - Lokal jagttid
-DTSTART;VALUE=DATE:20251016
-DTEND;VALUE=DATE:20260101
-DESCRIPTION:Område: Øen Femø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-lok-18@luka2945
-DTSTAMP:20260306T184109Z
+DTSTAMP:20260306T193140Z
 SUMMARY:Agerhøne - Lokal jagttid
 DTSTART;VALUE=DATE:20250916
 DTEND;VALUE=DATE:20251016
-DESCRIPTION:Område: Region Syddanmark - lokale jagttider\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
 URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-lok-19@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Agerhøne - Lokal jagttid
-DTSTART;VALUE=DATE:20250916
-DTEND;VALUE=DATE:20251016
-DESCRIPTION:Område: Region Syddanmark undtagen Mandø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-lok-20@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Hare - Lokal jagttid
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20260116
-DESCRIPTION:Område: Region Syddanmark vest for Lillebælt undtagen Als og Kegnæs\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-lok-21@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Råvildt - Lokal jagttid
-DTSTART;VALUE=DATE:20251001
-DTEND;VALUE=DATE:20251016
-DESCRIPTION:Område: Øen Lyø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-lok-22@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Råbuk - Lokal jagttid
-DTSTART;VALUE=DATE:20260616
-DTEND;VALUE=DATE:20260716
-DESCRIPTION:Område: Øen Ærø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-lok-23@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Råbuk - Lokal jagttid
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20251201
-DESCRIPTION:Område: Øen Ærø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-lok-24@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Rå og – lam - Lokal jagttid
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20251201
-DESCRIPTION:Område: Øen Ærø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-lok-25@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Råbuk - Lokal jagttid
-DTSTART;VALUE=DATE:20260516
-DTEND;VALUE=DATE:20260716
-DESCRIPTION:Område: Øen Als\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-lok-26@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Råbuk - Lokal jagttid
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20260101
-DESCRIPTION:Område: Øen Als\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-lok-27@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Rå og – lam - Lokal jagttid
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20260101
-DESCRIPTION:Område: Øen Als\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-lok-28@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Hare - Lokal jagttid
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20251216
-DESCRIPTION:Område: Øen Als\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-lok-29@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Fasan - Lokal jagttid
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20260101
-DESCRIPTION:Område: Øen Als\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-lok-30@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Skovsneppe - Lokal jagttid
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20260101
-DESCRIPTION:Område: Øen Als\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-lok-31@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Hare - Lokal jagttid
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20260116
-DESCRIPTION:Område: Region Midtjylland - lokale jagttider\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-lok-32@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Agerhøne - Lokal jagttid
-DTSTART;VALUE=DATE:20250916
-DTEND;VALUE=DATE:20251016
-DESCRIPTION:Område: Region Midtjylland - lokale jagttider\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-lok-33@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Hare - Lokal jagttid
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20260116
-DESCRIPTION:Område: Region Nordjylland - lokale jagttider\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-lok-34@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Agerhøne - Lokal jagttid
-DTSTART;VALUE=DATE:20250916
-DTEND;VALUE=DATE:20251016
-DESCRIPTION:Område: Region Nordjylland - lokale jagttider\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-lok-35@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Hare - Lokal jagttid
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20260116
-DESCRIPTION:Område: Hele regionen\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-lok-36@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Agerhøne - Lokal jagttid
-DTSTART;VALUE=DATE:20250916
-DTEND;VALUE=DATE:20251016
-DESCRIPTION:Område: Hele regionen\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-spec-37@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Fasanhane - Lokal jagttid
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20251102
-DESCRIPTION:Område: Øen Strynø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-spec-38@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Fasanhane - Lokal jagttid
-DTSTART;VALUE=DATE:20251108
-DTEND;VALUE=DATE:20251109
-DESCRIPTION:Område: Øen Strynø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-spec-39@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Fasanhane - Lokal jagttid
-DTSTART;VALUE=DATE:20251206
-DTEND;VALUE=DATE:20251207
-DESCRIPTION:Område: Øen Strynø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-spec-40@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Fasanhane - Lokal jagttid
-DTSTART;VALUE=DATE:20251213
-DTEND;VALUE=DATE:20251214
-DESCRIPTION:Område: Øen Strynø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-spec-41@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Fasanhane - Lokal jagttid
-DTSTART;VALUE=DATE:20251220
-DTEND;VALUE=DATE:20251221
-DESCRIPTION:Område: Øen Strynø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-spec-42@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Fasanhane - Lokal jagttid
-DTSTART;VALUE=DATE:20251227
-DTEND;VALUE=DATE:20251228
-DESCRIPTION:Område: Øen Strynø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-nohunt-43@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Agerhøne - Ingen jagttid
-DTSTART;VALUE=DATE:20250916
-DTEND;VALUE=DATE:20251101
-DESCRIPTION:Område: Øen Femø\nLokal regel: ingen jagttid\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-nohunt-44@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Hare - Ingen jagttid
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Øen Strynø\nLokal regel: ingen jagttid\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-nohunt-45@luka2945
-DTSTAMP:20260306T184109Z
-SUMMARY:Agerhøne - Ingen jagttid
-DTSTART;VALUE=DATE:20250916
-DTEND;VALUE=DATE:20251101
-DESCRIPTION:Område: Øen Mandø\nLokal regel: ingen jagttid\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-46@luka2945
-DTSTAMP:20260306T184110Z
+UID:jagttid-2026-lok-8@luka2945
+DTSTAMP:20260306T193140Z
 SUMMARY:Sølvmåge - Lokal jagttid
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region hovedstaden - lokale jagttider\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+DESCRIPTION:Område: Region hovedstaden\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
 URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-47@luka2945
-DTSTAMP:20260306T184110Z
+UID:jagttid-2026-lok-9@luka2945
+DTSTAMP:20260306T193140Z
 SUMMARY:Sølvmåge - Lokal jagttid
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Dragør Kommune\, Tårnby Kommune\, Københavns Kommune\, Hvidovre Kommune\, Vallensbæk Kommune\, Brøndby Kommune og Ishøj Kommune\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+DESCRIPTION:Område: Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
 URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-48@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Sølvmåge - Lokal jagttid
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-49@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Sølvmåge - Lokal jagttid
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Greve Kommune\, Solrød Kommune\, Køge Kommune\, Ringsted Kommune\, Sorø Kommune\, Slagelse Kommune\, Næstved Kommune\, Faxe Kommune\, Stevns Kommune\, Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-50@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Sædgås - Lokal jagttid
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20261201
-DESCRIPTION:Gæs må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nOmråde: Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-51@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Råbuk - Lokal jagttid
-DTSTART;VALUE=DATE:20270516
-DTEND;VALUE=DATE:20270616
-DESCRIPTION:Område: Øen Sejerø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-52@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Råbuk - Lokal jagttid
-DTSTART;VALUE=DATE:20261201
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Øen Sejerø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-53@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Rå og – lam - Lokal jagttid
-DTSTART;VALUE=DATE:20261201
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Øen Sejerø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-54@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Hare - Lokal jagttid
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261216
-DESCRIPTION:Område: Øen Sejerø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-55@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Agerhøne - Lokal jagttid
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261016
-DESCRIPTION:Område: Øen Sejerø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-56@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Fasanhøne - Lokal jagttid
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261201
-DESCRIPTION:Område: Øen Sejerø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-57@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Fasanhane - Lokal jagttid
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Øen Sejerø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-58@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Hare - Lokal jagttid
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20270116
-DESCRIPTION:Område: Øen Fejø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-59@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Fasanhane - Lokal jagttid
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261201
-DESCRIPTION:Område: Øen Fejø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-60@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Hare - Lokal jagttid
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261216
-DESCRIPTION:Område: Øen Femø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-61@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Fasanhøne - Lokal jagttid
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261103
-DESCRIPTION:Område: Øen Femø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-62@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Fasanhane - Lokal jagttid
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20270101
-DESCRIPTION:Område: Øen Femø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-63@luka2945
-DTSTAMP:20260306T184110Z
+UID:jagttid-2026-lok-10@luka2945
+DTSTAMP:20260306T193140Z
 SUMMARY:Agerhøne - Lokal jagttid
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20261016
-DESCRIPTION:Område: Region Syddanmark - lokale jagttider\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+DESCRIPTION:Område: Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
 URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-64@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Agerhøne - Lokal jagttid
-DTSTART;VALUE=DATE:20260916
-DTEND;VALUE=DATE:20261016
-DESCRIPTION:Område: Region Syddanmark undtagen Mandø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-65@luka2945
-DTSTAMP:20260306T184110Z
+UID:jagttid-2026-lok-11@luka2945
+DTSTAMP:20260306T193140Z
 SUMMARY:Hare - Lokal jagttid
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270116
-DESCRIPTION:Område: Region Syddanmark vest for Lillebælt undtagen Als og Kegnæs\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+DESCRIPTION:Område: Region Midtjylland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
 URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-66@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Råvildt - Lokal jagttid
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261016
-DESCRIPTION:Område: Øen Lyø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-67@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Råbuk - Lokal jagttid
-DTSTART;VALUE=DATE:20270616
-DTEND;VALUE=DATE:20270716
-DESCRIPTION:Område: Øen Ærø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-68@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Råbuk - Lokal jagttid
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261201
-DESCRIPTION:Område: Øen Ærø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-69@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Rå og – lam - Lokal jagttid
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261201
-DESCRIPTION:Område: Øen Ærø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-70@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Råbuk - Lokal jagttid
-DTSTART;VALUE=DATE:20270516
-DTEND;VALUE=DATE:20270716
-DESCRIPTION:Område: Øen Als\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-71@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Råbuk - Lokal jagttid
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20270101
-DESCRIPTION:Område: Øen Als\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-72@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Rå og – lam - Lokal jagttid
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20270101
-DESCRIPTION:Område: Øen Als\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-73@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Hare - Lokal jagttid
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261216
-DESCRIPTION:Område: Øen Als\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-74@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Fasan - Lokal jagttid
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20270101
-DESCRIPTION:Område: Øen Als\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-75@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Skovsneppe - Lokal jagttid
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20270101
-DESCRIPTION:Område: Øen Als\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-76@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Hare - Lokal jagttid
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20270116
-DESCRIPTION:Område: Region Midtjylland - lokale jagttider\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-77@luka2945
-DTSTAMP:20260306T184110Z
+UID:jagttid-2026-lok-12@luka2945
+DTSTAMP:20260306T193140Z
 SUMMARY:Agerhøne - Lokal jagttid
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20261016
-DESCRIPTION:Område: Region Midtjylland - lokale jagttider\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+DESCRIPTION:Område: Region Midtjylland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
 URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-78@luka2945
-DTSTAMP:20260306T184110Z
+UID:jagttid-2026-lok-13@luka2945
+DTSTAMP:20260306T193140Z
 SUMMARY:Hare - Lokal jagttid
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270116
-DESCRIPTION:Område: Region Nordjylland - lokale jagttider\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
 URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-79@luka2945
-DTSTAMP:20260306T184110Z
+UID:jagttid-2026-lok-14@luka2945
+DTSTAMP:20260306T193140Z
 SUMMARY:Agerhøne - Lokal jagttid
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20261016
-DESCRIPTION:Område: Region Nordjylland - lokale jagttider\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-80@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Hare - Lokal jagttid
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20270116
-DESCRIPTION:Område: Hele regionen\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-81@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Agerhøne - Lokal jagttid
-DTSTART;VALUE=DATE:20260916
-DTEND;VALUE=DATE:20261016
-DESCRIPTION:Område: Hele regionen\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-spec-82@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Fasanhane - Lokal jagttid
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-DESCRIPTION:Område: Øen Strynø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-spec-83@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Fasanhane - Lokal jagttid
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-DESCRIPTION:Område: Øen Strynø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-spec-84@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Fasanhane - Lokal jagttid
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261206
-DESCRIPTION:Område: Øen Strynø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-spec-85@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Fasanhane - Lokal jagttid
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261213
-DESCRIPTION:Område: Øen Strynø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-spec-86@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Fasanhane - Lokal jagttid
-DTSTART;VALUE=DATE:20261219
-DTEND;VALUE=DATE:20261220
-DESCRIPTION:Område: Øen Strynø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-spec-87@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Fasanhane - Lokal jagttid
-DTSTART;VALUE=DATE:20261226
-DTEND;VALUE=DATE:20261227
-DESCRIPTION:Område: Øen Strynø\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-nohunt-88@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Agerhøne - Ingen jagttid
-DTSTART;VALUE=DATE:20260916
-DTEND;VALUE=DATE:20261101
-DESCRIPTION:Område: Øen Femø\nLokal regel: ingen jagttid\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-nohunt-89@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Hare - Ingen jagttid
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Øen Strynø\nLokal regel: ingen jagttid\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
-URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-nohunt-90@luka2945
-DTSTAMP:20260306T184110Z
-SUMMARY:Agerhøne - Ingen jagttid
-DTSTART;VALUE=DATE:20260916
-DTEND;VALUE=DATE:20261101
-DESCRIPTION:Område: Øen Mandø\nLokal regel: ingen jagttid\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
 URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
 END:VEVENT
 END:VCALENDAR
