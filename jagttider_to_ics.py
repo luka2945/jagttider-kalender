@@ -221,11 +221,9 @@ def clean_species_name(s: str) -> str:
 def get_species_meta(species_name: str, species_meta: dict) -> dict:
     key = normalize_species(species_name)
 
-    # exact match
     if key in species_meta:
         return species_meta[key]
 
-    # partial match, fx "and" matcher "gråand"
     for meta_key, meta_val in species_meta.items():
         mk = normalize_species(meta_key)
         if mk and mk in key:
@@ -363,7 +361,6 @@ def parse_local(html: str, season_year: int) -> tuple[list[SeasonRange], list[No
     no_hunting: list[NoHuntingMarker] = []
     specials: list[SpecialDayRule] = []
 
-    # Kun region-blokke
     region_headings = []
     for h in soup.find_all(["h2", "h3", "h4"]):
         txt = " ".join(h.get_text(" ", strip=True).split())
@@ -507,37 +504,6 @@ def area_allowed(area: str | None, include_kw: list[str], exclude_kw: list[str])
 
 
 # -----------------------
-# Local no-hunting duration helper
-# -----------------------
-def find_local_parent_ranges_for_species(
-    no_hunt_area: str,
-    species: str,
-    local_ranges: list[SeasonRange]
-) -> list[SeasonRange]:
-    """
-    If no_hunt_area is "Region Midtjylland | Øen Endelave",
-    use local ranges for same species in parent region "Region Midtjylland".
-    """
-    region_name, _sub = split_area(no_hunt_area)
-    species_key = normalize_species(species)
-
-    out = []
-    for r in local_ranges:
-        if normalize_species(r.species) != species_key:
-            continue
-
-        r_region, r_sub = split_area(r.area)
-        if r_region != region_name:
-            continue
-
-        # Use only parent region rows
-        if r_sub is None:
-            out.append(r)
-
-    return out
-
-
-# -----------------------
 # Main
 # -----------------------
 def main() -> None:
@@ -580,6 +546,10 @@ def main() -> None:
             season_year = base_season_year + i
 
             general_ranges = parse_general(general_html, season_year)
+
+            general_by_species: dict[str, list[SeasonRange]] = {}
+            for gr in general_ranges:
+                general_by_species.setdefault(normalize_species(gr.species), []).append(gr)
 
             if not use_local:
                 # GENEREL kalender
@@ -672,22 +642,17 @@ def main() -> None:
                             url=local_url
                         ))
 
-                # no-hunting events -> use LOCAL parent-region duration
+                # no-hunting events -> use GENERAL duration for same species
                 if emit_no_hunting:
                     for nh in no_hunting:
                         if not area_allowed(nh.area, include_area, exclude_area):
                             continue
 
-                        parent_local_ranges = find_local_parent_ranges_for_species(
-                            no_hunt_area=nh.area,
-                            species=nh.species,
-                            local_ranges=local_ranges
-                        )
-
-                        if not parent_local_ranges:
+                        general_list = general_by_species.get(normalize_species(nh.species), [])
+                        if not general_list:
                             continue
 
-                        for lr in parent_local_ranges:
+                        for gr in general_list:
                             uid_counter += 1
                             meta = get_species_meta(nh.species, species_meta)
                             img = meta.get("image_url", "")
@@ -698,8 +663,9 @@ def main() -> None:
                                 desc_parts.append(notes)
                             desc_parts.append(f"Område: {display_area(nh.area)}")
                             desc_parts.append("Lokal regel: ingen jagttid")
-                            desc_parts.append("Varighed hentet fra lokal jagttid for samme dyr i samme region")
+                            desc_parts.append("Varighed hentet fra generel jagttid for samme dyr")
                             desc_parts.append(f"Kilde (lokal): {local_url}")
+                            desc_parts.append(f"Kilde (generel): {general_url}")
                             if img:
                                 desc_parts.append(f"Billede: {img}")
                             if local_map_image_url:
@@ -709,8 +675,8 @@ def main() -> None:
                             events.append(build_event(
                                 uid=uid,
                                 summary=f"{nh.species} - Ingen jagttid",
-                                start=lr.start,
-                                end_inclusive=lr.end_inclusive,
+                                start=gr.start,
+                                end_inclusive=gr.end_inclusive,
                                 description="\n".join(desc_parts),
                                 url=local_url
                             ))
