@@ -4,7 +4,7 @@
   "use_local": true,
 
   "filters": {
-    "include_area_keywords": ["Region Midtjylland"],
+    "include_area_keywords": ["Region Midtjylland", "Endelave"],
     "exclude_area_keywords": []
   },
 
