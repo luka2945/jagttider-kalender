@@ -4,7 +4,8 @@
   "use_local": true,
 
   "filters": {
-    "include_area_keywords": ["Region Hovedstaden", "Region hovedstaden"],
+    "include_area_keywords": ["Region Hovedstaden", "Region hovedstaden",
+      "Bornholm", "Bornholms Kommune"],
     "exclude_area_keywords": []
   },
 
