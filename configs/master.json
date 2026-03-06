@@ -15,6 +15,14 @@
     "and": {
       "image_url": "https://alt-om-webdesign.dk/wp-content/uploads/artikler/photoshop/flyt-mellem-billeder/rubberduck.jpg",
       "notes": "Ænder må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
+    },
+    "Krage": {
+      "image_url": "",
+      "notes": "Gråkrage og sortkrage må jages 1 time før solopgang til solnedgang."
+    },
+    "Husskade": {
+      "image_url": "",
+      "notes": "Husskade må jages 1 time før solopgang til solnedgang."
     }
   }
 }
