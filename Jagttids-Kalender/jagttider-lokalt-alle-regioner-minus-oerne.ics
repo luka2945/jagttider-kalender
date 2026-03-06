@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Jagttider – Lokalt (Alle regioner\, minus øerne)
 BEGIN:VEVENT
 UID:jagttid-2025-lok-1@luka2945
-DTSTAMP:20260306T131024Z
+DTSTAMP:20260306T131535Z
 SUMMARY:Sølvmåge (Lokalt)
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260201
@@ -14,7 +14,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-2@luka2945
-DTSTAMP:20260306T131024Z
+DTSTAMP:20260306T131535Z
 SUMMARY:Sølvmåge (Lokalt)
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260201
@@ -23,7 +23,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-3@luka2945
-DTSTAMP:20260306T131024Z
+DTSTAMP:20260306T131535Z
 SUMMARY:Agerhøne (Lokalt)
 DTSTART;VALUE=DATE:20250916
 DTEND;VALUE=DATE:20251016
@@ -32,7 +32,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-4@luka2945
-DTSTAMP:20260306T131024Z
+DTSTAMP:20260306T131535Z
 SUMMARY:Hare (Lokalt)
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260116
@@ -41,7 +41,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-5@luka2945
-DTSTAMP:20260306T131024Z
+DTSTAMP:20260306T131535Z
 SUMMARY:Hare (Lokalt)
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260116
@@ -50,7 +50,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-6@luka2945
-DTSTAMP:20260306T131024Z
+DTSTAMP:20260306T131535Z
 SUMMARY:Agerhøne (Lokalt)
 DTSTART;VALUE=DATE:20250916
 DTEND;VALUE=DATE:20251016
@@ -59,7 +59,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-7@luka2945
-DTSTAMP:20260306T131024Z
+DTSTAMP:20260306T131535Z
 SUMMARY:Hare (Lokalt)
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260116
@@ -68,7 +68,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-8@luka2945
-DTSTAMP:20260306T131024Z
+DTSTAMP:20260306T131535Z
 SUMMARY:Agerhøne (Lokalt)
 DTSTART;VALUE=DATE:20250916
 DTEND;VALUE=DATE:20251016
@@ -77,7 +77,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-9@luka2945
-DTSTAMP:20260306T131025Z
+DTSTAMP:20260306T131536Z
 SUMMARY:Sølvmåge (Lokalt)
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270201
@@ -86,7 +86,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-10@luka2945
-DTSTAMP:20260306T131025Z
+DTSTAMP:20260306T131536Z
 SUMMARY:Sølvmåge (Lokalt)
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270201
@@ -95,7 +95,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-11@luka2945
-DTSTAMP:20260306T131025Z
+DTSTAMP:20260306T131536Z
 SUMMARY:Agerhøne (Lokalt)
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20261016
@@ -104,7 +104,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-12@luka2945
-DTSTAMP:20260306T131025Z
+DTSTAMP:20260306T131536Z
 SUMMARY:Hare (Lokalt)
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270116
@@ -113,7 +113,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-13@luka2945
-DTSTAMP:20260306T131025Z
+DTSTAMP:20260306T131536Z
 SUMMARY:Hare (Lokalt)
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270116
@@ -122,7 +122,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-14@luka2945
-DTSTAMP:20260306T131025Z
+DTSTAMP:20260306T131536Z
 SUMMARY:Agerhøne (Lokalt)
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20261016
@@ -131,7 +131,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-15@luka2945
-DTSTAMP:20260306T131025Z
+DTSTAMP:20260306T131536Z
 SUMMARY:Hare (Lokalt)
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270116
@@ -140,7 +140,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-16@luka2945
-DTSTAMP:20260306T131025Z
+DTSTAMP:20260306T131536Z
 SUMMARY:Agerhøne (Lokalt)
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20261016
