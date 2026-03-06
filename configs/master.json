@@ -3,7 +3,7 @@
   "local_url": "https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/",
   "user_agent": "Mozilla/5.0 (JagttiderICSBot; +https://github.com/luka2945/jagttider-kalender)",
 
-  "seasons_ahead": 2,
+  "seasons_ahead": 4,
 
   "local_map_image_url": "https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png",
 
