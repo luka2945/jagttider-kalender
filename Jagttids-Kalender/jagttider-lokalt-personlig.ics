@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Jagttider – Lokalt (Personlig)
 BEGIN:VEVENT
 UID:jagttid-2025-base-1@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Gråand (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260101
@@ -14,7 +14,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-2@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Atlingand (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260101
@@ -23,7 +23,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-3@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Krikand (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260101
@@ -32,7 +32,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-4@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Spidsand (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260101
@@ -41,7 +41,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-5@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Pibeand (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260101
@@ -50,7 +50,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-6@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Skeand (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260101
@@ -59,7 +59,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-7@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Knarand (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260101
@@ -68,7 +68,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-8@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Grågås (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
@@ -77,7 +77,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-9@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Grågås på omdriftsarealer eller i umiddelbar tilknytning hertil* (Generel)
 DTSTART;VALUE=DATE:20250801
 DTEND;VALUE=DATE:20250901
@@ -86,7 +86,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-10@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Blisgås (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
@@ -95,7 +95,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-11@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Kortnæbbet gås**** (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
@@ -104,7 +104,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-12@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Canadagås (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
@@ -113,7 +113,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-13@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Canadagås på omdriftsarealer eller i umiddelbar tilknytning hertil* (Generel)
 DTSTART;VALUE=DATE:20250801
 DTEND;VALUE=DATE:20250901
@@ -122,7 +122,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-14@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Troldand (Generel)
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
@@ -131,7 +131,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-15@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Bjergand (Generel)
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
@@ -140,7 +140,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-16@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Hvinand (Generel)
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
@@ -149,7 +149,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-17@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Ederfugl - han (Generel)
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
@@ -158,7 +158,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-18@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Sortand (Generel)
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
@@ -167,7 +167,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-19@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Agerhøne** (Generel)
 DTSTART;VALUE=DATE:20250916
 DTEND;VALUE=DATE:20251101
@@ -176,7 +176,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-20@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Fasan** (Generel)
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
@@ -185,7 +185,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-21@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Blishøne (Generel)
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
@@ -194,7 +194,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-22@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Dobbeltbekkasin (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260101
@@ -203,7 +203,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-23@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Skovsneppe** (Generel)
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
@@ -212,7 +212,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-24@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Sølvmåge** (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
@@ -221,7 +221,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-25@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Ringdue (Generel)
 DTSTART;VALUE=DATE:20251111
 DTEND;VALUE=DATE:20260201
@@ -230,7 +230,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-26@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Husskade (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
@@ -239,7 +239,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-27@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Krage (gråkrage og sortkrage) (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
@@ -248,7 +248,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-28@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Kronhjort større end spidshjort* (Generel)
 DTSTART;VALUE=DATE:20251016
 DTEND;VALUE=DATE:20260101
@@ -257,7 +257,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-29@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Kronspidshjort* (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
@@ -266,7 +266,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-30@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Kronhind* (Generel)
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
@@ -275,7 +275,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-31@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Dåhjort** (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
@@ -284,7 +284,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-32@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Då og -kalv** (Generel)
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
@@ -293,7 +293,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-33@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Sikahjort (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
@@ -302,7 +302,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-34@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Sikahind og - kalv (Generel)
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
@@ -311,7 +311,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-35@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Råbuk*** (Generel)
 DTSTART;VALUE=DATE:20260516
 DTEND;VALUE=DATE:20250716
@@ -320,7 +320,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-36@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Råbuk*** (Generel)
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
@@ -329,7 +329,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-37@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Rå og -lam*** (Generel)
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
@@ -338,7 +338,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-38@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Muflonvædder (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
@@ -347,7 +347,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-39@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Muflonfår og -lam (Generel)
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
@@ -356,7 +356,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-40@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Vildsvin\, orne (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
@@ -365,7 +365,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-41@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Vildsvin\, so og grise (Generel)
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
@@ -374,7 +374,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-42@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Ræv** (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
@@ -383,7 +383,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-43@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Hare** (Generel)
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260201
@@ -392,7 +392,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-44@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Vildkanin (Generel)
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260201
@@ -401,7 +401,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-45@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Nilgås* (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
@@ -410,7 +410,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-46@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Bisamrotte* (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
@@ -419,7 +419,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-47@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Sumpbæver* (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
@@ -428,7 +428,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-48@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Vaskebjørn* (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
@@ -437,7 +437,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-49@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Mårhund* (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
@@ -446,7 +446,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-base-50@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Mink* (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
@@ -455,7 +455,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-51@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Sølvmåge (Lokalt)
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260201
@@ -464,7 +464,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-52@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Sølvmåge (Lokalt)
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260201
@@ -473,7 +473,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-53@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Sølvmåge (Lokalt)
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260201
@@ -482,7 +482,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-54@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Sølvmåge (Lokalt)
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260201
@@ -491,7 +491,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-55@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Sædgås (Lokalt)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20251201
@@ -500,7 +500,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-56@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Råbuk (Lokalt)
 DTSTART;VALUE=DATE:20260516
 DTEND;VALUE=DATE:20260616
@@ -509,7 +509,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-57@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Råbuk (Lokalt)
 DTSTART;VALUE=DATE:20251201
 DTEND;VALUE=DATE:20260201
@@ -518,7 +518,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-58@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Rå og – lam (Lokalt)
 DTSTART;VALUE=DATE:20251201
 DTEND;VALUE=DATE:20260201
@@ -527,7 +527,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-59@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Hare (Lokalt)
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20251216
@@ -536,7 +536,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-60@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Agerhøne (Lokalt)
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20251016
@@ -545,7 +545,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-61@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Fasanhøne (Lokalt)
 DTSTART;VALUE=DATE:20251116
 DTEND;VALUE=DATE:20251201
@@ -554,7 +554,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-62@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Fasanhane (Lokalt)
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260201
@@ -563,7 +563,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-63@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Hare (Lokalt)
 DTSTART;VALUE=DATE:20251116
 DTEND;VALUE=DATE:20260116
@@ -572,7 +572,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-64@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Fasanhane (Lokalt)
 DTSTART;VALUE=DATE:20251016
 DTEND;VALUE=DATE:20251201
@@ -581,7 +581,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-65@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Hare (Lokalt)
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20251216
@@ -590,7 +590,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-66@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Fasanhøne (Lokalt)
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20251103
@@ -599,7 +599,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-67@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Fasanhane (Lokalt)
 DTSTART;VALUE=DATE:20251016
 DTEND;VALUE=DATE:20260101
@@ -608,7 +608,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-68@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Agerhøne (Lokalt)
 DTSTART;VALUE=DATE:20250916
 DTEND;VALUE=DATE:20251016
@@ -617,7 +617,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-69@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Agerhøne (Lokalt)
 DTSTART;VALUE=DATE:20250916
 DTEND;VALUE=DATE:20251016
@@ -626,7 +626,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-70@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Hare (Lokalt)
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260116
@@ -635,7 +635,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-71@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Råvildt (Lokalt)
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20251016
@@ -644,7 +644,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-72@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Råbuk (Lokalt)
 DTSTART;VALUE=DATE:20260616
 DTEND;VALUE=DATE:20250716
@@ -653,7 +653,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-73@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Råbuk (Lokalt)
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20251201
@@ -662,7 +662,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-74@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Rå og – lam (Lokalt)
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20251201
@@ -671,7 +671,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-75@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Råbuk (Lokalt)
 DTSTART;VALUE=DATE:20260516
 DTEND;VALUE=DATE:20250716
@@ -680,7 +680,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-76@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Råbuk (Lokalt)
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260101
@@ -689,7 +689,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-77@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Rå og – lam (Lokalt)
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260101
@@ -698,7 +698,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-78@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Hare (Lokalt)
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20251216
@@ -707,7 +707,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-79@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Fasan (Lokalt)
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260101
@@ -716,7 +716,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-80@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Skovsneppe (Lokalt)
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260101
@@ -725,7 +725,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-81@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Hare (Lokalt)
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260116
@@ -734,7 +734,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-82@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Agerhøne (Lokalt)
 DTSTART;VALUE=DATE:20250916
 DTEND;VALUE=DATE:20251016
@@ -743,7 +743,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-83@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Hare (Lokalt)
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260116
@@ -752,7 +752,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-84@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Agerhøne (Lokalt)
 DTSTART;VALUE=DATE:20250916
 DTEND;VALUE=DATE:20251016
@@ -761,7 +761,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-85@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Hare (Lokalt)
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260116
@@ -770,7 +770,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-86@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Agerhøne (Lokalt)
 DTSTART;VALUE=DATE:20250916
 DTEND;VALUE=DATE:20251016
@@ -779,7 +779,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-spec-87@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Fasanhane (Lokalt – særlige dage)
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20251102
@@ -788,7 +788,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-spec-88@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Fasanhane (Lokalt – særlige dage)
 DTSTART;VALUE=DATE:20251108
 DTEND;VALUE=DATE:20251109
@@ -797,7 +797,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-spec-89@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Fasanhane (Lokalt – særlige dage)
 DTSTART;VALUE=DATE:20251206
 DTEND;VALUE=DATE:20251207
@@ -806,7 +806,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-spec-90@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Fasanhane (Lokalt – særlige dage)
 DTSTART;VALUE=DATE:20251213
 DTEND;VALUE=DATE:20251214
@@ -815,7 +815,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-spec-91@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Fasanhane (Lokalt – særlige dage)
 DTSTART;VALUE=DATE:20251220
 DTEND;VALUE=DATE:20251221
@@ -824,7 +824,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-spec-92@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Fasanhane (Lokalt – særlige dage)
 DTSTART;VALUE=DATE:20251227
 DTEND;VALUE=DATE:20251228
@@ -833,7 +833,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-93@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Gråand (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270101
@@ -842,7 +842,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-94@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Atlingand (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270101
@@ -851,7 +851,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-95@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Krikand (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270101
@@ -860,7 +860,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-96@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Spidsand (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270101
@@ -869,7 +869,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-97@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Pibeand (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270101
@@ -878,7 +878,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-98@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Skeand (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270101
@@ -887,7 +887,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-99@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Knarand (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270101
@@ -896,7 +896,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-100@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Grågås (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
@@ -905,7 +905,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-101@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Grågås på omdriftsarealer eller i umiddelbar tilknytning hertil* (Generel)
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260901
@@ -914,7 +914,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-102@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Blisgås (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
@@ -923,7 +923,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-103@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Kortnæbbet gås**** (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
@@ -932,7 +932,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-104@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Canadagås (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
@@ -941,7 +941,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-105@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Canadagås på omdriftsarealer eller i umiddelbar tilknytning hertil* (Generel)
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260901
@@ -950,7 +950,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-106@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Troldand (Generel)
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
@@ -959,7 +959,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-107@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Bjergand (Generel)
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
@@ -968,7 +968,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-108@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Hvinand (Generel)
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
@@ -977,7 +977,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-109@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Ederfugl - han (Generel)
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
@@ -986,7 +986,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-110@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Sortand (Generel)
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
@@ -995,7 +995,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-111@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Agerhøne** (Generel)
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20261101
@@ -1004,7 +1004,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-112@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Fasan** (Generel)
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
@@ -1013,7 +1013,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-113@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Blishøne (Generel)
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
@@ -1022,7 +1022,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-114@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Dobbeltbekkasin (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270101
@@ -1031,7 +1031,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-115@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Skovsneppe** (Generel)
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
@@ -1040,7 +1040,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-116@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Sølvmåge** (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
@@ -1049,7 +1049,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-117@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Ringdue (Generel)
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20270201
@@ -1058,7 +1058,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-118@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Husskade (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
@@ -1067,7 +1067,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-119@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Krage (gråkrage og sortkrage) (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
@@ -1076,7 +1076,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-120@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Kronhjort større end spidshjort* (Generel)
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20270101
@@ -1085,7 +1085,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-121@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Kronspidshjort* (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
@@ -1094,7 +1094,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-122@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Kronhind* (Generel)
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
@@ -1103,7 +1103,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-123@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Dåhjort** (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
@@ -1112,7 +1112,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-124@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Då og -kalv** (Generel)
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
@@ -1121,7 +1121,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-125@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Sikahjort (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
@@ -1130,7 +1130,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-126@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Sikahind og - kalv (Generel)
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
@@ -1139,7 +1139,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-127@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Råbuk*** (Generel)
 DTSTART;VALUE=DATE:20270516
 DTEND;VALUE=DATE:20260716
@@ -1148,7 +1148,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-128@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Råbuk*** (Generel)
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
@@ -1157,7 +1157,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-129@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Rå og -lam*** (Generel)
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
@@ -1166,7 +1166,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-130@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Muflonvædder (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
@@ -1175,7 +1175,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-131@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Muflonfår og -lam (Generel)
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
@@ -1184,7 +1184,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-132@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Vildsvin\, orne (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
@@ -1193,7 +1193,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-133@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Vildsvin\, so og grise (Generel)
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
@@ -1202,7 +1202,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-134@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Ræv** (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
@@ -1211,7 +1211,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-135@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Hare** (Generel)
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270201
@@ -1220,7 +1220,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-136@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Vildkanin (Generel)
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270201
@@ -1229,7 +1229,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-137@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Nilgås* (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
@@ -1238,7 +1238,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-138@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Bisamrotte* (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
@@ -1247,7 +1247,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-139@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Sumpbæver* (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
@@ -1256,7 +1256,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-140@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Vaskebjørn* (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
@@ -1265,7 +1265,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-141@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Mårhund* (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
@@ -1274,7 +1274,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-base-142@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Mink* (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
@@ -1283,7 +1283,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-143@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Sølvmåge (Lokalt)
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270201
@@ -1292,7 +1292,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-144@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Sølvmåge (Lokalt)
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270201
@@ -1301,7 +1301,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-145@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Sølvmåge (Lokalt)
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270201
@@ -1310,7 +1310,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-146@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Sølvmåge (Lokalt)
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270201
@@ -1319,7 +1319,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-147@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Sædgås (Lokalt)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20261201
@@ -1328,7 +1328,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-148@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Råbuk (Lokalt)
 DTSTART;VALUE=DATE:20270516
 DTEND;VALUE=DATE:20270616
@@ -1337,7 +1337,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-149@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Råbuk (Lokalt)
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20270201
@@ -1346,7 +1346,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-150@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Rå og – lam (Lokalt)
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20270201
@@ -1355,7 +1355,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-151@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Hare (Lokalt)
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261216
@@ -1364,7 +1364,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-152@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Agerhøne (Lokalt)
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261016
@@ -1373,7 +1373,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-153@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Fasanhøne (Lokalt)
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261201
@@ -1382,7 +1382,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-154@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Fasanhane (Lokalt)
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270201
@@ -1391,7 +1391,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-155@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Hare (Lokalt)
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20270116
@@ -1400,7 +1400,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-156@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Fasanhane (Lokalt)
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261201
@@ -1409,7 +1409,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-157@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Hare (Lokalt)
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261216
@@ -1418,7 +1418,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-158@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Fasanhøne (Lokalt)
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261103
@@ -1427,7 +1427,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-159@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Fasanhane (Lokalt)
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20270101
@@ -1436,7 +1436,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-160@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Agerhøne (Lokalt)
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20261016
@@ -1445,7 +1445,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-161@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Agerhøne (Lokalt)
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20261016
@@ -1454,7 +1454,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-162@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Hare (Lokalt)
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270116
@@ -1463,7 +1463,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-163@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Råvildt (Lokalt)
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261016
@@ -1472,7 +1472,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-164@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Råbuk (Lokalt)
 DTSTART;VALUE=DATE:20270616
 DTEND;VALUE=DATE:20260716
@@ -1481,7 +1481,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-165@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Råbuk (Lokalt)
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261201
@@ -1490,7 +1490,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-166@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Rå og – lam (Lokalt)
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261201
@@ -1499,7 +1499,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-167@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Råbuk (Lokalt)
 DTSTART;VALUE=DATE:20270516
 DTEND;VALUE=DATE:20260716
@@ -1508,7 +1508,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-168@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Råbuk (Lokalt)
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270101
@@ -1517,7 +1517,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-169@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Rå og – lam (Lokalt)
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270101
@@ -1526,7 +1526,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-170@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Hare (Lokalt)
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261216
@@ -1535,7 +1535,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-171@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Fasan (Lokalt)
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270101
@@ -1544,7 +1544,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-172@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Skovsneppe (Lokalt)
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270101
@@ -1553,7 +1553,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-173@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Hare (Lokalt)
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270116
@@ -1562,7 +1562,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-174@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Agerhøne (Lokalt)
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20261016
@@ -1571,7 +1571,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-175@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Hare (Lokalt)
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270116
@@ -1580,7 +1580,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-176@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Agerhøne (Lokalt)
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20261016
@@ -1589,7 +1589,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-177@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Hare (Lokalt)
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270116
@@ -1598,7 +1598,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-178@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Agerhøne (Lokalt)
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20261016
@@ -1607,7 +1607,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-spec-179@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Fasanhane (Lokalt – særlige dage)
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
@@ -1616,7 +1616,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-spec-180@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Fasanhane (Lokalt – særlige dage)
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
@@ -1625,7 +1625,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-spec-181@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Fasanhane (Lokalt – særlige dage)
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
@@ -1634,7 +1634,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-spec-182@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Fasanhane (Lokalt – særlige dage)
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
@@ -1643,7 +1643,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-spec-183@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Fasanhane (Lokalt – særlige dage)
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
@@ -1652,7 +1652,7 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-spec-184@luka2945
-DTSTAMP:20260306T075209Z
+DTSTAMP:20260306T083326Z
 SUMMARY:Fasanhane (Lokalt – særlige dage)
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
