@@ -252,7 +252,6 @@ def split_area(area: str | None) -> tuple[str, str | None]:
 
 def display_area(area: str | None) -> str:
     """
-    Desired display:
     "Region Midtjylland | Øen Endelave" -> "Øen Endelave Region Midtjylland"
     "Region Midtjylland" -> "Region Midtjylland"
     """
@@ -364,7 +363,7 @@ def parse_local(html: str, season_year: int) -> tuple[list[SeasonRange], list[No
     no_hunting: list[NoHuntingMarker] = []
     specials: list[SpecialDayRule] = []
 
-    # Find only region block headings
+    # Kun region-blokke
     region_headings = []
     for h in soup.find_all(["h2", "h3", "h4"]):
         txt = " ".join(h.get_text(" ", strip=True).split())
@@ -395,21 +394,22 @@ def parse_local(html: str, season_year: int) -> tuple[list[SeasonRange], list[No
             if not cells:
                 continue
 
-            # single-cell rows can be area headings
+            # Underområde-rækker i tabellen
             if len(cells) == 1:
                 txt = cells[0].strip()
                 txt_low = txt.lower()
 
-                if txt and not RANGE_RE.search(txt.replace("–", "-")) and "ingen jagttid" not in txt_low:
-                    if txt_low.startswith("øen "):
-                        current_subarea = txt
-                        continue
-                    if "undtagen" in txt_low:
-                        current_subarea = txt
-                        continue
-                    if "hele regionen" in txt_low:
-                        current_subarea = region_name
-                        continue
+                if txt_low.startswith("øen "):
+                    current_subarea = txt
+                    continue
+
+                if "undtagen" in txt_low:
+                    current_subarea = txt
+                    continue
+
+                if "hele regionen" in txt_low:
+                    current_subarea = region_name
+                    continue
 
             if len(cells) < 2:
                 continue
@@ -515,10 +515,8 @@ def find_local_parent_ranges_for_species(
     local_ranges: list[SeasonRange]
 ) -> list[SeasonRange]:
     """
-    If no_hunt_area is e.g. "Region Midtjylland | Øen Endelave",
-    find local ranges for same species in parent region "Region Midtjylland".
-
-    If no_hunt_area is already just region, return ranges in same region.
+    If no_hunt_area is "Region Midtjylland | Øen Endelave",
+    use local ranges for same species in parent region "Region Midtjylland".
     """
     region_name, _sub = split_area(no_hunt_area)
     species_key = normalize_species(species)
@@ -532,7 +530,7 @@ def find_local_parent_ranges_for_species(
         if r_region != region_name:
             continue
 
-        # Prefer parent/root region rows only
+        # Use only parent region rows
         if r_sub is None:
             out.append(r)
 
@@ -674,7 +672,7 @@ def main() -> None:
                             url=local_url
                         ))
 
-                # no-hunting events -> use LOCAL parent-region duration for same species
+                # no-hunting events -> use LOCAL parent-region duration
                 if emit_no_hunting:
                     for nh in no_hunting:
                         if not area_allowed(nh.area, include_area, exclude_area):
