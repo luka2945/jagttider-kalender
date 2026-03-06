@@ -2,6 +2,7 @@
   "calendar_name": "Jagttider - Generel",
   "output_filename": "jagttider-generel.ics",
   "use_local": false,
+  
   "filters": {
     "include_area_keywords": [],
     "exclude_area_keywords": []
