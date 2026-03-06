@@ -8,13 +8,13 @@
   "local_map_image_url": "https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png",
 
   "species_meta": {
-    "ræv": {
+    "gås": {
       "image_url": "",
-      "notes": "Eksempel note: jagt evt. efter solnedgang afhænger af regler."
+      "notes": "Gæs må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
     },
     "and": {
       "image_url": "https://alt-om-webdesign.dk/wp-content/uploads/artikler/photoshop/flyt-mellem-billeder/rubberduck.jpg",
-      "notes": "Ænder og gæs må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
+      "notes": "Ænder må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
     }
   }
 }
