@@ -213,14 +213,18 @@ def normalize_species(s: str) -> str:
     return " ".join((s or "").strip().lower().split())
 
 
+def clean_species_name(s: str) -> str:
+    s = " ".join((s or "").strip().split())
+    s = re.sub(r"\s*\*+\s*$", "", s).strip()
+    return s
+
+
 def get_species_meta(species_name: str, species_meta: dict) -> dict:
     key = normalize_species(species_name)
 
-    # exact match
     if key in species_meta:
         return species_meta[key]
 
-    # partial match, fx "and" matcher "gråand"
     for meta_key, meta_val in species_meta.items():
         mk = normalize_species(meta_key)
         if mk and mk in key:
@@ -245,6 +249,8 @@ def parse_general(html: str, season_year: int) -> list[SeasonRange]:
                 continue
 
             species = " ".join(tds[0].get_text(" ", strip=True).split())
+            species = clean_species_name(species)
+
             period_text = " ".join(tds[1].get_text(" ", strip=True).split())
 
             if not species or not period_text:
@@ -351,6 +357,8 @@ def parse_local(html: str, season_year: int) -> tuple[list[SeasonRange], list[No
                 continue
 
             species = " ".join(tds[0].get_text(" ", strip=True).split())
+            species = clean_species_name(species)
+
             rule_text = " ".join(tds[1].get_text(" ", strip=True).split())
 
             if not species or not rule_text:
@@ -485,7 +493,7 @@ def main() -> None:
             for gr in general_ranges:
                 general_by_species.setdefault(normalize_species(gr.species), []).append(gr)
 
-            # GENEREL kalender: kun generelle events
+            # GENEREL kalender
             if not use_local:
                 for r in general_ranges:
                     uid_counter += 1
@@ -503,14 +511,14 @@ def main() -> None:
                     uid = f"jagttid-{season_year}-gen-{uid_counter}@luka2945"
                     events.append(build_event(
                         uid=uid,
-                        summary=f"{r.species} (Generel)",
+                        summary=f"{r.species} - Jagttid",
                         start=r.start,
                         end_inclusive=r.end_inclusive,
                         description="\n".join(desc_parts),
                         url=general_url
                     ))
 
-            # LOKAL kalender: kun lokale ting
+            # LOKAL kalender
             else:
                 local_ranges, no_hunting, specials = parse_local(local_html, season_year)
 
@@ -538,7 +546,7 @@ def main() -> None:
                     uid = f"jagttid-{season_year}-lok-{uid_counter}@luka2945"
                     events.append(build_event(
                         uid=uid,
-                        summary=f"{r.species} (Lokalt)",
+                        summary=f"{r.species} - Lokal jagttid",
                         start=r.start,
                         end_inclusive=r.end_inclusive,
                         description="\n".join(desc_parts),
@@ -569,7 +577,7 @@ def main() -> None:
                         uid = f"jagttid-{season_year}-spec-{uid_counter}@luka2945"
                         events.append(build_event(
                             uid=uid,
-                            summary=f"{sp.species} (Lokalt – særlige dage)",
+                            summary=f"{sp.species} - Lokal jagttid",
                             start=d,
                             end_inclusive=d,
                             description="\n".join(desc_parts),
@@ -607,7 +615,7 @@ def main() -> None:
                             uid = f"jagttid-{season_year}-nohunt-{uid_counter}@luka2945"
                             events.append(build_event(
                                 uid=uid,
-                                summary=f"INGEN jagttid: {nh.species} (Lokalt)",
+                                summary=f"{nh.species} - Ingen jagttid",
                                 start=gr.start,
                                 end_inclusive=gr.end_inclusive,
                                 description="\n".join(desc_parts),
