@@ -5,8 +5,8 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Jagttider – Lokalt (Region Midtjylland)
 BEGIN:VEVENT
 UID:jagttid-2025-lok-1@luka2945
-DTSTAMP:20260306T131538Z
-SUMMARY:Hare (Lokalt)
+DTSTAMP:20260306T184111Z
+SUMMARY:Hare - Lokal jagttid
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260116
 DESCRIPTION:Område: Region Midtjylland - lokale jagttider\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
@@ -14,8 +14,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-2@luka2945
-DTSTAMP:20260306T131538Z
-SUMMARY:Agerhøne (Lokalt)
+DTSTAMP:20260306T184111Z
+SUMMARY:Agerhøne - Lokal jagttid
 DTSTART;VALUE=DATE:20250916
 DTEND;VALUE=DATE:20251016
 DESCRIPTION:Område: Region Midtjylland - lokale jagttider\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
@@ -23,8 +23,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-3@luka2945
-DTSTAMP:20260306T131538Z
-SUMMARY:Hare (Lokalt)
+DTSTAMP:20260306T184111Z
+SUMMARY:Hare - Lokal jagttid
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260116
 DESCRIPTION:Område: Region Midtjylland undtagen Endelave\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
@@ -32,8 +32,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-4@luka2945
-DTSTAMP:20260306T131538Z
-SUMMARY:Agerhøne (Lokalt)
+DTSTAMP:20260306T184111Z
+SUMMARY:Agerhøne - Lokal jagttid
 DTSTART;VALUE=DATE:20250916
 DTEND;VALUE=DATE:20251016
 DESCRIPTION:Område: Region Midtjylland undtagen Endelave\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
@@ -41,8 +41,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-5@luka2945
-DTSTAMP:20260306T131539Z
-SUMMARY:Hare (Lokalt)
+DTSTAMP:20260306T184112Z
+SUMMARY:Hare - Lokal jagttid
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270116
 DESCRIPTION:Område: Region Midtjylland - lokale jagttider\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
@@ -50,8 +50,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-6@luka2945
-DTSTAMP:20260306T131539Z
-SUMMARY:Agerhøne (Lokalt)
+DTSTAMP:20260306T184112Z
+SUMMARY:Agerhøne - Lokal jagttid
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20261016
 DESCRIPTION:Område: Region Midtjylland - lokale jagttider\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
@@ -59,8 +59,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-7@luka2945
-DTSTAMP:20260306T131539Z
-SUMMARY:Hare (Lokalt)
+DTSTAMP:20260306T184112Z
+SUMMARY:Hare - Lokal jagttid
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270116
 DESCRIPTION:Område: Region Midtjylland undtagen Endelave\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
@@ -68,8 +68,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jag
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-8@luka2945
-DTSTAMP:20260306T131539Z
-SUMMARY:Agerhøne (Lokalt)
+DTSTAMP:20260306T184112Z
+SUMMARY:Agerhøne - Lokal jagttid
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20261016
 DESCRIPTION:Område: Region Midtjylland undtagen Endelave\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png

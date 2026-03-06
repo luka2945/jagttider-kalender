@@ -5,8 +5,8 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Jagttider - Generel
 BEGIN:VEVENT
 UID:jagttid-2025-gen-1@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Gråand (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Gråand - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260101
 DESCRIPTION:Ænder må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nBillede: https://alt-om-webdesign.dk/wp-content/uploads/artikler/photoshop/flyt-mellem-billeder/rubberduck.jpg
@@ -14,8 +14,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-2@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Atlingand (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Atlingand - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260101
 DESCRIPTION:Ænder må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nBillede: https://alt-om-webdesign.dk/wp-content/uploads/artikler/photoshop/flyt-mellem-billeder/rubberduck.jpg
@@ -23,8 +23,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-3@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Krikand (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Krikand - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260101
 DESCRIPTION:Ænder må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nBillede: https://alt-om-webdesign.dk/wp-content/uploads/artikler/photoshop/flyt-mellem-billeder/rubberduck.jpg
@@ -32,8 +32,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-4@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Spidsand (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Spidsand - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260101
 DESCRIPTION:Ænder må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nBillede: https://alt-om-webdesign.dk/wp-content/uploads/artikler/photoshop/flyt-mellem-billeder/rubberduck.jpg
@@ -41,8 +41,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-5@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Pibeand (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Pibeand - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260101
 DESCRIPTION:Ænder må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nBillede: https://alt-om-webdesign.dk/wp-content/uploads/artikler/photoshop/flyt-mellem-billeder/rubberduck.jpg
@@ -50,8 +50,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-6@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Skeand (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Skeand - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260101
 DESCRIPTION:Ænder må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nBillede: https://alt-om-webdesign.dk/wp-content/uploads/artikler/photoshop/flyt-mellem-billeder/rubberduck.jpg
@@ -59,8 +59,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-7@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Knarand (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Knarand - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260101
 DESCRIPTION:Ænder må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nBillede: https://alt-om-webdesign.dk/wp-content/uploads/artikler/photoshop/flyt-mellem-billeder/rubberduck.jpg
@@ -68,8 +68,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-8@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Grågås (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Grågås - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Gæs må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -77,8 +77,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-9@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Grågås på omdriftsarealer eller i umiddelbar tilknytning hertil* (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Grågås på omdriftsarealer eller i umiddelbar tilknytning hertil - Jagttid
 DTSTART;VALUE=DATE:20250801
 DTEND;VALUE=DATE:20250901
 DESCRIPTION:Gæs må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -86,8 +86,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-10@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Blisgås (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Blisgås - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Gæs må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -95,8 +95,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-11@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Kortnæbbet gås**** (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Kortnæbbet gås - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Gæs må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -104,8 +104,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-12@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Canadagås (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Canadagås - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Gæs må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -113,8 +113,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-13@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Canadagås på omdriftsarealer eller i umiddelbar tilknytning hertil* (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Canadagås på omdriftsarealer eller i umiddelbar tilknytning hertil - Jagttid
 DTSTART;VALUE=DATE:20250801
 DTEND;VALUE=DATE:20250901
 DESCRIPTION:Gæs må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -122,8 +122,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-14@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Troldand (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Troldand - Jagttid
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Ænder må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nBillede: https://alt-om-webdesign.dk/wp-content/uploads/artikler/photoshop/flyt-mellem-billeder/rubberduck.jpg
@@ -131,8 +131,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-15@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Bjergand (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Bjergand - Jagttid
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Ænder må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nBillede: https://alt-om-webdesign.dk/wp-content/uploads/artikler/photoshop/flyt-mellem-billeder/rubberduck.jpg
@@ -140,8 +140,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-16@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Hvinand (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Hvinand - Jagttid
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Ænder må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nBillede: https://alt-om-webdesign.dk/wp-content/uploads/artikler/photoshop/flyt-mellem-billeder/rubberduck.jpg
@@ -149,8 +149,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-17@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Ederfugl - han (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Ederfugl - han - Jagttid
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -158,8 +158,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-18@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Sortand (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Sortand - Jagttid
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Ænder må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nBillede: https://alt-om-webdesign.dk/wp-content/uploads/artikler/photoshop/flyt-mellem-billeder/rubberduck.jpg
@@ -167,8 +167,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-19@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Agerhøne** (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Agerhøne - Jagttid
 DTSTART;VALUE=DATE:20250916
 DTEND;VALUE=DATE:20251101
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -176,8 +176,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-20@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Fasan** (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Fasan - Jagttid
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -185,8 +185,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-21@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Blishøne (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Blishøne - Jagttid
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -194,8 +194,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-22@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Dobbeltbekkasin (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Dobbeltbekkasin - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260101
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -203,8 +203,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-23@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Skovsneppe** (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Skovsneppe - Jagttid
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -212,8 +212,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-24@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Sølvmåge** (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Sølvmåge - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -221,8 +221,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-25@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Ringdue (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Ringdue - Jagttid
 DTSTART;VALUE=DATE:20251111
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -230,8 +230,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-26@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Husskade (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Husskade - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Husskade må jages 1 time før solopgang til solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -239,8 +239,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-27@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Krage (gråkrage og sortkrage) (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Krage (gråkrage og sortkrage) - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Gråkrage og sortkrage må jages 1 time før solopgang til solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -248,8 +248,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-28@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Kronhjort større end spidshjort* (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Kronhjort større end spidshjort - Jagttid
 DTSTART;VALUE=DATE:20251016
 DTEND;VALUE=DATE:20260101
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -257,8 +257,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-29@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Kronspidshjort* (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Kronspidshjort - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -266,8 +266,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-30@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Kronhind* (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Kronhind - Jagttid
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -275,8 +275,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-31@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Dåhjort** (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Dåhjort - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -284,8 +284,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-32@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Då og -kalv** (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Då og -kalv - Jagttid
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -293,8 +293,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-33@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Sikahjort (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Sikahjort - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -302,8 +302,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-34@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Sikahind og - kalv (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Sikahind og - kalv - Jagttid
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -311,8 +311,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-35@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Råbuk*** (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Råbuk - Jagttid
 DTSTART;VALUE=DATE:20260516
 DTEND;VALUE=DATE:20260716
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -320,8 +320,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-36@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Råbuk*** (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Råbuk - Jagttid
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -329,8 +329,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-37@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Rå og -lam*** (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Rå og -lam - Jagttid
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -338,8 +338,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-38@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Muflonvædder (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Muflonvædder - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -347,8 +347,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-39@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Muflonfår og -lam (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Muflonfår og -lam - Jagttid
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -356,8 +356,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-40@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Vildsvin\, orne (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Vildsvin\, orne - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -365,8 +365,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-41@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Vildsvin\, so og grise (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Vildsvin\, so og grise - Jagttid
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -374,8 +374,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-42@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Ræv** (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Ræv - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -383,8 +383,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-43@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Hare** (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Hare - Jagttid
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -392,8 +392,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-44@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Vildkanin (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Vildkanin - Jagttid
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -401,8 +401,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-45@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Nilgås* (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Nilgås - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Gæs må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -410,8 +410,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-46@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Bisamrotte* (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Bisamrotte - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -419,8 +419,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-47@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Sumpbæver* (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Sumpbæver - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -428,8 +428,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-48@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Vaskebjørn* (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Vaskebjørn - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -437,8 +437,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-49@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Mårhund* (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Mårhund - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -446,8 +446,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-50@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Mink* (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Mink - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -455,8 +455,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-51@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Gråand (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Gråand - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270101
 DESCRIPTION:Ænder må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nBillede: https://alt-om-webdesign.dk/wp-content/uploads/artikler/photoshop/flyt-mellem-billeder/rubberduck.jpg
@@ -464,8 +464,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-52@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Atlingand (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Atlingand - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270101
 DESCRIPTION:Ænder må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nBillede: https://alt-om-webdesign.dk/wp-content/uploads/artikler/photoshop/flyt-mellem-billeder/rubberduck.jpg
@@ -473,8 +473,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-53@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Krikand (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Krikand - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270101
 DESCRIPTION:Ænder må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nBillede: https://alt-om-webdesign.dk/wp-content/uploads/artikler/photoshop/flyt-mellem-billeder/rubberduck.jpg
@@ -482,8 +482,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-54@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Spidsand (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Spidsand - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270101
 DESCRIPTION:Ænder må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nBillede: https://alt-om-webdesign.dk/wp-content/uploads/artikler/photoshop/flyt-mellem-billeder/rubberduck.jpg
@@ -491,8 +491,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-55@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Pibeand (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Pibeand - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270101
 DESCRIPTION:Ænder må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nBillede: https://alt-om-webdesign.dk/wp-content/uploads/artikler/photoshop/flyt-mellem-billeder/rubberduck.jpg
@@ -500,8 +500,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-56@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Skeand (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Skeand - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270101
 DESCRIPTION:Ænder må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nBillede: https://alt-om-webdesign.dk/wp-content/uploads/artikler/photoshop/flyt-mellem-billeder/rubberduck.jpg
@@ -509,8 +509,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-57@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Knarand (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Knarand - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270101
 DESCRIPTION:Ænder må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nBillede: https://alt-om-webdesign.dk/wp-content/uploads/artikler/photoshop/flyt-mellem-billeder/rubberduck.jpg
@@ -518,8 +518,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-58@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Grågås (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Grågås - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Gæs må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -527,8 +527,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-59@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Grågås på omdriftsarealer eller i umiddelbar tilknytning hertil* (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Grågås på omdriftsarealer eller i umiddelbar tilknytning hertil - Jagttid
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260901
 DESCRIPTION:Gæs må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -536,8 +536,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-60@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Blisgås (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Blisgås - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Gæs må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -545,8 +545,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-61@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Kortnæbbet gås**** (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Kortnæbbet gås - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Gæs må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -554,8 +554,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-62@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Canadagås (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Canadagås - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Gæs må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -563,8 +563,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-63@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Canadagås på omdriftsarealer eller i umiddelbar tilknytning hertil* (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Canadagås på omdriftsarealer eller i umiddelbar tilknytning hertil - Jagttid
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260901
 DESCRIPTION:Gæs må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -572,8 +572,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-64@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Troldand (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Troldand - Jagttid
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Ænder må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nBillede: https://alt-om-webdesign.dk/wp-content/uploads/artikler/photoshop/flyt-mellem-billeder/rubberduck.jpg
@@ -581,8 +581,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-65@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Bjergand (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Bjergand - Jagttid
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Ænder må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nBillede: https://alt-om-webdesign.dk/wp-content/uploads/artikler/photoshop/flyt-mellem-billeder/rubberduck.jpg
@@ -590,8 +590,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-66@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Hvinand (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Hvinand - Jagttid
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Ænder må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nBillede: https://alt-om-webdesign.dk/wp-content/uploads/artikler/photoshop/flyt-mellem-billeder/rubberduck.jpg
@@ -599,8 +599,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-67@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Ederfugl - han (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Ederfugl - han - Jagttid
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -608,8 +608,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-68@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Sortand (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Sortand - Jagttid
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Ænder må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nBillede: https://alt-om-webdesign.dk/wp-content/uploads/artikler/photoshop/flyt-mellem-billeder/rubberduck.jpg
@@ -617,8 +617,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-69@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Agerhøne** (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Agerhøne - Jagttid
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20261101
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -626,8 +626,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-70@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Fasan** (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Fasan - Jagttid
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -635,8 +635,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-71@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Blishøne (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Blishøne - Jagttid
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -644,8 +644,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-72@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Dobbeltbekkasin (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Dobbeltbekkasin - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270101
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -653,8 +653,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-73@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Skovsneppe** (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Skovsneppe - Jagttid
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -662,8 +662,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-74@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Sølvmåge** (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Sølvmåge - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -671,8 +671,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-75@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Ringdue (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Ringdue - Jagttid
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -680,8 +680,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-76@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Husskade (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Husskade - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Husskade må jages 1 time før solopgang til solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -689,8 +689,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-77@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Krage (gråkrage og sortkrage) (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Krage (gråkrage og sortkrage) - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Gråkrage og sortkrage må jages 1 time før solopgang til solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -698,8 +698,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-78@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Kronhjort større end spidshjort* (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Kronhjort større end spidshjort - Jagttid
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20270101
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -707,8 +707,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-79@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Kronspidshjort* (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Kronspidshjort - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -716,8 +716,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-80@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Kronhind* (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Kronhind - Jagttid
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -725,8 +725,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-81@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Dåhjort** (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Dåhjort - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -734,8 +734,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-82@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Då og -kalv** (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Då og -kalv - Jagttid
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -743,8 +743,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-83@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Sikahjort (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Sikahjort - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -752,8 +752,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-84@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Sikahind og - kalv (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Sikahind og - kalv - Jagttid
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -761,8 +761,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-85@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Råbuk*** (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Råbuk - Jagttid
 DTSTART;VALUE=DATE:20270516
 DTEND;VALUE=DATE:20270716
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -770,8 +770,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-86@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Råbuk*** (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Råbuk - Jagttid
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -779,8 +779,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-87@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Rå og -lam*** (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Rå og -lam - Jagttid
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -788,8 +788,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-88@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Muflonvædder (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Muflonvædder - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -797,8 +797,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-89@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Muflonfår og -lam (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Muflonfår og -lam - Jagttid
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -806,8 +806,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-90@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Vildsvin\, orne (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Vildsvin\, orne - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -815,8 +815,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-91@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Vildsvin\, so og grise (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Vildsvin\, so og grise - Jagttid
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -824,8 +824,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-92@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Ræv** (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Ræv - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -833,8 +833,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-93@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Hare** (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Hare - Jagttid
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -842,8 +842,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-94@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Vildkanin (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Vildkanin - Jagttid
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -851,8 +851,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-95@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Nilgås* (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Nilgås - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Gæs må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -860,8 +860,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-96@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Bisamrotte* (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Bisamrotte - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -869,8 +869,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-97@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Sumpbæver* (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Sumpbæver - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -878,8 +878,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-98@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Vaskebjørn* (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Vaskebjørn - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -887,8 +887,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-99@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Mårhund* (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Mårhund - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
@@ -896,8 +896,8 @@ URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-100@luka2945
-DTSTAMP:20260306T131535Z
-SUMMARY:Mink* (Generel)
+DTSTAMP:20260306T184108Z
+SUMMARY:Mink - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
