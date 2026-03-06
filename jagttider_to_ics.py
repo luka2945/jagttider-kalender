@@ -20,17 +20,27 @@ OUT_DIR.mkdir(parents=True, exist_ok=True)
 # Sources
 # -----------------------
 DEFAULT_GENERAL_URL = "https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/"
-DEFAULT_LOCAL_URL   = "https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/"
+DEFAULT_LOCAL_URL = "https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/"
 
 DEFAULT_USER_AGENT = "Mozilla/5.0 (JagttiderICSBot; +https://github.com/luka2945/jagttider-kalender)"
 DEFAULT_LANG = "da-DK,da;q=0.9,en-US;q=0.7,en;q=0.6"
 
 # -----------------------
-# Danish months (for special rules)
+# Danish months
 # -----------------------
 DK_MONTHS = {
-    "januar": 1, "februar": 2, "marts": 3, "april": 4, "maj": 5, "juni": 6,
-    "juli": 7, "august": 8, "september": 9, "oktober": 10, "november": 11, "december": 12
+    "januar": 1,
+    "februar": 2,
+    "marts": 3,
+    "april": 4,
+    "maj": 5,
+    "juni": 6,
+    "juli": 7,
+    "august": 8,
+    "september": 9,
+    "oktober": 10,
+    "november": 11,
+    "december": 12,
 }
 
 RANGE_RE = re.compile(r"(\d{1,2})\.(\d{1,2})\s*[-–]\s*(\d{1,2})\.(\d{1,2})")
@@ -55,19 +65,22 @@ class SeasonRange:
     species: str
     start: date
     end_inclusive: date
-    kind: str                 # "generel" or "lokal"
-    area: str | None = None   # for local
+    kind: str
+    area: str | None = None
+
 
 @dataclass(frozen=True)
 class NoHuntingMarker:
     species: str
     area: str
 
+
 @dataclass(frozen=True)
 class SpecialDayRule:
     species: str
     area: str
-    dates: tuple[date, ...]   # tuple -> hashable
+    dates: tuple[date, ...]
+
 
 # -----------------------
 # Config loading
@@ -75,10 +88,12 @@ class SpecialDayRule:
 def load_json(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
+
 def load_master() -> dict:
     if MASTER_PATH.exists():
         return load_json(MASTER_PATH)
     return {}
+
 
 def list_calendar_configs() -> list[dict]:
     if not CALENDAR_CONFIG_DIR.exists():
@@ -88,18 +103,19 @@ def list_calendar_configs() -> list[dict]:
         configs.append(load_json(p))
     return configs
 
+
 def compute_season_year_auto(today: date | None = None) -> int:
-    # Season year = year where season starts (typisk Jul-Dec)
     t = today or date.today()
     return t.year if t.month >= 7 else (t.year - 1)
 
+
 def season_date(season_year: int, day: int, month: int) -> date | None:
-    # Jul-Dec = season_year; Jan-Jun = season_year + 1
     y = season_year if month >= 7 else (season_year + 1)
     try:
         return date(y, month, day)
     except ValueError:
         return None
+
 
 # -----------------------
 # ICS helpers
@@ -107,11 +123,19 @@ def season_date(season_year: int, day: int, month: int) -> date | None:
 def ics_escape(s: str) -> str:
     return (s or "").replace("\\", "\\\\").replace("\n", "\\n").replace(",", "\\,").replace(";", "\\;")
 
+
 def ics_date(d: date) -> str:
     return d.strftime("%Y%m%d")
 
-def build_event(uid: str, summary: str, start: date, end_inclusive: date, description: str, url: str | None = None) -> str:
-    # DTEND is exclusive for all-day
+
+def build_event(
+    uid: str,
+    summary: str,
+    start: date,
+    end_inclusive: date,
+    description: str,
+    url: str | None = None,
+) -> str:
     end_exclusive = end_inclusive + timedelta(days=1)
     lines = [
         "BEGIN:VEVENT",
@@ -127,6 +151,7 @@ def build_event(uid: str, summary: str, start: date, end_inclusive: date, descri
     lines.append("END:VEVENT")
     return "\n".join(lines)
 
+
 def build_calendar(cal_name: str, events: list[str]) -> str:
     return "\n".join([
         "BEGIN:VCALENDAR",
@@ -139,8 +164,9 @@ def build_calendar(cal_name: str, events: list[str]) -> str:
         ""
     ])
 
+
 # -----------------------
-# Fetch + soup
+# Fetch
 # -----------------------
 def fetch_html(url: str, ua: str) -> str:
     r = requests.get(
@@ -155,11 +181,35 @@ def fetch_html(url: str, ua: str) -> str:
     r.raise_for_status()
     return r.text
 
+
 def ensure_not_login_page(html: str) -> None:
-    # DJ siden kan nogle gange returnere “du skal logge ind…”
     low = html.lower()
     if "du skal logge ind" in low or ("logge ind" in low and "jagttider" in low and "<table" not in low):
-        raise RuntimeError("Fik en 'log ind' side i stedet for jagttider-tabellen (kilde blokerer bot/kræver login).")
+        raise RuntimeError("Fik en 'log ind' side i stedet for jagttider-tabellen.")
+
+
+# -----------------------
+# Species meta
+# -----------------------
+def normalize_species(s: str) -> str:
+    return " ".join((s or "").strip().lower().split())
+
+
+def get_species_meta(species_name: str, species_meta: dict) -> dict:
+    key = normalize_species(species_name)
+
+    # exact match
+    if key in species_meta:
+        return species_meta[key]
+
+    # partial match, fx "and" matcher "gråand"
+    for meta_key, meta_val in species_meta.items():
+        mk = normalize_species(meta_key)
+        if mk and mk in key:
+            return meta_val
+
+    return {}
+
 
 # -----------------------
 # Parsing: GENERAL
@@ -170,7 +220,6 @@ def parse_general(html: str, season_year: int) -> list[SeasonRange]:
 
     ranges: list[SeasonRange] = []
 
-    # Find alle tabeller og prøv at læse rækker med mindst 2 kolonner (art + periode)
     for table in soup.find_all("table"):
         for tr in table.find_all("tr"):
             tds = tr.find_all(["td", "th"])
@@ -183,22 +232,25 @@ def parse_general(html: str, season_year: int) -> list[SeasonRange]:
             if not species or not period_text:
                 continue
 
-            # skip headings
             if species.lower() in ("vildtart", "art", "vildt"):
                 continue
 
-            # ignore “ingen jagttid” in general
             if "ingen jagttid" in period_text.lower():
                 continue
 
-            # Extract all numeric ranges in period cell
             for (d1, m1, d2, m2) in RANGE_RE.findall(period_text.replace("–", "-")):
                 start = season_date(season_year, int(d1), int(m1))
                 end = season_date(season_year, int(d2), int(m2))
                 if start and end:
-                    ranges.append(SeasonRange(species=species, start=start, end_inclusive=end, kind="generel"))
+                    ranges.append(
+                        SeasonRange(
+                            species=species,
+                            start=start,
+                            end_inclusive=end,
+                            kind="generel"
+                        )
+                    )
 
-    # Deduplicate
     uniq = []
     seen = set()
     for r in ranges:
@@ -208,6 +260,7 @@ def parse_general(html: str, season_year: int) -> list[SeasonRange]:
             uniq.append(r)
     return uniq
 
+
 # -----------------------
 # Parsing: LOCAL
 # -----------------------
@@ -216,9 +269,11 @@ def nth_saturday(year: int, month: int, n: int) -> date | None:
     sats = [d for d in c.itermonthdates(year, month) if d.month == month and d.weekday() == 5]
     return sats[n - 1] if 1 <= n <= len(sats) else None
 
+
 def all_saturdays(year: int, month: int) -> list[date]:
     c = calmod.Calendar(firstweekday=calmod.MONDAY)
     return [d for d in c.itermonthdates(year, month) if d.month == month and d.weekday() == 5]
+
 
 def parse_special_text_to_dates(text: str, season_year: int) -> list[date]:
     low = text.strip().lower()
@@ -232,6 +287,7 @@ def parse_special_text_to_dates(text: str, season_year: int) -> list[date]:
             continue
         month = DK_MONTHS[month_name]
         year = season_year if month >= 7 else (season_year + 1)
+
         d_a = nth_saturday(year, month, n1)
         d_b = nth_saturday(year, month, n2)
         if d_a:
@@ -248,6 +304,7 @@ def parse_special_text_to_dates(text: str, season_year: int) -> list[date]:
         dates.extend(all_saturdays(year, month))
 
     return sorted(set(dates))
+
 
 def parse_local(html: str, season_year: int) -> tuple[list[SeasonRange], list[NoHuntingMarker], list[SpecialDayRule]]:
     ensure_not_login_page(html)
@@ -297,16 +354,29 @@ def parse_local(html: str, season_year: int) -> tuple[list[SeasonRange], list[No
                 end = season_date(season_year, int(d2), int(m2))
                 if start and end:
                     found_any_range = True
-                    local_ranges.append(SeasonRange(species=species, start=start, end_inclusive=end, kind="lokal", area=area))
+                    local_ranges.append(
+                        SeasonRange(
+                            species=species,
+                            start=start,
+                            end_inclusive=end,
+                            kind="lokal",
+                            area=area
+                        )
+                    )
 
             if found_any_range:
                 continue
 
             special_dates = parse_special_text_to_dates(rule_text, season_year)
             if special_dates:
-                specials.append(SpecialDayRule(species=species, area=area, dates=tuple(special_dates)))
+                specials.append(
+                    SpecialDayRule(
+                        species=species,
+                        area=area,
+                        dates=tuple(special_dates)
+                    )
+                )
 
-    # Dedup local_ranges
     uniq_local = []
     seen_local = set()
     for r in local_ranges:
@@ -315,7 +385,6 @@ def parse_local(html: str, season_year: int) -> tuple[list[SeasonRange], list[No
             seen_local.add(key)
             uniq_local.append(r)
 
-    # Dedup no_hunting
     uniq_no = []
     seen_no = set()
     for r in no_hunting:
@@ -324,7 +393,6 @@ def parse_local(html: str, season_year: int) -> tuple[list[SeasonRange], list[No
             seen_no.add(key)
             uniq_no.append(r)
 
-    # Dedup specials
     uniq_sp = []
     seen_sp = set()
     for r in specials:
@@ -335,12 +403,14 @@ def parse_local(html: str, season_year: int) -> tuple[list[SeasonRange], list[No
 
     return uniq_local, uniq_no, uniq_sp
 
+
 # -----------------------
 # Filtering
 # -----------------------
 def contains_any(text: str, keywords: list[str]) -> bool:
     t = (text or "").lower()
     return any((k or "").strip().lower() in t for k in keywords if k and k.strip())
+
 
 def area_allowed(area: str | None, include_kw: list[str], exclude_kw: list[str]) -> bool:
     a = area or ""
@@ -350,12 +420,10 @@ def area_allowed(area: str | None, include_kw: list[str], exclude_kw: list[str])
         return contains_any(a, include_kw)
     return True
 
-# -----------------------
-# Build calendars
-# -----------------------
-def normalize_species(s: str) -> str:
-    return " ".join((s or "").strip().lower().split())
 
+# -----------------------
+# Main
+# -----------------------
 def main() -> None:
     master = load_master()
     general_url = master.get("general_url", DEFAULT_GENERAL_URL)
@@ -404,7 +472,7 @@ def main() -> None:
             if not use_local:
                 for r in general_ranges:
                     uid_counter += 1
-                    meta = species_meta.get(normalize_species(r.species), {})
+                    meta = get_species_meta(r.species, species_meta)
                     img = meta.get("image_url", "")
                     notes = meta.get("notes", "")
 
@@ -431,7 +499,7 @@ def main() -> None:
                 # general base events in local calendars
                 for r in general_ranges:
                     uid_counter += 1
-                    meta = species_meta.get(normalize_species(r.species), {})
+                    meta = get_species_meta(r.species, species_meta)
                     img = meta.get("image_url", "")
                     notes = meta.get("notes", "")
 
@@ -460,7 +528,7 @@ def main() -> None:
                         continue
 
                     uid_counter += 1
-                    meta = species_meta.get(normalize_species(r.species), {})
+                    meta = get_species_meta(r.species, species_meta)
                     img = meta.get("image_url", "")
                     notes = meta.get("notes", "")
 
@@ -492,7 +560,7 @@ def main() -> None:
 
                     for d in sp.dates:
                         uid_counter += 1
-                        meta = species_meta.get(normalize_species(sp.species), {})
+                        meta = get_species_meta(sp.species, species_meta)
                         img = meta.get("image_url", "")
                         notes = meta.get("notes", "")
 
@@ -516,7 +584,7 @@ def main() -> None:
                             url=local_url
                         ))
 
-                # no-hunting events with same duration as general
+                # no-hunting events
                 if emit_no_hunting:
                     for nh in no_hunting:
                         if not area_allowed(nh.area, include_area, exclude_area):
@@ -528,7 +596,7 @@ def main() -> None:
 
                         for gr in general_list:
                             uid_counter += 1
-                            meta = species_meta.get(normalize_species(nh.species), {})
+                            meta = get_species_meta(nh.species, species_meta)
                             img = meta.get("image_url", "")
                             notes = meta.get("notes", "")
 
