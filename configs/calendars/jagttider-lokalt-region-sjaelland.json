@@ -4,7 +4,7 @@
   "use_local": true,
 
   "filters": {
-    "include_area_keywords": ["Region Sjælland"],
+    "include_area_keywords": ["Region Sjælland", "Lyø", "Strynø", "Ærø", "Als", "Kegnæs", "Mandø"],
     "exclude_area_keywords": []
   },
 
