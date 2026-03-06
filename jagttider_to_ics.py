@@ -17,11 +17,10 @@ OUT_DIR = Path("Jagttids-Kalender")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # -----------------------
-# Sources
+# Defaults
 # -----------------------
 DEFAULT_GENERAL_URL = "https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/"
 DEFAULT_LOCAL_URL = "https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/"
-
 DEFAULT_USER_AGENT = "Mozilla/5.0 (JagttiderICSBot; +https://github.com/luka2945/jagttider-kalender)"
 DEFAULT_LANG = "da-DK,da;q=0.9,en-US;q=0.7,en;q=0.6"
 
@@ -207,7 +206,7 @@ def ensure_not_login_page(html: str) -> None:
 
 
 # -----------------------
-# Species meta
+# Species helpers
 # -----------------------
 def normalize_species(s: str) -> str:
     return " ".join((s or "").strip().lower().split())
@@ -222,15 +221,45 @@ def clean_species_name(s: str) -> str:
 def get_species_meta(species_name: str, species_meta: dict) -> dict:
     key = normalize_species(species_name)
 
+    # exact match
     if key in species_meta:
         return species_meta[key]
 
+    # partial match, fx "and" matcher "gråand"
     for meta_key, meta_val in species_meta.items():
         mk = normalize_species(meta_key)
         if mk and mk in key:
             return meta_val
 
     return {}
+
+
+# -----------------------
+# Area helpers
+# -----------------------
+def split_area(area: str | None) -> tuple[str, str | None]:
+    """
+    "Region Midtjylland | Øen Endelave" -> ("Region Midtjylland", "Øen Endelave")
+    "Region Midtjylland" -> ("Region Midtjylland", None)
+    """
+    if not area:
+        return "", None
+    if " | " in area:
+        region, sub = area.split(" | ", 1)
+        return region.strip(), sub.strip()
+    return area.strip(), None
+
+
+def display_area(area: str | None) -> str:
+    """
+    Desired display:
+    "Region Midtjylland | Øen Endelave" -> "Øen Endelave Region Midtjylland"
+    "Region Midtjylland" -> "Region Midtjylland"
+    """
+    region, sub = split_area(area)
+    if sub:
+        return f"{sub} {region}".strip()
+    return region
 
 
 # -----------------------
@@ -248,9 +277,7 @@ def parse_general(html: str, season_year: int) -> list[SeasonRange]:
             if len(tds) < 2:
                 continue
 
-            species = " ".join(tds[0].get_text(" ", strip=True).split())
-            species = clean_species_name(species)
-
+            species = clean_species_name(" ".join(tds[0].get_text(" ", strip=True).split()))
             period_text = " ".join(tds[1].get_text(" ", strip=True).split())
 
             if not species or not period_text:
@@ -337,35 +364,69 @@ def parse_local(html: str, season_year: int) -> tuple[list[SeasonRange], list[No
     no_hunting: list[NoHuntingMarker] = []
     specials: list[SpecialDayRule] = []
 
-    headings = soup.find_all(["h2", "h3", "h4"])
-    for h in headings:
-        area = " ".join(h.get_text(" ", strip=True).split())
-        if not area:
-            continue
+    # Find only region block headings
+    region_headings = []
+    for h in soup.find_all(["h2", "h3", "h4"]):
+        txt = " ".join(h.get_text(" ", strip=True).split())
+        low = txt.lower()
+        if "region" in low and "lokale jagttider" in low:
+            region_headings.append(h)
 
-        alow = area.lower()
-        if not (alow.startswith("øen") or "region" in alow or "kommune" in alow or "på " in alow):
-            continue
+    for h in region_headings:
+        region_name = " ".join(h.get_text(" ", strip=True).split())
+        region_name = re.sub(r"\s*-\s*lokale jagttider\s*$", "", region_name, flags=re.I).strip()
 
         table = h.find_next("table")
         if not table:
             continue
 
+        current_subarea = region_name
+
         for tr in table.find_all("tr"):
             tds = tr.find_all(["td", "th"])
-            if len(tds) < 2:
+            if not tds:
                 continue
 
-            species = " ".join(tds[0].get_text(" ", strip=True).split())
-            species = clean_species_name(species)
+            cells = [" ".join(td.get_text(" ", strip=True).split()) for td in tds]
 
-            rule_text = " ".join(tds[1].get_text(" ", strip=True).split())
+            while cells and not cells[-1]:
+                cells.pop()
+
+            if not cells:
+                continue
+
+            # single-cell rows can be area headings
+            if len(cells) == 1:
+                txt = cells[0].strip()
+                txt_low = txt.lower()
+
+                if txt and not RANGE_RE.search(txt.replace("–", "-")) and "ingen jagttid" not in txt_low:
+                    if txt_low.startswith("øen "):
+                        current_subarea = txt
+                        continue
+                    if "undtagen" in txt_low:
+                        current_subarea = txt
+                        continue
+                    if "hele regionen" in txt_low:
+                        current_subarea = region_name
+                        continue
+
+            if len(cells) < 2:
+                continue
+
+            species = clean_species_name(cells[0])
+            rule_text = cells[1].strip()
 
             if not species or not rule_text:
                 continue
 
             if species.lower() in ("vildtart", "art", "vildt"):
                 continue
+
+            if current_subarea == region_name:
+                area = region_name
+            else:
+                area = f"{region_name} | {current_subarea}"
 
             low = rule_text.lower()
 
@@ -446,6 +507,39 @@ def area_allowed(area: str | None, include_kw: list[str], exclude_kw: list[str])
 
 
 # -----------------------
+# Local no-hunting duration helper
+# -----------------------
+def find_local_parent_ranges_for_species(
+    no_hunt_area: str,
+    species: str,
+    local_ranges: list[SeasonRange]
+) -> list[SeasonRange]:
+    """
+    If no_hunt_area is e.g. "Region Midtjylland | Øen Endelave",
+    find local ranges for same species in parent region "Region Midtjylland".
+
+    If no_hunt_area is already just region, return ranges in same region.
+    """
+    region_name, _sub = split_area(no_hunt_area)
+    species_key = normalize_species(species)
+
+    out = []
+    for r in local_ranges:
+        if normalize_species(r.species) != species_key:
+            continue
+
+        r_region, r_sub = split_area(r.area)
+        if r_region != region_name:
+            continue
+
+        # Prefer parent/root region rows only
+        if r_sub is None:
+            out.append(r)
+
+    return out
+
+
+# -----------------------
 # Main
 # -----------------------
 def main() -> None:
@@ -489,12 +583,8 @@ def main() -> None:
 
             general_ranges = parse_general(general_html, season_year)
 
-            general_by_species: dict[str, list[SeasonRange]] = {}
-            for gr in general_ranges:
-                general_by_species.setdefault(normalize_species(gr.species), []).append(gr)
-
-            # GENEREL kalender
             if not use_local:
+                # GENEREL kalender
                 for r in general_ranges:
                     uid_counter += 1
                     meta = get_species_meta(r.species, species_meta)
@@ -518,8 +608,8 @@ def main() -> None:
                         url=general_url
                     ))
 
-            # LOKAL kalender
             else:
+                # LOKAL kalender
                 local_ranges, no_hunting, specials = parse_local(local_html, season_year)
 
                 # local ranges
@@ -536,7 +626,7 @@ def main() -> None:
                     if notes:
                         desc_parts.append(notes)
                     if r.area:
-                        desc_parts.append(f"Område: {r.area}")
+                        desc_parts.append(f"Område: {display_area(r.area)}")
                     desc_parts.append(f"Kilde: {local_url}")
                     if img:
                         desc_parts.append(f"Billede: {img}")
@@ -567,7 +657,7 @@ def main() -> None:
                         desc_parts = []
                         if notes:
                             desc_parts.append(notes)
-                        desc_parts.append(f"Område: {sp.area}")
+                        desc_parts.append(f"Område: {display_area(sp.area)}")
                         desc_parts.append(f"Kilde: {local_url}")
                         if img:
                             desc_parts.append(f"Billede: {img}")
@@ -584,17 +674,22 @@ def main() -> None:
                             url=local_url
                         ))
 
-                # no-hunting events
+                # no-hunting events -> use LOCAL parent-region duration for same species
                 if emit_no_hunting:
                     for nh in no_hunting:
                         if not area_allowed(nh.area, include_area, exclude_area):
                             continue
 
-                        general_list = general_by_species.get(normalize_species(nh.species), [])
-                        if not general_list:
+                        parent_local_ranges = find_local_parent_ranges_for_species(
+                            no_hunt_area=nh.area,
+                            species=nh.species,
+                            local_ranges=local_ranges
+                        )
+
+                        if not parent_local_ranges:
                             continue
 
-                        for gr in general_list:
+                        for lr in parent_local_ranges:
                             uid_counter += 1
                             meta = get_species_meta(nh.species, species_meta)
                             img = meta.get("image_url", "")
@@ -603,10 +698,10 @@ def main() -> None:
                             desc_parts = []
                             if notes:
                                 desc_parts.append(notes)
-                            desc_parts.append(f"Område: {nh.area}")
+                            desc_parts.append(f"Område: {display_area(nh.area)}")
                             desc_parts.append("Lokal regel: ingen jagttid")
+                            desc_parts.append("Varighed hentet fra lokal jagttid for samme dyr i samme region")
                             desc_parts.append(f"Kilde (lokal): {local_url}")
-                            desc_parts.append(f"Kilde (generel): {general_url}")
                             if img:
                                 desc_parts.append(f"Billede: {img}")
                             if local_map_image_url:
@@ -616,8 +711,8 @@ def main() -> None:
                             events.append(build_event(
                                 uid=uid,
                                 summary=f"{nh.species} - Ingen jagttid",
-                                start=gr.start,
-                                end_inclusive=gr.end_inclusive,
+                                start=lr.start,
+                                end_inclusive=lr.end_inclusive,
                                 description="\n".join(desc_parts),
                                 url=local_url
                             ))
