@@ -109,12 +109,30 @@ def compute_season_year_auto(today: date | None = None) -> int:
     return t.year if t.month >= 7 else (t.year - 1)
 
 
-def season_date(season_year: int, day: int, month: int) -> date | None:
-    y = season_year if month >= 7 else (season_year + 1)
+# -----------------------
+# Date helpers
+# -----------------------
+def season_range_dates(season_year: int, d1: int, m1: int, d2: int, m2: int) -> tuple[date | None, date | None]:
+    """
+    season_year = året hvor sæsonen starter.
+
+    Regler:
+    - Hvis startmåned er Jul-Dec, ligger start i season_year
+    - Hvis startmåned er Jan-Jun, ligger start i season_year + 1
+    - Hvis slutdato "kommer før" startdato i kalenderen, går perioden over nytår
+    """
+    start_year = season_year if m1 >= 7 else (season_year + 1)
+    end_year = start_year
+
+    if (m2, d2) < (m1, d1):
+        end_year += 1
+
     try:
-        return date(y, month, day)
+        start = date(start_year, m1, d1)
+        end = date(end_year, m2, d2)
+        return start, end
     except ValueError:
-        return None
+        return None, None
 
 
 # -----------------------
@@ -239,8 +257,7 @@ def parse_general(html: str, season_year: int) -> list[SeasonRange]:
                 continue
 
             for (d1, m1, d2, m2) in RANGE_RE.findall(period_text.replace("–", "-")):
-                start = season_date(season_year, int(d1), int(m1))
-                end = season_date(season_year, int(d2), int(m2))
+                start, end = season_range_dates(season_year, int(d1), int(m1), int(d2), int(m2))
                 if start and end:
                     ranges.append(
                         SeasonRange(
@@ -350,8 +367,7 @@ def parse_local(html: str, season_year: int) -> tuple[list[SeasonRange], list[No
 
             found_any_range = False
             for (d1, m1, d2, m2) in RANGE_RE.findall(rule_text.replace("–", "-")):
-                start = season_date(season_year, int(d1), int(m1))
-                end = season_date(season_year, int(d2), int(m2))
+                start, end = season_range_dates(season_year, int(d1), int(m1), int(d2), int(m2))
                 if start and end:
                     found_any_range = True
                     local_ranges.append(
@@ -469,6 +485,7 @@ def main() -> None:
             for gr in general_ranges:
                 general_by_species.setdefault(normalize_species(gr.species), []).append(gr)
 
+            # GENEREL kalender: kun generelle events
             if not use_local:
                 for r in general_ranges:
                     uid_counter += 1
@@ -493,34 +510,9 @@ def main() -> None:
                         url=general_url
                     ))
 
+            # LOKAL kalender: kun lokale ting
             else:
                 local_ranges, no_hunting, specials = parse_local(local_html, season_year)
-
-                # general base events in local calendars
-                for r in general_ranges:
-                    uid_counter += 1
-                    meta = get_species_meta(r.species, species_meta)
-                    img = meta.get("image_url", "")
-                    notes = meta.get("notes", "")
-
-                    desc_parts = []
-                    if notes:
-                        desc_parts.append(notes)
-                    desc_parts.append(f"Kilde: {general_url}")
-                    if img:
-                        desc_parts.append(f"Billede: {img}")
-                    if local_map_image_url:
-                        desc_parts.append(f"Regionskort: {local_map_image_url}")
-
-                    uid = f"jagttid-{season_year}-base-{uid_counter}@luka2945"
-                    events.append(build_event(
-                        uid=uid,
-                        summary=f"{r.species} (Generel)",
-                        start=r.start,
-                        end_inclusive=r.end_inclusive,
-                        description="\n".join(desc_parts),
-                        url=general_url
-                    ))
 
                 # local ranges
                 for r in local_ranges:
@@ -626,6 +618,7 @@ def main() -> None:
         out_path = OUT_DIR / out_name
         out_path.write_text(ics, encoding="utf-8")
         print(f"Wrote: {out_path}  events={len(events)}")
+
 
 if __name__ == "__main__":
     main()
