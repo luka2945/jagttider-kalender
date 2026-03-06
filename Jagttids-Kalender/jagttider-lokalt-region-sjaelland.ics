@@ -4,1827 +4,921 @@ PRODID:-//luka2945//Jagttider ICS//DA
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Jagttider – Lokalt (Region Sjælland)
 BEGIN:VEVENT
-UID:jagttid-2025-loc-1@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – Lokal (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-2@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – Lokal (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20250901
-DTEND;VALUE=DATE:20251201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-3@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – Lokal (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20260516
-DTEND;VALUE=DATE:20260616
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-4@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – Lokal (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20251201
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-5@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – Lokal (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20251201
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-6@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – Lokal (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20251216
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-7@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – Lokal (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20251001
-DTEND;VALUE=DATE:20251016
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-8@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – Lokal (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20251116
-DTEND;VALUE=DATE:20251201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-9@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – Lokal (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-10@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – Lokal (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20251116
-DTEND;VALUE=DATE:20260116
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-11@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-1@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Gråand (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-12@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-2@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Atlingand (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-13@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-3@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Krikand (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-14@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-4@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Spidsand (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-15@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-5@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Pibeand (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-16@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-6@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Skeand (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-17@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-7@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Knarand (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-18@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-8@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Grågås (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-19@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-9@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Grågås på omdriftsarealer eller i umiddelbar tilknytning hertil* (Generel)
 DTSTART;VALUE=DATE:20250801
 DTEND;VALUE=DATE:20250901
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-20@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-10@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Blisgås (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-21@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-11@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Kortnæbbet gås**** (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-22@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-12@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Canadagås (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-23@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-13@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Canadagås på omdriftsarealer eller i umiddelbar tilknytning hertil* (Generel)
 DTSTART;VALUE=DATE:20250801
 DTEND;VALUE=DATE:20250901
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-24@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-14@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Troldand (Generel)
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-25@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-15@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Bjergand (Generel)
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-26@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-16@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Hvinand (Generel)
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-27@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-17@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Ederfugl - han (Generel)
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-28@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-18@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Sortand (Generel)
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-29@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-19@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Agerhøne** (Generel)
 DTSTART;VALUE=DATE:20250916
 DTEND;VALUE=DATE:20251101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-30@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-20@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Fasan** (Generel)
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-31@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-21@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Blishøne (Generel)
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-32@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-22@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Dobbeltbekkasin (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-33@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-23@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Skovsneppe** (Generel)
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-34@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-24@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Sølvmåge** (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-35@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-25@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Ringdue (Generel)
 DTSTART;VALUE=DATE:20251111
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-36@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-26@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Husskade (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-37@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-27@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Krage (gråkrage og sortkrage) (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-38@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-28@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Kronhjort større end spidshjort* (Generel)
 DTSTART;VALUE=DATE:20251016
 DTEND;VALUE=DATE:20260101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-39@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-29@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Kronspidshjort* (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-40@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-30@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Kronhind* (Generel)
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-41@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-31@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Dåhjort** (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-42@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-32@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Då og -kalv** (Generel)
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-43@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-33@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Sikahjort (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-44@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-34@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Sikahind og - kalv (Generel)
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-45@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-35@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Råbuk*** (Generel)
 DTSTART;VALUE=DATE:20260516
 DTEND;VALUE=DATE:20250716
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-46@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-36@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Råbuk*** (Generel)
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-47@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-37@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Rå og -lam*** (Generel)
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-48@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-38@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Muflonvædder (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-49@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-39@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Muflonfår og -lam (Generel)
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-50@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-40@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Vildsvin\, orne (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-51@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-41@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Vildsvin\, so og grise (Generel)
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-52@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-42@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Ræv** (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-53@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-43@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Hare** (Generel)
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-54@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-44@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Vildkanin (Generel)
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-55@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-45@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Nilgås* (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-56@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-46@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Bisamrotte* (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-57@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-47@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Sumpbæver* (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-58@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-48@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Vaskebjørn* (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-59@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-49@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Mårhund* (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-60@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-base-50@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Mink* (Generel)
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-61@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – Lokal (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20251016
-DTEND;VALUE=DATE:20251201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-62@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – Lokal (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20251216
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-63@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20250901
-DTEND;VALUE=DATE:20260101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-64@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20250901
-DTEND;VALUE=DATE:20260101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-65@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20250901
-DTEND;VALUE=DATE:20260101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-66@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20250901
-DTEND;VALUE=DATE:20260101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-67@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20250901
-DTEND;VALUE=DATE:20260101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-68@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20250901
-DTEND;VALUE=DATE:20260101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-69@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20250901
-DTEND;VALUE=DATE:20260101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-70@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20250901
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-71@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20250801
-DTEND;VALUE=DATE:20250901
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-72@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20250901
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-73@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20250901
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-74@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20250901
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-75@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20250801
-DTEND;VALUE=DATE:20250901
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-76@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20251001
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-77@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20251001
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-78@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20251001
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-79@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20251001
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-80@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20251001
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-81@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20250916
-DTEND;VALUE=DATE:20251101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-82@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20251001
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-83@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20251001
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-84@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20250901
-DTEND;VALUE=DATE:20260101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-85@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20251001
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-86@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20250901
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-87@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20251111
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-88@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20250901
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-89@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20250901
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-90@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20251016
-DTEND;VALUE=DATE:20260101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-91@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20250901
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-92@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20251001
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-93@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20250901
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-94@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20251001
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-95@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20250901
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-96@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20251001
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-97@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20260516
-DTEND;VALUE=DATE:20250716
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-98@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20251001
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-99@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20251001
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-100@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20250901
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-101@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20251001
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-102@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20250901
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-103@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20251001
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-104@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20250901
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-105@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2025-lok-51@luka2945
+DTSTAMP:20260306T075212Z
+SUMMARY:Sølvmåge (Lokalt)
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
+DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-loc-106@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-107@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20250901
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-108@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20250901
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-109@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20250901
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-110@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20250901
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-111@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20250901
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-112@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20250901
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-113@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – Lokal (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20251103
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-loc-114@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – Lokal (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20251016
-DTEND;VALUE=DATE:20260101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2025
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-115@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – Lokal (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-116@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – Lokal (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20261201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-117@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – Lokal (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20270516
-DTEND;VALUE=DATE:20270616
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-118@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – Lokal (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20261201
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-119@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – Lokal (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20261201
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-120@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – Lokal (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261216
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-121@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – Lokal (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261016
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-122@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – Lokal (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-123@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – Lokal (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-124@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – Lokal (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20270116
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-125@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-52@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Gråand (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-126@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-53@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Atlingand (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-127@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-54@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Krikand (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-128@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-55@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Spidsand (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-129@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-56@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Pibeand (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-130@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-57@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Skeand (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-131@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-58@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Knarand (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-132@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-59@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Grågås (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-133@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-60@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Grågås på omdriftsarealer eller i umiddelbar tilknytning hertil* (Generel)
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260901
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-134@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-61@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Blisgås (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-135@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-62@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Kortnæbbet gås**** (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-136@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-63@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Canadagås (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-137@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-64@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Canadagås på omdriftsarealer eller i umiddelbar tilknytning hertil* (Generel)
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260901
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-138@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-65@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Troldand (Generel)
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-139@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-66@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Bjergand (Generel)
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-140@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-67@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Hvinand (Generel)
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-141@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-68@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Ederfugl - han (Generel)
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-142@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-69@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Sortand (Generel)
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-143@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-70@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Agerhøne** (Generel)
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20261101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-144@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-71@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Fasan** (Generel)
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-145@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-72@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Blishøne (Generel)
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-146@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-73@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Dobbeltbekkasin (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-147@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-74@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Skovsneppe** (Generel)
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-148@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-75@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Sølvmåge** (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-149@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-76@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Ringdue (Generel)
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-150@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-77@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Husskade (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-151@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-78@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Krage (gråkrage og sortkrage) (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-152@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-79@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Kronhjort større end spidshjort* (Generel)
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20270101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-153@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-80@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Kronspidshjort* (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-154@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-81@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Kronhind* (Generel)
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-155@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-82@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Dåhjort** (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-156@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-83@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Då og -kalv** (Generel)
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-157@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-84@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Sikahjort (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-158@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-85@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Sikahind og - kalv (Generel)
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-159@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-86@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Råbuk*** (Generel)
 DTSTART;VALUE=DATE:20270516
 DTEND;VALUE=DATE:20260716
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-160@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-87@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Råbuk*** (Generel)
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-161@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-88@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Rå og -lam*** (Generel)
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-162@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-89@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Muflonvædder (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-163@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-90@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Muflonfår og -lam (Generel)
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-164@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-91@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Vildsvin\, orne (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-165@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-92@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Vildsvin\, so og grise (Generel)
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-166@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-93@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Ræv** (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-167@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-94@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Hare** (Generel)
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-168@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-95@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Vildkanin (Generel)
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-169@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-96@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Nilgås* (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-170@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-97@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Bisamrotte* (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-171@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-98@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Sumpbæver* (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-172@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-99@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Vaskebjørn* (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-173@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-100@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Mårhund* (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-174@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-base-101@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Mink* (Generel)
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Kilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-loc-175@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – Lokal (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-176@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – Lokal (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261216
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-177@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20270101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-178@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20270101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-179@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20270101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-180@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20270101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-181@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20270101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-182@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20270101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-183@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20270101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-184@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-185@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20260801
-DTEND;VALUE=DATE:20260901
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-186@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-187@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-188@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-189@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20260801
-DTEND;VALUE=DATE:20260901
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-190@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-191@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-192@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-193@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-194@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-195@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20260916
-DTEND;VALUE=DATE:20261101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-196@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-197@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-198@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20270101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-199@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-200@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-201@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-202@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-203@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-204@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20270101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-205@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-206@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-207@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-208@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-209@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-210@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-211@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20270516
-DTEND;VALUE=DATE:20260716
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-212@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-213@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-214@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-215@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-216@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-217@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-218@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-219@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
+UID:jagttid-2026-lok-102@luka2945
+DTSTAMP:20260306T075213Z
+SUMMARY:Sølvmåge (Lokalt)
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-220@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-221@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-222@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-223@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-224@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-225@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-226@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – INGEN JAGTTID (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-227@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – Lokal (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261103
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-loc-228@luka2945
-DTSTAMP:20260302T104020Z
-SUMMARY: – Lokal (Region Sjælland - lokale jagttider)
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20270101
-DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nSæsonstart-år: 2026
+DESCRIPTION:Område: Region Sjælland - lokale jagttider\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
 END:VEVENT
 END:VCALENDAR
