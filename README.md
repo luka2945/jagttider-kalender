@@ -85,13 +85,14 @@ Hare - Lokal ingen jagttid RM
 ```
 
 ### Region forkortelser
+
 | Region | Forkortelse |
-|---|---|
-| Region Hovedstaden | RH |
-| Region Sjælland | RSj |
-| Region Syddanmark | RSy |
-| Region Midtjylland | RM |
-| Region Nordjylland | RN |
+|------|------|
+Region Hovedstaden | RH  
+Region Sjælland | RSj  
+Region Syddanmark | RSy  
+Region Midtjylland | RM  
+Region Nordjylland | RN
 
 ---
 
