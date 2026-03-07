@@ -24,7 +24,7 @@ Vælg en kalender herunder og abonnér på den i din kalenderapp.
 - [Region Midtjylland](https://raw.githubusercontent.com/luka2945/jagttider-kalender/main/Jagttids-Kalender/jagttider-lokalt-region-midtjylland.ics)
 - [Region Nordjylland](https://raw.githubusercontent.com/luka2945/jagttider-kalender/main/Jagttids-Kalender/jagttider-lokalt-region-nordjylland.ics)
 
-### Andre lokale jagttider. Kun fastlands, kalender
+### Lokale jagttider. Kun fastland, kalender
 - [Alle regioner minus øerne](https://raw.githubusercontent.com/luka2945/jagttider-kalender/main/Jagttids-Kalender/jagttider-lokalt-alle-regioner-minus-oerne.ics)
 
 ---
