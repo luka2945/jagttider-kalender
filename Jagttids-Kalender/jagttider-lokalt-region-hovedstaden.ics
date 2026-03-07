@@ -3,4 +3,58 @@ VERSION:2.0
 PRODID:-//luka2945//Jagttider ICS//DA
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Jagttider – Lokalt (Region Hovedstaden)
+BEGIN:VEVENT
+UID:jagttid-2025-lok-1@luka2945
+DTSTAMP:20260307T132501Z
+SUMMARY:Sølvmåge - Lokal jagttid
+DTSTART;VALUE=DATE:20251101
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Område: Region hovedstaden\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-2@luka2945
+DTSTAMP:20260307T132501Z
+SUMMARY:Agerhøne - Lokal jagttid
+DTSTART;VALUE=DATE:20251001
+DTEND;VALUE=DATE:20251101
+DESCRIPTION:Område: Region hovedstaden\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-nohunt-3@luka2945
+DTSTAMP:20260307T132501Z
+SUMMARY:Ræv - Ingen jagttid
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Område: Region hovedstaden\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-4@luka2945
+DTSTAMP:20260307T132502Z
+SUMMARY:Sølvmåge - Lokal jagttid
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:Område: Region hovedstaden\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-5@luka2945
+DTSTAMP:20260307T132502Z
+SUMMARY:Agerhøne - Lokal jagttid
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261101
+DESCRIPTION:Område: Region hovedstaden\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-nohunt-6@luka2945
+DTSTAMP:20260307T132502Z
+SUMMARY:Ræv - Ingen jagttid
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:Område: Region hovedstaden\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+URL:https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
+END:VEVENT
 END:VCALENDAR
