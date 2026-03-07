@@ -8,21 +8,261 @@
   "local_map_image_url": "https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png",
 
   "species_meta": {
-    "gås": {
+    "gråand": {
       "image_url": "",
-      "notes": "Gæs må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
+      "notes": "Gråand må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
     },
-    "and": {
-      "image_url": "https://alt-om-webdesign.dk/wp-content/uploads/artikler/photoshop/flyt-mellem-billeder/rubberduck.jpg",
-      "notes": "Ænder må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
+    "krikand": {
+      "image_url": "",
+      "notes": "Krikand må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
     },
-    "Krage": {
+    "atlingand": {
+      "image_url": "",
+      "notes": "Atlingand må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
+    },
+    "spidsand": {
+      "image_url": "",
+      "notes": "Spidsand må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
+    },
+    "skeand": {
+      "image_url": "",
+      "notes": "Skeand må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
+    },
+    "pibeand": {
+      "image_url": "",
+      "notes": "Pibeand må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
+    },
+    "taffeland": {
+      "image_url": "",
+      "notes": "Taffeland må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
+    },
+    "troldand": {
+      "image_url": "",
+      "notes": "Troldand må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
+    },
+    "bjergand": {
+      "image_url": "",
+      "notes": "Bjergand må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
+    },
+    "hvinand": {
+      "image_url": "",
+      "notes": "Hvinand må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
+    },
+    "ederfugl": {
+      "image_url": "",
+      "notes": ""
+    },
+    "ederfugl - han": {
+      "image_url": "",
+      "notes": ""
+    },
+    "grågås": {
+      "image_url": "",
+      "notes": "Grågås må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
+    },
+    "blisgås": {
+      "image_url": "",
+      "notes": "Blisgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
+    },
+    "sædgås": {
+      "image_url": "",
+      "notes": "Sædgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
+    },
+    "kortnæbbet gås": {
+      "image_url": "",
+      "notes": "Kortnæbbet gås må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
+    },
+    "canadagås": {
+      "image_url": "",
+      "notes": "Canadagås må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
+    },
+    "nilgås": {
+      "image_url": "",
+      "notes": "Nilgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
+    },
+    "blishøne": {
+      "image_url": "",
+      "notes": ""
+    },
+    "dobbeltbekkasin": {
+      "image_url": "",
+      "notes": ""
+    },
+    "skovsneppe": {
+      "image_url": "",
+      "notes": ""
+    },
+    "sølvmåge": {
+      "image_url": "",
+      "notes": ""
+    },
+    "ringdue": {
+      "image_url": "",
+      "notes": ""
+    },
+    "tyrkerdue": {
+      "image_url": "",
+      "notes": ""
+    },
+    "fasan": {
+      "image_url": "",
+      "notes": ""
+    },
+    "fasanhøne": {
+      "image_url": "",
+      "notes": ""
+    },
+    "agerhøne": {
+      "image_url": "",
+      "notes": ""
+    },
+    "krage": {
       "image_url": "",
       "notes": "Gråkrage og sortkrage må jages 1 time før solopgang til solnedgang."
     },
-    "Husskade": {
+    "gråkrage": {
+      "image_url": "",
+      "notes": "Gråkrage må jages 1 time før solopgang til solnedgang."
+    },
+    "sortkrage": {
+      "image_url": "",
+      "notes": "Sortkrage må jages 1 time før solopgang til solnedgang."
+    },
+    "husskade": {
       "image_url": "",
       "notes": "Husskade må jages 1 time før solopgang til solnedgang."
+    },
+    "råge": {
+      "image_url": "",
+      "notes": ""
+    },
+    "allike": {
+      "image_url": "",
+      "notes": ""
+    },
+    "ræv": {
+      "image_url": "",
+      "notes": ""
+    },
+    "hare": {
+      "image_url": "",
+      "notes": ""
+    },
+    "vildkanin": {
+      "image_url": "",
+      "notes": ""
+    },
+    "kronhjort": {
+      "image_url": "",
+      "notes": ""
+    },
+    "kronhjort større end spidshjort": {
+      "image_url": "",
+      "notes": ""
+    },
+    "kronspidshjort": {
+      "image_url": "",
+      "notes": ""
+    },
+    "kronhind": {
+      "image_url": "",
+      "notes": ""
+    },
+    "kronkalv": {
+      "image_url": "",
+      "notes": ""
+    },
+    "kronvildt": {
+      "image_url": "",
+      "notes": ""
+    },
+    "dåhjort": {
+      "image_url": "",
+      "notes": ""
+    },
+    "då": {
+      "image_url": "",
+      "notes": ""
+    },
+    "då og -kalv": {
+      "image_url": "",
+      "notes": ""
+    },
+    "dåvildt": {
+      "image_url": "",
+      "notes": ""
+    },
+    "sikahjort": {
+      "image_url": "",
+      "notes": ""
+    },
+    "sikahind og - kalv": {
+      "image_url": "",
+      "notes": ""
+    },
+    "sika": {
+      "image_url": "",
+      "notes": ""
+    },
+    "råbuk": {
+      "image_url": "",
+      "notes": ""
+    },
+    "rå": {
+      "image_url": "",
+      "notes": ""
+    },
+    "rå og -lam": {
+      "image_url": "",
+      "notes": ""
+    },
+    "råvildt": {
+      "image_url": "",
+      "notes": ""
+    },
+    "muflonvædder": {
+      "image_url": "",
+      "notes": ""
+    },
+    "muflonfår og -lam": {
+      "image_url": "",
+      "notes": ""
+    },
+    "muflon": {
+      "image_url": "",
+      "notes": ""
+    },
+    "vildsvin": {
+      "image_url": "",
+      "notes": ""
+    },
+    "vildsvin, orne": {
+      "image_url": "",
+      "notes": ""
+    },
+    "vildsvin, so og grise": {
+      "image_url": "",
+      "notes": ""
+    },
+    "mårhund": {
+      "image_url": "",
+      "notes": ""
+    },
+    "vaskebjørn": {
+      "image_url": "",
+      "notes": ""
+    },
+    "mink": {
+      "image_url": "",
+      "notes": ""
+    },
+    "bisamrotte": {
+      "image_url": "",
+      "notes": ""
+    },
+    "sumpbæver": {
+      "image_url": "",
+      "notes": ""
     }
   }
 }
