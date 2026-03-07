@@ -14,17 +14,17 @@ Kalenderne opdateres automatisk via **GitHub Actions**, så ændringer i jagttid
 
 Vælg en kalender herunder og abonnér på den i din kalenderapp.
 
-### Generel jagttid
+### Generele jagttider
 [Abonnér på generel kalender](https://raw.githubusercontent.com/luka2945/jagttider-kalender/main/Jagttids-Kalender/jagttider-generel.ics)
 
-### Region kalendere
+### Lokale jagttider. Region kalendere
 - [Region Hovedstaden](https://raw.githubusercontent.com/luka2945/jagttider-kalender/main/Jagttids-Kalender/jagttider-lokalt-region-hovedstaden.ics)
 - [Region Sjælland](https://raw.githubusercontent.com/luka2945/jagttider-kalender/main/Jagttids-Kalender/jagttider-lokalt-region-sjaelland.ics)
 - [Region Syddanmark](https://raw.githubusercontent.com/luka2945/jagttider-kalender/main/Jagttids-Kalender/jagttider-lokalt-region-syddanmark.ics)
 - [Region Midtjylland](https://raw.githubusercontent.com/luka2945/jagttider-kalender/main/Jagttids-Kalender/jagttider-lokalt-region-midtjylland.ics)
 - [Region Nordjylland](https://raw.githubusercontent.com/luka2945/jagttider-kalender/main/Jagttids-Kalender/jagttider-lokalt-region-nordjylland.ics)
 
-### Andre lokale kalendere
+### Andre lokale jagttider. Kun fastlands, kalender
 - [Alle regioner minus øerne](https://raw.githubusercontent.com/luka2945/jagttider-kalender/main/Jagttids-Kalender/jagttider-lokalt-alle-regioner-minus-oerne.ics)
 
 ---
