@@ -1,108 +1,231 @@
-# Jagttider → ICS (auto-opdateret kalender)
+# 🦆 Jagttider → Automatisk kalender
 
-Dette repo genererer `.ics`-kalendere med jagttider fra Danmarks Jægerforbund og committer dem automatisk, så du kan abonnere på dem i Apple Kalender, Google Kalender, Outlook m.m.
+![Sidst opdateret](https://img.shields.io/github/actions/workflow/status/luka2945/jagttider-kalender/update-jagttider.yml?label=Sidst%20opdateret&style=for-the-badge)
+![Repository size](https://img.shields.io/github/repo-size/luka2945/jagttider-kalender?style=for-the-badge)
+![Last commit](https://img.shields.io/github/last-commit/luka2945/jagttider-kalender?style=for-the-badge)
 
-## Hvad genereres?
-Der bliver genereret flere kalendere (filer) ud fra configs:
+Automatisk opdaterede `.ics` kalendere med jagttider fra **Danmarks Jægerforbund** — klar til Apple Kalender, Google Kalender, Outlook og andre kalenderapps.
 
-- **Jagttider – Generel** (alle generelle jagttider)
-- **Jagttider – Lokalt (Personlig)** (lokale jagttider, med mine/dine fravalg)
-- **Jagttider – Lokalt (Region …)** (en kalender pr. region)
-- **Jagttider – Lokalt (Alle regioner, minus øerne)**
-
-Alle `.ics`-filer bliver lagt i mappen: `Jagttids-Kalender/`
+Kalenderne opdateres automatisk via **GitHub Actions**, så ændringer i jagttiderne bliver slået igennem i de abonnementerede kalendere.
 
 ---
 
-## Auto-opdatering (GitHub Actions)
-Workflowet kører automatisk (schedule) og kan også køres manuelt:
+## 📱 Brug kalenderen med det samme
 
+Vælg en kalender herunder og abonnér på den i din kalenderapp.
+
+### Generel jagttid
+[Abonnér på generel kalender](https://raw.githubusercontent.com/luka2945/jagttider-kalender/main/Jagttids-Kalender/jagttider-generel.ics)
+
+### Region kalendere
+- [Region Hovedstaden](https://raw.githubusercontent.com/luka2945/jagttider-kalender/main/Jagttids-Kalender/jagttider-lokalt-region-hovedstaden.ics)
+- [Region Sjælland](https://raw.githubusercontent.com/luka2945/jagttider-kalender/main/Jagttids-Kalender/jagttider-lokalt-region-sjaelland.ics)
+- [Region Syddanmark](https://raw.githubusercontent.com/luka2945/jagttider-kalender/main/Jagttids-Kalender/jagttider-lokalt-region-syddanmark.ics)
+- [Region Midtjylland](https://raw.githubusercontent.com/luka2945/jagttider-kalender/main/Jagttids-Kalender/jagttider-lokalt-region-midtjylland.ics)
+- [Region Nordjylland](https://raw.githubusercontent.com/luka2945/jagttider-kalender/main/Jagttids-Kalender/jagttider-lokalt-region-nordjylland.ics)
+
+### Andre lokale kalendere
+- [Alle regioner minus øerne](https://raw.githubusercontent.com/luka2945/jagttider-kalender/main/Jagttids-Kalender/jagttider-lokalt-alle-regioner-minus-oerne.ics)
+
+---
+
+## 🍎 Sådan tilføjer du kalenderen
+
+### Apple Kalender (iPhone / iPad)
+1. Åbn **Kalender**
+2. Tryk **Kalendere**
+3. Tryk **Tilføj kalender**
+4. Vælg **Tilføj abonnementskalender**
+5. Indsæt linket til den ønskede `.ics`
+6. Sæt opdatering til **Auto**
+
+### Google Kalender
+1. Åbn Google Kalender
+2. Vælg **Add calendar**
+3. Vælg **From URL**
+4. Indsæt `.ics` linket
+
+### Outlook
+1. Vælg **Add calendar**
+2. Vælg **Subscribe from web**
+3. Indsæt `.ics` linket
+
+---
+
+## 🦌 Hvad indeholder kalenderne?
+
+### Generelle jagttider
+Eksempel:
+```text
+Gråand - Jagttid
+```
+
+### Lokale jagttider
+Eksempel:
+```text
+Hare - Lokal jagttid RM
+```
+
+### Lokal ingen jagttid
+Eksempel:
+```text
+Hare - Lokal ingen jagttid RM
+```
+
+### Region forkortelser
+| Region | Forkortelse |
+|---|---|
+| Region Hovedstaden | RH |
+| Region Sjælland | RSj |
+| Region Syddanmark | RSy |
+| Region Midtjylland | RM |
+| Region Nordjylland | RN |
+
+---
+
+## 📝 Hvad står der i event-noterne?
+
+Et event kan indeholde:
+- område
+- kilde
+- billede-link
+- regionskort
+- ekstra note om arten
+
+Eksempel:
+```text
+Område: Øen Endelave Region Midtjylland
+Kilde: ...
+Billede: ...
+Regionskort: ...
+```
+
+---
+
+## 📂 Hvor ligger kalenderfilerne?
+
+Alle genererede kalendere ligger i:
+
+```text
+Jagttids-Kalender/
+```
+
+Eksempel filer:
+```text
+jagttider-generel.ics
+jagttider-lokalt-region-hovedstaden.ics
+jagttider-lokalt-region-sjaelland.ics
+jagttider-lokalt-region-syddanmark.ics
+jagttider-lokalt-region-midtjylland.ics
+jagttider-lokalt-region-nordjylland.ics
+jagttider-lokalt-alle-regioner-minus-oerne.ics
+```
+
+---
+
+## ⚙️ Automatisk opdatering
+
+Kalenderne opdateres via GitHub Actions.
+
+Workflow:
+```text
+Update Jagttider ICS
+```
+
+Workflowet:
+1. henter jagttider fra Jægerforbundet
+2. genererer nye `.ics` filer
+3. opdaterer repository hvis noget har ændret sig
+
+Hvis du vil køre det manuelt:
 1. Gå til fanen **Actions**
 2. Vælg **Update Jagttider ICS**
 3. Klik **Run workflow**
 
-Hvis der er ændringer på Danmarks Jægerforbunds sider, bliver `.ics`-filerne opdateret og committet.
+---
+
+## ⚙️ Konfiguration
+
+Projektets konfiguration ligger i:
+
+```text
+configs/
+```
+
+### `configs/master.json`
+Indeholder hovedopsætningen, fx:
+- `general_url`
+- `local_url`
+- `user_agent`
+- `seasons_ahead`
+- `local_map_image_url`
+- `species_meta`
+
+### `species_meta`
+Her kan du tilføje billeder og noter til arter.
+
+Eksempel:
+```json
+"gråkrage": {
+  "image_url": "",
+  "notes": ""
+}
+```
+
+Felter:
+- `image_url` = billede af dyret
+- `notes` = ekstra tekst om arten
+
+Hvis en art ikke findes i listen, fungerer kalenderen stadig — den får bare ikke ekstra note eller billede-link.
+
+### `configs/calendars/*.json`
+Hver fil genererer én kalender.
+
+Vigtige felter:
+- `calendar_name`
+- `output_filename`
+- `use_local`
+- `filters.include_area_keywords`
+- `filters.exclude_area_keywords`
+- `local_rules.emit_no_hunting_events`
+- `seasons_ahead`
 
 ---
 
-## Abonnér på kalenderen (auto-opdater i din kalender-app)
+## 🔍 Se koden bagved
 
-Du skal bruge **RAW-linket** til `.ics` filen:
+Hvis du vil se hvordan det hele virker, kan du gå direkte til repositoryet her:
 
-**Format:**
+[Åbn koden på GitHub](https://github.com/luka2945/jagttider-kalender)
 
+Du kan også gå direkte til min GitHub profil her:
 
-
-
-**Eksempler:**
-- `.../Jagttids-Kalender/jagttider-generel.ics`
-- `.../Jagttids-Kalender/jagttider-lokalt-personlig.ics`
-
-### Apple Kalender (iPhone/iPad)
-1. Åbn **Kalender**
-2. Tryk **Kalendere**
-3. Tryk **Tilføj kalender** → **Tilføj abonnementskalender**
-4. Indsæt RAW-linket
-5. Sæt opdatering til **Auto**
-
-### Google Kalender / Outlook
-De kan også abonnere via URL (ofte under “Add calendar by URL” / “Subscribe from URL”).
-
-> Bemærk: Opdateringsinterval styres af kalender-appen (nogle opdaterer sjældent). Apple “Auto” er typisk fint.
+[GitHub profil – luka2945](https://github.com/luka2945)
 
 ---
 
-## Konfiguration
+## 📜 Datakilder
 
-### 1) `configs/master.json`
-Her ligger “database”-delen:
+Generelle jagttider:  
+https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
 
-- `attachments.local_map_image_url`  
-  Et billede/URL med Danmark/region-kort som vedhæftes alle lokale events (valgfrit).
-
-- `species`  
-  Her kan du (valgfrit) definere:
-  - `image_url` (billede af dyret)
-  - `shooting_time_note` (tekst som “01:30 før solopgang …”)
-  - `aliases` (alternative navne)
-
-Hvis en art ikke findes i `master.json`, virker kalenderen stadig – den får bare ikke dyrebillede/skydetid-tekst.
-
-### 2) `configs/calendars/*.json`
-Hver kalender har samme schema:
-
-- `use_local`  
-  - `false` = generelle jagttider
-  - `true` = lokale jagttider
-
-- `filters.include_area_keywords` / `filters.exclude_area_keywords`  
-  Tekstfiltre på område (region/kommune/ø).  
-  Tom liste = ingen filter.
-
-- `local_rules.emit_no_hunting_events` (kun relevant når `use_local: true`)
-  - `true` = “ingen jagttid” bliver til events (klippet til samme periode som den generelle jagttid for arten)
-  - `false` = “ingen jagttid” ignoreres
-
-- `seasons_ahead`  
-  Hvor mange jagtsæsoner frem der genereres (1, 2, 3…)
+Lokale jagttider:  
+https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
 
 ---
 
-## Hvordan tolkes tiderne?
-- Generelle og lokale jagttider bliver lavet som **heldags-events** fra startdato til slutdato.
-- “Særlige lørdagsregler” (fx “1. og 2. lørdag i november”) bliver lavet som enkelt-dags-events på de konkrete lørdage.
-- “Ingen jagttid” (lokale tider) kan laves som events hvis `emit_no_hunting_events: true` og bliver **ikke** sat til “hele året” – de bliver klippet til den generelle jagttidsperiode for arten.
+## ⚠️ Disclaimer
+
+Kalenderen er et hjælpemiddel.
+
+Den officielle kilde er altid **Danmarks Jægerforbund**.  
+Tjek altid gældende regler før jagt.
 
 ---
 
-## Output
-Alle `.ics` genereres til:
-- `Jagttids-Kalender/*.ics`
+## 👤 Lavet af
 
-Hvis du ikke kan se filer blive committet, tjek at din `.gitignore` ikke blokerer `.ics`.
+**Lavet af Lukas Jermiin**
 
----
-
-## Kilder
-- Generelle jagttider: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/
-- Lokale jagttider: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/
+- [GitHub profil](https://github.com/luka2945)
+- [Se projektet](https://github.com/luka2945/jagttider-kalender)
