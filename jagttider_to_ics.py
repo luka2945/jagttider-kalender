@@ -44,13 +44,11 @@ DK_MONTHS = {
 
 RANGE_RE = re.compile(r"(\d{1,2})\.(\d{1,2})\s*[-–]\s*(\d{1,2})\.(\d{1,2})")
 
-# "1. og 2. lørdag i november"
 NTH_SAT_RE = re.compile(
     r"(\d)\.\s*og\s*(\d)\.\s*lørdag i ([a-zæøå]+)",
     flags=re.I,
 )
 
-# "alle lørdage i december"
 ALL_SAT_RE = re.compile(
     r"alle\s+lørdage?\s+i\s+([a-zæøå]+)",
     flags=re.I,
@@ -118,7 +116,7 @@ def season_range_dates(season_year: int, d1: int, m1: int, d2: int, m2: int) -> 
     Regler:
     - Hvis startmåned er Jul-Dec, ligger start i season_year
     - Hvis startmåned er Jan-Jun, ligger start i season_year + 1
-    - Hvis slutdato "kommer før" startdato i kalenderen, går perioden over nytår
+    - Hvis slutdato ligger før startdato, går perioden over nytår
     """
     start_year = season_year if m1 >= 7 else (season_year + 1)
     end_year = start_year
@@ -236,10 +234,6 @@ def get_species_meta(species_name: str, species_meta: dict) -> dict:
 # Area helpers
 # -----------------------
 def split_area(area: str | None) -> tuple[str, str | None]:
-    """
-    "Region Midtjylland | Øen Endelave" -> ("Region Midtjylland", "Øen Endelave")
-    "Region Midtjylland" -> ("Region Midtjylland", None)
-    """
     if not area:
         return "", None
     if " | " in area:
@@ -249,14 +243,24 @@ def split_area(area: str | None) -> tuple[str, str | None]:
 
 
 def display_area(area: str | None) -> str:
-    """
-    "Region Midtjylland | Øen Endelave" -> "Øen Endelave Region Midtjylland"
-    "Region Midtjylland" -> "Region Midtjylland"
-    """
     region, sub = split_area(area)
     if sub:
         return f"{sub} {region}".strip()
     return region
+
+
+# -----------------------
+# HTML -> text lines
+# -----------------------
+def html_to_lines(html: str) -> list[str]:
+    soup = BeautifulSoup(html, "lxml")
+    text = soup.get_text("\n")
+    lines = []
+    for raw in text.splitlines():
+        s = " ".join(raw.replace("\xa0", " ").split()).strip()
+        if s:
+            lines.append(s)
+    return lines
 
 
 # -----------------------
@@ -309,7 +313,7 @@ def parse_general(html: str, season_year: int) -> list[SeasonRange]:
 
 
 # -----------------------
-# Parsing: LOCAL
+# Parsing: LOCAL from text lines
 # -----------------------
 def nth_saturday(year: int, month: int, n: int) -> date | None:
     c = calmod.Calendar(firstweekday=calmod.MONDAY)
@@ -353,111 +357,120 @@ def parse_special_text_to_dates(text: str, season_year: int) -> list[date]:
     return sorted(set(dates))
 
 
+def split_species_and_rule(line: str) -> tuple[str | None, str | None]:
+    txt = line.strip()
+    if not txt:
+        return None, None
+
+    # date rule
+    m = RANGE_RE.search(txt.replace("–", "-"))
+    if m:
+        species = clean_species_name(txt[:m.start()].strip())
+        rule = txt[m.start():].strip()
+        return (species or None), (rule or None)
+
+    # no hunting
+    low = txt.lower()
+    idx = low.find("ingen jagttid")
+    if idx != -1:
+        species = clean_species_name(txt[:idx].strip())
+        rule = txt[idx:].strip()
+        return (species or None), (rule or None)
+
+    # saturday rules
+    if "lørdag" in low:
+        # split before first number or before "alle"
+        m_num = re.search(r"\d\.", txt)
+        idx = m_num.start() if m_num else low.find("alle")
+        if idx != -1:
+            species = clean_species_name(txt[:idx].strip())
+            rule = txt[idx:].strip()
+            return (species or None), (rule or None)
+
+    return None, None
+
+
 def parse_local(html: str, season_year: int) -> tuple[list[SeasonRange], list[NoHuntingMarker], list[SpecialDayRule]]:
     ensure_not_login_page(html)
-    soup = BeautifulSoup(html, "lxml")
+    lines = html_to_lines(html)
 
     local_ranges: list[SeasonRange] = []
     no_hunting: list[NoHuntingMarker] = []
     specials: list[SpecialDayRule] = []
 
-    region_headings = []
-    for h in soup.find_all(["h2", "h3", "h4"]):
-        txt = " ".join(h.get_text(" ", strip=True).split())
-        low = txt.lower()
+    current_region = ""
+    current_subarea = ""
+
+    for line in lines:
+        low = line.lower()
+
+        # region heading
         if "region" in low and "lokale jagttider" in low:
-            region_headings.append(h)
-
-    for h in region_headings:
-        region_name = " ".join(h.get_text(" ", strip=True).split())
-        region_name = re.sub(r"\s*-\s*lokale jagttider\s*$", "", region_name, flags=re.I).strip()
-
-        table = h.find_next("table")
-        if not table:
+            current_region = re.sub(r"\s*-\s*lokale jagttider\s*$", "", line, flags=re.I).strip()
+            current_subarea = current_region
             continue
 
-        current_subarea = region_name
+        if not current_region:
+            continue
 
-        for tr in table.find_all("tr"):
-            tds = tr.find_all(["td", "th"])
-            if not tds:
-                continue
+        # underarea headings
+        if low.startswith("øen "):
+            current_subarea = line.strip()
+            continue
 
-            cells = [" ".join(td.get_text(" ", strip=True).split()) for td in tds]
+        if "undtagen" in low and low.startswith("region "):
+            current_subarea = line.strip()
+            continue
 
-            while cells and not cells[-1]:
-                cells.pop()
+        if "hele regionen" in low:
+            current_subarea = current_region
+            continue
 
-            if not cells:
-                continue
+        species, rule_text = split_species_and_rule(line)
+        if not species or not rule_text:
+            continue
 
-            # Underområde-rækker i tabellen
-            if len(cells) == 1:
-                txt = cells[0].strip()
-                txt_low = txt.lower()
+        if species.lower() in ("vildtart", "art", "vildt"):
+            continue
 
-                if txt_low.startswith("øen "):
-                    current_subarea = txt
-                    continue
+        if current_subarea == current_region:
+            area = current_region
+        else:
+            area = f"{current_region} | {current_subarea}"
 
-                if "undtagen" in txt_low:
-                    current_subarea = txt
-                    continue
+        rule_low = rule_text.lower()
 
-                if "hele regionen" in txt_low:
-                    current_subarea = region_name
-                    continue
+        if "ingen jagttid" in rule_low:
+            no_hunting.append(NoHuntingMarker(species=species, area=area))
+            continue
 
-            if len(cells) < 2:
-                continue
-
-            species = clean_species_name(cells[0])
-            rule_text = cells[1].strip()
-
-            if not species or not rule_text:
-                continue
-
-            if species.lower() in ("vildtart", "art", "vildt"):
-                continue
-
-            if current_subarea == region_name:
-                area = region_name
-            else:
-                area = f"{region_name} | {current_subarea}"
-
-            low = rule_text.lower()
-
-            if "ingen jagttid" in low:
-                no_hunting.append(NoHuntingMarker(species=species, area=area))
-                continue
-
-            found_any_range = False
-            for (d1, m1, d2, m2) in RANGE_RE.findall(rule_text.replace("–", "-")):
-                start, end = season_range_dates(season_year, int(d1), int(m1), int(d2), int(m2))
-                if start and end:
-                    found_any_range = True
-                    local_ranges.append(
-                        SeasonRange(
-                            species=species,
-                            start=start,
-                            end_inclusive=end,
-                            kind="lokal",
-                            area=area
-                        )
-                    )
-
-            if found_any_range:
-                continue
-
-            special_dates = parse_special_text_to_dates(rule_text, season_year)
-            if special_dates:
-                specials.append(
-                    SpecialDayRule(
+        found_any_range = False
+        for (d1, m1, d2, m2) in RANGE_RE.findall(rule_text.replace("–", "-")):
+            start, end = season_range_dates(season_year, int(d1), int(m1), int(d2), int(m2))
+            if start and end:
+                found_any_range = True
+                local_ranges.append(
+                    SeasonRange(
                         species=species,
-                        area=area,
-                        dates=tuple(special_dates)
+                        start=start,
+                        end_inclusive=end,
+                        kind="lokal",
+                        area=area
                     )
                 )
+
+        if found_any_range:
+            continue
+
+        special_dates = parse_special_text_to_dates(rule_text, season_year)
+        if special_dates:
+            specials.append(
+                SpecialDayRule(
+                    species=species,
+                    area=area,
+                    dates=tuple(special_dates)
+                )
+            )
 
     uniq_local = []
     seen_local = set()
@@ -514,7 +527,6 @@ def main() -> None:
 
     seasons_ahead_default = int(master.get("seasons_ahead", 2))
     local_map_image_url = master.get("local_map_image_url", "")
-
     species_meta = master.get("species_meta", {})
 
     calendar_cfgs = list_calendar_configs()
@@ -546,6 +558,7 @@ def main() -> None:
             season_year = base_season_year + i
 
             general_ranges = parse_general(general_html, season_year)
+            local_ranges, no_hunting, specials = parse_local(local_html, season_year)
 
             general_by_species: dict[str, list[SeasonRange]] = {}
             for gr in general_ranges:
@@ -578,9 +591,6 @@ def main() -> None:
 
             else:
                 # LOKAL kalender
-                local_ranges, no_hunting, specials = parse_local(local_html, season_year)
-
-                # local ranges
                 for r in local_ranges:
                     if not area_allowed(r.area, include_area, exclude_area):
                         continue
@@ -611,7 +621,6 @@ def main() -> None:
                         url=local_url
                     ))
 
-                # special one-day rules
                 for sp in specials:
                     if not area_allowed(sp.area, include_area, exclude_area):
                         continue
@@ -642,7 +651,6 @@ def main() -> None:
                             url=local_url
                         ))
 
-                # no-hunting events -> use GENERAL duration for same species
                 if emit_no_hunting:
                     for nh in no_hunting:
                         if not area_allowed(nh.area, include_area, exclude_area):
