@@ -6,7 +6,7 @@ Dette repo genererer `.ics`-kalendere med jagttider fra Danmarks Jægerforbund o
 Der bliver genereret flere kalendere (filer) ud fra configs:
 
 - **Jagttider – Generel** (alle generelle jagttider)
-- **Jagttider – Lokalt (Personlig)** (lokale jagttider, med dine fravalg)
+- **Jagttider – Lokalt (Personlig)** (lokale jagttider, med mine/dine fravalg)
 - **Jagttider – Lokalt (Region …)** (en kalender pr. region)
 - **Jagttider – Lokalt (Alle regioner, minus øerne)**
 
