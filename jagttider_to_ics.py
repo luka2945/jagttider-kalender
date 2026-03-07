@@ -97,10 +97,7 @@ def load_master() -> dict:
 def list_calendar_configs() -> list[dict]:
     if not CALENDAR_CONFIG_DIR.exists():
         return []
-    configs = []
-    for p in sorted(CALENDAR_CONFIG_DIR.glob("*.json")):
-        configs.append(load_json(p))
-    return configs
+    return [load_json(p) for p in sorted(CALENDAR_CONFIG_DIR.glob("*.json"))]
 
 
 def compute_season_year_auto(today: date | None = None) -> int:
@@ -112,14 +109,6 @@ def compute_season_year_auto(today: date | None = None) -> int:
 # Date helpers
 # -----------------------
 def season_range_dates(season_year: int, d1: int, m1: int, d2: int, m2: int) -> tuple[date | None, date | None]:
-    """
-    season_year = året hvor sæsonen starter.
-
-    Regler:
-    - Hvis startmåned er Jul-Dec, ligger start i season_year
-    - Hvis startmåned er Jan-Jun, ligger start i season_year + 1
-    - Hvis slutdato ligger før startdato, går perioden over nytår
-    """
     start_year = season_year if m1 >= 7 else (season_year + 1)
     end_year = start_year
 
@@ -127,9 +116,7 @@ def season_range_dates(season_year: int, d1: int, m1: int, d2: int, m2: int) -> 
         end_year += 1
 
     try:
-        start = date(start_year, m1, d1)
-        end = date(end_year, m2, d2)
-        return start, end
+        return date(start_year, m1, d1), date(end_year, m2, d2)
     except ValueError:
         return None, None
 
@@ -193,7 +180,7 @@ def fetch_html(url: str, ua: str) -> str:
             "Accept-Language": DEFAULT_LANG,
             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         },
-        timeout=30
+        timeout=30,
     )
     r.raise_for_status()
     return r.text
@@ -214,8 +201,7 @@ def normalize_species(s: str) -> str:
 
 def clean_species_name(s: str) -> str:
     s = " ".join((s or "").strip().split())
-    s = re.sub(r"\s*\*+\s*$", "", s).strip()
-    return s
+    return re.sub(r"\s*\*+\s*$", "", s).strip()
 
 
 def get_species_meta(species_name: str, species_meta: dict) -> dict:
@@ -246,9 +232,19 @@ def split_area(area: str | None) -> tuple[str, str | None]:
 
 def display_area(area: str | None) -> str:
     region, sub = split_area(area)
-    if sub:
-        return f"{sub} {region}".strip()
-    return region
+    return f"{sub} {region}".strip() if sub else region
+
+
+def region_abbr(area: str | None) -> str:
+    region, _sub = split_area(area)
+    mapping = {
+        "region hovedstaden": "RH",
+        "region sjælland": "RSj",
+        "region syddanmark": "RSy",
+        "region midtjylland": "RM",
+        "region nordjylland": "RN",
+    }
+    return mapping.get(region.lower(), "")
 
 
 # -----------------------
@@ -317,7 +313,6 @@ def is_subarea_heading(line: str) -> bool:
 def parse_general(html: str, season_year: int) -> list[SeasonRange]:
     ensure_not_login_page(html)
     soup = BeautifulSoup(html, "lxml")
-
     ranges: list[SeasonRange] = []
 
     for table in soup.find_all("table"):
@@ -331,27 +326,17 @@ def parse_general(html: str, season_year: int) -> list[SeasonRange]:
 
             if not species or not period_text:
                 continue
-
             if species.lower() in ("vildtart", "art", "vildt"):
                 continue
-
             if "ingen jagttid" in period_text.lower():
                 continue
 
             for (d1, m1, d2, m2) in RANGE_RE.findall(period_text.replace("–", "-")):
                 start, end = season_range_dates(season_year, int(d1), int(m1), int(d2), int(m2))
                 if start and end:
-                    ranges.append(
-                        SeasonRange(
-                            species=species,
-                            start=start,
-                            end_inclusive=end,
-                            kind="generel"
-                        )
-                    )
+                    ranges.append(SeasonRange(species=species, start=start, end_inclusive=end, kind="generel"))
 
-    uniq = []
-    seen = set()
+    uniq, seen = [], set()
     for r in ranges:
         key = (r.species.lower(), r.start, r.end_inclusive, r.kind, r.area)
         if key not in seen:
@@ -386,7 +371,6 @@ def parse_special_text_to_dates(text: str, season_year: int) -> list[date]:
             continue
         month = DK_MONTHS[month_name]
         year = season_year if month >= 7 else (season_year + 1)
-
         d_a = nth_saturday(year, month, n1)
         d_b = nth_saturday(year, month, n2)
         if d_a:
@@ -417,12 +401,8 @@ def parse_local(html: str, season_year: int) -> tuple[list[SeasonRange], list[No
     current_subarea = ""
     pending_species = ""
 
-    for line in lines:
-        txt = line.strip()
+    for txt in lines:
         low = txt.lower()
-
-        if not txt:
-            continue
 
         if is_region_heading(txt):
             current_region = re.sub(r"\s*-\s*lokale jagttider\s*$", "", txt, flags=re.I).strip()
@@ -434,10 +414,7 @@ def parse_local(html: str, season_year: int) -> tuple[list[SeasonRange], list[No
             continue
 
         if is_subarea_heading(txt):
-            if "hele regionen" in low:
-                current_subarea = current_region
-            else:
-                current_subarea = txt
+            current_subarea = current_region if "hele regionen" in low else txt
             pending_species = ""
             continue
 
@@ -459,15 +436,10 @@ def parse_local(html: str, season_year: int) -> tuple[list[SeasonRange], list[No
 
         if not species or not rule_text:
             continue
-
         if species.lower() in ("vildtart", "art", "vildt"):
             continue
 
-        if current_subarea == current_region:
-            area = current_region
-        else:
-            area = f"{current_region} | {current_subarea}"
-
+        area = current_region if current_subarea == current_region else f"{current_region} | {current_subarea}"
         rule_low = rule_text.lower()
 
         if "ingen jagttid" in rule_low:
@@ -479,47 +451,30 @@ def parse_local(html: str, season_year: int) -> tuple[list[SeasonRange], list[No
             start, end = season_range_dates(season_year, int(d1), int(m1), int(d2), int(m2))
             if start and end:
                 found_any_range = True
-                local_ranges.append(
-                    SeasonRange(
-                        species=species,
-                        start=start,
-                        end_inclusive=end,
-                        kind="lokal",
-                        area=area
-                    )
-                )
+                local_ranges.append(SeasonRange(species=species, start=start, end_inclusive=end, kind="lokal", area=area))
 
         if found_any_range:
             continue
 
         special_dates = parse_special_text_to_dates(rule_text, season_year)
         if special_dates:
-            specials.append(
-                SpecialDayRule(
-                    species=species,
-                    area=area,
-                    dates=tuple(special_dates)
-                )
-            )
+            specials.append(SpecialDayRule(species=species, area=area, dates=tuple(special_dates)))
 
-    uniq_local = []
-    seen_local = set()
+    uniq_local, seen_local = [], set()
     for r in local_ranges:
         key = (r.species.lower(), r.start, r.end_inclusive, r.kind, r.area)
         if key not in seen_local:
             seen_local.add(key)
             uniq_local.append(r)
 
-    uniq_no = []
-    seen_no = set()
+    uniq_no, seen_no = [], set()
     for r in no_hunting:
         key = (r.species.lower(), r.area.lower())
         if key not in seen_no:
             seen_no.add(key)
             uniq_no.append(r)
 
-    uniq_sp = []
-    seen_sp = set()
+    uniq_sp, seen_sp = [], set()
     for r in specials:
         key = (r.species.lower(), r.area.lower(), tuple(r.dates))
         if key not in seen_sp:
@@ -527,7 +482,6 @@ def parse_local(html: str, season_year: int) -> tuple[list[SeasonRange], list[No
             uniq_sp.append(r)
 
     print(f"LOCAL DEBUG season {season_year}: ranges={len(uniq_local)} no_hunting={len(uniq_no)} specials={len(uniq_sp)}")
-
     return uniq_local, uniq_no, uniq_sp
 
 
@@ -619,7 +573,6 @@ def main() -> None:
                         description="\n".join(desc_parts),
                         url=general_url
                     ))
-
             else:
                 for r in local_ranges:
                     if not area_allowed(r.area, include_area, exclude_area):
@@ -629,6 +582,8 @@ def main() -> None:
                     meta = get_species_meta(r.species, species_meta)
                     img = meta.get("image_url", "")
                     notes = meta.get("notes", "")
+
+                    abbr = region_abbr(r.area)
 
                     desc_parts = []
                     if notes:
@@ -644,7 +599,7 @@ def main() -> None:
                     uid = f"jagttid-{season_year}-lok-{uid_counter}@luka2945"
                     events.append(build_event(
                         uid=uid,
-                        summary=f"{r.species} - Lokal jagttid",
+                        summary=f"{r.species} - Lokal jagttid {abbr}".strip(),
                         start=r.start,
                         end_inclusive=r.end_inclusive,
                         description="\n".join(desc_parts),
@@ -661,6 +616,8 @@ def main() -> None:
                         img = meta.get("image_url", "")
                         notes = meta.get("notes", "")
 
+                        abbr = region_abbr(sp.area)
+
                         desc_parts = []
                         if notes:
                             desc_parts.append(notes)
@@ -674,7 +631,7 @@ def main() -> None:
                         uid = f"jagttid-{season_year}-spec-{uid_counter}@luka2945"
                         events.append(build_event(
                             uid=uid,
-                            summary=f"{sp.species} - Lokal jagttid",
+                            summary=f"{sp.species} - Lokal jagttid {abbr}".strip(),
                             start=d,
                             end_inclusive=d,
                             description="\n".join(desc_parts),
@@ -696,6 +653,8 @@ def main() -> None:
                             img = meta.get("image_url", "")
                             notes = meta.get("notes", "")
 
+                            abbr = region_abbr(nh.area)
+
                             desc_parts = []
                             if notes:
                                 desc_parts.append(notes)
@@ -712,7 +671,7 @@ def main() -> None:
                             uid = f"jagttid-{season_year}-nohunt-{uid_counter}@luka2945"
                             events.append(build_event(
                                 uid=uid,
-                                summary=f"{nh.species} - Ingen jagttid",
+                                summary=f"{nh.species} - Lokal ingen jagttid {abbr}".strip(),
                                 start=gr.start,
                                 end_inclusive=gr.end_inclusive,
                                 description="\n".join(desc_parts),
