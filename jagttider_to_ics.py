@@ -150,9 +150,6 @@ def build_event(
         f"DTEND;VALUE=DATE:{ics_date(end_exclusive)}",
         f"DESCRIPTION:{ics_escape(description)}",
     ]
-    if url:
-        lines.append(f"URL:{ics_escape(url)}")
-    lines.append("END:VEVENT")
     return "\n".join(lines)
 
 
