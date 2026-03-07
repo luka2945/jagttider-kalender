@@ -15,7 +15,7 @@ Kalenderne opdateres automatisk via **GitHub Actions**, så ændringer i jagttid
 Vælg en kalender herunder og abonnér på den i din kalenderapp.
 
 ### 📅 Generele jagttider
-[Abonnér på generel kalender](https://raw.githubusercontent.com/luka2945/jagttider-kalender/main/Jagttids-Kalender/jagttider-generel.ics) ↔️ 
+[Generel kalender](https://raw.githubusercontent.com/luka2945/jagttider-kalender/main/Jagttids-Kalender/jagttider-generel.ics) ↔️ 
 https://raw.githubusercontent.com/luka2945/jagttider-kalender/main/Jagttids-Kalender/jagttider-generel.ics
 
 ### 📅 Lokale jagttider. Region kalendere
