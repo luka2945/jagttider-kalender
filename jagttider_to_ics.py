@@ -149,6 +149,7 @@ def build_event(
         f"DTSTART;VALUE=DATE:{ics_date(start)}",
         f"DTEND;VALUE=DATE:{ics_date(end_exclusive)}",
         f"DESCRIPTION:{ics_escape(description)}",
+        "END:VEVENT",
     ]
     return "\n".join(lines)
 
