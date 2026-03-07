@@ -3,6 +3,7 @@
 ![Sidst opdateret](https://img.shields.io/github/actions/workflow/status/luka2945/jagttider-kalender/update-jagttider.yml?label=Sidst%20opdateret&style=for-the-badge)
 ![Repository size](https://img.shields.io/github/repo-size/luka2945/jagttider-kalender?style=for-the-badge)
 ![Last commit](https://img.shields.io/github/last-commit/luka2945/jagttider-kalender?style=for-the-badge)
+![Status](https://img.shields.io/badge/Project-Active-brightgreen)
 
 Automatisk opdaterede `.ics` kalendere med jagttider fra **Danmarks Jægerforbund** — klar til Apple Kalender, Google Kalender, Outlook og andre kalenderapps.
 
