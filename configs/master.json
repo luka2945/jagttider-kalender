@@ -35,6 +35,14 @@
     "taffeland": {
       "image_url": "",
       "notes": "Taffeland må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
+      },
+    "knarand": {
+      "image_url": "",
+      "notes": "Knarand må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
+      },
+    "sortand": {
+      "image_url": "",
+      "notes": "Sortand må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
     },
     "troldand": {
       "image_url": "",
