@@ -5,130 +5,130 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Jagttider – Lokalt (Alle regioner\, minus øerne)
 BEGIN:VEVENT
 UID:jagttid-2025-lok-1@luka2945
-DTSTAMP:20260307T224524Z
+DTSTAMP:20260308T220936Z
 SUMMARY:Sølvmåge - Lokal jagttid RH
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region hovedstaden\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+DESCRIPTION:Område: Region hovedstaden\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-2@luka2945
-DTSTAMP:20260307T224524Z
+DTSTAMP:20260308T220936Z
 SUMMARY:Agerhøne - Lokal jagttid RH
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20251101
-DESCRIPTION:Område: Region hovedstaden\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+DESCRIPTION:Område: Region hovedstaden\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-3@luka2945
-DTSTAMP:20260307T224524Z
+DTSTAMP:20260308T220936Z
 SUMMARY:Sølvmåge - Lokal jagttid RSj
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+DESCRIPTION:Område: Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-4@luka2945
-DTSTAMP:20260307T224524Z
+DTSTAMP:20260308T220936Z
 SUMMARY:Sædgås - Lokal jagttid RSj
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20251201
-DESCRIPTION:Sædgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nOmråde: Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/saedgaas.webp\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+DESCRIPTION:Sædgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nOmråde: Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/saedgaas.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-5@luka2945
-DTSTAMP:20260307T224524Z
+DTSTAMP:20260308T220936Z
 SUMMARY:Hare - Lokal jagttid RSy
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260116
-DESCRIPTION:Område: Region Syddanmark vest for Lillebælt undtagen Als og Kegnæs Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+DESCRIPTION:Område: Region Syddanmark vest for Lillebælt undtagen Als og Kegnæs Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-6@luka2945
-DTSTAMP:20260307T224524Z
+DTSTAMP:20260308T220936Z
 SUMMARY:Hare - Lokal jagttid RN
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260116
-DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-7@luka2945
-DTSTAMP:20260307T224524Z
+DTSTAMP:20260308T220936Z
 SUMMARY:Agerhøne - Lokal jagttid RN
 DTSTART;VALUE=DATE:20250916
 DTEND;VALUE=DATE:20251016
-DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-nohunt-8@luka2945
-DTSTAMP:20260307T224524Z
+DTSTAMP:20260308T220936Z
 SUMMARY:Ræv - Lokal ingen jagttid RH
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region hovedstaden\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nBillede: https://luka2945.github.io/Billede/af/raev.webp\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+DESCRIPTION:Område: Region hovedstaden\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nBillede: https://luka2945.github.io/Billede/af/raev.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-9@luka2945
-DTSTAMP:20260307T224524Z
+DTSTAMP:20260308T220937Z
 SUMMARY:Sølvmåge - Lokal jagttid RH
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region hovedstaden\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+DESCRIPTION:Område: Region hovedstaden\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-10@luka2945
-DTSTAMP:20260307T224524Z
+DTSTAMP:20260308T220937Z
 SUMMARY:Agerhøne - Lokal jagttid RH
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261101
-DESCRIPTION:Område: Region hovedstaden\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+DESCRIPTION:Område: Region hovedstaden\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-11@luka2945
-DTSTAMP:20260307T224524Z
+DTSTAMP:20260308T220937Z
 SUMMARY:Sølvmåge - Lokal jagttid RSj
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+DESCRIPTION:Område: Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-12@luka2945
-DTSTAMP:20260307T224524Z
+DTSTAMP:20260308T220937Z
 SUMMARY:Sædgås - Lokal jagttid RSj
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20261201
-DESCRIPTION:Sædgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nOmråde: Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/saedgaas.webp\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+DESCRIPTION:Sædgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nOmråde: Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/saedgaas.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-13@luka2945
-DTSTAMP:20260307T224524Z
+DTSTAMP:20260308T220937Z
 SUMMARY:Hare - Lokal jagttid RSy
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270116
-DESCRIPTION:Område: Region Syddanmark vest for Lillebælt undtagen Als og Kegnæs Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+DESCRIPTION:Område: Region Syddanmark vest for Lillebælt undtagen Als og Kegnæs Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-14@luka2945
-DTSTAMP:20260307T224524Z
+DTSTAMP:20260308T220937Z
 SUMMARY:Hare - Lokal jagttid RN
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270116
-DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-15@luka2945
-DTSTAMP:20260307T224524Z
+DTSTAMP:20260308T220937Z
 SUMMARY:Agerhøne - Lokal jagttid RN
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20261016
-DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-nohunt-16@luka2945
-DTSTAMP:20260307T224524Z
+DTSTAMP:20260308T220937Z
 SUMMARY:Ræv - Lokal ingen jagttid RH
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region hovedstaden\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nBillede: https://luka2945.github.io/Billede/af/raev.webp\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+DESCRIPTION:Område: Region hovedstaden\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nBillede: https://luka2945.github.io/Billede/af/raev.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 END:VCALENDAR

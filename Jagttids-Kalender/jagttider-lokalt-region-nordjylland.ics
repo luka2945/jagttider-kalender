@@ -5,34 +5,34 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Jagttider – Lokalt (Region Nordjylland)
 BEGIN:VEVENT
 UID:jagttid-2025-lok-1@luka2945
-DTSTAMP:20260307T224527Z
+DTSTAMP:20260308T220940Z
 SUMMARY:Hare - Lokal jagttid RN
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260116
-DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-2@luka2945
-DTSTAMP:20260307T224527Z
+DTSTAMP:20260308T220940Z
 SUMMARY:Agerhøne - Lokal jagttid RN
 DTSTART;VALUE=DATE:20250916
 DTEND;VALUE=DATE:20251016
-DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-3@luka2945
-DTSTAMP:20260307T224528Z
+DTSTAMP:20260308T220940Z
 SUMMARY:Hare - Lokal jagttid RN
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270116
-DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-4@luka2945
-DTSTAMP:20260307T224528Z
+DTSTAMP:20260308T220940Z
 SUMMARY:Agerhøne - Lokal jagttid RN
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20261016
-DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp\nRegionskort: https://wikitree.com/photo.php/6/6e/Project_Denmark-4.png
+DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 END:VCALENDAR
