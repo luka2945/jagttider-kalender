@@ -4,7 +4,10 @@
   "use_local": true,
 
   "filters": {
-    "include_area_keywords": ["Region Nordjylland"],
+    "include_area_keywords": [
+      "Region Nordjylland",
+      "Nordjylland"
+    ],
     "exclude_area_keywords": []
   },
 
@@ -12,5 +15,5 @@
     "emit_no_hunting_events": true
   },
 
-  "seasons_ahead": 2
+  "seasons_ahead": 4
 }
