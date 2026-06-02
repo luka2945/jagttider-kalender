@@ -5,31 +5,31 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Jagttider – Lokalt (Alle regioner\, minus øerne)
 BEGIN:VEVENT
 UID:jagttid-2025-lok-1@luka2945
-DTSTAMP:20260602T183446Z
+DTSTAMP:20260602T191857Z
 SUMMARY:Sølvmåge - Lokal jagttid RH
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Dragør Kommune\, Tårnby Kommune\, Københavns Kommune\, Hvidovre Kommune\, Vallensbæk Kommune\, Brøndby Kommune og Ishøj Kommune Region Hovedstaden\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Dragør Kommune\, Tårnby Kommune\, Københavns Kommune\, Hvidovre Kommune\, Vallensbæk Kommune\, Brøndby Kommune og Ishøj Kommune. - Region Hovedstaden\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-2@luka2945
-DTSTAMP:20260602T183446Z
+DTSTAMP:20260602T191857Z
 SUMMARY:Sølvmåge - Lokal jagttid RSj
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Greve Kommune\, Solrød Kommune\, Køge Kommune\, Ringsted Kommune\, Sorø Kommune\, Slagelse Kommune\, Næstved Kommune\, Faxe Kommune\, Stevns Kommune\, Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune Region Sjælland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Greve Kommune\, Solrød Kommune\, Køge Kommune\, Ringsted Kommune\, Sorø Kommune\, Slagelse Kommune\, Næstved Kommune\, Faxe Kommune\, Stevns Kommune\, Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune. - Region Sjælland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-3@luka2945
-DTSTAMP:20260602T183446Z
+DTSTAMP:20260602T191857Z
 SUMMARY:Sædgås - Lokal jagttid RSj
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20251201
-DESCRIPTION:Info: Sædgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nOmråde: Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune Region Sjælland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/saedgaas.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Info: Sædgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nOmråde: Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune. - Region Sjælland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/saedgaas.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-4@luka2945
-DTSTAMP:20260602T183446Z
+DTSTAMP:20260602T191857Z
 SUMMARY:Hare - Lokal jagttid RN
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260116
@@ -37,7 +37,7 @@ DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.retsinformation.dk/e
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-5@luka2945
-DTSTAMP:20260602T183446Z
+DTSTAMP:20260602T191857Z
 SUMMARY:Agerhøne - Lokal jagttid RN
 DTSTART;VALUE=DATE:20250916
 DTEND;VALUE=DATE:20251016
@@ -45,7 +45,7 @@ DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.retsinformation.dk/e
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-6@luka2945
-DTSTAMP:20260602T183446Z
+DTSTAMP:20260602T191857Z
 SUMMARY:Kronhjort\, med mindst 6 sprosser på minimum 2 cm på den ene stang - Lokal jagttid RH
 DTSTART;VALUE=DATE:20251016
 DTEND;VALUE=DATE:20251201
@@ -53,31 +53,31 @@ DESCRIPTION:Område: Region Hovedstaden og nord for motorvej 21 (se bilag 5)\nKi
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-7@luka2945
-DTSTAMP:20260602T183446Z
+DTSTAMP:20260602T191857Z
 SUMMARY:Sølvmåge - Lokal jagttid RH
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Dragør Kommune\, Tårnby Kommune\, Københavns Kommune\, Hvidovre Kommune\, Vallensbæk Kommune\, Brøndby Kommune og Ishøj Kommune Region Hovedstaden\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Dragør Kommune\, Tårnby Kommune\, Københavns Kommune\, Hvidovre Kommune\, Vallensbæk Kommune\, Brøndby Kommune og Ishøj Kommune. - Region Hovedstaden\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-8@luka2945
-DTSTAMP:20260602T183446Z
+DTSTAMP:20260602T191857Z
 SUMMARY:Sølvmåge - Lokal jagttid RSj
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Greve Kommune\, Solrød Kommune\, Køge Kommune\, Ringsted Kommune\, Sorø Kommune\, Slagelse Kommune\, Næstved Kommune\, Faxe Kommune\, Stevns Kommune\, Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune Region Sjælland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Greve Kommune\, Solrød Kommune\, Køge Kommune\, Ringsted Kommune\, Sorø Kommune\, Slagelse Kommune\, Næstved Kommune\, Faxe Kommune\, Stevns Kommune\, Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune. - Region Sjælland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-9@luka2945
-DTSTAMP:20260602T183446Z
+DTSTAMP:20260602T191857Z
 SUMMARY:Sædgås - Lokal jagttid RSj
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20261201
-DESCRIPTION:Info: Sædgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nOmråde: Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune Region Sjælland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/saedgaas.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Info: Sædgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nOmråde: Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune. - Region Sjælland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/saedgaas.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-10@luka2945
-DTSTAMP:20260602T183446Z
+DTSTAMP:20260602T191857Z
 SUMMARY:Hare - Lokal jagttid RN
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270116
@@ -85,7 +85,7 @@ DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.retsinformation.dk/e
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-11@luka2945
-DTSTAMP:20260602T183446Z
+DTSTAMP:20260602T191857Z
 SUMMARY:Agerhøne - Lokal jagttid RN
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20261016
@@ -93,7 +93,7 @@ DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.retsinformation.dk/e
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-12@luka2945
-DTSTAMP:20260602T183446Z
+DTSTAMP:20260602T191857Z
 SUMMARY:Kronhjort\, med mindst 6 sprosser på minimum 2 cm på den ene stang - Lokal jagttid RH
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261201
@@ -101,31 +101,31 @@ DESCRIPTION:Område: Region Hovedstaden og nord for motorvej 21 (se bilag 5)\nKi
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2027-lok-13@luka2945
-DTSTAMP:20260602T183446Z
+DTSTAMP:20260602T191857Z
 SUMMARY:Sølvmåge - Lokal jagttid RH
 DTSTART;VALUE=DATE:20271101
 DTEND;VALUE=DATE:20280201
-DESCRIPTION:Område: Dragør Kommune\, Tårnby Kommune\, Københavns Kommune\, Hvidovre Kommune\, Vallensbæk Kommune\, Brøndby Kommune og Ishøj Kommune Region Hovedstaden\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Dragør Kommune\, Tårnby Kommune\, Københavns Kommune\, Hvidovre Kommune\, Vallensbæk Kommune\, Brøndby Kommune og Ishøj Kommune. - Region Hovedstaden\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2027-lok-14@luka2945
-DTSTAMP:20260602T183446Z
+DTSTAMP:20260602T191857Z
 SUMMARY:Sølvmåge - Lokal jagttid RSj
 DTSTART;VALUE=DATE:20271101
 DTEND;VALUE=DATE:20280201
-DESCRIPTION:Område: Greve Kommune\, Solrød Kommune\, Køge Kommune\, Ringsted Kommune\, Sorø Kommune\, Slagelse Kommune\, Næstved Kommune\, Faxe Kommune\, Stevns Kommune\, Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune Region Sjælland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Greve Kommune\, Solrød Kommune\, Køge Kommune\, Ringsted Kommune\, Sorø Kommune\, Slagelse Kommune\, Næstved Kommune\, Faxe Kommune\, Stevns Kommune\, Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune. - Region Sjælland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2027-lok-15@luka2945
-DTSTAMP:20260602T183446Z
+DTSTAMP:20260602T191857Z
 SUMMARY:Sædgås - Lokal jagttid RSj
 DTSTART;VALUE=DATE:20270901
 DTEND;VALUE=DATE:20271201
-DESCRIPTION:Info: Sædgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nOmråde: Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune Region Sjælland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/saedgaas.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Info: Sædgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nOmråde: Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune. - Region Sjælland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/saedgaas.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2027-lok-16@luka2945
-DTSTAMP:20260602T183446Z
+DTSTAMP:20260602T191857Z
 SUMMARY:Hare - Lokal jagttid RN
 DTSTART;VALUE=DATE:20271101
 DTEND;VALUE=DATE:20280116
@@ -133,7 +133,7 @@ DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.retsinformation.dk/e
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2027-lok-17@luka2945
-DTSTAMP:20260602T183446Z
+DTSTAMP:20260602T191857Z
 SUMMARY:Agerhøne - Lokal jagttid RN
 DTSTART;VALUE=DATE:20270916
 DTEND;VALUE=DATE:20271016
@@ -141,7 +141,7 @@ DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.retsinformation.dk/e
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2027-lok-18@luka2945
-DTSTAMP:20260602T183446Z
+DTSTAMP:20260602T191857Z
 SUMMARY:Kronhjort\, med mindst 6 sprosser på minimum 2 cm på den ene stang - Lokal jagttid RH
 DTSTART;VALUE=DATE:20271016
 DTEND;VALUE=DATE:20271201
@@ -149,31 +149,31 @@ DESCRIPTION:Område: Region Hovedstaden og nord for motorvej 21 (se bilag 5)\nKi
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2028-lok-19@luka2945
-DTSTAMP:20260602T183446Z
+DTSTAMP:20260602T191857Z
 SUMMARY:Sølvmåge - Lokal jagttid RH
 DTSTART;VALUE=DATE:20281101
 DTEND;VALUE=DATE:20290201
-DESCRIPTION:Område: Dragør Kommune\, Tårnby Kommune\, Københavns Kommune\, Hvidovre Kommune\, Vallensbæk Kommune\, Brøndby Kommune og Ishøj Kommune Region Hovedstaden\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Dragør Kommune\, Tårnby Kommune\, Københavns Kommune\, Hvidovre Kommune\, Vallensbæk Kommune\, Brøndby Kommune og Ishøj Kommune. - Region Hovedstaden\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2028-lok-20@luka2945
-DTSTAMP:20260602T183446Z
+DTSTAMP:20260602T191857Z
 SUMMARY:Sølvmåge - Lokal jagttid RSj
 DTSTART;VALUE=DATE:20281101
 DTEND;VALUE=DATE:20290201
-DESCRIPTION:Område: Greve Kommune\, Solrød Kommune\, Køge Kommune\, Ringsted Kommune\, Sorø Kommune\, Slagelse Kommune\, Næstved Kommune\, Faxe Kommune\, Stevns Kommune\, Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune Region Sjælland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Greve Kommune\, Solrød Kommune\, Køge Kommune\, Ringsted Kommune\, Sorø Kommune\, Slagelse Kommune\, Næstved Kommune\, Faxe Kommune\, Stevns Kommune\, Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune. - Region Sjælland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2028-lok-21@luka2945
-DTSTAMP:20260602T183446Z
+DTSTAMP:20260602T191857Z
 SUMMARY:Sædgås - Lokal jagttid RSj
 DTSTART;VALUE=DATE:20280901
 DTEND;VALUE=DATE:20281201
-DESCRIPTION:Info: Sædgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nOmråde: Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune Region Sjælland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/saedgaas.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Info: Sædgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nOmråde: Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune. - Region Sjælland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/saedgaas.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2028-lok-22@luka2945
-DTSTAMP:20260602T183446Z
+DTSTAMP:20260602T191857Z
 SUMMARY:Hare - Lokal jagttid RN
 DTSTART;VALUE=DATE:20281101
 DTEND;VALUE=DATE:20290116
@@ -181,7 +181,7 @@ DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.retsinformation.dk/e
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2028-lok-23@luka2945
-DTSTAMP:20260602T183446Z
+DTSTAMP:20260602T191857Z
 SUMMARY:Agerhøne - Lokal jagttid RN
 DTSTART;VALUE=DATE:20280916
 DTEND;VALUE=DATE:20281016
@@ -189,7 +189,7 @@ DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.retsinformation.dk/e
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2028-lok-24@luka2945
-DTSTAMP:20260602T183446Z
+DTSTAMP:20260602T191857Z
 SUMMARY:Kronhjort\, med mindst 6 sprosser på minimum 2 cm på den ene stang - Lokal jagttid RH
 DTSTART;VALUE=DATE:20281016
 DTEND;VALUE=DATE:20281201
