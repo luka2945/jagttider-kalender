@@ -5,658 +5,1250 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Jagttider – Lokalt (Personlig)
 BEGIN:VEVENT
 UID:jagttid-2025-lok-1@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Sølvmåge - Lokal jagttid RH
+DTSTAMP:20260602T151230Z
+SUMMARY:Sølvmåge - Lokal jagttid
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region hovedstaden\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Kommune og Ishøj Kommune:\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-2@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Agerhøne - Lokal jagttid RH
-DTSTART;VALUE=DATE:20251001
-DTEND;VALUE=DATE:20251101
-DESCRIPTION:Område: Region hovedstaden\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DTSTAMP:20260602T151230Z
+SUMMARY:Sølvmåge - Lokal jagttid
+DTSTART;VALUE=DATE:20251101
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Område: Kommune:\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-3@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Sølvmåge - Lokal jagttid RSj
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DTSTAMP:20260602T151230Z
+SUMMARY:Sædgås - Lokal jagttid
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20251201
+DESCRIPTION:Sædgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nOmråde: Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune:\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/saedgaas.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-4@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Sædgås - Lokal jagttid RSj
-DTSTART;VALUE=DATE:20250901
-DTEND;VALUE=DATE:20251201
-DESCRIPTION:Sædgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nOmråde: Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/saedgaas.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DTSTAMP:20260602T151230Z
+SUMMARY:Råbuk - Lokal jagttid
+DTSTART;VALUE=DATE:20260516
+DTEND;VALUE=DATE:20260616
+DESCRIPTION:Område: Øen Sejerø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/raadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-5@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Råbuk - Lokal jagttid RSj
-DTSTART;VALUE=DATE:20260516
-DTEND;VALUE=DATE:20260616
-DESCRIPTION:Område: Øen Sejerø Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/raadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DTSTAMP:20260602T151230Z
+SUMMARY:Rå og -lam - Lokal jagttid
+DTSTART;VALUE=DATE:20251201
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Område: Øen Sejerø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/raadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-6@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Råbuk - Lokal jagttid RSj
-DTSTART;VALUE=DATE:20251201
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Øen Sejerø Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/raadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DTSTAMP:20260602T151230Z
+SUMMARY:Hare - Lokal jagttid
+DTSTART;VALUE=DATE:20251101
+DTEND;VALUE=DATE:20251216
+DESCRIPTION:Område: Øen Sejerø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-7@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Rå og – lam - Lokal jagttid RSj
-DTSTART;VALUE=DATE:20251201
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Øen Sejerø Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/raadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DTSTAMP:20260602T151230Z
+SUMMARY:Agerhøne - Lokal jagttid
+DTSTART;VALUE=DATE:20251001
+DTEND;VALUE=DATE:20251016
+DESCRIPTION:Område: Øen Sejerø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-8@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Hare - Lokal jagttid RSj
+DTSTAMP:20260602T151230Z
+SUMMARY:Fasanhane - Lokal jagttid
 DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20251216
-DESCRIPTION:Område: Øen Sejerø Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Område: Øen Sejerø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/fasan.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-9@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Agerhøne - Lokal jagttid RSj
-DTSTART;VALUE=DATE:20251001
-DTEND;VALUE=DATE:20251016
-DESCRIPTION:Område: Øen Sejerø Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DTSTAMP:20260602T151230Z
+SUMMARY:Hare - Lokal jagttid
+DTSTART;VALUE=DATE:20251116
+DTEND;VALUE=DATE:20260116
+DESCRIPTION:Område: Øen Fejø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-10@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Fasanhøne - Lokal jagttid RSj
-DTSTART;VALUE=DATE:20251116
+DTSTAMP:20260602T151230Z
+SUMMARY:Fasanhane - Lokal jagttid
+DTSTART;VALUE=DATE:20251016
 DTEND;VALUE=DATE:20251201
-DESCRIPTION:Område: Øen Sejerø Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/fasan.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Fejø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/fasan.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-11@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Fasanhane - Lokal jagttid RSj
+DTSTAMP:20260602T151230Z
+SUMMARY:Hare - Lokal jagttid
 DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Øen Sejerø Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/fasan.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DTEND;VALUE=DATE:20251216
+DESCRIPTION:Område: Øen Femø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-12@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Hare - Lokal jagttid RSj
-DTSTART;VALUE=DATE:20251116
-DTEND;VALUE=DATE:20260116
-DESCRIPTION:Område: Øen Fejø Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DTSTAMP:20260602T151230Z
+SUMMARY:Fasanhøne - Lokal jagttid
+DTSTART;VALUE=DATE:20251101
+DTEND;VALUE=DATE:20251103
+DESCRIPTION:Område: Øen Femø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/fasan.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-13@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Fasanhane - Lokal jagttid RSj
+DTSTAMP:20260602T151230Z
+SUMMARY:Fasanhane - Lokal jagttid
 DTSTART;VALUE=DATE:20251016
-DTEND;VALUE=DATE:20251201
-DESCRIPTION:Område: Øen Fejø Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/fasan.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DTEND;VALUE=DATE:20260101
+DESCRIPTION:Område: Øen Femø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/fasan.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-14@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Hare - Lokal jagttid RSj
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20251216
-DESCRIPTION:Område: Øen Femø Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DTSTAMP:20260602T151230Z
+SUMMARY:Agerhøne - Lokal jagttid
+DTSTART;VALUE=DATE:20250916
+DTEND;VALUE=DATE:20251016
+DESCRIPTION:Område: Region Syddanmark undtagen Mandø:\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-15@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Fasanhøne - Lokal jagttid RSj
+DTSTAMP:20260602T151230Z
+SUMMARY:Hare - Lokal jagttid
 DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20251103
-DESCRIPTION:Område: Øen Femø Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/fasan.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DTEND;VALUE=DATE:20260116
+DESCRIPTION:Område: Region Syddanmark vest for Lillebælt undtagen Als og Kegnæs:\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-16@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Fasanhane - Lokal jagttid RSj
-DTSTART;VALUE=DATE:20251016
-DTEND;VALUE=DATE:20260101
-DESCRIPTION:Område: Øen Femø Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/fasan.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DTSTAMP:20260602T151230Z
+SUMMARY:Råvildt - Lokal jagttid
+DTSTART;VALUE=DATE:20251001
+DTEND;VALUE=DATE:20251016
+DESCRIPTION:Område: Øen Lyø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/raadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-17@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Agerhøne - Lokal jagttid RSy
-DTSTART;VALUE=DATE:20250916
-DTEND;VALUE=DATE:20251016
-DESCRIPTION:Område: Region Syddanmark undtagen Mandø Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DTSTAMP:20260602T151230Z
+SUMMARY:Råbuk - Lokal jagttid
+DTSTART;VALUE=DATE:20260616
+DTEND;VALUE=DATE:20260716
+DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/raadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-18@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Hare - Lokal jagttid RSy
+DTSTAMP:20260602T151230Z
+SUMMARY:Rå og -lam - Lokal jagttid
 DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20260116
-DESCRIPTION:Område: Region Syddanmark vest for Lillebælt undtagen Als og Kegnæs Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DTEND;VALUE=DATE:20251201
+DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/raadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-19@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Råvildt - Lokal jagttid RSy
-DTSTART;VALUE=DATE:20251001
-DTEND;VALUE=DATE:20251016
-DESCRIPTION:Område: Øen Lyø Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/raadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DTSTAMP:20260602T151230Z
+SUMMARY:Råbuk - Lokal jagttid
+DTSTART;VALUE=DATE:20260516
+DTEND;VALUE=DATE:20260716
+DESCRIPTION:Område: Øen Als\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/raadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-20@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Råbuk - Lokal jagttid RSy
-DTSTART;VALUE=DATE:20260616
-DTEND;VALUE=DATE:20260716
-DESCRIPTION:Område: Øen Ærø Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/raadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DTSTAMP:20260602T151230Z
+SUMMARY:Rå og -lam - Lokal jagttid
+DTSTART;VALUE=DATE:20251101
+DTEND;VALUE=DATE:20260101
+DESCRIPTION:Område: Øen Als\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/raadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-21@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Råbuk - Lokal jagttid RSy
+DTSTAMP:20260602T151230Z
+SUMMARY:Hare - Lokal jagttid
 DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20251201
-DESCRIPTION:Område: Øen Ærø Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/raadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DTEND;VALUE=DATE:20251216
+DESCRIPTION:Område: Øen Als\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-22@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Rå og – lam - Lokal jagttid RSy
+DTSTAMP:20260602T151230Z
+SUMMARY:Fasan - Lokal jagttid
 DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20251201
-DESCRIPTION:Område: Øen Ærø Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/raadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DTEND;VALUE=DATE:20260101
+DESCRIPTION:Område: Øen Als\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/fasan.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-23@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Råbuk - Lokal jagttid RSy
-DTSTART;VALUE=DATE:20260516
-DTEND;VALUE=DATE:20260716
-DESCRIPTION:Område: Øen Als Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/raadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DTSTAMP:20260602T151230Z
+SUMMARY:Skovsneppe - Lokal jagttid
+DTSTART;VALUE=DATE:20251101
+DTEND;VALUE=DATE:20260101
+DESCRIPTION:Område: Øen Als\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/skovsneppe.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-24@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Råbuk - Lokal jagttid RSy
+DTSTAMP:20260602T151230Z
+SUMMARY:Hare - Lokal jagttid
 DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20260101
-DESCRIPTION:Område: Øen Als Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/raadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DTEND;VALUE=DATE:20260116
+DESCRIPTION:Område: Region Nordjylland:\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-25@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Rå og – lam - Lokal jagttid RSy
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20260101
-DESCRIPTION:Område: Øen Als Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/raadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DTSTAMP:20260602T151230Z
+SUMMARY:Agerhøne - Lokal jagttid
+DTSTART;VALUE=DATE:20250916
+DTEND;VALUE=DATE:20251016
+DESCRIPTION:Område: Region Nordjylland:\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-26@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Hare - Lokal jagttid RSy
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20251216
-DESCRIPTION:Område: Øen Als Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DTSTAMP:20260602T151230Z
+SUMMARY:stang. - Lokal jagttid
+DTSTART;VALUE=DATE:20251016
+DTEND;VALUE=DATE:20251201
+DESCRIPTION:Område: Region Hovedstaden og nord for motorvej 21 (se bilag 5)\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-27@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Fasan - Lokal jagttid RSy
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20260101
-DESCRIPTION:Område: Øen Als Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/fasan.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronhjort større end spidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20251001
+DTEND;VALUE=DATE:20251116
+DESCRIPTION:Område: af regionen mellem Roskilde og Region Hovedstaden\, som ligger nord for motorvej 21 (se bilag 6)\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-28@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Skovsneppe - Lokal jagttid RSy
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20260101
-DESCRIPTION:Område: Øen Als Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/skovsneppe.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronspidshjort og kronkalv - Lokal jagttid
+DTSTART;VALUE=DATE:20251001
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Område: af regionen mellem Roskilde og Region Hovedstaden\, som ligger nord for motorvej 21 (se bilag 6)\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-29@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Som for Øen Als\, dog Råvildt - Lokal jagttid RSy
-DTSTART;VALUE=DATE:20251201
-DTEND;VALUE=DATE:20251208
-DESCRIPTION:Område: Øen Als Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/raadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronhjort større end spidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20250916
+DESCRIPTION:Område: Området nord for motorvej E20 i Jylland\, syd for rute 28 mellem Bredsten og Vejle\, syd og vest for rute 176 mellem Bredsten og Give\, syd og vest for motorvej 18 mellem Give og Herning\, syd for rute 15 mellem Herning og Videbæk\, syd og øst for rute 467 mellem Videbæk og Skjern\, øst for rute 28 mellem Skjern og Skjern Å\, syd for Skjern Å mellem Skjern og Ringkøbing Fjord og syd for Ringkøbing Fjords\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-30@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Hare - Lokal jagttid RN
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20260116
-DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronhjort større end spidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20250916
+DESCRIPTION:Område: Området syd for motorvej E20 i Jylland og øerne Als\, Rømø og Mandø (se bilag 8)\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-31@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Agerhøne - Lokal jagttid RN
-DTSTART;VALUE=DATE:20250916
-DTEND;VALUE=DATE:20251016
-DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-spec-32@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Fasanhane - Lokal jagttid RSy
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20251102
-DESCRIPTION:Område: Øen Strynø Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/fasan.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-spec-33@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Fasanhane - Lokal jagttid RSy
-DTSTART;VALUE=DATE:20251108
-DTEND;VALUE=DATE:20251109
-DESCRIPTION:Område: Øen Strynø Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/fasan.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-spec-34@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Fasanhane - Lokal jagttid RSy
-DTSTART;VALUE=DATE:20251206
-DTEND;VALUE=DATE:20251207
-DESCRIPTION:Område: Øen Strynø Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/fasan.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-spec-35@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Fasanhane - Lokal jagttid RSy
-DTSTART;VALUE=DATE:20251213
-DTEND;VALUE=DATE:20251214
-DESCRIPTION:Område: Øen Strynø Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/fasan.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-spec-36@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Fasanhane - Lokal jagttid RSy
-DTSTART;VALUE=DATE:20251220
-DTEND;VALUE=DATE:20251221
-DESCRIPTION:Område: Øen Strynø Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/fasan.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-spec-37@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Fasanhane - Lokal jagttid RSy
-DTSTART;VALUE=DATE:20251227
-DTEND;VALUE=DATE:20251228
-DESCRIPTION:Område: Øen Strynø Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/fasan.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-nohunt-38@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Ræv - Lokal ingen jagttid RH
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronkalv - Lokal jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region hovedstaden\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nBillede: https://luka2945.github.io/Billede/af/raev.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Området syd for motorvej E20 i Jylland og øerne Als\, Rømø og Mandø (se bilag 8)\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-nohunt-39@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Agerhøne - Lokal ingen jagttid RSj
+UID:jagttid-2025-lok-32@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronspidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Område: Området i Jylland syd for rute 26 mellem Aarhus og motor- vej E45\, vest for motorvej E45 mellem rute 26 og rute 16\, syd for rute 16 mellem Randers og Viborg\, øst for rute 26 og rute 13 mellem rute 16 og rute 12\, syd og øst for rute 12 mellem\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-33@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronhind - jagttid fra 1 time før solopgang til solnedgang fra 16. oktober til om med januar - Lokal jagttid
+DTSTART;VALUE=DATE:20251001
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Område: Området i Jylland syd for rute 26 mellem Aarhus og motor- vej E45\, vest for motorvej E45 mellem rute 26 og rute 16\, syd for rute 16 mellem Randers og Viborg\, øst for rute 26 og rute 13 mellem rute 16 og rute 12\, syd og øst for rute 12 mellem\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-34@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:stang - Lokal jagttid
 DTSTART;VALUE=DATE:20250916
-DTEND;VALUE=DATE:20251101
-DESCRIPTION:Område: Øen Femø Region Sjælland\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DTEND;VALUE=DATE:20251001
+DESCRIPTION:Område: Området i Jylland syd for rute 26 mellem Aarhus og motor- vej E45\, vest for motorvej E45 mellem rute 26 og rute 16\, syd for rute 16 mellem Randers og Viborg\, øst for rute 26 og rute 13 mellem rute 16 og rute 12\, syd og øst for rute 12 mellem\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-nohunt-40@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Hare - Lokal ingen jagttid RSy
+UID:jagttid-2025-lok-35@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:efter solnedgang i december og januar - Lokal jagttid
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Område: Syddjurs og Norddjurs Kommuner\, samt de dele af Randers\, Faurskov og Aarhus Kommuner som ligger syd for Gude- nåen mellem Randers Fjord og rute 180\, syd for rute 180 mellem Gudenåen og motorvej E45\, øst for motorvej E45\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-36@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:nedgang i december og januar - Lokal jagttid
+DTSTART;VALUE=DATE:20251001
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Område: Syddjurs og Norddjurs Kommuner\, samt de dele af Randers\, Faurskov og Aarhus Kommuner som ligger syd for Gude- nåen mellem Randers Fjord og rute 180\, syd for rute 180 mellem Gudenåen og motorvej E45\, øst for motorvej E45\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-37@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronhjort større end spidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20251001
+DTEND;VALUE=DATE:20251201
+DESCRIPTION:Område: Syddjurs og Norddjurs Kommuner\, samt de dele af Randers\, Faurskov og Aarhus Kommuner som ligger syd for Gude- nåen mellem Randers Fjord og rute 180\, syd for rute 180 mellem Gudenåen og motorvej E45\, øst for motorvej E45\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-38@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronspidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20250916
+DESCRIPTION:Område: Den del af Ringkøbing-Skjern Kommune\, der ligger nord for rute 15 mellem Herning Kommune og rute 467\, vest og nord for rute 467 mellem rute 15 og rute 28\, vest for rute 11/28 mellem rute 467 og Skjern Å\, derfra nord for Skjern Å ud\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-39@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronhjort større end spidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20250916
+DESCRIPTION:Område: Den del af Ringkøbing-Skjern Kommune\, der ligger nord for rute 15 mellem Herning Kommune og rute 467\, vest og nord for rute 467 mellem rute 15 og rute 28\, vest for rute 11/28 mellem rute 467 og Skjern Å\, derfra nord for Skjern Å ud\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-40@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:16. december til og med januar - Lokal jagttid
+DTSTART;VALUE=DATE:20251001
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Område: Den del af Ringkøbing-Skjern Kommune\, der ligger nord for rute 15 mellem Herning Kommune og rute 467\, vest og nord for rute 467 mellem rute 15 og rute 28\, vest for rute 11/28 mellem rute 467 og Skjern Å\, derfra nord for Skjern Å ud\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-41@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:sprosser på minimum 2 cm på den ene stang - Lokal jagttid
+DTSTART;VALUE=DATE:20251101
+DTEND;VALUE=DATE:20260101
+DESCRIPTION:Område: Den del af Ringkøbing-Skjern Kommune\, der ligger nord for rute 15 mellem Herning Kommune og rute 467\, vest og nord for rute 467 mellem rute 15 og rute 28\, vest for rute 11/28 mellem rute 467 og Skjern Å\, derfra nord for Skjern Å ud\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-42@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronhind - Lokal jagttid
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Øen Strynø Region Syddanmark\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Den del af Ringkøbing-Skjern Kommune\, der ligger nord for rute 15 mellem Herning Kommune og rute 467\, vest og nord for rute 467 mellem rute 15 og rute 28\, vest for rute 11/28 mellem rute 467 og Skjern Å\, derfra nord for Skjern Å ud\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-nohunt-41@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Agerhøne - Lokal ingen jagttid RSy
+UID:jagttid-2025-lok-43@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronkalv - Lokal jagttid
+DTSTART;VALUE=DATE:20250901
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Område: Den del af Ringkøbing-Skjern Kommune\, der ligger nord for rute 15 mellem Herning Kommune og rute 467\, vest og nord for rute 467 mellem rute 15 og rute 28\, vest for rute 11/28 mellem rute 467 og Skjern Å\, derfra nord for Skjern Å ud\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-44@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronhjort større end spidshjort med mindst 5 sprosser på minimum 2 cm på den ene stang - Lokal jagttid
+DTSTART;VALUE=DATE:20251016
+DTEND;VALUE=DATE:20260101
+DESCRIPTION:Område: Den del af Ringkøbing-Skjern Kommune\, der ligger nord for rute 15 mellem Herning Kommune og rute 467\, vest og nord for rute 467 mellem rute 15 og rute 28\, vest for rute 11/28 mellem rute 467 og Skjern Å\, derfra nord for Skjern Å ud\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-45@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronspidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20251016
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Område: Den del af Ringkøbing-Skjern Kommune\, der ligger nord for rute 15 mellem Herning Kommune og rute 467\, vest og nord for rute 467 mellem rute 15 og rute 28\, vest for rute 11/28 mellem rute 467 og Skjern Å\, derfra nord for Skjern Å ud\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-46@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronhjort større end spidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20251201
+DTEND;VALUE=DATE:20251216
+DESCRIPTION:Område: De dele af Aalborg\, Rebild og Vesthimmerland Kommuner der ligger syd og øst for Limfjorden og vest for motorvej E45 mellem Aalborg og afkørsel 33 Haverslev\, nord for hovedvej 535 mellem Haverslev og Aars\, nord for Løgstørvej mellem Aars og Hornumbrovej\, nord og vest for Hornumbrovej\, nord og øst for Hyllebjergvej/Bjørnsholmvej\, øst for rute 533 mellem Bjørnsholmvej og Bjørnsholm Å og nord for Bjørn- sholm Å mellem rute 533 og Limfjorden (ikke Livø) (se bilag 14).\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-47@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronspidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20251101
+DTEND;VALUE=DATE:20251216
+DESCRIPTION:Område: De dele af Aalborg\, Rebild og Vesthimmerland Kommuner der ligger syd og øst for Limfjorden og vest for motorvej E45 mellem Aalborg og afkørsel 33 Haverslev\, nord for hovedvej 535 mellem Haverslev og Aars\, nord for Løgstørvej mellem Aars og Hornumbrovej\, nord og vest for Hornumbrovej\, nord og øst for Hyllebjergvej/Bjørnsholmvej\, øst for rute 533 mellem Bjørnsholmvej og Bjørnsholm Å og nord for Bjørn- sholm Å mellem rute 533 og Limfjorden (ikke Livø) (se bilag 14).\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-48@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronhjort større end spidshjort - Lokal jagttid
 DTSTART;VALUE=DATE:20250916
+DTEND;VALUE=DATE:20251001
+DESCRIPTION:Område: Området vest for Randers Fjord\, nord for Gudenåen mellem Randers Fjord og rute 180\, herfra nord for rute 180 og rute 16 til rute 533\, øst for rute 533 til Skals Å\, nord for Skals Å mellem rute 533 og Limfjorden\, og syd og øst for Limfjorden undtagen området beskrevet ovenfor (vedr.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-49@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåspidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20251101
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Område: Aabenraa\, Sønderborg og Haderslev Kommuner samt de dele af Kolding\, Vejen og Fredericia Kommuner\, der ligger syd for E20\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-50@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåhjort større end spidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20251201
+DTEND;VALUE=DATE:20260101
+DESCRIPTION:Område: Aabenraa\, Sønderborg og Haderslev Kommuner samt de dele af Kolding\, Vejen og Fredericia Kommuner\, der ligger syd for E20\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-51@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåspidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20251001
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Område: Fyn med undtagelse af Langeland\, Tåsinge og Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-52@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåhjort større end spidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20251101
-DESCRIPTION:Område: Øen Mandø Region Syddanmark\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Fyn med undtagelse af Langeland\, Tåsinge og Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-42@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Sølvmåge - Lokal jagttid RH
+UID:jagttid-2025-lok-53@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåhjort - Lokal jagttid
+DTSTART;VALUE=DATE:20251201
+DTEND;VALUE=DATE:20260101
+DESCRIPTION:Område: Øen Langeland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-54@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåhjort - Lokal jagttid
+DTSTART;VALUE=DATE:20260101
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Område: Øen Tåsinge\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-55@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåspidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20260101
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-56@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåkalv - Lokal jagttid
+DTSTART;VALUE=DATE:20251201
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-57@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Då - Lokal jagttid
+DTSTART;VALUE=DATE:20260101
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-58@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåspidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20251201
+DTEND;VALUE=DATE:20260101
+DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-59@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåhjort større end spidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20260101
+DTEND;VALUE=DATE:20260116
+DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-60@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåspidshjort og dåhjort større end spidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20251201
+DTEND;VALUE=DATE:20260101
+DESCRIPTION:Område: Ringkøbing-Skjern Kommune (se bilag 20).\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-61@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Då og dåkalv - Lokal jagttid
+DTSTART;VALUE=DATE:20251016
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Område: Ringkøbing-Skjern Kommune (se bilag 20).\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-62@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåspidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20251116
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Område: Ringkøbing-Skjern Kommune (se bilag 20).\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-63@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåhjort større end spidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20251201
+DTEND;VALUE=DATE:20260116
+DESCRIPTION:Område: Ringkøbing-Skjern Kommune (se bilag 20).\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-64@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåspidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20251201
+DTEND;VALUE=DATE:20260101
+DESCRIPTION:Område: Ringkøbing-Skjern Kommune (se bilag 20).\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-65@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Då og dåkalv - Lokal jagttid
+DTSTART;VALUE=DATE:20251201
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Område: Ringkøbing-Skjern Kommune (se bilag 20).\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-66@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåhjort større end spidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20251216
+DTEND;VALUE=DATE:20260101
+DESCRIPTION:Område: Ringkøbing-Skjern Kommune (se bilag 20).\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-67@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Då og dåkalv - Lokal jagttid
+DTSTART;VALUE=DATE:20251101
+DTEND;VALUE=DATE:20260101
+DESCRIPTION:Område: De dele af Aalborg\, Rebild og Vesthimmerland Kommuner der ligger syd og øst for Limfjorden og vest for motorvej E45 mellem Aalborg og afkørsel 33 Haverslev\, nord for rute 535 mellem Haverslev og Aars\, nord for Løgstørvej mellem Aars og Hornumbrovej\, nord og vest for Hornumbrovej\, nord og øst for Hyllebjergvej/Bjørnsholmvej\, øst for rute 533 mellem Bjørnsholmvej og Bjørnsholm Å og nord for Bjørnsholm Å\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-68@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåspidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20251201
+DTEND;VALUE=DATE:20251216
+DESCRIPTION:Område: De dele af Aalborg\, Rebild og Vesthimmerland Kommuner der ligger syd og øst for Limfjorden og vest for motorvej E45 mellem Aalborg og afkørsel 33 Haverslev\, nord for rute 535 mellem Haverslev og Aars\, nord for Løgstørvej mellem Aars og Hornumbrovej\, nord og vest for Hornumbrovej\, nord og øst for Hyllebjergvej/Bjørnsholmvej\, øst for rute 533 mellem Bjørnsholmvej og Bjørnsholm Å og nord for Bjørnsholm Å\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-69@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåhjort større end spidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20251216
+DTEND;VALUE=DATE:20251223
+DESCRIPTION:Område: De dele af Aalborg\, Rebild og Vesthimmerland Kommuner der ligger syd og øst for Limfjorden og vest for motorvej E45 mellem Aalborg og afkørsel 33 Haverslev\, nord for rute 535 mellem Haverslev og Aars\, nord for Løgstørvej mellem Aars og Hornumbrovej\, nord og vest for Hornumbrovej\, nord og øst for Hyllebjergvej/Bjørnsholmvej\, øst for rute 533 mellem Bjørnsholmvej og Bjørnsholm Å og nord for Bjørnsholm Å\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-70@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåspidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20251001
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Område: undtagen området beskrevet ovenfor i bilag 24.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-71@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåhjort større end spidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20250916
+DTEND;VALUE=DATE:20251016
+DESCRIPTION:Område: undtagen området beskrevet ovenfor i bilag 24.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-72@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Då og dåkalv - Lokal jagttid
+DTSTART;VALUE=DATE:20251016
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Område: undtagen området beskrevet ovenfor i bilag 24.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-73@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåspidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20251201
+DTEND;VALUE=DATE:20260116
+DESCRIPTION:Område: undtagen området beskrevet ovenfor i bilag 24.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-74@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåhjort større end spidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20251216
+DTEND;VALUE=DATE:20260101
+DESCRIPTION:Område: undtagen området beskrevet ovenfor i bilag 24.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-75@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåspidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20251016
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Område: og øst for kommunegrænsen til Ikast-Brande kommune indtil skæringen med motorvej 18\, øst for motorvej 18 mellem skæringen mellem kommunegrænsen til Ikast-Brande kommune og afkørsel 9\, øst for rute 176 mellem motorvejsafkørsel 9 og Bredsten\, nord for rute 28 mellem Bredsten og Vejle Å\, Nord for Vejle Å mellem rute 28 og Vejle Fjord (se bilag\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-76@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåhjort større end spidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20251016
+DTEND;VALUE=DATE:20251101
+DESCRIPTION:Område: og øst for kommunegrænsen til Ikast-Brande kommune indtil skæringen med motorvej 18\, øst for motorvej 18 mellem skæringen mellem kommunegrænsen til Ikast-Brande kommune og afkørsel 9\, øst for rute 176 mellem motorvejsafkørsel 9 og Bredsten\, nord for rute 28 mellem Bredsten og Vejle Å\, Nord for Vejle Å mellem rute 28 og Vejle Fjord (se bilag\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-77@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåspidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20251001
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Område: Lolland\, Guldborgsund kommune samt den del af Vordingborg kommune der omfatter Farø\, Bogø\, Møn og Nyord (se\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-78@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåhjort større end spidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20251201
+DTEND;VALUE=DATE:20260101
+DESCRIPTION:Område: Lolland\, Guldborgsund kommune samt den del af Vordingborg kommune der omfatter Farø\, Bogø\, Møn og Nyord (se\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-79@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Sølvmåge - Lokal jagttid
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region hovedstaden\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Kommune og Ishøj Kommune:\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-43@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Agerhøne - Lokal jagttid RH
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261101
-DESCRIPTION:Område: Region hovedstaden\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-44@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Sølvmåge - Lokal jagttid RSj
+UID:jagttid-2026-lok-80@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Sølvmåge - Lokal jagttid
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Kommune:\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-45@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Sædgås - Lokal jagttid RSj
+UID:jagttid-2026-lok-81@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Sædgås - Lokal jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20261201
-DESCRIPTION:Sædgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nOmråde: Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/saedgaas.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Sædgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nOmråde: Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune:\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/saedgaas.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-46@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Råbuk - Lokal jagttid RSj
+UID:jagttid-2026-lok-82@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Råbuk - Lokal jagttid
 DTSTART;VALUE=DATE:20270516
 DTEND;VALUE=DATE:20270616
-DESCRIPTION:Område: Øen Sejerø Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/raadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Sejerø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/raadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-47@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Råbuk - Lokal jagttid RSj
+UID:jagttid-2026-lok-83@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Rå og -lam - Lokal jagttid
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Øen Sejerø Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/raadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Sejerø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/raadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-48@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Rå og – lam - Lokal jagttid RSj
-DTSTART;VALUE=DATE:20261201
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Øen Sejerø Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/raadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-49@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Hare - Lokal jagttid RSj
+UID:jagttid-2026-lok-84@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Hare - Lokal jagttid
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261216
-DESCRIPTION:Område: Øen Sejerø Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Sejerø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-50@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Agerhøne - Lokal jagttid RSj
+UID:jagttid-2026-lok-85@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Agerhøne - Lokal jagttid
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261016
-DESCRIPTION:Område: Øen Sejerø Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Sejerø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-51@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Fasanhøne - Lokal jagttid RSj
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261201
-DESCRIPTION:Område: Øen Sejerø Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/fasan.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-52@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Fasanhane - Lokal jagttid RSj
+UID:jagttid-2026-lok-86@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Fasanhane - Lokal jagttid
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Øen Sejerø Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/fasan.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Sejerø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/fasan.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-53@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Hare - Lokal jagttid RSj
+UID:jagttid-2026-lok-87@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Hare - Lokal jagttid
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20270116
-DESCRIPTION:Område: Øen Fejø Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Fejø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-54@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Fasanhane - Lokal jagttid RSj
+UID:jagttid-2026-lok-88@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Fasanhane - Lokal jagttid
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261201
-DESCRIPTION:Område: Øen Fejø Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/fasan.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Fejø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/fasan.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-55@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Hare - Lokal jagttid RSj
+UID:jagttid-2026-lok-89@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Hare - Lokal jagttid
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261216
-DESCRIPTION:Område: Øen Femø Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Femø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-56@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Fasanhøne - Lokal jagttid RSj
+UID:jagttid-2026-lok-90@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Fasanhøne - Lokal jagttid
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261103
-DESCRIPTION:Område: Øen Femø Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/fasan.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Femø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/fasan.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-57@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Fasanhane - Lokal jagttid RSj
+UID:jagttid-2026-lok-91@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Fasanhane - Lokal jagttid
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20270101
-DESCRIPTION:Område: Øen Femø Region Sjælland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/fasan.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Femø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/fasan.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-58@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Agerhøne - Lokal jagttid RSy
+UID:jagttid-2026-lok-92@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Agerhøne - Lokal jagttid
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20261016
-DESCRIPTION:Område: Region Syddanmark undtagen Mandø Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Region Syddanmark undtagen Mandø:\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-59@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Hare - Lokal jagttid RSy
+UID:jagttid-2026-lok-93@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Hare - Lokal jagttid
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270116
-DESCRIPTION:Område: Region Syddanmark vest for Lillebælt undtagen Als og Kegnæs Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Region Syddanmark vest for Lillebælt undtagen Als og Kegnæs:\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-60@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Råvildt - Lokal jagttid RSy
+UID:jagttid-2026-lok-94@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Råvildt - Lokal jagttid
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261016
-DESCRIPTION:Område: Øen Lyø Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/raadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Lyø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/raadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-61@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Råbuk - Lokal jagttid RSy
+UID:jagttid-2026-lok-95@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Råbuk - Lokal jagttid
 DTSTART;VALUE=DATE:20270616
 DTEND;VALUE=DATE:20270716
-DESCRIPTION:Område: Øen Ærø Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/raadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/raadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-62@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Råbuk - Lokal jagttid RSy
+UID:jagttid-2026-lok-96@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Rå og -lam - Lokal jagttid
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261201
-DESCRIPTION:Område: Øen Ærø Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/raadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/raadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-63@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Rå og – lam - Lokal jagttid RSy
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261201
-DESCRIPTION:Område: Øen Ærø Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/raadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-64@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Råbuk - Lokal jagttid RSy
+UID:jagttid-2026-lok-97@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Råbuk - Lokal jagttid
 DTSTART;VALUE=DATE:20270516
 DTEND;VALUE=DATE:20270716
-DESCRIPTION:Område: Øen Als Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/raadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Als\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/raadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-65@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Råbuk - Lokal jagttid RSy
+UID:jagttid-2026-lok-98@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Rå og -lam - Lokal jagttid
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270101
-DESCRIPTION:Område: Øen Als Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/raadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Als\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/raadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-66@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Rå og – lam - Lokal jagttid RSy
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20270101
-DESCRIPTION:Område: Øen Als Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/raadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-67@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Hare - Lokal jagttid RSy
+UID:jagttid-2026-lok-99@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Hare - Lokal jagttid
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261216
-DESCRIPTION:Område: Øen Als Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Als\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-68@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Fasan - Lokal jagttid RSy
+UID:jagttid-2026-lok-100@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Fasan - Lokal jagttid
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270101
-DESCRIPTION:Område: Øen Als Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/fasan.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Als\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/fasan.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-69@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Skovsneppe - Lokal jagttid RSy
+UID:jagttid-2026-lok-101@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Skovsneppe - Lokal jagttid
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270101
-DESCRIPTION:Område: Øen Als Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/skovsneppe.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Als\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/skovsneppe.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-70@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Som for Øen Als\, dog Råvildt - Lokal jagttid RSy
-DTSTART;VALUE=DATE:20261201
-DTEND;VALUE=DATE:20261208
-DESCRIPTION:Område: Øen Als Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/raadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-71@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Hare - Lokal jagttid RN
+UID:jagttid-2026-lok-102@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Hare - Lokal jagttid
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270116
-DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Region Nordjylland:\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-72@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Agerhøne - Lokal jagttid RN
+UID:jagttid-2026-lok-103@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Agerhøne - Lokal jagttid
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20261016
-DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Region Nordjylland:\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-spec-73@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Fasanhane - Lokal jagttid RSy
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-DESCRIPTION:Område: Øen Strynø Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/fasan.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+UID:jagttid-2026-lok-104@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:stang. - Lokal jagttid
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261201
+DESCRIPTION:Område: Region Hovedstaden og nord for motorvej 21 (se bilag 5)\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-spec-74@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Fasanhane - Lokal jagttid RSy
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-DESCRIPTION:Område: Øen Strynø Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/fasan.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+UID:jagttid-2026-lok-105@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronhjort større end spidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261116
+DESCRIPTION:Område: af regionen mellem Roskilde og Region Hovedstaden\, som ligger nord for motorvej 21 (se bilag 6)\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-spec-75@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Fasanhane - Lokal jagttid RSy
-DTSTART;VALUE=DATE:20261205
-DTEND;VALUE=DATE:20261206
-DESCRIPTION:Område: Øen Strynø Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/fasan.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+UID:jagttid-2026-lok-106@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronspidshjort og kronkalv - Lokal jagttid
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:Område: af regionen mellem Roskilde og Region Hovedstaden\, som ligger nord for motorvej 21 (se bilag 6)\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-spec-76@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Fasanhane - Lokal jagttid RSy
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261213
-DESCRIPTION:Område: Øen Strynø Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/fasan.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+UID:jagttid-2026-lok-107@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronhjort større end spidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260916
+DESCRIPTION:Område: Området nord for motorvej E20 i Jylland\, syd for rute 28 mellem Bredsten og Vejle\, syd og vest for rute 176 mellem Bredsten og Give\, syd og vest for motorvej 18 mellem Give og Herning\, syd for rute 15 mellem Herning og Videbæk\, syd og øst for rute 467 mellem Videbæk og Skjern\, øst for rute 28 mellem Skjern og Skjern Å\, syd for Skjern Å mellem Skjern og Ringkøbing Fjord og syd for Ringkøbing Fjords\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-spec-77@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Fasanhane - Lokal jagttid RSy
-DTSTART;VALUE=DATE:20261219
-DTEND;VALUE=DATE:20261220
-DESCRIPTION:Område: Øen Strynø Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/fasan.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+UID:jagttid-2026-lok-108@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronhjort større end spidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260916
+DESCRIPTION:Område: Området syd for motorvej E20 i Jylland og øerne Als\, Rømø og Mandø (se bilag 8)\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-spec-78@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Fasanhane - Lokal jagttid RSy
-DTSTART;VALUE=DATE:20261226
-DTEND;VALUE=DATE:20261227
-DESCRIPTION:Område: Øen Strynø Region Syddanmark\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/fasan.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-nohunt-79@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Ræv - Lokal ingen jagttid RH
+UID:jagttid-2026-lok-109@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronkalv - Lokal jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region hovedstaden\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nBillede: https://luka2945.github.io/Billede/af/raev.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Området syd for motorvej E20 i Jylland og øerne Als\, Rømø og Mandø (se bilag 8)\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-nohunt-80@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Agerhøne - Lokal ingen jagttid RSj
+UID:jagttid-2026-lok-110@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronspidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:Område: Området i Jylland syd for rute 26 mellem Aarhus og motor- vej E45\, vest for motorvej E45 mellem rute 26 og rute 16\, syd for rute 16 mellem Randers og Viborg\, øst for rute 26 og rute 13 mellem rute 16 og rute 12\, syd og øst for rute 12 mellem\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-111@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronhind - jagttid fra 1 time før solopgang til solnedgang fra 16. oktober til om med januar - Lokal jagttid
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:Område: Området i Jylland syd for rute 26 mellem Aarhus og motor- vej E45\, vest for motorvej E45 mellem rute 26 og rute 16\, syd for rute 16 mellem Randers og Viborg\, øst for rute 26 og rute 13 mellem rute 16 og rute 12\, syd og øst for rute 12 mellem\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-112@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:stang - Lokal jagttid
 DTSTART;VALUE=DATE:20260916
-DTEND;VALUE=DATE:20261101
-DESCRIPTION:Område: Øen Femø Region Sjælland\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DTEND;VALUE=DATE:20261001
+DESCRIPTION:Område: Området i Jylland syd for rute 26 mellem Aarhus og motor- vej E45\, vest for motorvej E45 mellem rute 26 og rute 16\, syd for rute 16 mellem Randers og Viborg\, øst for rute 26 og rute 13 mellem rute 16 og rute 12\, syd og øst for rute 12 mellem\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-nohunt-81@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Hare - Lokal ingen jagttid RSy
+UID:jagttid-2026-lok-113@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:efter solnedgang i december og januar - Lokal jagttid
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:Område: Syddjurs og Norddjurs Kommuner\, samt de dele af Randers\, Faurskov og Aarhus Kommuner som ligger syd for Gude- nåen mellem Randers Fjord og rute 180\, syd for rute 180 mellem Gudenåen og motorvej E45\, øst for motorvej E45\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-114@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:nedgang i december og januar - Lokal jagttid
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:Område: Syddjurs og Norddjurs Kommuner\, samt de dele af Randers\, Faurskov og Aarhus Kommuner som ligger syd for Gude- nåen mellem Randers Fjord og rute 180\, syd for rute 180 mellem Gudenåen og motorvej E45\, øst for motorvej E45\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-115@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronhjort større end spidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261201
+DESCRIPTION:Område: Syddjurs og Norddjurs Kommuner\, samt de dele af Randers\, Faurskov og Aarhus Kommuner som ligger syd for Gude- nåen mellem Randers Fjord og rute 180\, syd for rute 180 mellem Gudenåen og motorvej E45\, øst for motorvej E45\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-116@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronspidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260916
+DESCRIPTION:Område: Den del af Ringkøbing-Skjern Kommune\, der ligger nord for rute 15 mellem Herning Kommune og rute 467\, vest og nord for rute 467 mellem rute 15 og rute 28\, vest for rute 11/28 mellem rute 467 og Skjern Å\, derfra nord for Skjern Å ud\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-117@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronhjort større end spidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260916
+DESCRIPTION:Område: Den del af Ringkøbing-Skjern Kommune\, der ligger nord for rute 15 mellem Herning Kommune og rute 467\, vest og nord for rute 467 mellem rute 15 og rute 28\, vest for rute 11/28 mellem rute 467 og Skjern Å\, derfra nord for Skjern Å ud\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-118@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:16. december til og med januar - Lokal jagttid
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:Område: Den del af Ringkøbing-Skjern Kommune\, der ligger nord for rute 15 mellem Herning Kommune og rute 467\, vest og nord for rute 467 mellem rute 15 og rute 28\, vest for rute 11/28 mellem rute 467 og Skjern Å\, derfra nord for Skjern Å ud\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-119@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:sprosser på minimum 2 cm på den ene stang - Lokal jagttid
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20270101
+DESCRIPTION:Område: Den del af Ringkøbing-Skjern Kommune\, der ligger nord for rute 15 mellem Herning Kommune og rute 467\, vest og nord for rute 467 mellem rute 15 og rute 28\, vest for rute 11/28 mellem rute 467 og Skjern Å\, derfra nord for Skjern Å ud\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-120@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronhind - Lokal jagttid
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Øen Strynø Region Syddanmark\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nBillede: https://luka2945.github.io/Billede/af/hare.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Den del af Ringkøbing-Skjern Kommune\, der ligger nord for rute 15 mellem Herning Kommune og rute 467\, vest og nord for rute 467 mellem rute 15 og rute 28\, vest for rute 11/28 mellem rute 467 og Skjern Å\, derfra nord for Skjern Å ud\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-nohunt-82@luka2945
-DTSTAMP:20260525T085645Z
-SUMMARY:Agerhøne - Lokal ingen jagttid RSy
+UID:jagttid-2026-lok-121@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronkalv - Lokal jagttid
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:Område: Den del af Ringkøbing-Skjern Kommune\, der ligger nord for rute 15 mellem Herning Kommune og rute 467\, vest og nord for rute 467 mellem rute 15 og rute 28\, vest for rute 11/28 mellem rute 467 og Skjern Å\, derfra nord for Skjern Å ud\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-122@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronhjort større end spidshjort med mindst 5 sprosser på minimum 2 cm på den ene stang - Lokal jagttid
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20270101
+DESCRIPTION:Område: Den del af Ringkøbing-Skjern Kommune\, der ligger nord for rute 15 mellem Herning Kommune og rute 467\, vest og nord for rute 467 mellem rute 15 og rute 28\, vest for rute 11/28 mellem rute 467 og Skjern Å\, derfra nord for Skjern Å ud\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-123@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronspidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:Område: Den del af Ringkøbing-Skjern Kommune\, der ligger nord for rute 15 mellem Herning Kommune og rute 467\, vest og nord for rute 467 mellem rute 15 og rute 28\, vest for rute 11/28 mellem rute 467 og Skjern Å\, derfra nord for Skjern Å ud\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-124@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronhjort større end spidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261216
+DESCRIPTION:Område: De dele af Aalborg\, Rebild og Vesthimmerland Kommuner der ligger syd og øst for Limfjorden og vest for motorvej E45 mellem Aalborg og afkørsel 33 Haverslev\, nord for hovedvej 535 mellem Haverslev og Aars\, nord for Løgstørvej mellem Aars og Hornumbrovej\, nord og vest for Hornumbrovej\, nord og øst for Hyllebjergvej/Bjørnsholmvej\, øst for rute 533 mellem Bjørnsholmvej og Bjørnsholm Å og nord for Bjørn- sholm Å mellem rute 533 og Limfjorden (ikke Livø) (se bilag 14).\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-125@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronspidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261216
+DESCRIPTION:Område: De dele af Aalborg\, Rebild og Vesthimmerland Kommuner der ligger syd og øst for Limfjorden og vest for motorvej E45 mellem Aalborg og afkørsel 33 Haverslev\, nord for hovedvej 535 mellem Haverslev og Aars\, nord for Løgstørvej mellem Aars og Hornumbrovej\, nord og vest for Hornumbrovej\, nord og øst for Hyllebjergvej/Bjørnsholmvej\, øst for rute 533 mellem Bjørnsholmvej og Bjørnsholm Å og nord for Bjørn- sholm Å mellem rute 533 og Limfjorden (ikke Livø) (se bilag 14).\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-126@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronhjort større end spidshjort - Lokal jagttid
 DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20261001
+DESCRIPTION:Område: Området vest for Randers Fjord\, nord for Gudenåen mellem Randers Fjord og rute 180\, herfra nord for rute 180 og rute 16 til rute 533\, øst for rute 533 til Skals Å\, nord for Skals Å mellem rute 533 og Limfjorden\, og syd og øst for Limfjorden undtagen området beskrevet ovenfor (vedr.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-127@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåspidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:Område: Aabenraa\, Sønderborg og Haderslev Kommuner samt de dele af Kolding\, Vejen og Fredericia Kommuner\, der ligger syd for E20\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-128@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåhjort større end spidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20270101
+DESCRIPTION:Område: Aabenraa\, Sønderborg og Haderslev Kommuner samt de dele af Kolding\, Vejen og Fredericia Kommuner\, der ligger syd for E20\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-129@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåspidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:Område: Fyn med undtagelse af Langeland\, Tåsinge og Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-130@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåhjort større end spidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261101
-DESCRIPTION:Område: Øen Mandø Region Syddanmark\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Fyn med undtagelse af Langeland\, Tåsinge og Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-131@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåhjort - Lokal jagttid
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20270101
+DESCRIPTION:Område: Øen Langeland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-132@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåhjort - Lokal jagttid
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:Område: Øen Tåsinge\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-133@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåspidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-134@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåkalv - Lokal jagttid
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-135@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Då - Lokal jagttid
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-136@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåspidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20270101
+DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-137@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåhjort større end spidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270116
+DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-138@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåspidshjort og dåhjort større end spidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20270101
+DESCRIPTION:Område: Ringkøbing-Skjern Kommune (se bilag 20).\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-139@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Då og dåkalv - Lokal jagttid
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:Område: Ringkøbing-Skjern Kommune (se bilag 20).\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-140@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåspidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:Område: Ringkøbing-Skjern Kommune (se bilag 20).\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-141@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåhjort større end spidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20270116
+DESCRIPTION:Område: Ringkøbing-Skjern Kommune (se bilag 20).\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-142@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåspidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20270101
+DESCRIPTION:Område: Ringkøbing-Skjern Kommune (se bilag 20).\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-143@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Då og dåkalv - Lokal jagttid
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:Område: Ringkøbing-Skjern Kommune (se bilag 20).\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-144@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåhjort større end spidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20270101
+DESCRIPTION:Område: Ringkøbing-Skjern Kommune (se bilag 20).\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-145@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Då og dåkalv - Lokal jagttid
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20270101
+DESCRIPTION:Område: De dele af Aalborg\, Rebild og Vesthimmerland Kommuner der ligger syd og øst for Limfjorden og vest for motorvej E45 mellem Aalborg og afkørsel 33 Haverslev\, nord for rute 535 mellem Haverslev og Aars\, nord for Løgstørvej mellem Aars og Hornumbrovej\, nord og vest for Hornumbrovej\, nord og øst for Hyllebjergvej/Bjørnsholmvej\, øst for rute 533 mellem Bjørnsholmvej og Bjørnsholm Å og nord for Bjørnsholm Å\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-146@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåspidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261216
+DESCRIPTION:Område: De dele af Aalborg\, Rebild og Vesthimmerland Kommuner der ligger syd og øst for Limfjorden og vest for motorvej E45 mellem Aalborg og afkørsel 33 Haverslev\, nord for rute 535 mellem Haverslev og Aars\, nord for Løgstørvej mellem Aars og Hornumbrovej\, nord og vest for Hornumbrovej\, nord og øst for Hyllebjergvej/Bjørnsholmvej\, øst for rute 533 mellem Bjørnsholmvej og Bjørnsholm Å og nord for Bjørnsholm Å\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-147@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåhjort større end spidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261223
+DESCRIPTION:Område: De dele af Aalborg\, Rebild og Vesthimmerland Kommuner der ligger syd og øst for Limfjorden og vest for motorvej E45 mellem Aalborg og afkørsel 33 Haverslev\, nord for rute 535 mellem Haverslev og Aars\, nord for Løgstørvej mellem Aars og Hornumbrovej\, nord og vest for Hornumbrovej\, nord og øst for Hyllebjergvej/Bjørnsholmvej\, øst for rute 533 mellem Bjørnsholmvej og Bjørnsholm Å og nord for Bjørnsholm Å\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-148@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåspidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:Område: undtagen området beskrevet ovenfor i bilag 24.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-149@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåhjort større end spidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20261016
+DESCRIPTION:Område: undtagen området beskrevet ovenfor i bilag 24.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-150@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Då og dåkalv - Lokal jagttid
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:Område: undtagen området beskrevet ovenfor i bilag 24.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-151@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåspidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20270116
+DESCRIPTION:Område: undtagen området beskrevet ovenfor i bilag 24.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-152@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåhjort større end spidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20270101
+DESCRIPTION:Område: undtagen området beskrevet ovenfor i bilag 24.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-153@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåspidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:Område: og øst for kommunegrænsen til Ikast-Brande kommune indtil skæringen med motorvej 18\, øst for motorvej 18 mellem skæringen mellem kommunegrænsen til Ikast-Brande kommune og afkørsel 9\, øst for rute 176 mellem motorvejsafkørsel 9 og Bredsten\, nord for rute 28 mellem Bredsten og Vejle Å\, Nord for Vejle Å mellem rute 28 og Vejle Fjord (se bilag\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-154@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåhjort større end spidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261101
+DESCRIPTION:Område: og øst for kommunegrænsen til Ikast-Brande kommune indtil skæringen med motorvej 18\, øst for motorvej 18 mellem skæringen mellem kommunegrænsen til Ikast-Brande kommune og afkørsel 9\, øst for rute 176 mellem motorvejsafkørsel 9 og Bredsten\, nord for rute 28 mellem Bredsten og Vejle Å\, Nord for Vejle Å mellem rute 28 og Vejle Fjord (se bilag\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-155@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåspidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:Område: Lolland\, Guldborgsund kommune samt den del af Vordingborg kommune der omfatter Farø\, Bogø\, Møn og Nyord (se\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-156@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåhjort større end spidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20270101
+DESCRIPTION:Område: Lolland\, Guldborgsund kommune samt den del af Vordingborg kommune der omfatter Farø\, Bogø\, Møn og Nyord (se\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 END:VCALENDAR

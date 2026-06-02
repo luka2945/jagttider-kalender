@@ -5,50 +5,114 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Jagttider – Lokalt (Region Hovedstaden)
 BEGIN:VEVENT
 UID:jagttid-2025-lok-1@luka2945
-DTSTAMP:20260525T085646Z
-SUMMARY:Sølvmåge - Lokal jagttid RH
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region hovedstaden\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DTSTAMP:20260602T151230Z
+SUMMARY:Agerhøne - Lokal jagttid
+DTSTART;VALUE=DATE:20251001
+DTEND;VALUE=DATE:20251101
+DESCRIPTION:Område: Bornholms Kommune\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-2@luka2945
-DTSTAMP:20260525T085646Z
-SUMMARY:Agerhøne - Lokal jagttid RH
-DTSTART;VALUE=DATE:20251001
-DTEND;VALUE=DATE:20251101
-DESCRIPTION:Område: Region hovedstaden\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DTSTAMP:20260602T151230Z
+SUMMARY:Sølvmåge - Lokal jagttid
+DTSTART;VALUE=DATE:20251101
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Område: Bornholms Kommune\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2025-nohunt-3@luka2945
-DTSTAMP:20260525T085646Z
-SUMMARY:Ræv - Lokal ingen jagttid RH
+UID:jagttid-2025-lok-3@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:stang. - Lokal jagttid
+DTSTART;VALUE=DATE:20251016
+DTEND;VALUE=DATE:20251201
+DESCRIPTION:Område: Region Hovedstaden og nord for motorvej 21 (se bilag 5)\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-4@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronhjort større end spidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20251001
+DTEND;VALUE=DATE:20251116
+DESCRIPTION:Område: af regionen mellem Roskilde og Region Hovedstaden\, som ligger nord for motorvej 21 (se bilag 6)\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-5@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronspidshjort og kronkalv - Lokal jagttid
+DTSTART;VALUE=DATE:20251001
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Område: af regionen mellem Roskilde og Region Hovedstaden\, som ligger nord for motorvej 21 (se bilag 6)\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-lok-6@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåkalv - Lokal jagttid
+DTSTART;VALUE=DATE:20260101
+DTEND;VALUE=DATE:20260201
+DESCRIPTION:Område: Bornholms Kommune\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2025-nohunt-7@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Ræv - Lokal ingen jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Region hovedstaden\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nBillede: https://luka2945.github.io/Billede/af/raev.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Bornholms Kommune\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/raev.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-4@luka2945
-DTSTAMP:20260525T085646Z
-SUMMARY:Sølvmåge - Lokal jagttid RH
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region hovedstaden\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-5@luka2945
-DTSTAMP:20260525T085646Z
-SUMMARY:Agerhøne - Lokal jagttid RH
+UID:jagttid-2026-lok-8@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Agerhøne - Lokal jagttid
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261101
-DESCRIPTION:Område: Region hovedstaden\nKilde: https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Bornholms Kommune\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-nohunt-6@luka2945
-DTSTAMP:20260525T085646Z
-SUMMARY:Ræv - Lokal ingen jagttid RH
+UID:jagttid-2026-lok-9@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Sølvmåge - Lokal jagttid
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:Område: Bornholms Kommune\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-10@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:stang. - Lokal jagttid
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261201
+DESCRIPTION:Område: Region Hovedstaden og nord for motorvej 21 (se bilag 5)\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-11@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronhjort større end spidshjort - Lokal jagttid
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261116
+DESCRIPTION:Område: af regionen mellem Roskilde og Region Hovedstaden\, som ligger nord for motorvej 21 (se bilag 6)\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-12@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Kronspidshjort og kronkalv - Lokal jagttid
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:Område: af regionen mellem Roskilde og Region Hovedstaden\, som ligger nord for motorvej 21 (se bilag 6)\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-lok-13@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Dåkalv - Lokal jagttid
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270201
+DESCRIPTION:Område: Bornholms Kommune\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2026-nohunt-14@luka2945
+DTSTAMP:20260602T151230Z
+SUMMARY:Ræv - Lokal ingen jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Region hovedstaden\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde (lokal): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/\nKilde (generel): https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/\nBillede: https://luka2945.github.io/Billede/af/raev.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Bornholms Kommune\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/raev.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 END:VCALENDAR
