@@ -207,8 +207,7 @@ def html_or_xml_to_lines(text: str) -> list[str]:
 
     lines = []
     for raw in raw_text.splitlines():
-        s = raw.replace("\xa0", " ")
-        s = re.sub(r"\s+", " ", s).strip()
+        s = normalize_line(raw)
         if s:
             lines.append(s)
 
@@ -216,11 +215,31 @@ def html_or_xml_to_lines(text: str) -> list[str]:
 
 
 def normalize_line(s: str) -> str:
-    return re.sub(r"\s+", " ", (s or "").replace("\xa0", " ")).strip()
+    s = (s or "").replace("\xa0", " ")
+
+    replacements = {
+        "Kom- mune": "Kommune",
+        "kom- mune": "kommune",
+        "novem- ber": "november",
+        "decem- ber": "december",
+        "septem- ber": "september",
+        "oktob- er": "oktober",
+        "janu- ar": "januar",
+        "Roskilde og Region Hovedstaden": "Roskilde og Region Hovedstaden",
+    }
+
+    for a, b in replacements.items():
+        s = s.replace(a, b)
+
+    s = re.sub(r"\s+", " ", s).strip()
+    s = s.strip(":")
+    return s
 
 
 def clean_species_name(s: str) -> str:
     s = normalize_line(s)
+
+    s = re.sub(r"^Som for .*?,\s*dog\s+", "", s, flags=re.IGNORECASE)
 
     s = re.sub(r"\s*\*+\s*$", "", s)
 
@@ -232,6 +251,8 @@ def clean_species_name(s: str) -> str:
     )
 
     s = re.sub(r"\s+", " ", s)
+    s = re.sub(r"\.$", "", s)
+
     return s.strip()
 
 
@@ -254,6 +275,17 @@ def is_explanation_line(line: str) -> bool:
     return low.startswith(starts)
 
 
+def format_info_note(note: str) -> str:
+    note = (note or "").strip()
+    if not note:
+        return ""
+
+    if note.lower().startswith("info:"):
+        return note
+
+    return f"Info: {note}"
+
+
 def normalize_species(s: str) -> str:
     return normalize_line(s).lower()
 
@@ -269,19 +301,27 @@ def split_area(area: str | None) -> tuple[str, str | None]:
 
 def display_area(area: str | None) -> str:
     region, sub = split_area(area)
-    return f"{sub} {region}".strip() if sub else region
+    if sub:
+        return f"{sub} {region}".strip()
+    return region
 
 
 def region_abbr(area: str | None) -> str:
     region, _sub = split_area(area)
-    mapping = {
-        "region hovedstaden": "RH",
-        "region sjælland": "RSj",
-        "region syddanmark": "RSy",
-        "region midtjylland": "RM",
-        "region nordjylland": "RN",
-    }
-    return mapping.get(region.lower(), "")
+    low = region.lower()
+
+    if "hovedstaden" in low:
+        return "RH"
+    if "sjælland" in low:
+        return "RSj"
+    if "syddanmark" in low:
+        return "RSy"
+    if "midtjylland" in low:
+        return "RM"
+    if "nordjylland" in low:
+        return "RN"
+
+    return ""
 
 
 def get_species_meta(species_name: str, species_meta: dict) -> dict:
@@ -419,17 +459,18 @@ def is_probably_header(line: str) -> bool:
 
 
 def is_region_heading(line: str) -> bool:
-    return line.lower().strip() in {
-        "region hovedstaden",
-        "region sjælland",
-        "region syddanmark",
-        "region midtjylland",
-        "region nordjylland",
-    }
+    low = normalize_line(line).lower()
+    return low.startswith("region ") and (
+        "hovedstaden" in low
+        or "sjælland" in low
+        or "syddanmark" in low
+        or "midtjylland" in low
+        or "nordjylland" in low
+    )
 
 
 def is_area_like(line: str) -> bool:
-    low = line.lower()
+    low = normalize_line(line).lower()
 
     if is_region_heading(line):
         return True
@@ -439,13 +480,14 @@ def is_area_like(line: str) -> bool:
         "kommuner",
         "region",
         "øen",
-        "dele af",
-        "sydlige del",
-        "nordlige del",
-        "vestlige del",
-        "østlige del",
+        "halvøen",
         "undtagen",
-        "hele regionen",
+        "bortset fra",
+        "vest for",
+        "øst for",
+        "nord for",
+        "syd for",
+        "dele af",
         "bornholm",
         "fanø",
         "læsø",
@@ -457,12 +499,35 @@ def is_area_like(line: str) -> bool:
         "falster",
         "langeland",
         "ærø",
-        "fyn",
-        "sjælland",
-        "jylland",
+        "als",
+        "kegnæs",
+        "mandø",
+        "lyø",
+        "strynø",
+        "sejerø",
+        "fejø",
+        "femø",
     ]
 
     return any(w in low for w in area_words)
+
+
+def is_area_continuation(line: str) -> bool:
+    low = normalize_line(line).lower()
+    starts = (
+        "kommune",
+        "kommuner",
+        "og ",
+        "af ",
+        "der ",
+        "som ",
+        "ligger ",
+        "nord for",
+        "syd for",
+        "vest for",
+        "øst for",
+    )
+    return low.startswith(starts)
 
 
 def nth_saturday(year: int, month: int, n: int) -> date | None:
@@ -512,11 +577,60 @@ def parse_special_text_to_dates(text: str, season_year: int) -> list[date]:
     return sorted(set(dates))
 
 
+def find_general_duration_ranges_for_species(
+    species: str,
+    general_by_species: dict[str, list[SeasonRange]],
+) -> list[SeasonRange]:
+    key = normalize_species(species)
+
+    if key in general_by_species:
+        return general_by_species[key]
+
+    fallback_names: dict[str, list[str]] = {
+        "fasanhøne": ["fasan"],
+        "fasanhane": ["fasan"],
+        "råvildt": ["råbuk", "rå og -lam", "rå"],
+        "rå og -lam": ["råvildt", "råbuk", "rå"],
+        "rå": ["råvildt", "råbuk", "rå og -lam"],
+        "råbuk": ["råvildt", "rå og -lam", "rå"],
+        "kronvildt": ["kronhjort", "kronhind", "kronkalv", "kronspidshjort"],
+        "kronhind": ["kronvildt"],
+        "kronkalv": ["kronvildt"],
+        "kronhjort": ["kronvildt"],
+        "kronspidshjort": ["kronvildt"],
+        "dåvildt": ["dåhjort", "då og -kalv", "då"],
+        "då og -kalv": ["dåvildt", "dåhjort", "då"],
+        "dåhjort": ["dåvildt", "då og -kalv", "då"],
+        "då": ["dåvildt", "då og -kalv", "dåhjort"],
+        "sika": ["sikahjort", "sikahind og - kalv"],
+        "sikahind og - kalv": ["sika", "sikahjort"],
+        "sikahjort": ["sika", "sikahind og - kalv"],
+        "muflon": ["muflonfår og -lam", "muflonvædder"],
+        "muflonfår og -lam": ["muflon", "muflonvædder"],
+        "muflonvædder": ["muflon", "muflonfår og -lam"],
+    }
+
+    out: list[SeasonRange] = []
+
+    for fb in fallback_names.get(key, []):
+        if fb in general_by_species:
+            out.extend(general_by_species[fb])
+
+    if out:
+        return out
+
+    for general_key, ranges in general_by_species.items():
+        if key in general_key or general_key in key:
+            return ranges
+
+    return []
+
+
 def parse_general(lines: list[str], season_year: int) -> list[SeasonRange]:
     bilag1 = section_lines(lines, 1)
     ranges: list[SeasonRange] = []
 
-    pending_species = ""
+    pending: list[str] = []
 
     for line in bilag1:
         txt = normalize_line(line)
@@ -527,24 +641,25 @@ def parse_general(lines: list[str], season_year: int) -> list[SeasonRange]:
             continue
         if is_bilag_line(txt):
             continue
+        if is_explanation_line(txt):
+            continue
 
         species_inline, rule_inline = split_species_and_rule(txt)
 
         if species_inline and rule_inline:
             species = species_inline
             rule_text = rule_inline
+            pending = []
         else:
             if not line_has_range(txt) and not line_has_no_hunting(txt) and not line_has_special_rule(txt):
-                if is_explanation_line(txt):
-                    continue
-
-                pending_species = clean_species_name(txt)
+                pending.append(txt)
+                pending = pending[-4:]
                 continue
 
-            if pending_species:
-                species = pending_species
+            if pending:
+                species = clean_species_name(" ".join(pending))
                 rule_text = txt
-                pending_species = ""
+                pending = []
             else:
                 continue
 
@@ -554,12 +669,9 @@ def parse_general(lines: list[str], season_year: int) -> list[SeasonRange]:
         if line_has_no_hunting(rule_text):
             continue
 
-        found_any = False
-
         for (d1, m1, d2, m2) in RANGE_RE.findall(rule_text.replace("–", "-")):
             start, end = season_range_dates(season_year, int(d1), int(m1), int(d2), int(m2))
             if start and end:
-                found_any = True
                 ranges.append(
                     SeasonRange(
                         species=species,
@@ -568,9 +680,6 @@ def parse_general(lines: list[str], season_year: int) -> list[SeasonRange]:
                         kind="generel"
                     )
                 )
-
-        if found_any:
-            continue
 
     uniq, seen = [], set()
     for r in ranges:
@@ -610,23 +719,27 @@ def parse_local(lines: list[str], season_year: int) -> tuple[list[SeasonRange], 
         if is_probably_header(txt):
             continue
 
+        if is_explanation_line(txt):
+            continue
+
+        if current_area and is_area_continuation(txt) and not line_has_range(txt) and not line_has_no_hunting(txt) and not line_has_special_rule(txt):
+            if current_area == current_region:
+                current_region = f"{current_region} {txt}".strip()
+                current_area = current_region
+            else:
+                current_area = f"{current_area} {txt}".strip()
+            pending = []
+            continue
+
         if is_region_heading(txt):
             current_region = txt
             current_area = txt
             pending = []
             continue
 
-        if is_explanation_line(txt):
-            continue
-
         if is_area_like(txt) and not line_has_range(txt) and not line_has_no_hunting(txt) and not line_has_special_rule(txt):
-            if current_region and txt.lower() in ("hele regionen",):
-                current_area = current_region
-            elif current_region and txt.lower().startswith("undtagen"):
-                current_area = txt
-            elif current_region and txt.lower().startswith("øen "):
-                current_area = txt
-            elif current_region and not is_region_heading(txt):
+            if is_region_heading(txt):
+                current_region = txt
                 current_area = txt
             else:
                 current_area = txt
@@ -639,24 +752,26 @@ def parse_local(lines: list[str], season_year: int) -> tuple[list[SeasonRange], 
         if species_inline and rule_inline:
             species = species_inline
             rule_text = rule_inline
+            pending = []
         else:
             if line_has_range(txt) or line_has_no_hunting(txt) or line_has_special_rule(txt):
-                if not pending:
+                clean_pending = [
+                    p for p in pending
+                    if p
+                    and not is_probably_header(p)
+                    and not is_explanation_line(p)
+                ]
+
+                if not clean_pending:
                     continue
 
-                if len(pending) >= 2 and is_area_like(pending[-2]):
-                    area_candidate = pending[-2]
-                    species = clean_species_name(pending[-1])
-                    current_area = area_candidate
-                else:
-                    species = clean_species_name(pending[-1])
-
+                species = clean_species_name(" ".join(clean_pending))
                 rule_text = txt
                 pending = []
             else:
                 if not is_probably_header(txt) and not is_explanation_line(txt):
                     pending.append(txt)
-                    pending = pending[-3:]
+                    pending = pending[-5:]
                 continue
 
         if not species or not rule_text:
@@ -797,9 +912,13 @@ def main() -> None:
                     notes = meta.get("notes", "")
 
                     desc_parts = []
-                    if notes:
-                        desc_parts.append(notes)
+
+                    info_note = format_info_note(notes)
+                    if info_note:
+                        desc_parts.append(info_note)
+
                     desc_parts.append(f"Kilde: {source_url_for_notes}")
+
                     if img:
                         desc_parts.append(f"Billede: {img}")
 
@@ -827,13 +946,19 @@ def main() -> None:
                     abbr = region_abbr(r.area)
 
                     desc_parts = []
-                    if notes:
-                        desc_parts.append(notes)
+
+                    info_note = format_info_note(notes)
+                    if info_note:
+                        desc_parts.append(info_note)
+
                     if r.area:
                         desc_parts.append(f"Område: {display_area(r.area)}")
+
                     desc_parts.append(f"Kilde: {source_url_for_notes}")
+
                     if img:
                         desc_parts.append(f"Billede: {img}")
+
                     if local_map_image_url:
                         desc_parts.append(f"Regionskort: {local_map_image_url}")
 
@@ -861,12 +986,17 @@ def main() -> None:
                         abbr = region_abbr(sp.area)
 
                         desc_parts = []
-                        if notes:
-                            desc_parts.append(notes)
+
+                        info_note = format_info_note(notes)
+                        if info_note:
+                            desc_parts.append(info_note)
+
                         desc_parts.append(f"Område: {display_area(sp.area)}")
                         desc_parts.append(f"Kilde: {source_url_for_notes}")
+
                         if img:
                             desc_parts.append(f"Billede: {img}")
+
                         if local_map_image_url:
                             desc_parts.append(f"Regionskort: {local_map_image_url}")
 
@@ -886,8 +1016,13 @@ def main() -> None:
                         if not area_allowed(nh.area, include_area, exclude_area):
                             continue
 
-                        general_list = general_by_species.get(normalize_species(nh.species), [])
+                        general_list = find_general_duration_ranges_for_species(
+                            nh.species,
+                            general_by_species
+                        )
+
                         if not general_list:
+                            print(f"WARNING: Ingen generel jagttid fundet for lokal ingen jagttid: {nh.species} / {nh.area}")
                             continue
 
                         for gr in general_list:
@@ -895,18 +1030,18 @@ def main() -> None:
 
                             meta = get_species_meta(nh.species, species_meta)
                             img = meta.get("image_url", "")
-                            notes = meta.get("notes", "")
                             abbr = region_abbr(nh.area)
 
                             desc_parts = []
-                            if notes:
-                                desc_parts.append(notes)
+                            desc_parts.append(f"Info: Der er ikke jagttid på {nh.species}.")
                             desc_parts.append(f"Område: {display_area(nh.area)}")
                             desc_parts.append("Lokal regel: ingen jagttid")
                             desc_parts.append("Varighed hentet fra generel jagttid for samme dyr")
                             desc_parts.append(f"Kilde: {source_url_for_notes}")
+
                             if img:
                                 desc_parts.append(f"Billede: {img}")
+
                             if local_map_image_url:
                                 desc_parts.append(f"Regionskort: {local_map_image_url}")
 
@@ -914,7 +1049,7 @@ def main() -> None:
                             events.append(
                                 build_event(
                                     uid=uid,
-                                    summary=f"{nh.species} - Lokal ingen jagttid {abbr}".strip(),
+                                    summary=f"{nh.species} - Lokal - Ingen jagttid {abbr}".strip(),
                                     start=gr.start,
                                     end_inclusive=gr.end_inclusive,
                                     description="\n".join(desc_parts),
