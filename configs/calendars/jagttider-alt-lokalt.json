@@ -1,6 +1,6 @@
 {
   "calendar_name": "Jagttider – Alt lokalt",
-  "output_filename": "jagttider-lokalt-personlig.ics",
+  "output_filename": "jagttider-alt-lokalt.ics",
   "use_local": true,
 
   "filters": {
