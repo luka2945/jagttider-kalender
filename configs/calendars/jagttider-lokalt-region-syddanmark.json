@@ -4,7 +4,16 @@
   "use_local": true,
 
   "filters": {
-    "include_area_keywords": ["Region Syddanmark", "Lyø", "Strynø", "Ærø", "Als", "Kegnæs", "Mandø"],
+    "include_area_keywords": [
+      "Region Syddanmark", 
+      "Syddanmark",
+      "Lyø", 
+      "Strynø", 
+      "Ærø", 
+      "Als", 
+      "Kegnæs", 
+      "Mandø"
+    ],
     "exclude_area_keywords": []
   },
 
@@ -12,5 +21,5 @@
     "emit_no_hunting_events": true
   },
 
-  "seasons_ahead": 2
+  "seasons_ahead": 4
 }
