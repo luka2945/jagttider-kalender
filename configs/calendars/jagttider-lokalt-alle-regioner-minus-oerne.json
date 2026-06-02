@@ -5,12 +5,11 @@
 
   "filters": {
     "include_area_keywords": [
-      "Region Nordjylland",
-      "Region Midtjylland",
-      "Region Syddanmark",
+     "Region Hovedstaden",
       "Region Sjælland",
-      "Region Hovedstaden",
-      "Region hovedstaden"
+      "Region Syddanmark",
+      "Region Midtjylland",
+      "Region Nordjylland"
     ],
     "exclude_area_keywords": [
       "Øen ",
@@ -26,7 +25,12 @@
       "Fejø",
       "Ærø",
       "Strynø",
-      "Lyø"
+      "Lyø" ,
+      "Halvøen",
+      "Bornholms Kommune",
+      "Sejerø",
+      "Als",
+      "Kegnæs"
     ]
   },
 
@@ -34,5 +38,5 @@
     "emit_no_hunting_events": true
   },
 
-  "seasons_ahead": 2
+  "seasons_ahead": 4
 }
