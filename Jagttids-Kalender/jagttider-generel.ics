@@ -5,15 +5,15 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Jagttider - Generel
 BEGIN:VEVENT
 UID:jagttid-2025-gen-1@luka2945
-DTSTAMP:20260602T155743Z
-SUMMARY:Kronhjort større end spidshjort - Jagttid
+DTSTAMP:20260602T183446Z
+SUMMARY:Hovdyr Kronhjort større end spidshjort - Jagttid
 DTSTART;VALUE=DATE:20251016
 DTEND;VALUE=DATE:20260101
 DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_han.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-2@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Kronspidshjort - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
@@ -21,7 +21,7 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: htt
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-3@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Kronhind - Jagttid
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
@@ -29,7 +29,7 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: htt
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-4@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Dåhjort - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
@@ -37,7 +37,7 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: htt
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-5@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Då og -kalv - Jagttid
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
@@ -45,7 +45,7 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: htt
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-6@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Sikahjort - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
@@ -53,7 +53,7 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-7@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Sikahind og -kalv - Jagttid
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
@@ -61,7 +61,7 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-8@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Råbuk - Jagttid
 DTSTART;VALUE=DATE:20260516
 DTEND;VALUE=DATE:20260716
@@ -69,7 +69,7 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: htt
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-9@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Rå og -lam - Jagttid
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
@@ -77,7 +77,7 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: htt
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-10@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Muflonvædder - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
@@ -85,7 +85,7 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-11@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Muflonfår og -lam - Jagttid
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
@@ -93,7 +93,7 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-12@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Vildsvin\, orne - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
@@ -101,7 +101,7 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: htt
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-13@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Vildsvin\, so og grise - Jagttid
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
@@ -109,23 +109,23 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: htt
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-14@luka2945
-DTSTAMP:20260602T155743Z
-SUMMARY:Ræv - Jagttid
+DTSTAMP:20260602T183446Z
+SUMMARY:Rovdyr Ræv - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/raev.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-15@luka2945
-DTSTAMP:20260602T155743Z
-SUMMARY:Hare - Jagttid
+DTSTAMP:20260602T183446Z
+SUMMARY:Støttetandede Hare - Jagttid
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hare.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-16@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Vildkanin - Jagttid
 DTSTART;VALUE=DATE:20251101
 DTEND;VALUE=DATE:20260201
@@ -133,63 +133,63 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: htt
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-17@luka2945
-DTSTAMP:20260602T155743Z
-SUMMARY:Gråand - Jagttid
+DTSTAMP:20260602T183446Z
+SUMMARY:Andefugle Gråand - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260101
-DESCRIPTION:Gråand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/graaand.webp
+DESCRIPTION:Info: Gråand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/graaand.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-18@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Atlingand - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260101
-DESCRIPTION:Atlingand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/atlingand.webp
+DESCRIPTION:Info: Atlingand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/atlingand.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-19@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Krikand - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260101
-DESCRIPTION:Krikand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krikand.webp
+DESCRIPTION:Info: Krikand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krikand.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-20@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Spidsand - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260101
-DESCRIPTION:Spidsand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/spidsand.webp
+DESCRIPTION:Info: Spidsand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/spidsand.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-21@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Pibeand - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260101
-DESCRIPTION:Pibeand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/pibeand.webp
+DESCRIPTION:Info: Pibeand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/pibeand.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-22@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Skeand - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260101
-DESCRIPTION:Skeand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/skeand.webp
+DESCRIPTION:Info: Skeand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/skeand.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-23@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Knarand - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260101
-DESCRIPTION:Knarand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/knarand.webp
+DESCRIPTION:Info: Knarand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/knarand.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-24@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Ovenstående andefugle på fiskeriterritoriet desuden - Jagttid
 DTSTART;VALUE=DATE:20260101
 DTEND;VALUE=DATE:20260201
@@ -197,79 +197,79 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-25@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Grågås - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Grågås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/graagaas.webp
+DESCRIPTION:Info: Grågås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/graagaas.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-26@luka2945
-DTSTAMP:20260602T155743Z
-SUMMARY:Grågås på omdriftsarealer eller i umiddelbar tilknytning hertil. - Jagttid
+DTSTAMP:20260602T183446Z
+SUMMARY:Grågås på omdriftsarealer eller i umiddelbar tilknytning hertil - Jagttid
 DTSTART;VALUE=DATE:20250801
 DTEND;VALUE=DATE:20250901
-DESCRIPTION:Grågås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/graagaas.webp
+DESCRIPTION:Info: Grågås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/graagaas.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-27@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Blisgås - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Blisgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/blisgaas.webp
+DESCRIPTION:Info: Blisgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/blisgaas.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-28@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Kortnæbbet gås - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Kortnæbbet gås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/kortnaebbet_gaas.webp
+DESCRIPTION:Info: Kortnæbbet gås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/kortnaebbet_gaas.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-29@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Canadagås - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Canadagås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/canadagaas.webp
+DESCRIPTION:Info: Canadagås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/canadagaas.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-30@luka2945
-DTSTAMP:20260602T155743Z
-SUMMARY:Canadagås på omdriftsarealer eller i umiddelbar tilknytning her- til. - Jagttid
+DTSTAMP:20260602T183446Z
+SUMMARY:Canadagås på omdriftsarealer eller i umiddelbar tilknytning her- til - Jagttid
 DTSTART;VALUE=DATE:20250801
 DTEND;VALUE=DATE:20250901
-DESCRIPTION:Canadagås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/canadagaas.webp
+DESCRIPTION:Info: Canadagås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/canadagaas.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-31@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Troldand - Jagttid
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Troldand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/troldand.webp
+DESCRIPTION:Info: Troldand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/troldand.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-32@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Bjergand - Jagttid
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Bjergand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/bjergand.webp
+DESCRIPTION:Info: Bjergand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/bjergand.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-33@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Hvinand - Jagttid
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Hvinand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hvinand.webp
+DESCRIPTION:Info: Hvinand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hvinand.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-34@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Ederfugl\, han - Jagttid
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
@@ -277,23 +277,23 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-35@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Sortand - Jagttid
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Sortand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/sortand.webp
+DESCRIPTION:Info: Sortand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/sortand.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-36@luka2945
-DTSTAMP:20260602T155743Z
-SUMMARY:Agerhøne - Jagttid
+DTSTAMP:20260602T183446Z
+SUMMARY:Hønsefugle Agerhøne - Jagttid
 DTSTART;VALUE=DATE:20250916
 DTEND;VALUE=DATE:20251101
 DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-37@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Fasan - Jagttid
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
@@ -301,23 +301,23 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: htt
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-38@luka2945
-DTSTAMP:20260602T155743Z
-SUMMARY:Blishøne - Jagttid
+DTSTAMP:20260602T183446Z
+SUMMARY:Vandhøns Blishøne - Jagttid
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/blishoene.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-39@luka2945
-DTSTAMP:20260602T155743Z
-SUMMARY:Dobbeltbekkasin - Jagttid
+DTSTAMP:20260602T183446Z
+SUMMARY:Vadefugle Dobbeltbekkasin - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260101
 DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/dobbeltbekkasin.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-40@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Skovsneppe - Jagttid
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
@@ -325,47 +325,47 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: htt
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-41@luka2945
-DTSTAMP:20260602T155743Z
-SUMMARY:Sølvmåge - Jagttid
+DTSTAMP:20260602T183446Z
+SUMMARY:Måger Sølvmåge - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-42@luka2945
-DTSTAMP:20260602T155743Z
-SUMMARY:Ringdue - Jagttid
+DTSTAMP:20260602T183446Z
+SUMMARY:Duer Ringdue - Jagttid
 DTSTART;VALUE=DATE:20251111
 DTEND;VALUE=DATE:20260201
 DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/ringdue.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-43@luka2945
-DTSTAMP:20260602T155743Z
-SUMMARY:Husskade - Jagttid
+DTSTAMP:20260602T183446Z
+SUMMARY:Kragefugle Husskade - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Husskade må jages 1 time før solopgang til solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/husskade.webp
+DESCRIPTION:Info: Gråkrage og sortkrage må jages 1 time før solopgang til solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/graakrage.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-44@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Krage (gråkrage og sortkrage) - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Gråkrage og sortkrage må jages 1 time før solopgang til solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/graakrage.webp
+DESCRIPTION:Info: Gråkrage og sortkrage må jages 1 time før solopgang til solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/graakrage.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-45@luka2945
-DTSTAMP:20260602T155743Z
-SUMMARY:Nilgås - Jagttid
+DTSTAMP:20260602T183446Z
+SUMMARY:Invasive arter Nilgås - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Nilgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/nilgaas.webp
+DESCRIPTION:Info: Nilgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/nilgaas.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-46@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Bisamrotte - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
@@ -373,7 +373,7 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: htt
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-47@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Sumpbæver - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
@@ -381,7 +381,7 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-48@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Vaskebjørn - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
@@ -389,7 +389,7 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: htt
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-49@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Mårhund - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
@@ -397,7 +397,7 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: htt
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-gen-50@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Mink - Jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
@@ -405,15 +405,15 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: htt
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-51@luka2945
-DTSTAMP:20260602T155743Z
-SUMMARY:Kronhjort større end spidshjort - Jagttid
+DTSTAMP:20260602T183446Z
+SUMMARY:Hovdyr Kronhjort større end spidshjort - Jagttid
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20270101
 DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_han.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-52@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Kronspidshjort - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
@@ -421,7 +421,7 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: htt
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-53@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Kronhind - Jagttid
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
@@ -429,7 +429,7 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: htt
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-54@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Dåhjort - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
@@ -437,7 +437,7 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: htt
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-55@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Då og -kalv - Jagttid
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
@@ -445,7 +445,7 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: htt
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-56@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Sikahjort - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
@@ -453,7 +453,7 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-57@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Sikahind og -kalv - Jagttid
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
@@ -461,7 +461,7 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-58@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Råbuk - Jagttid
 DTSTART;VALUE=DATE:20270516
 DTEND;VALUE=DATE:20270716
@@ -469,7 +469,7 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: htt
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-59@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Rå og -lam - Jagttid
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
@@ -477,7 +477,7 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: htt
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-60@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Muflonvædder - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
@@ -485,7 +485,7 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-61@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Muflonfår og -lam - Jagttid
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
@@ -493,7 +493,7 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-62@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Vildsvin\, orne - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
@@ -501,7 +501,7 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: htt
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-63@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Vildsvin\, so og grise - Jagttid
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
@@ -509,23 +509,23 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: htt
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-64@luka2945
-DTSTAMP:20260602T155743Z
-SUMMARY:Ræv - Jagttid
+DTSTAMP:20260602T183446Z
+SUMMARY:Rovdyr Ræv - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/raev.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-65@luka2945
-DTSTAMP:20260602T155743Z
-SUMMARY:Hare - Jagttid
+DTSTAMP:20260602T183446Z
+SUMMARY:Støttetandede Hare - Jagttid
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hare.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-66@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Vildkanin - Jagttid
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270201
@@ -533,63 +533,63 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: htt
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-67@luka2945
-DTSTAMP:20260602T155743Z
-SUMMARY:Gråand - Jagttid
+DTSTAMP:20260602T183446Z
+SUMMARY:Andefugle Gråand - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270101
-DESCRIPTION:Gråand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/graaand.webp
+DESCRIPTION:Info: Gråand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/graaand.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-68@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Atlingand - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270101
-DESCRIPTION:Atlingand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/atlingand.webp
+DESCRIPTION:Info: Atlingand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/atlingand.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-69@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Krikand - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270101
-DESCRIPTION:Krikand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krikand.webp
+DESCRIPTION:Info: Krikand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krikand.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-70@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Spidsand - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270101
-DESCRIPTION:Spidsand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/spidsand.webp
+DESCRIPTION:Info: Spidsand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/spidsand.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-71@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Pibeand - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270101
-DESCRIPTION:Pibeand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/pibeand.webp
+DESCRIPTION:Info: Pibeand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/pibeand.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-72@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Skeand - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270101
-DESCRIPTION:Skeand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/skeand.webp
+DESCRIPTION:Info: Skeand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/skeand.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-73@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Knarand - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270101
-DESCRIPTION:Knarand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/knarand.webp
+DESCRIPTION:Info: Knarand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/knarand.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-74@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Ovenstående andefugle på fiskeriterritoriet desuden - Jagttid
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270201
@@ -597,79 +597,79 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-75@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Grågås - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Grågås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/graagaas.webp
+DESCRIPTION:Info: Grågås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/graagaas.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-76@luka2945
-DTSTAMP:20260602T155743Z
-SUMMARY:Grågås på omdriftsarealer eller i umiddelbar tilknytning hertil. - Jagttid
+DTSTAMP:20260602T183446Z
+SUMMARY:Grågås på omdriftsarealer eller i umiddelbar tilknytning hertil - Jagttid
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260901
-DESCRIPTION:Grågås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/graagaas.webp
+DESCRIPTION:Info: Grågås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/graagaas.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-77@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Blisgås - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Blisgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/blisgaas.webp
+DESCRIPTION:Info: Blisgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/blisgaas.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-78@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Kortnæbbet gås - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Kortnæbbet gås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/kortnaebbet_gaas.webp
+DESCRIPTION:Info: Kortnæbbet gås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/kortnaebbet_gaas.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-79@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Canadagås - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Canadagås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/canadagaas.webp
+DESCRIPTION:Info: Canadagås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/canadagaas.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-80@luka2945
-DTSTAMP:20260602T155743Z
-SUMMARY:Canadagås på omdriftsarealer eller i umiddelbar tilknytning her- til. - Jagttid
+DTSTAMP:20260602T183446Z
+SUMMARY:Canadagås på omdriftsarealer eller i umiddelbar tilknytning her- til - Jagttid
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260901
-DESCRIPTION:Canadagås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/canadagaas.webp
+DESCRIPTION:Info: Canadagås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/canadagaas.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-81@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Troldand - Jagttid
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Troldand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/troldand.webp
+DESCRIPTION:Info: Troldand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/troldand.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-82@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Bjergand - Jagttid
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Bjergand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/bjergand.webp
+DESCRIPTION:Info: Bjergand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/bjergand.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-83@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Hvinand - Jagttid
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Hvinand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hvinand.webp
+DESCRIPTION:Info: Hvinand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hvinand.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-84@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Ederfugl\, han - Jagttid
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
@@ -677,23 +677,23 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-85@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Sortand - Jagttid
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Sortand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/sortand.webp
+DESCRIPTION:Info: Sortand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/sortand.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-86@luka2945
-DTSTAMP:20260602T155743Z
-SUMMARY:Agerhøne - Jagttid
+DTSTAMP:20260602T183446Z
+SUMMARY:Hønsefugle Agerhøne - Jagttid
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20261101
 DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-87@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Fasan - Jagttid
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
@@ -701,23 +701,23 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: htt
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-88@luka2945
-DTSTAMP:20260602T155743Z
-SUMMARY:Blishøne - Jagttid
+DTSTAMP:20260602T183446Z
+SUMMARY:Vandhøns Blishøne - Jagttid
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/blishoene.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-89@luka2945
-DTSTAMP:20260602T155743Z
-SUMMARY:Dobbeltbekkasin - Jagttid
+DTSTAMP:20260602T183446Z
+SUMMARY:Vadefugle Dobbeltbekkasin - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270101
 DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/dobbeltbekkasin.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-90@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Skovsneppe - Jagttid
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
@@ -725,47 +725,47 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: htt
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-91@luka2945
-DTSTAMP:20260602T155743Z
-SUMMARY:Sølvmåge - Jagttid
+DTSTAMP:20260602T183446Z
+SUMMARY:Måger Sølvmåge - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-92@luka2945
-DTSTAMP:20260602T155743Z
-SUMMARY:Ringdue - Jagttid
+DTSTAMP:20260602T183446Z
+SUMMARY:Duer Ringdue - Jagttid
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/ringdue.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-93@luka2945
-DTSTAMP:20260602T155743Z
-SUMMARY:Husskade - Jagttid
+DTSTAMP:20260602T183446Z
+SUMMARY:Kragefugle Husskade - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Husskade må jages 1 time før solopgang til solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/husskade.webp
+DESCRIPTION:Info: Gråkrage og sortkrage må jages 1 time før solopgang til solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/graakrage.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-94@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Krage (gråkrage og sortkrage) - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Gråkrage og sortkrage må jages 1 time før solopgang til solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/graakrage.webp
+DESCRIPTION:Info: Gråkrage og sortkrage må jages 1 time før solopgang til solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/graakrage.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-95@luka2945
-DTSTAMP:20260602T155743Z
-SUMMARY:Nilgås - Jagttid
+DTSTAMP:20260602T183446Z
+SUMMARY:Invasive arter Nilgås - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Nilgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/nilgaas.webp
+DESCRIPTION:Info: Nilgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/nilgaas.webp
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-96@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Bisamrotte - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
@@ -773,7 +773,7 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: htt
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-97@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Sumpbæver - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
@@ -781,7 +781,7 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-98@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Vaskebjørn - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
@@ -789,7 +789,7 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: htt
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-99@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Mårhund - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
@@ -797,10 +797,818 @@ DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: htt
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-gen-100@luka2945
-DTSTAMP:20260602T155743Z
+DTSTAMP:20260602T183446Z
 SUMMARY:Mink - Jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/mink.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-101@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Hovdyr Kronhjort større end spidshjort - Jagttid
+DTSTART;VALUE=DATE:20271016
+DTEND;VALUE=DATE:20280101
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_han.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-102@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Kronspidshjort - Jagttid
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_hun.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-103@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Kronhind - Jagttid
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_hun.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-104@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Kronkalv - Jagttid
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20280301
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-105@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Dåhjort - Jagttid
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-106@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Då og -kalv - Jagttid
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-107@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Sikahjort - Jagttid
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-108@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Sikahind og -kalv - Jagttid
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-109@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Råbuk - Jagttid
+DTSTART;VALUE=DATE:20280516
+DTEND;VALUE=DATE:20280716
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/raadyr_han.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-110@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Rå og -lam - Jagttid
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/raadyr_hun.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-111@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Muflonvædder - Jagttid
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-112@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Muflonfår og -lam - Jagttid
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-113@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Vildsvin\, orne - Jagttid
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/vildsvin.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-114@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Vildsvin\, so og grise - Jagttid
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/vildsvin.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-115@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Rovdyr Ræv - Jagttid
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/raev.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-116@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Støttetandede Hare - Jagttid
+DTSTART;VALUE=DATE:20271101
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hare.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-117@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Vildkanin - Jagttid
+DTSTART;VALUE=DATE:20271101
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/vildkanin.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-118@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Andefugle Gråand - Jagttid
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20280101
+DESCRIPTION:Info: Gråand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/graaand.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-119@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Atlingand - Jagttid
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20280101
+DESCRIPTION:Info: Atlingand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/atlingand.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-120@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Krikand - Jagttid
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20280101
+DESCRIPTION:Info: Krikand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krikand.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-121@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Spidsand - Jagttid
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20280101
+DESCRIPTION:Info: Spidsand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/spidsand.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-122@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Pibeand - Jagttid
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20280101
+DESCRIPTION:Info: Pibeand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/pibeand.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-123@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Skeand - Jagttid
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20280101
+DESCRIPTION:Info: Skeand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/skeand.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-124@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Knarand - Jagttid
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20280101
+DESCRIPTION:Info: Knarand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/knarand.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-125@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Ovenstående andefugle på fiskeriterritoriet desuden - Jagttid
+DTSTART;VALUE=DATE:20280101
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-126@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Grågås - Jagttid
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Info: Grågås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/graagaas.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-127@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Grågås på omdriftsarealer eller i umiddelbar tilknytning hertil - Jagttid
+DTSTART;VALUE=DATE:20270801
+DTEND;VALUE=DATE:20270901
+DESCRIPTION:Info: Grågås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/graagaas.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-128@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Blisgås - Jagttid
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Info: Blisgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/blisgaas.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-129@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Kortnæbbet gås - Jagttid
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Info: Kortnæbbet gås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/kortnaebbet_gaas.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-130@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Canadagås - Jagttid
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Info: Canadagås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/canadagaas.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-131@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Canadagås på omdriftsarealer eller i umiddelbar tilknytning her- til - Jagttid
+DTSTART;VALUE=DATE:20270801
+DTEND;VALUE=DATE:20270901
+DESCRIPTION:Info: Canadagås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/canadagaas.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-132@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Troldand - Jagttid
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Info: Troldand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/troldand.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-133@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Bjergand - Jagttid
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Info: Bjergand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/bjergand.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-134@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Hvinand - Jagttid
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Info: Hvinand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hvinand.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-135@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Ederfugl\, han - Jagttid
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-136@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Sortand - Jagttid
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Info: Sortand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/sortand.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-137@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Hønsefugle Agerhøne - Jagttid
+DTSTART;VALUE=DATE:20270916
+DTEND;VALUE=DATE:20271101
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-138@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Fasan - Jagttid
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/fasan.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-139@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Vandhøns Blishøne - Jagttid
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/blishoene.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-140@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Vadefugle Dobbeltbekkasin - Jagttid
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20280101
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/dobbeltbekkasin.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-141@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Skovsneppe - Jagttid
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/skovsneppe.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-142@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Måger Sølvmåge - Jagttid
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-143@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Duer Ringdue - Jagttid
+DTSTART;VALUE=DATE:20271111
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/ringdue.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-144@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Kragefugle Husskade - Jagttid
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Info: Gråkrage og sortkrage må jages 1 time før solopgang til solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/graakrage.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-145@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Krage (gråkrage og sortkrage) - Jagttid
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Info: Gråkrage og sortkrage må jages 1 time før solopgang til solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/graakrage.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-146@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Invasive arter Nilgås - Jagttid
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Info: Nilgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/nilgaas.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-147@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Bisamrotte - Jagttid
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/bisamrotte.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-148@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Sumpbæver - Jagttid
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-149@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Vaskebjørn - Jagttid
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/vaskebjoern.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-150@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Mårhund - Jagttid
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/maarhund.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2027-gen-151@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Mink - Jagttid
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20280201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/mink.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-152@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Hovdyr Kronhjort større end spidshjort - Jagttid
+DTSTART;VALUE=DATE:20281016
+DTEND;VALUE=DATE:20290101
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_han.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-153@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Kronspidshjort - Jagttid
+DTSTART;VALUE=DATE:20280901
+DTEND;VALUE=DATE:20290201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_hun.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-154@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Kronhind - Jagttid
+DTSTART;VALUE=DATE:20281001
+DTEND;VALUE=DATE:20290201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_hun.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-155@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Dåhjort - Jagttid
+DTSTART;VALUE=DATE:20280901
+DTEND;VALUE=DATE:20290201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-156@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Då og -kalv - Jagttid
+DTSTART;VALUE=DATE:20281001
+DTEND;VALUE=DATE:20290201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-157@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Sikahjort - Jagttid
+DTSTART;VALUE=DATE:20280901
+DTEND;VALUE=DATE:20290201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-158@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Sikahind og -kalv - Jagttid
+DTSTART;VALUE=DATE:20281001
+DTEND;VALUE=DATE:20290201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-159@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Råbuk - Jagttid
+DTSTART;VALUE=DATE:20290516
+DTEND;VALUE=DATE:20290716
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/raadyr_han.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-160@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Rå og -lam - Jagttid
+DTSTART;VALUE=DATE:20281001
+DTEND;VALUE=DATE:20290201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/raadyr_hun.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-161@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Muflonvædder - Jagttid
+DTSTART;VALUE=DATE:20280901
+DTEND;VALUE=DATE:20290201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-162@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Muflonfår og -lam - Jagttid
+DTSTART;VALUE=DATE:20281001
+DTEND;VALUE=DATE:20290201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-163@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Vildsvin\, orne - Jagttid
+DTSTART;VALUE=DATE:20280901
+DTEND;VALUE=DATE:20290201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/vildsvin.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-164@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Vildsvin\, so og grise - Jagttid
+DTSTART;VALUE=DATE:20281001
+DTEND;VALUE=DATE:20290201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/vildsvin.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-165@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Rovdyr Ræv - Jagttid
+DTSTART;VALUE=DATE:20280901
+DTEND;VALUE=DATE:20290201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/raev.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-166@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Støttetandede Hare - Jagttid
+DTSTART;VALUE=DATE:20281101
+DTEND;VALUE=DATE:20290201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hare.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-167@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Vildkanin - Jagttid
+DTSTART;VALUE=DATE:20281101
+DTEND;VALUE=DATE:20290201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/vildkanin.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-168@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Andefugle Gråand - Jagttid
+DTSTART;VALUE=DATE:20280901
+DTEND;VALUE=DATE:20290101
+DESCRIPTION:Info: Gråand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/graaand.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-169@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Atlingand - Jagttid
+DTSTART;VALUE=DATE:20280901
+DTEND;VALUE=DATE:20290101
+DESCRIPTION:Info: Atlingand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/atlingand.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-170@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Krikand - Jagttid
+DTSTART;VALUE=DATE:20280901
+DTEND;VALUE=DATE:20290101
+DESCRIPTION:Info: Krikand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krikand.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-171@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Spidsand - Jagttid
+DTSTART;VALUE=DATE:20280901
+DTEND;VALUE=DATE:20290101
+DESCRIPTION:Info: Spidsand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/spidsand.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-172@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Pibeand - Jagttid
+DTSTART;VALUE=DATE:20280901
+DTEND;VALUE=DATE:20290101
+DESCRIPTION:Info: Pibeand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/pibeand.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-173@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Skeand - Jagttid
+DTSTART;VALUE=DATE:20280901
+DTEND;VALUE=DATE:20290101
+DESCRIPTION:Info: Skeand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/skeand.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-174@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Knarand - Jagttid
+DTSTART;VALUE=DATE:20280901
+DTEND;VALUE=DATE:20290101
+DESCRIPTION:Info: Knarand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/knarand.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-175@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Ovenstående andefugle på fiskeriterritoriet desuden - Jagttid
+DTSTART;VALUE=DATE:20290101
+DTEND;VALUE=DATE:20290201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-176@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Grågås - Jagttid
+DTSTART;VALUE=DATE:20280901
+DTEND;VALUE=DATE:20290201
+DESCRIPTION:Info: Grågås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/graagaas.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-177@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Grågås på omdriftsarealer eller i umiddelbar tilknytning hertil - Jagttid
+DTSTART;VALUE=DATE:20280801
+DTEND;VALUE=DATE:20280901
+DESCRIPTION:Info: Grågås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/graagaas.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-178@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Blisgås - Jagttid
+DTSTART;VALUE=DATE:20280901
+DTEND;VALUE=DATE:20290201
+DESCRIPTION:Info: Blisgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/blisgaas.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-179@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Kortnæbbet gås - Jagttid
+DTSTART;VALUE=DATE:20280901
+DTEND;VALUE=DATE:20290201
+DESCRIPTION:Info: Kortnæbbet gås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/kortnaebbet_gaas.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-180@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Canadagås - Jagttid
+DTSTART;VALUE=DATE:20280901
+DTEND;VALUE=DATE:20290201
+DESCRIPTION:Info: Canadagås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/canadagaas.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-181@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Canadagås på omdriftsarealer eller i umiddelbar tilknytning her- til - Jagttid
+DTSTART;VALUE=DATE:20280801
+DTEND;VALUE=DATE:20280901
+DESCRIPTION:Info: Canadagås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/canadagaas.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-182@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Troldand - Jagttid
+DTSTART;VALUE=DATE:20281001
+DTEND;VALUE=DATE:20290201
+DESCRIPTION:Info: Troldand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/troldand.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-183@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Bjergand - Jagttid
+DTSTART;VALUE=DATE:20281001
+DTEND;VALUE=DATE:20290201
+DESCRIPTION:Info: Bjergand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/bjergand.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-184@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Hvinand - Jagttid
+DTSTART;VALUE=DATE:20281001
+DTEND;VALUE=DATE:20290201
+DESCRIPTION:Info: Hvinand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hvinand.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-185@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Ederfugl\, han - Jagttid
+DTSTART;VALUE=DATE:20281001
+DTEND;VALUE=DATE:20290201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-186@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Sortand - Jagttid
+DTSTART;VALUE=DATE:20281001
+DTEND;VALUE=DATE:20290201
+DESCRIPTION:Info: Sortand må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/sortand.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-187@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Hønsefugle Agerhøne - Jagttid
+DTSTART;VALUE=DATE:20280916
+DTEND;VALUE=DATE:20281101
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/agerhoene.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-188@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Fasan - Jagttid
+DTSTART;VALUE=DATE:20281001
+DTEND;VALUE=DATE:20290201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/fasan.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-189@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Vandhøns Blishøne - Jagttid
+DTSTART;VALUE=DATE:20281001
+DTEND;VALUE=DATE:20290201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/blishoene.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-190@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Vadefugle Dobbeltbekkasin - Jagttid
+DTSTART;VALUE=DATE:20280901
+DTEND;VALUE=DATE:20290101
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/dobbeltbekkasin.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-191@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Skovsneppe - Jagttid
+DTSTART;VALUE=DATE:20281001
+DTEND;VALUE=DATE:20290201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/skovsneppe.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-192@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Måger Sølvmåge - Jagttid
+DTSTART;VALUE=DATE:20280901
+DTEND;VALUE=DATE:20290201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-193@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Duer Ringdue - Jagttid
+DTSTART;VALUE=DATE:20281111
+DTEND;VALUE=DATE:20290201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/ringdue.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-194@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Kragefugle Husskade - Jagttid
+DTSTART;VALUE=DATE:20280901
+DTEND;VALUE=DATE:20290201
+DESCRIPTION:Info: Gråkrage og sortkrage må jages 1 time før solopgang til solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/graakrage.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-195@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Krage (gråkrage og sortkrage) - Jagttid
+DTSTART;VALUE=DATE:20280901
+DTEND;VALUE=DATE:20290201
+DESCRIPTION:Info: Gråkrage og sortkrage må jages 1 time før solopgang til solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/graakrage.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-196@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Invasive arter Nilgås - Jagttid
+DTSTART;VALUE=DATE:20280901
+DTEND;VALUE=DATE:20290201
+DESCRIPTION:Info: Nilgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/nilgaas.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-197@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Bisamrotte - Jagttid
+DTSTART;VALUE=DATE:20280901
+DTEND;VALUE=DATE:20290201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/bisamrotte.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-198@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Sumpbæver - Jagttid
+DTSTART;VALUE=DATE:20280901
+DTEND;VALUE=DATE:20290201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-199@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Vaskebjørn - Jagttid
+DTSTART;VALUE=DATE:20280901
+DTEND;VALUE=DATE:20290201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/vaskebjoern.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-200@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Mårhund - Jagttid
+DTSTART;VALUE=DATE:20280901
+DTEND;VALUE=DATE:20290201
+DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/maarhund.webp
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2028-gen-201@luka2945
+DTSTAMP:20260602T183446Z
+SUMMARY:Mink - Jagttid
+DTSTART;VALUE=DATE:20280901
+DTEND;VALUE=DATE:20290201
 DESCRIPTION:Kilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/mink.webp
 END:VEVENT
 END:VCALENDAR
