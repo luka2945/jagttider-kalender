@@ -10,25 +10,15 @@ import calendar as calmod
 import requests
 from bs4 import BeautifulSoup
 
-# -----------------------
-# Paths / folders
-# -----------------------
 MASTER_PATH = Path("configs/master.json")
 CALENDAR_CONFIG_DIR = Path("configs/calendars")
 OUT_DIR = Path("Jagttids-Kalender")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-# -----------------------
-# Defaults
-# -----------------------
 DEFAULT_RETSINFORMATION_URL = "https://www.retsinformation.dk/eli/lta/2024/470"
-
 DEFAULT_USER_AGENT = "Mozilla/5.0 (JagttiderICSBot; +https://github.com/luka2945/jagttider-kalender)"
 DEFAULT_LANG = "da-DK,da;q=0.9,en-US;q=0.7,en;q=0.6"
 
-# -----------------------
-# Danish months
-# -----------------------
 DK_MONTHS = {
     "januar": 1,
     "februar": 2,
@@ -56,9 +46,7 @@ ALL_SAT_RE = re.compile(
     flags=re.I,
 )
 
-# -----------------------
-# Data models
-# -----------------------
+
 @dataclass(frozen=True)
 class SeasonRange:
     species: str
@@ -81,9 +69,6 @@ class SpecialDayRule:
     dates: tuple[date, ...]
 
 
-# -----------------------
-# Config loading
-# -----------------------
 def load_json(path: Path) -> dict:
     return json.loads(path.read_text(encoding="utf-8"))
 
@@ -105,9 +90,6 @@ def compute_season_year_auto(today: date | None = None) -> int:
     return t.year if t.month >= 7 else (t.year - 1)
 
 
-# -----------------------
-# Date helpers
-# -----------------------
 def season_range_dates(
     season_year: int,
     d1: int,
@@ -115,14 +97,6 @@ def season_range_dates(
     d2: int,
     m2: int
 ) -> tuple[date | None, date | None]:
-    """
-    season_year = året hvor jagtsæsonen starter.
-
-    Eksempler:
-    01.09-31.12 -> 2025-09-01 til 2025-12-31
-    01.11-15.01 -> 2025-11-01 til 2026-01-15
-    16.05-15.07 -> 2026-05-16 til 2026-07-15
-    """
     start_year = season_year if m1 >= 7 else (season_year + 1)
     end_year = start_year
 
@@ -135,9 +109,6 @@ def season_range_dates(
         return None, None
 
 
-# -----------------------
-# ICS helpers
-# -----------------------
 def ics_escape(s: str) -> str:
     return (
         (s or "")
@@ -187,9 +158,6 @@ def build_calendar(cal_name: str, events: list[str]) -> str:
     ])
 
 
-# -----------------------
-# Fetch
-# -----------------------
 def fetch_text(url: str, ua: str) -> str:
     r = requests.get(
         url,
@@ -209,11 +177,6 @@ def normalize_source_url(base_url: str) -> str:
 
 
 def fetch_retsinformation_document(base_url: str, ua: str) -> str:
-    """
-    Retsinformation kan hentes som /xml.
-    Hvis /xml fejler, prøver vi /rawhtml.
-    Hvis det også fejler, prøver vi base-URL.
-    """
     base = normalize_source_url(base_url)
 
     urls_to_try = [
@@ -238,9 +201,6 @@ def fetch_retsinformation_document(base_url: str, ua: str) -> str:
     raise RuntimeError(f"Kunne ikke hente Retsinformation-kilden. Sidste fejl: {last_error}")
 
 
-# -----------------------
-# Text helpers
-# -----------------------
 def html_or_xml_to_lines(text: str) -> list[str]:
     soup = BeautifulSoup(text, "lxml")
     raw_text = soup.get_text("\n")
@@ -261,8 +221,37 @@ def normalize_line(s: str) -> str:
 
 def clean_species_name(s: str) -> str:
     s = normalize_line(s)
-    s = re.sub(r"\s*\*+\s*$", "", s).strip()
-    return s
+
+    s = re.sub(r"\s*\*+\s*$", "", s)
+
+    s = re.sub(
+        r"\s*\(\s*se\s+dog.*?\)",
+        "",
+        s,
+        flags=re.IGNORECASE,
+    )
+
+    s = re.sub(r"\s+", " ", s)
+    return s.strip()
+
+
+def is_explanation_line(line: str) -> bool:
+    low = normalize_line(line).lower()
+
+    starts = (
+        "dog ikke",
+        "afstanden",
+        "afstand",
+        "dvs.",
+        "det vil sige",
+        "hvor der",
+        "ved normal",
+        "se dog",
+        "gælder ikke",
+        "bestemmelsen gælder ikke",
+    )
+
+    return low.startswith(starts)
 
 
 def normalize_species(s: str) -> str:
@@ -301,8 +290,6 @@ def get_species_meta(species_name: str, species_meta: dict) -> dict:
     if key in species_meta:
         return species_meta[key]
 
-    # Partial match:
-    # "and" kan ramme "gråand", hvis man bruger brede nøgler.
     for meta_key, meta_val in species_meta.items():
         mk = normalize_species(meta_key)
         if mk and mk in key:
@@ -325,9 +312,6 @@ def area_allowed(area: str | None, include_kw: list[str], exclude_kw: list[str])
     return True
 
 
-# -----------------------
-# Bilag helpers
-# -----------------------
 def is_bilag_line(line: str) -> bool:
     return bool(re.fullmatch(r"Bilag\s+\d+", line, flags=re.I))
 
@@ -340,10 +324,6 @@ def bilag_number(line: str) -> int | None:
 
 
 def section_lines(lines: list[str], start_bilag: int, end_bilag: int | None = None) -> list[str]:
-    """
-    Returnerer linjer fra Bilag X til før Bilag Y.
-    Hvis end_bilag=None, returneres til næste Bilag.
-    """
     start_idx = None
     end_idx = None
 
@@ -368,9 +348,6 @@ def section_lines(lines: list[str], start_bilag: int, end_bilag: int | None = No
 
 
 def all_local_bilag_lines(lines: list[str]) -> list[str]:
-    """
-    Lokale jagttider ligger i Bilag 2, 3 og 4.
-    """
     out: list[str] = []
     for b in (2, 3, 4):
         part = section_lines(lines, b)
@@ -380,9 +357,6 @@ def all_local_bilag_lines(lines: list[str]) -> list[str]:
     return out
 
 
-# -----------------------
-# Species / rule parsing
-# -----------------------
 def line_has_range(line: str) -> bool:
     return bool(RANGE_RE.search(line.replace("–", "-")))
 
@@ -392,8 +366,7 @@ def line_has_no_hunting(line: str) -> bool:
 
 
 def line_has_special_rule(line: str) -> bool:
-    low = line.lower()
-    return "lørdag" in low
+    return "lørdag" in line.lower()
 
 
 def split_species_and_rule(line: str) -> tuple[str | None, str | None]:
@@ -492,9 +465,6 @@ def is_area_like(line: str) -> bool:
     return any(w in low for w in area_words)
 
 
-# -----------------------
-# Special dates
-# -----------------------
 def nth_saturday(year: int, month: int, n: int) -> date | None:
     c = calmod.Calendar(firstweekday=calmod.MONDAY)
     sats = [d for d in c.itermonthdates(year, month) if d.month == month and d.weekday() == 5]
@@ -542,9 +512,6 @@ def parse_special_text_to_dates(text: str, season_year: int) -> list[date]:
     return sorted(set(dates))
 
 
-# -----------------------
-# Parse generelle jagttider: Bilag 1
-# -----------------------
 def parse_general(lines: list[str], season_year: int) -> list[SeasonRange]:
     bilag1 = section_lines(lines, 1)
     ranges: list[SeasonRange] = []
@@ -553,7 +520,6 @@ def parse_general(lines: list[str], season_year: int) -> list[SeasonRange]:
 
     for line in bilag1:
         txt = normalize_line(line)
-        low = txt.lower()
 
         if not txt:
             continue
@@ -569,8 +535,9 @@ def parse_general(lines: list[str], season_year: int) -> list[SeasonRange]:
             rule_text = rule_inline
         else:
             if not line_has_range(txt) and not line_has_no_hunting(txt) and not line_has_special_rule(txt):
-                # Almindelig tekstoverskrift eller art alene.
-                # Vi gemmer den som mulig art.
+                if is_explanation_line(txt):
+                    continue
+
                 pending_species = clean_species_name(txt)
                 continue
 
@@ -616,9 +583,6 @@ def parse_general(lines: list[str], season_year: int) -> list[SeasonRange]:
     return uniq
 
 
-# -----------------------
-# Parse lokale jagttider: Bilag 2, 3, 4
-# -----------------------
 def parse_local(lines: list[str], season_year: int) -> tuple[list[SeasonRange], list[NoHuntingMarker], list[SpecialDayRule]]:
     local_lines = all_local_bilag_lines(lines)
 
@@ -632,7 +596,6 @@ def parse_local(lines: list[str], season_year: int) -> tuple[list[SeasonRange], 
 
     for line in local_lines:
         txt = normalize_line(line)
-        low = txt.lower()
 
         if not txt:
             continue
@@ -640,8 +603,6 @@ def parse_local(lines: list[str], season_year: int) -> tuple[list[SeasonRange], 
         if txt.startswith("__BILAG_"):
             pending = []
             current_area = ""
-            # Bilag 3/4 har ofte områder uden region.
-            # Vi nulstiller region, så området står alene hvis ingen region findes.
             if txt in ("__BILAG_3__", "__BILAG_4__"):
                 current_region = ""
             continue
@@ -655,11 +616,9 @@ def parse_local(lines: list[str], season_year: int) -> tuple[list[SeasonRange], 
             pending = []
             continue
 
-        # Hvis vi møder en områdeoverskrift.
-        # Fx:
-        # Øen Endelave
-        # Bornholms Kommune
-        # Fredericia, Varde, Billund...
+        if is_explanation_line(txt):
+            continue
+
         if is_area_like(txt) and not line_has_range(txt) and not line_has_no_hunting(txt) and not line_has_special_rule(txt):
             if current_region and txt.lower() in ("hele regionen",):
                 current_area = current_region
@@ -675,39 +634,27 @@ def parse_local(lines: list[str], season_year: int) -> tuple[list[SeasonRange], 
             pending = []
             continue
 
-        # Prøv art + regel på samme linje.
         species_inline, rule_inline = split_species_and_rule(txt)
 
         if species_inline and rule_inline:
             species = species_inline
             rule_text = rule_inline
         else:
-            # Hvis linjen er en regel alene, bruger vi pending.
             if line_has_range(txt) or line_has_no_hunting(txt) or line_has_special_rule(txt):
                 if not pending:
                     continue
 
-                # Hvis pending har mindst to elementer, kan det være:
-                # area, species, rule
-                # Ellers:
-                # species, rule
                 if len(pending) >= 2 and is_area_like(pending[-2]):
                     area_candidate = pending[-2]
                     species = clean_species_name(pending[-1])
-                    if current_region:
-                        current_area = area_candidate
-                    else:
-                        current_area = area_candidate
+                    current_area = area_candidate
                 else:
                     species = clean_species_name(pending[-1])
 
                 rule_text = txt
                 pending = []
             else:
-                # Almindelig tekst uden regel.
-                # Den kan være art, område eller tekst.
-                # Vi gemmer den som pending, men holder listen kort.
-                if not is_probably_header(txt):
+                if not is_probably_header(txt) and not is_explanation_line(txt):
                     pending.append(txt)
                     pending = pending[-3:]
                 continue
@@ -792,9 +739,6 @@ def parse_local(lines: list[str], season_year: int) -> tuple[list[SeasonRange], 
     return uniq_local, uniq_no, uniq_sp
 
 
-# -----------------------
-# Main
-# -----------------------
 def main() -> None:
     master = load_master()
 
@@ -845,7 +789,6 @@ def main() -> None:
                 general_by_species.setdefault(normalize_species(gr.species), []).append(gr)
 
             if not use_local:
-                # GENEREL kalender
                 for r in general_ranges:
                     uid_counter += 1
 
@@ -872,7 +815,6 @@ def main() -> None:
                     )
 
             else:
-                # LOKAL kalender
                 for r in local_ranges:
                     if not area_allowed(r.area, include_area, exclude_area):
                         continue
@@ -906,7 +848,6 @@ def main() -> None:
                         )
                     )
 
-                # Særlige lokale dage
                 for sp in specials:
                     if not area_allowed(sp.area, include_area, exclude_area):
                         continue
@@ -940,7 +881,6 @@ def main() -> None:
                             )
                         )
 
-                # Lokal ingen jagttid
                 if emit_no_hunting:
                     for nh in no_hunting:
                         if not area_allowed(nh.area, include_area, exclude_area):
