@@ -1,6 +1,5 @@
 {
-  "general_url": "https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/",
-  "local_url": "https://www.jaegerforbundet.dk/jagt/regler-og-sikkerhed/jagttider/lokale-jagttider/",
+  "retsinformation_url": "https://www.retsinformation.dk/eli/lta/2024/470",
   "user_agent": "Mozilla/5.0 (JagttiderICSBot; +https://github.com/luka2945/jagttider-kalender)",
 
   "seasons_ahead": 4,
