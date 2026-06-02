@@ -225,7 +225,6 @@ def normalize_line(s: str) -> str:
         "septem- ber": "september",
         "oktob- er": "oktober",
         "janu- ar": "januar",
-        "Roskilde og Region Hovedstaden": "Roskilde og Region Hovedstaden",
     }
 
     for a, b in replacements.items():
@@ -240,7 +239,6 @@ def clean_species_name(s: str) -> str:
     s = normalize_line(s)
 
     s = re.sub(r"^Som for .*?,\s*dog\s+", "", s, flags=re.IGNORECASE)
-
     s = re.sub(r"\s*\*+\s*$", "", s)
 
     s = re.sub(
@@ -301,8 +299,11 @@ def split_area(area: str | None) -> tuple[str, str | None]:
 
 def display_area(area: str | None) -> str:
     region, sub = split_area(area)
+
     if sub:
-        return f"{sub} {region}".strip()
+        sub = sub.rstrip(".")
+        return f"{sub}. - {region}".strip()
+
     return region
 
 
