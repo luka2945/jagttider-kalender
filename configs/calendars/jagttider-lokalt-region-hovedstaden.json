@@ -1,11 +1,15 @@
 {
-  "calendar_name": "Jagttider – Lokalt (Region Hovedstaden)",
+  "calendar_name": "Jagttider - Lokalt (Region Hovedstaden)",
   "output_filename": "jagttider-lokalt-region-hovedstaden.ics",
   "use_local": true,
 
   "filters": {
-    "include_area_keywords": ["Region Hovedstaden", "Region hovedstaden",
-      "Bornholm", "Bornholms Kommune"],
+    "include_area_keywords": [
+      "Region Hovedstaden",
+      "Bornholms Kommune",
+      "Hovedstaden",
+      "Bornholm"
+    ],
     "exclude_area_keywords": []
   },
 
@@ -13,5 +17,5 @@
     "emit_no_hunting_events": true
   },
 
-  "seasons_ahead": 2
+  "seasons_ahead": 4
 }
