@@ -1,17 +1,44 @@
 {
-  "calendar_name": "Jagttider – Alt lokalt",
-  "output_filename": "jagttider-alt-lokalt.ics",
+  "calendar_name": "Jagttider - Lokalt (Personlig - Fyn)",
+  "output_filename": "jagttider-lokalt-personlig.ics",
   "use_local": true,
 
   "filters": {
-    "include_area_keywords": [],
+    "include_area_keywords": [
+      "Region Syddanmark",
+      "Assens Kommune",
+      "Faaborg-Midtfyn Kommune",
+      "Kerteminde Kommune",
+      "Langeland Kommune",
+      "Middelfart Kommune",
+      "Nordfyns Kommune",
+      "Nyborg Kommune",
+      "Odense Kommune",
+      "Svendborg Kommune",
+      "Ærø Kommune",
+      "Fyn",
+      "Lillebælt",
+      "Øen Lyø",
+      "Øen Strynø",
+      "Øen Ærø"
+    ],
     "exclude_area_keywords": [
-      "Bornholm",
-      "Læsø",
-      "Fanø",
-      "Samsø",
-      "Anholt",
-      "Endelave"
+      "Mandø",
+      "Als",
+      "Kegnæs",
+      "vest for Lillebælt",
+      "Billund Kommune",
+      "Esbjerg Kommune",
+      "Fanø Kommune",
+      "Fredericia Kommune",
+      "Haderslev Kommune",
+      "Kolding Kommune",
+      "Sønderborg Kommune",
+      "Tønder Kommune",
+      "Varde Kommune",
+      "Vejen Kommune",
+      "Vejle Kommune",
+      "Aabenraa Kommune"
     ]
   },
 
@@ -19,5 +46,5 @@
     "emit_no_hunting_events": true
   },
 
-  "seasons_ahead": 2
+  "seasons_ahead": 4
 }
