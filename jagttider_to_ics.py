@@ -34,10 +34,6 @@ DK_MONTHS = {
     "december": 12,
 }
 
-# Accepterer fx:
-# 16.11-30.11
-# 16.11-30-11
-# 16-11-30-11
 RANGE_RE = re.compile(r"(\d{1,2})[.-](\d{1,2})\s*[-–]\s*(\d{1,2})[.-](\d{1,2})")
 
 NTH_SAT_RE = re.compile(
@@ -71,16 +67,19 @@ KNOWN_SPECIES_PATTERNS = [
 
     r"råbuk",
     r"rå og -lam",
+    r"rå og lam",
     r"råvildt",
     r"rå",
 
     r"sikahjort",
     r"sikahind og -kalv",
     r"sikahind og - kalv",
+    r"sikahind og kalv",
     r"sika",
 
     r"muflonvædder",
     r"muflonfår og -lam",
+    r"muflonfår og lam",
     r"muflon",
 
     r"gråand",
@@ -135,9 +134,6 @@ KNOWN_SPECIES_PATTERNS = [
 
 
 def species_pattern_regex(pattern: str) -> str:
-    """
-    Matcher artsnavne som hele ord, så 'rå' ikke matcher inde i 'gråand'.
-    """
     return (
         r"(?<![A-Za-zÆØÅæøå])"
         + pattern
@@ -341,7 +337,6 @@ def normalize_line(s: str) -> str:
     for a, b in replacements.items():
         s = s.replace(a, b)
 
-    # Ret fejl som 16.11-30-11 til 16.11-30.11
     s = re.sub(
         r"(\d{1,2}\.\d{1,2})\s*[-–]\s*(\d{1,2})-(\d{1,2})",
         r"\1-\2.\3",
@@ -356,8 +351,6 @@ def normalize_line(s: str) -> str:
 def clean_species_name(s: str) -> str:
     s = normalize_line(s)
 
-    # Hvis noget starter med "(Se Kronhjort..." eller "(Se Dåspidshjort..."
-    # så fjern kun den fejlagtige "(Se "-del.
     s = re.sub(
         r"^\s*\(?\s*se\s+(?=(kron|då|rå|sika|muflon))",
         "",
@@ -390,7 +383,6 @@ def clean_species_name(s: str) -> str:
     if s.lower() in [p.lower() for p in category_prefixes]:
         return ""
 
-    # Fjern bilag-reference foran art.
     s = re.sub(
         r"^\s*\(?\s*se\s+bilag\s+\d+\s*\)?\.?\s*",
         "",
@@ -412,10 +404,8 @@ def clean_species_name(s: str) -> str:
         flags=re.IGNORECASE,
     )
 
-    # Fjern "Som for Øen Als, dog Råvildt" -> "Råvildt"
     s = re.sub(r"^Som for .*?,\s*dog\s+", "", s, flags=re.IGNORECASE)
 
-    # Fjern alt efter " - jagttid fra ..."
     s = re.sub(
         r"\s*[-–]\s*jagttid\s+fra.*$",
         "",
@@ -423,10 +413,8 @@ def clean_species_name(s: str) -> str:
         flags=re.IGNORECASE,
     )
 
-    # Fjern stjerner
     s = re.sub(r"\s*\*+\s*$", "", s)
 
-    # Fjern "(se dog regionale jagttider)" osv.
     s = re.sub(
         r"\s*\(\s*se\s+dog.*?\)",
         "",
@@ -434,7 +422,6 @@ def clean_species_name(s: str) -> str:
         flags=re.IGNORECASE,
     )
 
-    # Fjern "(se bilag 16)" hvis det ligger sidst
     s = re.sub(
         r"\s*\(\s*se\s+bilag\s+\d+\s*\)",
         "",
@@ -448,13 +435,30 @@ def clean_species_name(s: str) -> str:
     return s.strip()
 
 
-def extract_species_from_text(text: str) -> str:
-    """
-    Finder bedste kendte artsnavn i en tekst.
+def normalize_split_species(joined: str) -> str | None:
+    low = joined.lower()
 
-    Matcher kun hele ord, så fx 'rå' ikke bliver fundet inde i 'gråand'.
-    """
+    if re.search(r"(?<![a-zæøå])rå\s+og\s*-?\s*lam(?![a-zæøå])", low):
+        return "Rå og -lam"
+
+    if re.search(r"(?<![a-zæøå])då\s+og\s*-?\s*kalv(?![a-zæøå])", low):
+        return "Då og -kalv"
+
+    if re.search(r"(?<![a-zæøå])sikahind\s+og\s*-?\s*kalv(?![a-zæøå])", low):
+        return "Sikahind og -kalv"
+
+    if re.search(r"(?<![a-zæøå])muflonfår\s+og\s*-?\s*lam(?![a-zæøå])", low):
+        return "Muflonfår og -lam"
+
+    return None
+
+
+def extract_species_from_text(text: str) -> str:
     joined = clean_species_name(text)
+
+    split_name = normalize_split_species(joined)
+    if split_name:
+        return split_name
 
     best_match = ""
     best_pos = -1
@@ -480,17 +484,11 @@ def extract_species_from_text(text: str) -> str:
 
 
 def split_area_and_species_text(text: str) -> tuple[str | None, str | None]:
-    """
-    Splitter fx:
-    'Ikast-Brande, Herning ... Kommuner. Dåspidshjort'
-
-    til:
-    area='Ikast-Brande, Herning ... Kommuner'
-    species='Dåspidshjort'
-
-    Matcher kun hele artsnavne, så 'rå' ikke rammes inde i 'gråand'.
-    """
     txt = normalize_line(text)
+
+    split_name = normalize_split_species(txt)
+    if split_name:
+        return None, split_name
 
     best_match = None
     best_pos = -1
@@ -524,12 +522,6 @@ def split_area_and_species_text(text: str) -> tuple[str | None, str | None]:
 
 
 def join_wrapped_rule_lines(lines: list[str]) -> list[str]:
-    """
-    Samler linjer hvor Retsinformation har brudt en regel midt i teksten.
-    Fx:
-    '1. og 2. lørdag i'
-    'oktober, 1. og 2. lørdag i november'
-    """
     out: list[str] = []
     i = 0
 
@@ -549,6 +541,21 @@ def join_wrapped_rule_lines(lines: list[str]) -> list[str]:
                 continue
 
             if low_current.endswith("(se") and low_next.startswith("bilag"):
+                out.append(f"{current} {nxt}")
+                i += 2
+                continue
+
+            if low_current in ("rå", "då") and low_next.startswith("og"):
+                out.append(f"{current} {nxt}")
+                i += 2
+                continue
+
+            if low_current.startswith("sikahind") and low_next.startswith("og"):
+                out.append(f"{current} {nxt}")
+                i += 2
+                continue
+
+            if low_current.startswith("muflonfår") and low_next.startswith("og"):
                 out.append(f"{current} {nxt}")
                 i += 2
                 continue
@@ -991,7 +998,12 @@ def parse_general(lines: list[str], season_year: int) -> list[SeasonRange]:
         species_inline, rule_inline = split_species_and_rule(txt)
 
         if species_inline and rule_inline:
-            species = species_inline
+            if pending:
+                combined_species_text = " ".join([*pending, species_inline])
+                species = extract_species_from_text(combined_species_text)
+            else:
+                species = extract_species_from_text(species_inline)
+
             rule_text = rule_inline
             pending = []
         else:
@@ -1080,8 +1092,6 @@ def parse_local(lines: list[str], season_year: int) -> tuple[list[SeasonRange], 
             pending = []
             continue
 
-        # Hvis område og art står på samme linje:
-        # Fx "Ikast-Brande, Herning, Holstebro, Struer og Lemvig Kommuner. Dåspidshjort"
         area_part, species_part = split_area_and_species_text(txt)
         if area_part and species_part and not line_has_range(txt) and not line_has_no_hunting(txt) and not line_has_special_rule(txt):
             current_area = area_part
@@ -1101,7 +1111,12 @@ def parse_local(lines: list[str], season_year: int) -> tuple[list[SeasonRange], 
         species_inline, rule_inline = split_species_and_rule(txt)
 
         if species_inline and rule_inline:
-            species = species_inline
+            if pending:
+                combined_species_text = " ".join([*pending, species_inline])
+                species = extract_species_from_text(combined_species_text)
+            else:
+                species = extract_species_from_text(species_inline)
+
             rule_text = rule_inline
             pending = []
         else:
