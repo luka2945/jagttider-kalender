@@ -134,6 +134,17 @@ KNOWN_SPECIES_PATTERNS = [
 ]
 
 
+def species_pattern_regex(pattern: str) -> str:
+    """
+    Matcher artsnavne som hele ord, så 'rå' ikke matcher inde i 'gråand'.
+    """
+    return (
+        r"(?<![A-Za-zÆØÅæøå])"
+        + pattern
+        + r"(?![A-Za-zÆØÅæøå])"
+    )
+
+
 @dataclass(frozen=True)
 class SeasonRange:
     species: str
@@ -439,19 +450,28 @@ def clean_species_name(s: str) -> str:
 
 def extract_species_from_text(text: str) -> str:
     """
-    Finder sidste kendte artsnavn i en tekst.
-    Bruges når Retsinformation blander område og art på samme linje.
+    Finder bedste kendte artsnavn i en tekst.
+
+    Matcher kun hele ord, så fx 'rå' ikke bliver fundet inde i 'gråand'.
     """
     joined = clean_species_name(text)
 
     best_match = ""
     best_pos = -1
+    best_len = -1
 
     for pattern in KNOWN_SPECIES_PATTERNS:
-        for m in re.finditer(pattern, joined, flags=re.IGNORECASE):
-            if m.start() > best_pos:
-                best_pos = m.start()
-                best_match = m.group(0)
+        safe_pattern = species_pattern_regex(pattern)
+
+        for m in re.finditer(safe_pattern, joined, flags=re.IGNORECASE):
+            match_text = m.group(0)
+            match_pos = m.start()
+            match_len = len(match_text)
+
+            if match_pos > best_pos or (match_pos == best_pos and match_len > best_len):
+                best_pos = match_pos
+                best_len = match_len
+                best_match = match_text
 
     if best_match:
         return clean_species_name(best_match)
@@ -463,19 +483,29 @@ def split_area_and_species_text(text: str) -> tuple[str | None, str | None]:
     """
     Splitter fx:
     'Ikast-Brande, Herning ... Kommuner. Dåspidshjort'
+
     til:
     area='Ikast-Brande, Herning ... Kommuner'
     species='Dåspidshjort'
+
+    Matcher kun hele artsnavne, så 'rå' ikke rammes inde i 'gråand'.
     """
     txt = normalize_line(text)
 
     best_match = None
     best_pos = -1
+    best_len = -1
 
     for pattern in KNOWN_SPECIES_PATTERNS:
-        for m in re.finditer(pattern, txt, flags=re.IGNORECASE):
-            if m.start() > best_pos:
-                best_pos = m.start()
+        safe_pattern = species_pattern_regex(pattern)
+
+        for m in re.finditer(safe_pattern, txt, flags=re.IGNORECASE):
+            match_pos = m.start()
+            match_len = len(m.group(0))
+
+            if match_pos > best_pos or (match_pos == best_pos and match_len > best_len):
+                best_pos = match_pos
+                best_len = match_len
                 best_match = m
 
     if not best_match:
@@ -487,7 +517,6 @@ def split_area_and_species_text(text: str) -> tuple[str | None, str | None]:
     if not area or not species:
         return None, None
 
-    # Kun split hvis venstre side ligner et område.
     if not is_area_like(area):
         return None, None
 
