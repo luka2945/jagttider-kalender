@@ -34,7 +34,7 @@ DK_MONTHS = {
     "december": 12,
 }
 
-# Accepterer både:
+# Accepterer fx:
 # 16.11-30.11
 # 16.11-30-11
 # 16-11-30-11
@@ -49,6 +49,89 @@ ALL_SAT_RE = re.compile(
     r"alle\s+lørdage?\s+i\s+([a-zæøå]+)",
     flags=re.I,
 )
+
+KNOWN_SPECIES_PATTERNS = [
+    r"kronhjort større end spidshjort",
+    r"kronhjort, med mindst 6 sprosser på minimum 2 cm på den ene stang",
+    r"øvrige kronhjorte undtagen kronspidshjort",
+    r"kronspidshjort",
+    r"kronhjort",
+    r"kronhind",
+    r"kronkalv",
+    r"kronvildt",
+
+    r"dåhjort større end spidshjort",
+    r"dåspidshjort",
+    r"dåhjort",
+    r"då og -kalv",
+    r"då og dåkalv",
+    r"dåkalv",
+    r"dåvildt",
+    r"då",
+
+    r"råbuk",
+    r"rå og -lam",
+    r"råvildt",
+    r"rå",
+
+    r"sikahjort",
+    r"sikahind og -kalv",
+    r"sikahind og - kalv",
+    r"sika",
+
+    r"muflonvædder",
+    r"muflonfår og -lam",
+    r"muflon",
+
+    r"gråand",
+    r"krikand",
+    r"atlingand",
+    r"spidsand",
+    r"skeand",
+    r"pibeand",
+    r"taffeland",
+    r"knarand",
+    r"sortand",
+    r"troldand",
+    r"bjergand",
+    r"hvinand",
+    r"ederfugl",
+
+    r"grågås",
+    r"blisgås",
+    r"sædgås",
+    r"kortnæbbet gås",
+    r"canadagås",
+    r"nilgås",
+
+    r"blishøne",
+    r"dobbeltbekkasin",
+    r"skovsneppe",
+    r"sølvmåge",
+    r"ringdue",
+    r"tyrkerdue",
+
+    r"fasanhøne",
+    r"fasanhane",
+    r"fasan",
+    r"agerhøne",
+
+    r"gråkrage",
+    r"sortkrage",
+    r"husskade",
+    r"råge",
+    r"allike",
+
+    r"ræv",
+    r"hare",
+    r"vildkanin",
+    r"vildsvin",
+    r"mårhund",
+    r"vaskebjørn",
+    r"mink",
+    r"bisamrotte",
+    r"sumpbæver",
+]
 
 
 @dataclass(frozen=True)
@@ -232,8 +315,14 @@ def normalize_line(s: str) -> str:
         "sol- nedgang": "solnedgang",
         "sol- opgang": "solopgang",
         "Aal- Nord": "Aal-Nord",
+        "Aal- borg": "Aalborg",
+        "Aal-": "Aal",
+        "Hvide San- de": "Hvide Sande",
+        "Ringkøbing Fjords ud- løb": "Ringkøbing Fjords udløb",
         "kom- munen": "kommunen",
         "kom- muner": "kommuner",
+        "kom- munegrænsen": "kommunegrænsen",
+        "kom- munegrænse": "kommunegrænse",
         "kommune- grænsen": "kommunegrænsen",
         "kommune- grænse": "kommunegrænse",
     }
@@ -256,8 +345,15 @@ def normalize_line(s: str) -> str:
 def clean_species_name(s: str) -> str:
     s = normalize_line(s)
 
-    # Fjern kategori-overskrifter hvis de er kommet med i artsnavnet.
-    # Fx "Andefugle Gråand" -> "Gråand"
+    # Hvis noget starter med "(Se Kronhjort..." eller "(Se Dåspidshjort..."
+    # så fjern kun den fejlagtige "(Se "-del.
+    s = re.sub(
+        r"^\s*\(?\s*se\s+(?=(kron|då|rå|sika|muflon))",
+        "",
+        s,
+        flags=re.IGNORECASE,
+    )
+
     category_prefixes = [
         "Andefugle",
         "Invasive arter",
@@ -284,9 +380,6 @@ def clean_species_name(s: str) -> str:
         return ""
 
     # Fjern bilag-reference foran art.
-    # Fx "(se bilag 16). Dåspidshjort" -> "Dåspidshjort"
-    # Fx "bilag 26) Då og dåkalv" -> "Då og dåkalv"
-    # Fx "27). Dåspidshjort" -> "Dåspidshjort"
     s = re.sub(
         r"^\s*\(?\s*se\s+bilag\s+\d+\s*\)?\.?\s*",
         "",
@@ -312,7 +405,6 @@ def clean_species_name(s: str) -> str:
     s = re.sub(r"^Som for .*?,\s*dog\s+", "", s, flags=re.IGNORECASE)
 
     # Fjern alt efter " - jagttid fra ..."
-    # Fx "Kronhind - jagttid fra ½ time før..." -> "Kronhind"
     s = re.sub(
         r"\s*[-–]\s*jagttid\s+fra.*$",
         "",
@@ -345,6 +437,104 @@ def clean_species_name(s: str) -> str:
     return s.strip()
 
 
+def extract_species_from_text(text: str) -> str:
+    """
+    Finder sidste kendte artsnavn i en tekst.
+    Bruges når Retsinformation blander område og art på samme linje.
+    """
+    joined = clean_species_name(text)
+
+    best_match = ""
+    best_pos = -1
+
+    for pattern in KNOWN_SPECIES_PATTERNS:
+        for m in re.finditer(pattern, joined, flags=re.IGNORECASE):
+            if m.start() > best_pos:
+                best_pos = m.start()
+                best_match = m.group(0)
+
+    if best_match:
+        return clean_species_name(best_match)
+
+    return clean_species_name(text)
+
+
+def split_area_and_species_text(text: str) -> tuple[str | None, str | None]:
+    """
+    Splitter fx:
+    'Ikast-Brande, Herning ... Kommuner. Dåspidshjort'
+    til:
+    area='Ikast-Brande, Herning ... Kommuner'
+    species='Dåspidshjort'
+    """
+    txt = normalize_line(text)
+
+    best_match = None
+    best_pos = -1
+
+    for pattern in KNOWN_SPECIES_PATTERNS:
+        for m in re.finditer(pattern, txt, flags=re.IGNORECASE):
+            if m.start() > best_pos:
+                best_pos = m.start()
+                best_match = m
+
+    if not best_match:
+        return None, None
+
+    area = txt[:best_match.start()].strip(" .,-")
+    species = clean_species_name(best_match.group(0))
+
+    if not area or not species:
+        return None, None
+
+    # Kun split hvis venstre side ligner et område.
+    if not is_area_like(area):
+        return None, None
+
+    return area, species
+
+
+def join_wrapped_rule_lines(lines: list[str]) -> list[str]:
+    """
+    Samler linjer hvor Retsinformation har brudt en regel midt i teksten.
+    Fx:
+    '1. og 2. lørdag i'
+    'oktober, 1. og 2. lørdag i november'
+    """
+    out: list[str] = []
+    i = 0
+
+    month_names = tuple(DK_MONTHS.keys())
+
+    while i < len(lines):
+        current = normalize_line(lines[i])
+
+        if i + 1 < len(lines):
+            nxt = normalize_line(lines[i + 1])
+            low_current = current.lower()
+            low_next = nxt.lower()
+
+            if low_current.endswith(" i") and low_next.startswith(month_names):
+                out.append(f"{current} {nxt}")
+                i += 2
+                continue
+
+            if low_current.endswith("(se") and low_next.startswith("bilag"):
+                out.append(f"{current} {nxt}")
+                i += 2
+                continue
+
+        out.append(current)
+        i += 1
+
+    return out
+
+
+def extract_species_from_pending(pending: list[str]) -> str:
+    joined = " ".join(pending)
+    return extract_species_from_text(joined)
+
+
 def is_explanation_line(line: str) -> bool:
     low = normalize_line(line).lower()
 
@@ -369,7 +559,6 @@ def is_explanation_line(line: str) -> bool:
     if "indgår ikke i området" in low:
         return True
 
-    # Linjer der kun er bilag-reference skal ikke blive til art
     if re.fullmatch(r"\(?\s*se\s+bilag\s+\d+\s*\)?\.?", low):
         return True
 
@@ -501,7 +690,7 @@ def all_local_bilag_lines(lines: list[str]) -> list[str]:
         if part:
             out.extend([f"__BILAG_{b}__"])
             out.extend(part)
-    return out
+    return join_wrapped_rule_lines(out)
 
 
 def line_has_range(line: str) -> bool:
@@ -523,14 +712,16 @@ def split_species_and_rule(line: str) -> tuple[str | None, str | None]:
 
     m = RANGE_RE.search(txt.replace("–", "-"))
     if m:
-        species = clean_species_name(txt[:m.start()].strip())
+        species_part = txt[:m.start()].strip()
+        species = extract_species_from_text(species_part)
         rule = txt[m.start():].strip()
         return (species or None), (rule or None)
 
     low = txt.lower()
     idx = low.find("ingen jagttid")
     if idx != -1:
-        species = clean_species_name(txt[:idx].strip())
+        species_part = txt[:idx].strip()
+        species = extract_species_from_text(species_part)
         rule = txt[idx:].strip()
         return (species or None), (rule or None)
 
@@ -538,7 +729,8 @@ def split_species_and_rule(line: str) -> tuple[str | None, str | None]:
         m_num = re.search(r"\d\.", txt)
         idx = m_num.start() if m_num else low.find("alle")
         if idx != -1:
-            species = clean_species_name(txt[:idx].strip())
+            species_part = txt[:idx].strip()
+            species = extract_species_from_text(species_part)
             rule = txt[idx:].strip()
             return (species or None), (rule or None)
 
@@ -643,10 +835,9 @@ def is_area_continuation(line: str) -> bool:
         "samt ",
         "den del ",
         "de dele ",
-        "øst for",
-        "vest for",
         "nord og øst for",
         "syd og øst for",
+        "herfra ",
     )
 
     return low.startswith(starts)
@@ -781,7 +972,7 @@ def parse_general(lines: list[str], season_year: int) -> list[SeasonRange]:
                 continue
 
             if pending:
-                species = clean_species_name(" ".join(pending))
+                species = extract_species_from_pending(pending)
                 rule_text = txt
                 pending = []
             else:
@@ -836,8 +1027,7 @@ def parse_local(lines: list[str], season_year: int) -> tuple[list[SeasonRange], 
         if txt.startswith("__BILAG_"):
             pending = []
             current_area = ""
-            if txt in ("__BILAG_3__", "__BILAG_4__"):
-                current_region = ""
+            current_region = ""
             continue
 
         if is_probably_header(txt):
@@ -859,6 +1049,14 @@ def parse_local(lines: list[str], season_year: int) -> tuple[list[SeasonRange], 
             current_region = txt
             current_area = txt
             pending = []
+            continue
+
+        # Hvis område og art står på samme linje:
+        # Fx "Ikast-Brande, Herning, Holstebro, Struer og Lemvig Kommuner. Dåspidshjort"
+        area_part, species_part = split_area_and_species_text(txt)
+        if area_part and species_part and not line_has_range(txt) and not line_has_no_hunting(txt) and not line_has_special_rule(txt):
+            current_area = area_part
+            pending = [species_part]
             continue
 
         if is_area_like(txt) and not line_has_range(txt) and not line_has_no_hunting(txt) and not line_has_special_rule(txt):
@@ -889,7 +1087,7 @@ def parse_local(lines: list[str], season_year: int) -> tuple[list[SeasonRange], 
                 if not clean_pending:
                     continue
 
-                species = clean_species_name(" ".join(clean_pending))
+                species = extract_species_from_pending(clean_pending)
                 rule_text = txt
                 pending = []
             else:
