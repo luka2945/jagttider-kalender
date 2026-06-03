@@ -34,7 +34,11 @@ DK_MONTHS = {
     "december": 12,
 }
 
-RANGE_RE = re.compile(r"(\d{1,2})\.(\d{1,2})\s*[-–]\s*(\d{1,2})\.(\d{1,2})")
+# Accepterer både:
+# 16.11-30.11
+# 16.11-30-11
+# 16-11-30-11
+RANGE_RE = re.compile(r"(\d{1,2})[.-](\d{1,2})\s*[-–]\s*(\d{1,2})[.-](\d{1,2})")
 
 NTH_SAT_RE = re.compile(
     r"(\d)\.\s*og\s*(\d)\.\s*lørdag i ([a-zæøå]+)",
@@ -225,10 +229,24 @@ def normalize_line(s: str) -> str:
         "septem- ber": "september",
         "oktob- er": "oktober",
         "janu- ar": "januar",
+        "sol- nedgang": "solnedgang",
+        "sol- opgang": "solopgang",
+        "Aal- Nord": "Aal-Nord",
+        "kom- munen": "kommunen",
+        "kom- muner": "kommuner",
+        "kommune- grænsen": "kommunegrænsen",
+        "kommune- grænse": "kommunegrænse",
     }
 
     for a, b in replacements.items():
         s = s.replace(a, b)
+
+    # Ret fejl som 16.11-30-11 til 16.11-30.11
+    s = re.sub(
+        r"(\d{1,2}\.\d{1,2})\s*[-–]\s*(\d{1,2})-(\d{1,2})",
+        r"\1-\2.\3",
+        s,
+    )
 
     s = re.sub(r"\s+", " ", s).strip()
     s = s.strip(":")
@@ -238,11 +256,84 @@ def normalize_line(s: str) -> str:
 def clean_species_name(s: str) -> str:
     s = normalize_line(s)
 
-    s = re.sub(r"^Som for .*?,\s*dog\s+", "", s, flags=re.IGNORECASE)
-    s = re.sub(r"\s*\*+\s*$", "", s)
+    # Fjern kategori-overskrifter hvis de er kommet med i artsnavnet.
+    # Fx "Andefugle Gråand" -> "Gråand"
+    category_prefixes = [
+        "Andefugle",
+        "Invasive arter",
+        "Måger",
+        "Rovdyr",
+        "Vadefugle",
+        "Hønsefugle",
+        "Kragefugle",
+        "Duer",
+        "Vandhøns",
+        "Støttetandede",
+        "Hovdyr",
+    ]
+
+    for prefix in category_prefixes:
+        s = re.sub(
+            rf"^{re.escape(prefix)}\s+",
+            "",
+            s,
+            flags=re.IGNORECASE,
+        )
+
+    if s.lower() in [p.lower() for p in category_prefixes]:
+        return ""
+
+    # Fjern bilag-reference foran art.
+    # Fx "(se bilag 16). Dåspidshjort" -> "Dåspidshjort"
+    # Fx "bilag 26) Då og dåkalv" -> "Då og dåkalv"
+    # Fx "27). Dåspidshjort" -> "Dåspidshjort"
+    s = re.sub(
+        r"^\s*\(?\s*se\s+bilag\s+\d+\s*\)?\.?\s*",
+        "",
+        s,
+        flags=re.IGNORECASE,
+    )
 
     s = re.sub(
+        r"^\s*bilag\s+\d+\s*\)?\.?\s*",
+        "",
+        s,
+        flags=re.IGNORECASE,
+    )
+
+    s = re.sub(
+        r"^\s*\d+\s*\)\.?\s*",
+        "",
+        s,
+        flags=re.IGNORECASE,
+    )
+
+    # Fjern "Som for Øen Als, dog Råvildt" -> "Råvildt"
+    s = re.sub(r"^Som for .*?,\s*dog\s+", "", s, flags=re.IGNORECASE)
+
+    # Fjern alt efter " - jagttid fra ..."
+    # Fx "Kronhind - jagttid fra ½ time før..." -> "Kronhind"
+    s = re.sub(
+        r"\s*[-–]\s*jagttid\s+fra.*$",
+        "",
+        s,
+        flags=re.IGNORECASE,
+    )
+
+    # Fjern stjerner
+    s = re.sub(r"\s*\*+\s*$", "", s)
+
+    # Fjern "(se dog regionale jagttider)" osv.
+    s = re.sub(
         r"\s*\(\s*se\s+dog.*?\)",
+        "",
+        s,
+        flags=re.IGNORECASE,
+    )
+
+    # Fjern "(se bilag 16)" hvis det ligger sidst
+    s = re.sub(
+        r"\s*\(\s*se\s+bilag\s+\d+\s*\)",
         "",
         s,
         flags=re.IGNORECASE,
@@ -268,9 +359,24 @@ def is_explanation_line(line: str) -> bool:
         "se dog",
         "gælder ikke",
         "bestemmelsen gælder ikke",
+        "jagttid fra",
+        "- jagttid fra",
     )
 
-    return low.startswith(starts)
+    if low.startswith(starts):
+        return True
+
+    if "indgår ikke i området" in low:
+        return True
+
+    # Linjer der kun er bilag-reference skal ikke blive til art
+    if re.fullmatch(r"\(?\s*se\s+bilag\s+\d+\s*\)?\.?", low):
+        return True
+
+    if re.fullmatch(r"bilag\s+\d+\)?\.?", low):
+        return True
+
+    return False
 
 
 def format_info_note(note: str) -> str:
@@ -489,6 +595,9 @@ def is_area_like(line: str) -> bool:
         "nord for",
         "syd for",
         "dele af",
+        "området",
+        "mellem",
+        "inklusive",
         "bornholm",
         "fanø",
         "læsø",
@@ -515,6 +624,7 @@ def is_area_like(line: str) -> bool:
 
 def is_area_continuation(line: str) -> bool:
     low = normalize_line(line).lower()
+
     starts = (
         "kommune",
         "kommuner",
@@ -527,7 +637,18 @@ def is_area_continuation(line: str) -> bool:
         "syd for",
         "vest for",
         "øst for",
+        "mellem ",
+        "til ",
+        "inklusive ",
+        "samt ",
+        "den del ",
+        "de dele ",
+        "øst for",
+        "vest for",
+        "nord og øst for",
+        "syd og øst for",
     )
+
     return low.startswith(starts)
 
 
@@ -599,9 +720,11 @@ def find_general_duration_ranges_for_species(
         "kronkalv": ["kronvildt"],
         "kronhjort": ["kronvildt"],
         "kronspidshjort": ["kronvildt"],
-        "dåvildt": ["dåhjort", "då og -kalv", "då"],
+        "dåvildt": ["dåhjort", "dåspidshjort", "då og -kalv", "då og dåkalv", "då"],
         "då og -kalv": ["dåvildt", "dåhjort", "då"],
-        "dåhjort": ["dåvildt", "då og -kalv", "då"],
+        "då og dåkalv": ["dåvildt", "dåhjort", "då"],
+        "dåhjort": ["dåvildt", "då og -kalv", "då og dåkalv", "då"],
+        "dåspidshjort": ["dåvildt", "dåhjort", "då"],
         "då": ["dåvildt", "då og -kalv", "dåhjort"],
         "sika": ["sikahjort", "sikahind og - kalv"],
         "sikahind og - kalv": ["sika", "sikahjort"],
