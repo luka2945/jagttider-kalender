@@ -56,7 +56,7 @@
       "notes": "Hvinand må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
     },
     "ederfugl": {
-      "image_url": "",
+      "image_url": "https://luka2945.github.io/Billede/af/ederfugl_han.webp",
       "notes": ""
     },
     "ederfugl - han": {
@@ -108,7 +108,7 @@
       "notes": ""
     },
     "tyrkerdue": {
-      "image_url": "",
+      "image_url": "https://luka2945.github.io/Billede/af/tyrkerdue.webp",
       "notes": ""
     },
     "fasan": {
@@ -140,11 +140,11 @@
       "notes": "Husskade må jages 1 time før solopgang til solnedgang."
     },
     "råge": {
-      "image_url": "",
+      "image_url": "https://luka2945.github.io/Billede/af/raage.webp",
       "notes": ""
     },
     "allike": {
-      "image_url": "",
+      "image_url": "https://luka2945.github.io/Billede/af/allike.webp",
       "notes": ""
     },
     "ræv": {
@@ -168,7 +168,7 @@
       "notes": ""
     },
     "kronspidshjort": {
-      "image_url": "https://luka2945.github.io/Billede/af/krondyr_hun.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/krondyr_han.webp",
       "notes": ""
     },
     "kronhind": {
