@@ -8,268 +8,272 @@
 
   "species_meta": {
     "gråand": {
-      "image_url": "https://luka2945.github.io/Billede/af/graaand.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/graaand.png",
       "notes": "Gråand må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
     },
     "krikand": {
-      "image_url": "https://luka2945.github.io/Billede/af/krikand.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/krikand.png",
       "notes": "Krikand må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
     },
     "atlingand": {
-      "image_url": "https://luka2945.github.io/Billede/af/atlingand.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/atlingand.png",
       "notes": "Atlingand må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
     },
     "spidsand": {
-      "image_url": "https://luka2945.github.io/Billede/af/spidsand.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/spidsand.png",
       "notes": "Spidsand må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
     },
     "skeand": {
-      "image_url": "https://luka2945.github.io/Billede/af/skeand.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/skeand.png",
       "notes": "Skeand må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
     },
     "pibeand": {
-      "image_url": "https://luka2945.github.io/Billede/af/pibeand.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/pibeand.png",
       "notes": "Pibeand må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
     },
     "taffeland": {
-      "image_url": "https://luka2945.github.io/Billede/af/taffeland.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/taffeland.png",
       "notes": "Taffeland må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
       },
     "knarand": {
-      "image_url": "https://luka2945.github.io/Billede/af/knarand.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/knarand.png",
       "notes": "Knarand må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
       },
     "sortand": {
-      "image_url": "https://luka2945.github.io/Billede/af/sortand.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/sortand.png",
       "notes": "Sortand må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
     },
     "troldand": {
-      "image_url": "https://luka2945.github.io/Billede/af/troldand.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/troldand.png",
       "notes": "Troldand må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
     },
     "bjergand": {
-      "image_url": "https://luka2945.github.io/Billede/af/bjergand.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/bjergand.png",
       "notes": "Bjergand må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
     },
     "hvinand": {
-      "image_url": "https://luka2945.github.io/Billede/af/hvinand.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/hvinand.png",
       "notes": "Hvinand må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
     },
     "ederfugl": {
-      "image_url": "https://luka2945.github.io/Billede/af/ederfugl_han.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/ederfugl.png",
       "notes": ""
     },
     "ederfugl - han": {
-      "image_url": "https://luka2945.github.io/Billede/af/ederfugl_han.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/ederfugl.png",
       "notes": ""
     },
     "grågås": {
-      "image_url": "https://luka2945.github.io/Billede/af/graagaas.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/graagaas.png",
       "notes": "Grågås må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
     },
     "blisgås": {
-      "image_url": "https://luka2945.github.io/Billede/af/blisgaas.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/blisgaas.png",
       "notes": "Blisgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
     },
     "sædgås": {
-      "image_url": "https://luka2945.github.io/Billede/af/saedgaas.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/saedgaas.png",
       "notes": "Sædgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
     },
     "kortnæbbet gås": {
-      "image_url": "https://luka2945.github.io/Billede/af/kortnaebbet_gaas.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/kortnaebbet_gaas.png",
       "notes": "Kortnæbbet gås må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
     },
     "canadagås": {
-      "image_url": "https://luka2945.github.io/Billede/af/canadagaas.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/canadagaas.png",
       "notes": "Canadagås må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
     },
     "nilgås": {
-      "image_url": "https://luka2945.github.io/Billede/af/nilgaas.webp",
-      "notes": "Nilgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang."
+      "image_url": "https://luka2945.github.io/Billede/af/nilgaas.png",
+      "notes": "Nilgås er invasiv, må reguleres hele året og må reguleres 01:30 time før solopgang til 01:30 time efter solnedgang."
     },
     "blishøne": {
-      "image_url": "https://luka2945.github.io/Billede/af/blishoene.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/blishoene.png",
       "notes": ""
     },
     "dobbeltbekkasin": {
-      "image_url": "https://luka2945.github.io/Billede/af/dobbeltbekkasin.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/dobbeltbekkasin.png",
       "notes": ""
     },
     "skovsneppe": {
-      "image_url": "https://luka2945.github.io/Billede/af/skovsneppe.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/skovsneppe.png",
       "notes": ""
     },
     "sølvmåge": {
-      "image_url": "https://luka2945.github.io/Billede/af/soelvmaage.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/soelvmaage.png",
       "notes": ""
     },
     "ringdue": {
-      "image_url": "https://luka2945.github.io/Billede/af/ringdue.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/ringdue.png",
       "notes": ""
     },
     "tyrkerdue": {
-      "image_url": "https://luka2945.github.io/Billede/af/tyrkerdue.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/tyrkerdue.png",
       "notes": ""
     },
     "fasan": {
-      "image_url": "https://luka2945.github.io/Billede/af/fasan.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/fasan.png",
       "notes": ""
     },
     "fasanhøne": {
-      "image_url": "https://luka2945.github.io/Billede/af/fasan.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/fasan.png",
       "notes": ""
     },
     "agerhøne": {
-      "image_url": "https://luka2945.github.io/Billede/af/agerhoene.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/agerhoene.png",
       "notes": ""
     },
-    "krage": {
-      "image_url": "https://luka2945.github.io/Billede/af/graakrage.webp",
-      "notes": "Gråkrage og sortkrage må jages 1 time før solopgang til solnedgang."
-    },
     "gråkrage": {
-      "image_url": "https://luka2945.github.io/Billede/af/graakrage.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/graakrage.png",
       "notes": "Gråkrage må jages 1 time før solopgang til solnedgang."
     },
     "sortkrage": {
-      "image_url": "",
+      "image_url": "https://luka2945.github.io/Billede/af/sortkrage.png",
       "notes": "Sortkrage må jages 1 time før solopgang til solnedgang."
     },
     "husskade": {
-      "image_url": "https://luka2945.github.io/Billede/af/husskade.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/husskade.png",
       "notes": "Husskade må jages 1 time før solopgang til solnedgang."
     },
     "råge": {
-      "image_url": "https://luka2945.github.io/Billede/af/raage.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/raage.png",
       "notes": ""
     },
     "allike": {
-      "image_url": "https://luka2945.github.io/Billede/af/allike.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/allike.png",
       "notes": ""
     },
     "ræv": {
-      "image_url": "https://luka2945.github.io/Billede/af/raev.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/raev.png",
       "notes": ""
     },
     "hare": {
-      "image_url": "https://luka2945.github.io/Billede/af/hare.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/hare.png",
       "notes": ""
     },
     "vildkanin": {
-      "image_url": "https://luka2945.github.io/Billede/af/vildkanin.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/vildkanin.png",
       "notes": ""
     },
     "kronhjort": {
-      "image_url": "https://luka2945.github.io/Billede/af/krondyr_han.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/krondyr_han.png",
       "notes": ""
     },
     "kronhjort større end spidshjort": {
-      "image_url": "https://luka2945.github.io/Billede/af/krondyr_han.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/krondyr_han.png",
       "notes": ""
     },
     "kronspidshjort": {
-      "image_url": "https://luka2945.github.io/Billede/af/krondyr_han.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/kronspidshjort.png",
       "notes": ""
     },
     "kronhind": {
-      "image_url": "https://luka2945.github.io/Billede/af/krondyr_hun.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/krondyr_hun.png",
       "notes": ""
     },
     "kronkalv": {
-      "image_url": "https://luka2945.github.io/Billede/af/krondyr_hun.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/krondyr_hun.png",
       "notes": ""
     },
     "kronvildt": {
-      "image_url": "https://luka2945.github.io/Billede/af/krondyr_han.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/krondyr_han.png",
       "notes": ""
     },
     "dåhjort": {
-      "image_url": "https://luka2945.github.io/Billede/af/daadyr_han.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/daadyr_han.png",
       "notes": ""
     },
     "då": {
-      "image_url": "https://luka2945.github.io/Billede/af/daadyr_hun.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/daadyr_hun.png",
       "notes": ""
     },
     "då og -kalv": {
-      "image_url": "https://luka2945.github.io/Billede/af/daadyr_hun.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/daadyr_hun.png",
       "notes": ""
     },
     "dåvildt": {
-      "image_url": "https://luka2945.github.io/Billede/af/daadyr_han.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/daadyr_han.png",
       "notes": ""
     },
     "sikahjort": {
-      "image_url": "",
-      "notes": ""
+      "image_url": "https://luka2945.github.io/Billede/af/sika_han.png",
+      "notes": "Sika er invasiv, må reguleres hele året og må reguleres 01:00 time før solopgang til 01:00 time efter solnedgang."
     },
     "sikahind og - kalv": {
-      "image_url": "",
-      "notes": ""
+      "image_url": "https://luka2945.github.io/Billede/af/sika_hun.png",
+      "notes": "Sika er invasiv, må reguleres hele året og må reguleres 01:00 time før solopgang til 01:00 time efter solnedgang."
     },
     "sika": {
-      "image_url": "",
-      "notes": ""
+      "image_url": "https://luka2945.github.io/Billede/af/sika_han.png",
+      "notes": "Sika er invasiv, må reguleres hele året og må reguleres 01:00 time før solopgang til 01:00 time efter solnedgang."
     },
     "råbuk": {
-      "image_url": "https://luka2945.github.io/Billede/af/raadyr_han.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/raadyr_han.png",
       "notes": ""
     },
     "rå": {
-      "image_url": "https://luka2945.github.io/Billede/af/raadyr_hun.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/raadyr_hun.png",
       "notes": ""
     },
     "rå og -lam": {
-      "image_url": "https://luka2945.github.io/Billede/af/raadyr_hun.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/raadyr_hun.png",
       "notes": ""
     },
     "råvildt": {
-      "image_url": "https://luka2945.github.io/Billede/af/raadyr_han.webp",
+      "image_url": "https://luka2945.github.io/Billede/af/raadyr_han.png",
       "notes": ""
     },
     "muflonvædder": {
-      "image_url": "",
+      "image_url": "https://luka2945.github.io/Billede/af/muflonvaedder.png",
       "notes": ""
     },
     "muflonfår og -lam": {
-      "image_url": "",
+      "image_url": "https://luka2945.github.io/Billede/af/muflonfaar_og_lam.png",
       "notes": ""
     },
     "muflon": {
-      "image_url": "",
+      "image_url": "https://luka2945.github.io/Billede/af/muflonvaedder.png",
       "notes": ""
     },
     "vildsvin": {
-      "image_url": "https://luka2945.github.io/Billede/af/vildsvin.webp",
-      "notes": ""
+      "image_url": "https://luka2945.github.io/Billede/af/vildsvin_so_grise.png",
+      "notes": "Vildsvin er invasiv, må reguleres hele året og må reguleres hele døgnet."
     },
     "vildsvin, orne": {
-      "image_url": "https://luka2945.github.io/Billede/af/vildsvin.webp",
-      "notes": ""
+      "image_url": "https://luka2945.github.io/Billede/af/vildsvin_orne.png",
+      "notes": "Vildsvin er invasiv, må reguleres hele året og må reguleres hele døgnet."
     },
     "vildsvin, so og grise": {
-      "image_url": "https://luka2945.github.io/Billede/af/vildsvin.webp",
-      "notes": ""
+      "image_url": "https://luka2945.github.io/Billede/af/vildsvin_so_grise.png",
+      "notes": "Vildsvin er invasiv, må reguleres hele året og må reguleres hele døgnet."
     },
     "mårhund": {
-      "image_url": "https://luka2945.github.io/Billede/af/maarhund.webp",
-      "notes": ""
+      "image_url": "https://luka2945.github.io/Billede/af/maarhund.png",
+      "notes": "Mårhund er invasiv, må reguleres hele året og må reguleres hele døgnet."
     },
     "vaskebjørn": {
-      "image_url": "https://luka2945.github.io/Billede/af/vaskebjoern.webp",
-      "notes": ""
+      "image_url": "https://luka2945.github.io/Billede/af/vaskebjoern.png",
+      "notes": "Vaskebjørn er invasiv, må reguleres hele året og må reguleres hele døgnet."
     },
     "mink": {
-      "image_url": "https://luka2945.github.io/Billede/af/mink.webp",
-      "notes": ""
+      "image_url": "https://luka2945.github.io/Billede/af/mink.png",
+      "notes": "Mink er invasiv, må reguleres hele året og må reguleres hele døgnet."
     },
     "bisamrotte": {
-      "image_url": "https://luka2945.github.io/Billede/af/bisamrotte.webp",
-      "notes": ""
+      "image_url": "https://luka2945.github.io/Billede/af/bisamrotte.png",
+      "notes": "Bisamrotte er invasiv, må reguleres hele året og må reguleres 01:00 time før solopgang til 01:00 time efter solnedgang."
+    },
+    "amerikansk skarveand": {
+      "image_url": "https://luka2945.github.io/Billede/af/amerikansk_skarveand.png",
+      "notes": "Amerikansk skarveand er invasiv, må reguleres hele året og må reguleres 01:30 time før solopgang til 01:30 time efter solnedgang."
+    },
+    "skarveand": {
+      "image_url": "https://luka2945.github.io/Billede/af/amerikansk_skarveand.png",
+      "notes": "Amerikansk skarveand er invasiv, må reguleres hele året og må reguleres 01:30 time før solopgang til 01:30 time efter solnedgang."
     },
     "sumpbæver": {
-      "image_url": "",
-      "notes": ""
+      "image_url": "https://luka2945.github.io/Billede/af/sumpbeever.png",
+      "notes": "Sumpbæver er invasiv, må reguleres hele året og må reguleres 01:00 time før solopgang til 01:00 time efter solnedgang."
     }
   }
 }
