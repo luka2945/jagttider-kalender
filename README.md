@@ -314,16 +314,22 @@ Du kan også gå direkte til min GitHub profil her:
 
 ## 📜 Datakilde
 
-Kalenderen bruger Retsinformation som datakilde:
+Kalenderen bruger Retsinformation som datakilde til jagttider:
 
 https://www.retsinformation.dk/eli/lta/2024/470
 
 Parseren bruger især:
 
-* Bilag 1 - generelle jagttider
-* Bilag 2 - lokale jagttider
-* Bilag 3 - lokale jagttider for kronvildt
-* Bilag 4 - lokale jagttider for dåvildt
+Bilag 1 - generelle jagttider
+Bilag 2 - lokale jagttider
+Bilag 3 - lokale jagttider for kronvildt
+Bilag 4 - lokale jagttider for dåvildt
+
+Billederne, der bruges som billede-links i kalendernoterne, hentes fra mit andet GitHub-projekt, hvor mine egne AI-genererede artsillustrationer ligger:
+
+https://luka2945.github.io/Billede/
+
+Billederne er lavet som vejledende artsillustrationer til projektet og er ikke officielle artsbilleder.
 
 ---
 
