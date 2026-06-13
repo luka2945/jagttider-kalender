@@ -5,258 +5,258 @@ CALSCALE:GREGORIAN
 X-WR-CALNAME:Jagttider - Lokalt (Personlig - Fyn)
 BEGIN:VEVENT
 UID:jagttid-2025-lok-1@luka2945
-DTSTAMP:20260608T092201Z
+DTSTAMP:20260613T140622Z
 SUMMARY:Dåspidshjort - Lokal jagttid
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Fyn med undtagelse af Langeland\, Tåsinge og Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Fyn med undtagelse af Langeland\, Tåsinge og Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-2@luka2945
-DTSTAMP:20260608T092201Z
+DTSTAMP:20260613T140622Z
 SUMMARY:Dåhjort større end spidshjort - Lokal jagttid
 DTSTART;VALUE=DATE:20251001
 DTEND;VALUE=DATE:20251101
-DESCRIPTION:Område: Fyn med undtagelse af Langeland\, Tåsinge og Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Fyn med undtagelse af Langeland\, Tåsinge og Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-3@luka2945
-DTSTAMP:20260608T092201Z
+DTSTAMP:20260613T140622Z
 SUMMARY:Dåspidshjort - Lokal jagttid
 DTSTART;VALUE=DATE:20260101
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-4@luka2945
-DTSTAMP:20260608T092201Z
+DTSTAMP:20260613T140622Z
 SUMMARY:Dåkalv - Lokal jagttid
 DTSTART;VALUE=DATE:20251201
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-5@luka2945
-DTSTAMP:20260608T092201Z
+DTSTAMP:20260613T140622Z
 SUMMARY:Då - Lokal jagttid
 DTSTART;VALUE=DATE:20260101
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-6@luka2945
-DTSTAMP:20260608T092201Z
+DTSTAMP:20260613T140622Z
 SUMMARY:Dåspidshjort - Lokal jagttid
 DTSTART;VALUE=DATE:20251201
 DTEND;VALUE=DATE:20260101
-DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-lok-7@luka2945
-DTSTAMP:20260608T092201Z
+DTSTAMP:20260613T140622Z
 SUMMARY:Dåhjort større end spidshjort - Lokal jagttid
 DTSTART;VALUE=DATE:20260101
 DTEND;VALUE=DATE:20260116
-DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2025-nohunt-8@luka2945
-DTSTAMP:20260608T092201Z
+DTSTAMP:20260613T140622Z
 SUMMARY:Dåhjort større end spidshjort - Lokal - Ingen jagttid
 DTSTART;VALUE=DATE:20250901
 DTEND;VALUE=DATE:20260201
-DESCRIPTION:Info: Der er ikke jagttid på Dåhjort større end spidshjort.\nOmråde: Øen Ærø\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Info: Der er ikke jagttid på Dåhjort større end spidshjort.\nOmråde: Øen Ærø\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-9@luka2945
-DTSTAMP:20260608T092201Z
+DTSTAMP:20260613T140622Z
 SUMMARY:Dåspidshjort - Lokal jagttid
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Fyn med undtagelse af Langeland\, Tåsinge og Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Fyn med undtagelse af Langeland\, Tåsinge og Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-10@luka2945
-DTSTAMP:20260608T092201Z
+DTSTAMP:20260613T140622Z
 SUMMARY:Dåhjort større end spidshjort - Lokal jagttid
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261101
-DESCRIPTION:Område: Fyn med undtagelse af Langeland\, Tåsinge og Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Fyn med undtagelse af Langeland\, Tåsinge og Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-11@luka2945
-DTSTAMP:20260608T092201Z
+DTSTAMP:20260613T140622Z
 SUMMARY:Dåspidshjort - Lokal jagttid
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-12@luka2945
-DTSTAMP:20260608T092201Z
+DTSTAMP:20260613T140622Z
 SUMMARY:Dåkalv - Lokal jagttid
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-13@luka2945
-DTSTAMP:20260608T092201Z
+DTSTAMP:20260613T140622Z
 SUMMARY:Då - Lokal jagttid
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-14@luka2945
-DTSTAMP:20260608T092201Z
+DTSTAMP:20260613T140622Z
 SUMMARY:Dåspidshjort - Lokal jagttid
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20270101
-DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-lok-15@luka2945
-DTSTAMP:20260608T092201Z
+DTSTAMP:20260613T140622Z
 SUMMARY:Dåhjort større end spidshjort - Lokal jagttid
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270116
-DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2026-nohunt-16@luka2945
-DTSTAMP:20260608T092201Z
+DTSTAMP:20260613T140622Z
 SUMMARY:Dåhjort større end spidshjort - Lokal - Ingen jagttid
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
-DESCRIPTION:Info: Der er ikke jagttid på Dåhjort større end spidshjort.\nOmråde: Øen Ærø\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Info: Der er ikke jagttid på Dåhjort større end spidshjort.\nOmråde: Øen Ærø\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2027-lok-17@luka2945
-DTSTAMP:20260608T092201Z
+DTSTAMP:20260613T140622Z
 SUMMARY:Dåspidshjort - Lokal jagttid
 DTSTART;VALUE=DATE:20271001
 DTEND;VALUE=DATE:20280201
-DESCRIPTION:Område: Fyn med undtagelse af Langeland\, Tåsinge og Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Fyn med undtagelse af Langeland\, Tåsinge og Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2027-lok-18@luka2945
-DTSTAMP:20260608T092201Z
+DTSTAMP:20260613T140622Z
 SUMMARY:Dåhjort større end spidshjort - Lokal jagttid
 DTSTART;VALUE=DATE:20271001
 DTEND;VALUE=DATE:20271101
-DESCRIPTION:Område: Fyn med undtagelse af Langeland\, Tåsinge og Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Fyn med undtagelse af Langeland\, Tåsinge og Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2027-lok-19@luka2945
-DTSTAMP:20260608T092201Z
+DTSTAMP:20260613T140622Z
 SUMMARY:Dåspidshjort - Lokal jagttid
 DTSTART;VALUE=DATE:20280101
 DTEND;VALUE=DATE:20280201
-DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2027-lok-20@luka2945
-DTSTAMP:20260608T092201Z
+DTSTAMP:20260613T140622Z
 SUMMARY:Dåkalv - Lokal jagttid
 DTSTART;VALUE=DATE:20271201
 DTEND;VALUE=DATE:20280201
-DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2027-lok-21@luka2945
-DTSTAMP:20260608T092201Z
+DTSTAMP:20260613T140622Z
 SUMMARY:Då - Lokal jagttid
 DTSTART;VALUE=DATE:20280101
 DTEND;VALUE=DATE:20280201
-DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2027-lok-22@luka2945
-DTSTAMP:20260608T092201Z
+DTSTAMP:20260613T140622Z
 SUMMARY:Dåspidshjort - Lokal jagttid
 DTSTART;VALUE=DATE:20271201
 DTEND;VALUE=DATE:20280101
-DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2027-lok-23@luka2945
-DTSTAMP:20260608T092201Z
+DTSTAMP:20260613T140622Z
 SUMMARY:Dåhjort større end spidshjort - Lokal jagttid
 DTSTART;VALUE=DATE:20280101
 DTEND;VALUE=DATE:20280116
-DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2027-nohunt-24@luka2945
-DTSTAMP:20260608T092201Z
+DTSTAMP:20260613T140622Z
 SUMMARY:Dåhjort større end spidshjort - Lokal - Ingen jagttid
 DTSTART;VALUE=DATE:20270901
 DTEND;VALUE=DATE:20280201
-DESCRIPTION:Info: Der er ikke jagttid på Dåhjort større end spidshjort.\nOmråde: Øen Ærø\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Info: Der er ikke jagttid på Dåhjort større end spidshjort.\nOmråde: Øen Ærø\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2028-lok-25@luka2945
-DTSTAMP:20260608T092201Z
+DTSTAMP:20260613T140622Z
 SUMMARY:Dåspidshjort - Lokal jagttid
 DTSTART;VALUE=DATE:20281001
 DTEND;VALUE=DATE:20290201
-DESCRIPTION:Område: Fyn med undtagelse af Langeland\, Tåsinge og Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Fyn med undtagelse af Langeland\, Tåsinge og Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2028-lok-26@luka2945
-DTSTAMP:20260608T092201Z
+DTSTAMP:20260613T140622Z
 SUMMARY:Dåhjort større end spidshjort - Lokal jagttid
 DTSTART;VALUE=DATE:20281001
 DTEND;VALUE=DATE:20281101
-DESCRIPTION:Område: Fyn med undtagelse af Langeland\, Tåsinge og Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Fyn med undtagelse af Langeland\, Tåsinge og Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2028-lok-27@luka2945
-DTSTAMP:20260608T092201Z
+DTSTAMP:20260613T140622Z
 SUMMARY:Dåspidshjort - Lokal jagttid
 DTSTART;VALUE=DATE:20290101
 DTEND;VALUE=DATE:20290201
-DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2028-lok-28@luka2945
-DTSTAMP:20260608T092201Z
+DTSTAMP:20260613T140622Z
 SUMMARY:Dåkalv - Lokal jagttid
 DTSTART;VALUE=DATE:20281201
 DTEND;VALUE=DATE:20290201
-DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2028-lok-29@luka2945
-DTSTAMP:20260608T092201Z
+DTSTAMP:20260613T140622Z
 SUMMARY:Då - Lokal jagttid
 DTSTART;VALUE=DATE:20290101
 DTEND;VALUE=DATE:20290201
-DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2028-lok-30@luka2945
-DTSTAMP:20260608T092201Z
+DTSTAMP:20260613T140622Z
 SUMMARY:Dåspidshjort - Lokal jagttid
 DTSTART;VALUE=DATE:20281201
 DTEND;VALUE=DATE:20290101
-DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_hun.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2028-lok-31@luka2945
-DTSTAMP:20260608T092201Z
+DTSTAMP:20260613T140622Z
 SUMMARY:Dåhjort større end spidshjort - Lokal jagttid
 DTSTART;VALUE=DATE:20290101
 DTEND;VALUE=DATE:20290116
-DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Område: Øen Ærø\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
 UID:jagttid-2028-nohunt-32@luka2945
-DTSTAMP:20260608T092201Z
+DTSTAMP:20260613T140622Z
 SUMMARY:Dåhjort større end spidshjort - Lokal - Ingen jagttid
 DTSTART;VALUE=DATE:20280901
 DTEND;VALUE=DATE:20290201
-DESCRIPTION:Info: Der er ikke jagttid på Dåhjort større end spidshjort.\nOmråde: Øen Ærø\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.webp\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+DESCRIPTION:Info: Der er ikke jagttid på Dåhjort større end spidshjort.\nOmråde: Øen Ærø\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/daadyr_han.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 END:VCALENDAR
