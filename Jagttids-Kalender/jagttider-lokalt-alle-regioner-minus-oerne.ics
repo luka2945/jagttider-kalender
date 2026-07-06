@@ -4,227 +4,227 @@ PRODID:-//luka2945//Jagttider ICS//DA
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Jagttider – Lokalt (Alle regioner\, minus øerne)
 BEGIN:VEVENT
-UID:jagttid-2025-lok-1@luka2945
-DTSTAMP:20260629T092540Z
-SUMMARY:Sølvmåge - Lokal jagttid RH
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Dragør Kommune\, Tårnby Kommune\, Københavns Kommune\, Hvidovre Kommune\, Vallensbæk Kommune\, Brøndby Kommune og Ishøj Kommune. - Region Hovedstaden\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-lok-2@luka2945
-DTSTAMP:20260629T092540Z
-SUMMARY:Sølvmåge - Lokal jagttid RSj
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Område: Greve Kommune\, Solrød Kommune\, Køge Kommune\, Ringsted Kommune\, Sorø Kommune\, Slagelse Kommune\, Næstved Kommune\, Faxe Kommune\, Stevns Kommune\, Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune. - Region Sjælland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-lok-3@luka2945
-DTSTAMP:20260629T092540Z
-SUMMARY:Sædgås - Lokal jagttid RSj
-DTSTART;VALUE=DATE:20250901
-DTEND;VALUE=DATE:20251201
-DESCRIPTION:Info: Sædgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nOmråde: Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune. - Region Sjælland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/saedgaas.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-lok-4@luka2945
-DTSTAMP:20260629T092540Z
-SUMMARY:Hare - Lokal jagttid RN
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20260116
-DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hare.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-lok-5@luka2945
-DTSTAMP:20260629T092540Z
-SUMMARY:Agerhøne - Lokal jagttid RN
-DTSTART;VALUE=DATE:20250916
-DTEND;VALUE=DATE:20251016
-DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/agerhoene.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-lok-6@luka2945
-DTSTAMP:20260629T092540Z
-SUMMARY:Kronhjort\, med mindst 6 sprosser på minimum 2 cm på den ene stang - Lokal jagttid RH
-DTSTART;VALUE=DATE:20251016
-DTEND;VALUE=DATE:20251201
-DESCRIPTION:Område: Region Hovedstaden og nord for motorvej 21 (se bilag 5)\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_han.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-nohunt-7@luka2945
-DTSTAMP:20260629T092540Z
-SUMMARY:kronspidshjort - Lokal - Ingen jagttid RH
-DTSTART;VALUE=DATE:20250901
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Info: Der er ikke jagttid på kronspidshjort.\nOmråde: Øvrige kronhjorte undtagen. - Region Hovedstaden og nord for motorvej 21 (se bilag 5)\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/kronspidshjort.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-8@luka2945
-DTSTAMP:20260629T092540Z
+UID:jagttid-2026-lok-1@luka2945
+DTSTAMP:20260706T085949Z
 SUMMARY:Sølvmåge - Lokal jagttid RH
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Område: Dragør Kommune\, Tårnby Kommune\, Københavns Kommune\, Hvidovre Kommune\, Vallensbæk Kommune\, Brøndby Kommune og Ishøj Kommune. - Region Hovedstaden\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-9@luka2945
-DTSTAMP:20260629T092540Z
+UID:jagttid-2026-lok-2@luka2945
+DTSTAMP:20260706T085949Z
 SUMMARY:Sølvmåge - Lokal jagttid RSj
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Område: Greve Kommune\, Solrød Kommune\, Køge Kommune\, Ringsted Kommune\, Sorø Kommune\, Slagelse Kommune\, Næstved Kommune\, Faxe Kommune\, Stevns Kommune\, Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune. - Region Sjælland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-10@luka2945
-DTSTAMP:20260629T092540Z
+UID:jagttid-2026-lok-3@luka2945
+DTSTAMP:20260706T085949Z
 SUMMARY:Sædgås - Lokal jagttid RSj
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20261201
 DESCRIPTION:Info: Sædgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nOmråde: Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune. - Region Sjælland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/saedgaas.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-11@luka2945
-DTSTAMP:20260629T092540Z
+UID:jagttid-2026-lok-4@luka2945
+DTSTAMP:20260706T085949Z
 SUMMARY:Hare - Lokal jagttid RN
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270116
 DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hare.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-12@luka2945
-DTSTAMP:20260629T092540Z
+UID:jagttid-2026-lok-5@luka2945
+DTSTAMP:20260706T085949Z
 SUMMARY:Agerhøne - Lokal jagttid RN
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20261016
 DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/agerhoene.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-13@luka2945
-DTSTAMP:20260629T092540Z
+UID:jagttid-2026-lok-6@luka2945
+DTSTAMP:20260706T085949Z
 SUMMARY:Kronhjort\, med mindst 6 sprosser på minimum 2 cm på den ene stang - Lokal jagttid RH
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261201
 DESCRIPTION:Område: Region Hovedstaden og nord for motorvej 21 (se bilag 5)\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_han.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-nohunt-14@luka2945
-DTSTAMP:20260629T092540Z
+UID:jagttid-2026-nohunt-7@luka2945
+DTSTAMP:20260706T085949Z
 SUMMARY:kronspidshjort - Lokal - Ingen jagttid RH
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Info: Der er ikke jagttid på kronspidshjort.\nOmråde: Øvrige kronhjorte undtagen. - Region Hovedstaden og nord for motorvej 21 (se bilag 5)\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/kronspidshjort.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2027-lok-15@luka2945
-DTSTAMP:20260629T092540Z
+UID:jagttid-2027-lok-8@luka2945
+DTSTAMP:20260706T085950Z
 SUMMARY:Sølvmåge - Lokal jagttid RH
 DTSTART;VALUE=DATE:20271101
 DTEND;VALUE=DATE:20280201
 DESCRIPTION:Område: Dragør Kommune\, Tårnby Kommune\, Københavns Kommune\, Hvidovre Kommune\, Vallensbæk Kommune\, Brøndby Kommune og Ishøj Kommune. - Region Hovedstaden\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2027-lok-16@luka2945
-DTSTAMP:20260629T092540Z
+UID:jagttid-2027-lok-9@luka2945
+DTSTAMP:20260706T085950Z
 SUMMARY:Sølvmåge - Lokal jagttid RSj
 DTSTART;VALUE=DATE:20271101
 DTEND;VALUE=DATE:20280201
 DESCRIPTION:Område: Greve Kommune\, Solrød Kommune\, Køge Kommune\, Ringsted Kommune\, Sorø Kommune\, Slagelse Kommune\, Næstved Kommune\, Faxe Kommune\, Stevns Kommune\, Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune. - Region Sjælland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2027-lok-17@luka2945
-DTSTAMP:20260629T092540Z
+UID:jagttid-2027-lok-10@luka2945
+DTSTAMP:20260706T085950Z
 SUMMARY:Sædgås - Lokal jagttid RSj
 DTSTART;VALUE=DATE:20270901
 DTEND;VALUE=DATE:20271201
 DESCRIPTION:Info: Sædgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nOmråde: Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune. - Region Sjælland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/saedgaas.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2027-lok-18@luka2945
-DTSTAMP:20260629T092540Z
+UID:jagttid-2027-lok-11@luka2945
+DTSTAMP:20260706T085950Z
 SUMMARY:Hare - Lokal jagttid RN
 DTSTART;VALUE=DATE:20271101
 DTEND;VALUE=DATE:20280116
 DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hare.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2027-lok-19@luka2945
-DTSTAMP:20260629T092540Z
+UID:jagttid-2027-lok-12@luka2945
+DTSTAMP:20260706T085950Z
 SUMMARY:Agerhøne - Lokal jagttid RN
 DTSTART;VALUE=DATE:20270916
 DTEND;VALUE=DATE:20271016
 DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/agerhoene.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2027-lok-20@luka2945
-DTSTAMP:20260629T092540Z
+UID:jagttid-2027-lok-13@luka2945
+DTSTAMP:20260706T085950Z
 SUMMARY:Kronhjort\, med mindst 6 sprosser på minimum 2 cm på den ene stang - Lokal jagttid RH
 DTSTART;VALUE=DATE:20271016
 DTEND;VALUE=DATE:20271201
 DESCRIPTION:Område: Region Hovedstaden og nord for motorvej 21 (se bilag 5)\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_han.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2027-nohunt-21@luka2945
-DTSTAMP:20260629T092540Z
+UID:jagttid-2027-nohunt-14@luka2945
+DTSTAMP:20260706T085950Z
 SUMMARY:kronspidshjort - Lokal - Ingen jagttid RH
 DTSTART;VALUE=DATE:20270901
 DTEND;VALUE=DATE:20280201
 DESCRIPTION:Info: Der er ikke jagttid på kronspidshjort.\nOmråde: Øvrige kronhjorte undtagen. - Region Hovedstaden og nord for motorvej 21 (se bilag 5)\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/kronspidshjort.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2028-lok-22@luka2945
-DTSTAMP:20260629T092540Z
+UID:jagttid-2028-lok-15@luka2945
+DTSTAMP:20260706T085950Z
 SUMMARY:Sølvmåge - Lokal jagttid RH
 DTSTART;VALUE=DATE:20281101
 DTEND;VALUE=DATE:20290201
 DESCRIPTION:Område: Dragør Kommune\, Tårnby Kommune\, Københavns Kommune\, Hvidovre Kommune\, Vallensbæk Kommune\, Brøndby Kommune og Ishøj Kommune. - Region Hovedstaden\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2028-lok-23@luka2945
-DTSTAMP:20260629T092540Z
+UID:jagttid-2028-lok-16@luka2945
+DTSTAMP:20260706T085950Z
 SUMMARY:Sølvmåge - Lokal jagttid RSj
 DTSTART;VALUE=DATE:20281101
 DTEND;VALUE=DATE:20290201
 DESCRIPTION:Område: Greve Kommune\, Solrød Kommune\, Køge Kommune\, Ringsted Kommune\, Sorø Kommune\, Slagelse Kommune\, Næstved Kommune\, Faxe Kommune\, Stevns Kommune\, Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune. - Region Sjælland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2028-lok-24@luka2945
-DTSTAMP:20260629T092540Z
+UID:jagttid-2028-lok-17@luka2945
+DTSTAMP:20260706T085950Z
 SUMMARY:Sædgås - Lokal jagttid RSj
 DTSTART;VALUE=DATE:20280901
 DTEND;VALUE=DATE:20281201
 DESCRIPTION:Info: Sædgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nOmråde: Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune. - Region Sjælland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/saedgaas.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2028-lok-25@luka2945
-DTSTAMP:20260629T092540Z
+UID:jagttid-2028-lok-18@luka2945
+DTSTAMP:20260706T085950Z
 SUMMARY:Hare - Lokal jagttid RN
 DTSTART;VALUE=DATE:20281101
 DTEND;VALUE=DATE:20290116
 DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hare.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2028-lok-26@luka2945
-DTSTAMP:20260629T092540Z
+UID:jagttid-2028-lok-19@luka2945
+DTSTAMP:20260706T085950Z
 SUMMARY:Agerhøne - Lokal jagttid RN
 DTSTART;VALUE=DATE:20280916
 DTEND;VALUE=DATE:20281016
 DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/agerhoene.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2028-lok-27@luka2945
-DTSTAMP:20260629T092540Z
+UID:jagttid-2028-lok-20@luka2945
+DTSTAMP:20260706T085950Z
 SUMMARY:Kronhjort\, med mindst 6 sprosser på minimum 2 cm på den ene stang - Lokal jagttid RH
 DTSTART;VALUE=DATE:20281016
 DTEND;VALUE=DATE:20281201
 DESCRIPTION:Område: Region Hovedstaden og nord for motorvej 21 (se bilag 5)\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_han.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2028-nohunt-28@luka2945
-DTSTAMP:20260629T092540Z
+UID:jagttid-2028-nohunt-21@luka2945
+DTSTAMP:20260706T085950Z
 SUMMARY:kronspidshjort - Lokal - Ingen jagttid RH
 DTSTART;VALUE=DATE:20280901
 DTEND;VALUE=DATE:20290201
+DESCRIPTION:Info: Der er ikke jagttid på kronspidshjort.\nOmråde: Øvrige kronhjorte undtagen. - Region Hovedstaden og nord for motorvej 21 (se bilag 5)\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/kronspidshjort.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2029-lok-22@luka2945
+DTSTAMP:20260706T085950Z
+SUMMARY:Sølvmåge - Lokal jagttid RH
+DTSTART;VALUE=DATE:20291101
+DTEND;VALUE=DATE:20300201
+DESCRIPTION:Område: Dragør Kommune\, Tårnby Kommune\, Københavns Kommune\, Hvidovre Kommune\, Vallensbæk Kommune\, Brøndby Kommune og Ishøj Kommune. - Region Hovedstaden\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2029-lok-23@luka2945
+DTSTAMP:20260706T085950Z
+SUMMARY:Sølvmåge - Lokal jagttid RSj
+DTSTART;VALUE=DATE:20291101
+DTEND;VALUE=DATE:20300201
+DESCRIPTION:Område: Greve Kommune\, Solrød Kommune\, Køge Kommune\, Ringsted Kommune\, Sorø Kommune\, Slagelse Kommune\, Næstved Kommune\, Faxe Kommune\, Stevns Kommune\, Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune. - Region Sjælland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/soelvmaage.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2029-lok-24@luka2945
+DTSTAMP:20260706T085950Z
+SUMMARY:Sædgås - Lokal jagttid RSj
+DTSTART;VALUE=DATE:20290901
+DTEND;VALUE=DATE:20291201
+DESCRIPTION:Info: Sædgås må jages 01:30 time før solopgang til 01:30 time efter solnedgang.\nOmråde: Vordingborg Kommune\, Guldborgsund Kommune og Lolland Kommune. - Region Sjælland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/saedgaas.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2029-lok-25@luka2945
+DTSTAMP:20260706T085950Z
+SUMMARY:Hare - Lokal jagttid RN
+DTSTART;VALUE=DATE:20291101
+DTEND;VALUE=DATE:20300116
+DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hare.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2029-lok-26@luka2945
+DTSTAMP:20260706T085950Z
+SUMMARY:Agerhøne - Lokal jagttid RN
+DTSTART;VALUE=DATE:20290916
+DTEND;VALUE=DATE:20291016
+DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/agerhoene.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2029-lok-27@luka2945
+DTSTAMP:20260706T085950Z
+SUMMARY:Kronhjort\, med mindst 6 sprosser på minimum 2 cm på den ene stang - Lokal jagttid RH
+DTSTART;VALUE=DATE:20291016
+DTEND;VALUE=DATE:20291201
+DESCRIPTION:Område: Region Hovedstaden og nord for motorvej 21 (se bilag 5)\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/krondyr_han.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2029-nohunt-28@luka2945
+DTSTAMP:20260706T085950Z
+SUMMARY:kronspidshjort - Lokal - Ingen jagttid RH
+DTSTART;VALUE=DATE:20290901
+DTEND;VALUE=DATE:20300201
 DESCRIPTION:Info: Der er ikke jagttid på kronspidshjort.\nOmråde: Øvrige kronhjorte undtagen. - Region Hovedstaden og nord for motorvej 21 (se bilag 5)\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/kronspidshjort.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 END:VCALENDAR

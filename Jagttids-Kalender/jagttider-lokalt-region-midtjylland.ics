@@ -4,163 +4,163 @@ PRODID:-//luka2945//Jagttider ICS//DA
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Jagttider – Lokalt (Region Midtjylland)
 BEGIN:VEVENT
-UID:jagttid-2025-lok-1@luka2945
-DTSTAMP:20260629T092541Z
-SUMMARY:Hare - Lokal jagttid RM
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20260116
-DESCRIPTION:Område: Region Midtjylland undtagen Endelave\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hare.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-lok-2@luka2945
-DTSTAMP:20260629T092541Z
-SUMMARY:Agerhøne - Lokal jagttid RM
-DTSTART;VALUE=DATE:20250916
-DTEND;VALUE=DATE:20251016
-DESCRIPTION:Område: Region Midtjylland undtagen Endelave\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/agerhoene.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-lok-3@luka2945
-DTSTAMP:20260629T092541Z
-SUMMARY:Råvildt - Lokal jagttid RM
-DTSTART;VALUE=DATE:20251001
-DTEND;VALUE=DATE:20251009
-DESCRIPTION:Område: Øen Endelave. - Region Midtjylland undtagen Endelave\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/raadyr_han.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-nohunt-4@luka2945
-DTSTAMP:20260629T092541Z
-SUMMARY:Hare - Lokal - Ingen jagttid RM
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20260201
-DESCRIPTION:Info: Der er ikke jagttid på Hare.\nOmråde: Øen Endelave. - Region Midtjylland undtagen Endelave\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hare.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-nohunt-5@luka2945
-DTSTAMP:20260629T092541Z
-SUMMARY:Agerhøne - Lokal - Ingen jagttid RM
-DTSTART;VALUE=DATE:20250916
-DTEND;VALUE=DATE:20251101
-DESCRIPTION:Info: Der er ikke jagttid på Agerhøne.\nOmråde: Øen Endelave. - Region Midtjylland undtagen Endelave\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/agerhoene.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-6@luka2945
-DTSTAMP:20260629T092541Z
+UID:jagttid-2026-lok-1@luka2945
+DTSTAMP:20260706T085951Z
 SUMMARY:Hare - Lokal jagttid RM
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270116
 DESCRIPTION:Område: Region Midtjylland undtagen Endelave\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hare.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-7@luka2945
-DTSTAMP:20260629T092541Z
+UID:jagttid-2026-lok-2@luka2945
+DTSTAMP:20260706T085951Z
 SUMMARY:Agerhøne - Lokal jagttid RM
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20261016
 DESCRIPTION:Område: Region Midtjylland undtagen Endelave\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/agerhoene.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-8@luka2945
-DTSTAMP:20260629T092541Z
+UID:jagttid-2026-lok-3@luka2945
+DTSTAMP:20260706T085951Z
 SUMMARY:Råvildt - Lokal jagttid RM
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261009
 DESCRIPTION:Område: Øen Endelave. - Region Midtjylland undtagen Endelave\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/raadyr_han.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-nohunt-9@luka2945
-DTSTAMP:20260629T092541Z
+UID:jagttid-2026-nohunt-4@luka2945
+DTSTAMP:20260706T085951Z
 SUMMARY:Hare - Lokal - Ingen jagttid RM
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270201
 DESCRIPTION:Info: Der er ikke jagttid på Hare.\nOmråde: Øen Endelave. - Region Midtjylland undtagen Endelave\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hare.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-nohunt-10@luka2945
-DTSTAMP:20260629T092541Z
+UID:jagttid-2026-nohunt-5@luka2945
+DTSTAMP:20260706T085951Z
 SUMMARY:Agerhøne - Lokal - Ingen jagttid RM
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20261101
 DESCRIPTION:Info: Der er ikke jagttid på Agerhøne.\nOmråde: Øen Endelave. - Region Midtjylland undtagen Endelave\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/agerhoene.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2027-lok-11@luka2945
-DTSTAMP:20260629T092541Z
+UID:jagttid-2027-lok-6@luka2945
+DTSTAMP:20260706T085951Z
 SUMMARY:Hare - Lokal jagttid RM
 DTSTART;VALUE=DATE:20271101
 DTEND;VALUE=DATE:20280116
 DESCRIPTION:Område: Region Midtjylland undtagen Endelave\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hare.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2027-lok-12@luka2945
-DTSTAMP:20260629T092541Z
+UID:jagttid-2027-lok-7@luka2945
+DTSTAMP:20260706T085951Z
 SUMMARY:Agerhøne - Lokal jagttid RM
 DTSTART;VALUE=DATE:20270916
 DTEND;VALUE=DATE:20271016
 DESCRIPTION:Område: Region Midtjylland undtagen Endelave\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/agerhoene.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2027-lok-13@luka2945
-DTSTAMP:20260629T092541Z
+UID:jagttid-2027-lok-8@luka2945
+DTSTAMP:20260706T085951Z
 SUMMARY:Råvildt - Lokal jagttid RM
 DTSTART;VALUE=DATE:20271001
 DTEND;VALUE=DATE:20271009
 DESCRIPTION:Område: Øen Endelave. - Region Midtjylland undtagen Endelave\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/raadyr_han.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2027-nohunt-14@luka2945
-DTSTAMP:20260629T092541Z
+UID:jagttid-2027-nohunt-9@luka2945
+DTSTAMP:20260706T085951Z
 SUMMARY:Hare - Lokal - Ingen jagttid RM
 DTSTART;VALUE=DATE:20271101
 DTEND;VALUE=DATE:20280201
 DESCRIPTION:Info: Der er ikke jagttid på Hare.\nOmråde: Øen Endelave. - Region Midtjylland undtagen Endelave\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hare.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2027-nohunt-15@luka2945
-DTSTAMP:20260629T092541Z
+UID:jagttid-2027-nohunt-10@luka2945
+DTSTAMP:20260706T085951Z
 SUMMARY:Agerhøne - Lokal - Ingen jagttid RM
 DTSTART;VALUE=DATE:20270916
 DTEND;VALUE=DATE:20271101
 DESCRIPTION:Info: Der er ikke jagttid på Agerhøne.\nOmråde: Øen Endelave. - Region Midtjylland undtagen Endelave\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/agerhoene.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2028-lok-16@luka2945
-DTSTAMP:20260629T092541Z
+UID:jagttid-2028-lok-11@luka2945
+DTSTAMP:20260706T085951Z
 SUMMARY:Hare - Lokal jagttid RM
 DTSTART;VALUE=DATE:20281101
 DTEND;VALUE=DATE:20290116
 DESCRIPTION:Område: Region Midtjylland undtagen Endelave\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hare.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2028-lok-17@luka2945
-DTSTAMP:20260629T092541Z
+UID:jagttid-2028-lok-12@luka2945
+DTSTAMP:20260706T085951Z
 SUMMARY:Agerhøne - Lokal jagttid RM
 DTSTART;VALUE=DATE:20280916
 DTEND;VALUE=DATE:20281016
 DESCRIPTION:Område: Region Midtjylland undtagen Endelave\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/agerhoene.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2028-lok-18@luka2945
-DTSTAMP:20260629T092541Z
+UID:jagttid-2028-lok-13@luka2945
+DTSTAMP:20260706T085951Z
 SUMMARY:Råvildt - Lokal jagttid RM
 DTSTART;VALUE=DATE:20281001
 DTEND;VALUE=DATE:20281009
 DESCRIPTION:Område: Øen Endelave. - Region Midtjylland undtagen Endelave\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/raadyr_han.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2028-nohunt-19@luka2945
-DTSTAMP:20260629T092541Z
+UID:jagttid-2028-nohunt-14@luka2945
+DTSTAMP:20260706T085951Z
 SUMMARY:Hare - Lokal - Ingen jagttid RM
 DTSTART;VALUE=DATE:20281101
 DTEND;VALUE=DATE:20290201
 DESCRIPTION:Info: Der er ikke jagttid på Hare.\nOmråde: Øen Endelave. - Region Midtjylland undtagen Endelave\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hare.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2028-nohunt-20@luka2945
-DTSTAMP:20260629T092541Z
+UID:jagttid-2028-nohunt-15@luka2945
+DTSTAMP:20260706T085951Z
 SUMMARY:Agerhøne - Lokal - Ingen jagttid RM
 DTSTART;VALUE=DATE:20280916
 DTEND;VALUE=DATE:20281101
+DESCRIPTION:Info: Der er ikke jagttid på Agerhøne.\nOmråde: Øen Endelave. - Region Midtjylland undtagen Endelave\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/agerhoene.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2029-lok-16@luka2945
+DTSTAMP:20260706T085951Z
+SUMMARY:Hare - Lokal jagttid RM
+DTSTART;VALUE=DATE:20291101
+DTEND;VALUE=DATE:20300116
+DESCRIPTION:Område: Region Midtjylland undtagen Endelave\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hare.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2029-lok-17@luka2945
+DTSTAMP:20260706T085951Z
+SUMMARY:Agerhøne - Lokal jagttid RM
+DTSTART;VALUE=DATE:20290916
+DTEND;VALUE=DATE:20291016
+DESCRIPTION:Område: Region Midtjylland undtagen Endelave\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/agerhoene.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2029-lok-18@luka2945
+DTSTAMP:20260706T085951Z
+SUMMARY:Råvildt - Lokal jagttid RM
+DTSTART;VALUE=DATE:20291001
+DTEND;VALUE=DATE:20291009
+DESCRIPTION:Område: Øen Endelave. - Region Midtjylland undtagen Endelave\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/raadyr_han.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2029-nohunt-19@luka2945
+DTSTAMP:20260706T085951Z
+SUMMARY:Hare - Lokal - Ingen jagttid RM
+DTSTART;VALUE=DATE:20291101
+DTEND;VALUE=DATE:20300201
+DESCRIPTION:Info: Der er ikke jagttid på Hare.\nOmråde: Øen Endelave. - Region Midtjylland undtagen Endelave\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hare.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2029-nohunt-20@luka2945
+DTSTAMP:20260706T085951Z
+SUMMARY:Agerhøne - Lokal - Ingen jagttid RM
+DTSTART;VALUE=DATE:20290916
+DTEND;VALUE=DATE:20291101
 DESCRIPTION:Info: Der er ikke jagttid på Agerhøne.\nOmråde: Øen Endelave. - Region Midtjylland undtagen Endelave\nLokal regel: ingen jagttid\nVarighed hentet fra generel jagttid for samme dyr\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/agerhoene.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 END:VCALENDAR

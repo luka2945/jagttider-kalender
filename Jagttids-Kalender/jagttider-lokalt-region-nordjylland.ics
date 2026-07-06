@@ -4,67 +4,67 @@ PRODID:-//luka2945//Jagttider ICS//DA
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Jagttider – Lokalt (Region Nordjylland)
 BEGIN:VEVENT
-UID:jagttid-2025-lok-1@luka2945
-DTSTAMP:20260629T092541Z
-SUMMARY:Hare - Lokal jagttid RN
-DTSTART;VALUE=DATE:20251101
-DTEND;VALUE=DATE:20260116
-DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hare.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2025-lok-2@luka2945
-DTSTAMP:20260629T092541Z
-SUMMARY:Agerhøne - Lokal jagttid RN
-DTSTART;VALUE=DATE:20250916
-DTEND;VALUE=DATE:20251016
-DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/agerhoene.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
-END:VEVENT
-BEGIN:VEVENT
-UID:jagttid-2026-lok-3@luka2945
-DTSTAMP:20260629T092542Z
+UID:jagttid-2026-lok-1@luka2945
+DTSTAMP:20260706T085951Z
 SUMMARY:Hare - Lokal jagttid RN
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20270116
 DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hare.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2026-lok-4@luka2945
-DTSTAMP:20260629T092542Z
+UID:jagttid-2026-lok-2@luka2945
+DTSTAMP:20260706T085951Z
 SUMMARY:Agerhøne - Lokal jagttid RN
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20261016
 DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/agerhoene.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2027-lok-5@luka2945
-DTSTAMP:20260629T092542Z
+UID:jagttid-2027-lok-3@luka2945
+DTSTAMP:20260706T085952Z
 SUMMARY:Hare - Lokal jagttid RN
 DTSTART;VALUE=DATE:20271101
 DTEND;VALUE=DATE:20280116
 DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hare.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2027-lok-6@luka2945
-DTSTAMP:20260629T092542Z
+UID:jagttid-2027-lok-4@luka2945
+DTSTAMP:20260706T085952Z
 SUMMARY:Agerhøne - Lokal jagttid RN
 DTSTART;VALUE=DATE:20270916
 DTEND;VALUE=DATE:20271016
 DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/agerhoene.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2028-lok-7@luka2945
-DTSTAMP:20260629T092542Z
+UID:jagttid-2028-lok-5@luka2945
+DTSTAMP:20260706T085952Z
 SUMMARY:Hare - Lokal jagttid RN
 DTSTART;VALUE=DATE:20281101
 DTEND;VALUE=DATE:20290116
 DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hare.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 BEGIN:VEVENT
-UID:jagttid-2028-lok-8@luka2945
-DTSTAMP:20260629T092542Z
+UID:jagttid-2028-lok-6@luka2945
+DTSTAMP:20260706T085952Z
 SUMMARY:Agerhøne - Lokal jagttid RN
 DTSTART;VALUE=DATE:20280916
 DTEND;VALUE=DATE:20281016
+DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/agerhoene.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2029-lok-7@luka2945
+DTSTAMP:20260706T085952Z
+SUMMARY:Hare - Lokal jagttid RN
+DTSTART;VALUE=DATE:20291101
+DTEND;VALUE=DATE:20300116
+DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/hare.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
+END:VEVENT
+BEGIN:VEVENT
+UID:jagttid-2029-lok-8@luka2945
+DTSTAMP:20260706T085952Z
+SUMMARY:Agerhøne - Lokal jagttid RN
+DTSTART;VALUE=DATE:20290916
+DTEND;VALUE=DATE:20291016
 DESCRIPTION:Område: Region Nordjylland\nKilde: https://www.retsinformation.dk/eli/lta/2024/470\nBillede: https://luka2945.github.io/Billede/af/agerhoene.png\nRegionskort: https://luka2945.github.io/Billede/af/regionskort.png
 END:VEVENT
 END:VCALENDAR
